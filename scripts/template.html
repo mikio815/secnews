@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecNews - セキュリティニュース</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      background: #f4f5f7;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+
+    /* ヘッダー */
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 0 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .logo span { color: #e74c3c; }
+    .updated {
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    /* メイン */
+    main {
+      max-width: 1100px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+
+    /* フィルターバー */
+    .filter-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.2rem;
+    }
+    .filter-btn {
+      padding: 0.3rem 0.9rem;
+      border: 1.5px solid #ccc;
+      border-radius: 20px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: #1a1a2e;
+      color: #fff;
+      border-color: #1a1a2e;
+    }
+
+    /* ニュースグリッド */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    /* カード */
+    .news-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      transition: transform 0.15s, box-shadow 0.15s;
+      border-top: 3px solid transparent;
+    }
+    .news-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.13);
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .category-badge {
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.55rem;
+      border-radius: 12px;
+      letter-spacing: 0.03em;
+    }
+    .source {
+      font-size: 0.78rem;
+      color: #555;
+      font-weight: 500;
+    }
+    .date {
+      font-size: 0.75rem;
+      color: #999;
+      margin-left: auto;
+    }
+
+    .card-title {
+      font-size: 0.97rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      line-height: 1.45;
+    }
+    .card-title a {
+      color: #1a1a2e;
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: #e74c3c;
+      text-decoration: underline;
+    }
+
+    .card-summary {
+      font-size: 0.83rem;
+      color: #555;
+      line-height: 1.55;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    /* レスポンシブ */
+    @media (max-width: 600px) {
+      .news-grid { grid-template-columns: 1fr; }
+      .logo { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">Sec<span>News</span></div>
+    <div class="updated">最終更新: {{UPDATED}}</div>
+  </div>
+</header>
+
+<main>
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterArticles('all', this)">すべて</button>
+    <button class="filter-btn" onclick="filterArticles('general', this)">総合</button>
+    <button class="filter-btn" onclick="filterArticles('malware', this)">マルウェア</button>
+    <button class="filter-btn" onclick="filterArticles('technical', this)">技術</button>
+    <button class="filter-btn" onclick="filterArticles('cve', this)">CVE</button>
+  </div>
+
+  <div class="news-grid" id="news-grid">
+    {{ARTICLES}}
+  </div>
+</main>
+
+<footer>
+  SecNews — 海外セキュリティニュースの自動翻訳・要約サイト<br>
+  Powered by Gemini API &amp; GitHub Actions
+</footer>
+
+<script>
+  function filterArticles(category, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    document.querySelectorAll('.news-card').forEach(card => {
+      if (category === 'all' || card.dataset.category === category) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

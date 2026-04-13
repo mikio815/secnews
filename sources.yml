@@ -1,0 +1,42 @@
+sources:
+  - name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+    category: general
+    enabled: true
+
+  - name: Bleeping Computer
+    url: https://www.bleepingcomputer.com/feed/
+    category: malware
+    enabled: true
+
+  - name: SANS Internet Storm Center
+    url: https://isc.sans.edu/rssfeed_full.xml
+    category: technical
+    enabled: true
+
+  - name: Krebs on Security
+    url: https://krebsonsecurity.com/feed/
+    category: general
+    enabled: true
+
+  - name: Dark Reading
+    url: https://www.darkreading.com/rss.xml
+    category: general
+    enabled: false
+
+  - name: SecurityWeek
+    url: https://feeds.feedburner.com/securityweek
+    category: general
+    enabled: false
+
+# カテゴリ一覧:
+#   general  - 総合セキュリティニュース
+#   malware  - マルウェア・脆弱性
+#   technical - 技術・研究寄り
+#   cve      - CVE・脆弱性情報
+
+# 追加方法:
+#   - name: サイト名
+#     url: RSSフィードのURL
+#     category: カテゴリ
+#     enabled: true

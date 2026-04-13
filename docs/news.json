@@ -1,0 +1,206 @@
+{
+  "updated": "2026-04-13 18:22 JST",
+  "count": 20,
+  "articles": [
+    {
+      "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+      "url": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+      "summary_en": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or internal system was compromised.\n\"Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,\" OpenAI said in a post last week. \"We found",
+      "published": "2026-04-13 15:50 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+      "summary_ja": "OpenAI revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or internal system was compromised.\n\"Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,\" OpenAI said in a post last week. \"We found"
+    },
+    {
+      "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
+      "url": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
+      "summary_en": "Unknown threat actors compromised CPUID (\"cpuid[.]com\"), a website that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve malicious executables for the software and deploy a remote access trojan called STX RAT.\nThe incident lasted from approximately April 9, 15:00 UTC, to about April 10, 10:00 UTC, with",
+      "published": "2026-04-12 14:54 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
+      "summary_ja": "Unknown threat actors compromised CPUID (\"cpuid[.]com\"), a website that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve malicious executables for the software and deploy a remote access trojan called STX RAT.\nThe incident lasted from approximately April 9, 15:00 UTC, to about April 10, 10:00 UTC, with"
+    },
+    {
+      "title": "Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621",
+      "url": "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
+      "summary_en": "Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that has come under active exploitation in the wild.\nThe vulnerability, assigned the CVE identifier CVE-2026-34621, carries a CVSS score of 8.6 out of 10.0. Successful exploitation of the flaw could allow an attacker to run malicious code on affected installations.\nIt has been described as",
+      "published": "2026-04-12 13:25 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621",
+      "summary_ja": "Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that has come under active exploitation in the wild.\nThe vulnerability, assigned the CVE identifier CVE-2026-34621, carries a CVSS score of 8.6 out of 10.0. Successful exploitation of the flaw could allow an attacker to run malicious code on affected installations.\nIt has been described as"
+    },
+    {
+      "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
+      "url": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
+      "summary_en": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called Webloc.\nThe tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after the two firms merged in July 2023",
+      "published": "2026-04-11 15:02 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
+      "summary_ja": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called Webloc.\nThe tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after the two firms merged in July 2023"
+    },
+    {
+      "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
+      "url": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
+      "summary_en": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environments (IDEs) on a developer's machine.\nThe technique has been discovered in an Open VSX extension named \"specstudio.code-wakatime-activity-tracker,\" which masquerades as WakaTime, a",
+      "published": "2026-04-10 22:23 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
+      "summary_ja": "Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that's designed to stealthily infect all integrated development environments (IDEs) on a developer's machine.\nThe technique has been discovered in an Open VSX extension named \"specstudio.code-wakatime-activity-tracker,\" which masquerades as WakaTime, a"
+    },
+    {
+      "title": "Critical Marimo pre-auth RCE flaw now under active exploitation",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+      "summary_en": "A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]",
+      "published": "2026-04-12 23:20 JST",
+      "source": "Bleeping Computer",
+      "category": "malware",
+      "title_ja": "Critical Marimo pre-auth RCE flaw now under active exploitation",
+      "summary_ja": "A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]"
+    },
+    {
+      "title": "Over 20,000 crypto fraud victims identified in international crackdown",
+      "url": "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/",
+      "summary_en": "An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States. [...]",
+      "published": "2026-04-11 23:20 JST",
+      "source": "Bleeping Computer",
+      "category": "malware",
+      "title_ja": "Over 20,000 crypto fraud victims identified in international crackdown",
+      "summary_ja": "An international law enforcement action led by the U.K.'s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States. [...]"
+    },
+    {
+      "title": "ChatGPT rolls out new $100 Pro subscription to challenge Claude",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/",
+      "summary_en": "OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]",
+      "published": "2026-04-11 11:08 JST",
+      "source": "Bleeping Computer",
+      "category": "malware",
+      "title_ja": "ChatGPT rolls out new $100 Pro subscription to challenge Claude",
+      "summary_ja": "OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude's pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]"
+    },
+    {
+      "title": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
+      "summary_en": "The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufactured by Rockwell Automation. [...]",
+      "published": "2026-04-11 00:52 JST",
+      "source": "Bleeping Computer",
+      "category": "malware",
+      "title_ja": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
+      "summary_ja": "The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufactured by Rockwell Automation. [...]"
+    },
+    {
+      "title": "Analysis of one billion CISA KEV remediation records exposes limits of human-scale security",
+      "url": "https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/",
+      "summary_en": "Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them. [...]",
+      "published": "2026-04-10 23:01 JST",
+      "source": "Bleeping Computer",
+      "category": "malware",
+      "title_ja": "Analysis of one billion CISA KEV remediation records exposes limits of human-scale security",
+      "summary_ja": "Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them. [...]"
+    },
+    {
+      "title": "ISC Stormcast For Monday, April 13th, 2026 https://isc.sans.edu/podcastdetail/9888, (Mon, Apr 13th)",
+      "url": "https://isc.sans.edu/diary/rss/32890",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-04-13 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Monday, April 13th, 2026 https://isc.sans.edu/podcastdetail/9888, (Mon, Apr 13th)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
+      "title": "Obfuscated JavaScript or Nothing, (Thu, Apr 9th)",
+      "url": "https://isc.sans.edu/diary/rss/32884",
+      "summary_en": "I spotted an interesting piece of JavaScript code that was delivered via a phishing email in a RAR archive. The file was called â€œcbmjlzan.JSâ€ (SHA256:a8ba9ba93b4509a86e3d7dd40fd0652c2743e32277760c5f7942b788b74c5285) and is only identified as malicious by 15 AV's on VirusTotal[1].",
+      "published": "2026-04-10 15:40 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Obfuscated JavaScript or Nothing, (Thu, Apr 9th)",
+      "summary_ja": "I spotted an interesting piece of JavaScript code that was delivered via a phishing email in a RAR archive. The file was called â€œcbmjlzan.JSâ€ (SHA256:a8ba9ba93b4509a86e3d7dd40fd0652c2743e32277760c5f7942b788b74c5285) and is only identified as malicious by 15 AV's on VirusTotal[1]."
+    },
+    {
+      "title": "ISC Stormcast For Thursday, April 9th, 2026 https://isc.sans.edu/podcastdetail/9886, (Thu, Apr 9th)",
+      "url": "https://isc.sans.edu/diary/rss/32882",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-04-09 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Thursday, April 9th, 2026 https://isc.sans.edu/podcastdetail/9886, (Thu, Apr 9th)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
+      "title": "Number Usage in Passwords: Take Two, (Thu, Apr 9th)",
+      "url": "https://isc.sans.edu/diary/rss/32866",
+      "summary_en": "In a previous diary [1], we looked to see how numbers were used within passwords submitted to honeypots. One of the items of interest was how dates, and more specifically years, were represented within the data and how that changed over time. It is often seen that years and seasons are used in passwords, especially when password change requirements include frequenty password changes. Some examples we might see today:",
+      "published": "2026-04-09 09:58 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Number Usage in Passwords: Take Two, (Thu, Apr 9th)",
+      "summary_ja": "In a previous diary [1], we looked to see how numbers were used within passwords submitted to honeypots. One of the items of interest was how dates, and more specifically years, were represented within the data and how that changed over time. It is often seen that years and seasons are used in passwords, especially when password change requirements include frequenty password changes. Some examples we might see today:"
+    },
+    {
+      "title": "TeamPCP Supply Chain Campaign: Update 007 - Cisco Source Code Stolen via Trivy-Linked Breach, Google GTIG Tracks TeamPCP as UNC6780, and CISA KEV Deadline Arrives with No Standalone Advisory, (Wed, Apr 8th)",
+      "url": "https://isc.sans.edu/diary/rss/32880",
+      "summary_en": "This is the seventh update to the TeamPCP supply chain campaign threat intelligence report,&#;x26;#;xc2;&#;x26;#;xa0;\"When the Security Scanner Became the Weapon\"&#;x26;#;xc2;&#;x26;#;xa0;(v3.0, March 25, 2026).&#;x26;#;xc2;&#;x26;#;xa0;Update 006&#;x26;#;xc2;&#;x26;#;xa0;covered developments through April 3, including the CERT-EU European Commission breach disclosure, ShinyHunters&#;x26;#;39; confirmation of credential sharing, Sportradar breach details, and Mandiant&#;x26;#;39;s quantification",
+      "published": "2026-04-09 02:15 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "TeamPCP Supply Chain Campaign: Update 007 - Cisco Source Code Stolen via Trivy-Linked Breach, Google GTIG Tracks TeamPCP as UNC6780, and CISA KEV Deadline Arrives with No Standalone Advisory, (Wed, Apr 8th)",
+      "summary_ja": "This is the seventh update to the TeamPCP supply chain campaign threat intelligence report,&#;x26;#;xc2;&#;x26;#;xa0;\"When the Security Scanner Became the Weapon\"&#;x26;#;xc2;&#;x26;#;xa0;(v3.0, March 25, 2026).&#;x26;#;xc2;&#;x26;#;xa0;Update 006&#;x26;#;xc2;&#;x26;#;xa0;covered developments through April 3, including the CERT-EU European Commission breach disclosure, ShinyHunters&#;x26;#;39; confirmation of credential sharing, Sportradar breach details, and Mandiant&#;x26;#;39;s quantification"
+    },
+    {
+      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+      "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+      "summary_en": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.",
+      "published": "2026-04-08 02:02 JST",
+      "source": "Krebs on Security",
+      "category": "general",
+      "title_ja": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+      "summary_ja": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code."
+    },
+    {
+      "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
+      "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+      "summary_en": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.",
+      "published": "2026-04-06 11:07 JST",
+      "source": "Krebs on Security",
+      "category": "general",
+      "title_ja": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
+      "summary_ja": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021."
+    },
+    {
+      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "url": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+      "summary_en": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
+      "published": "2026-03-24 00:43 JST",
+      "source": "Krebs on Security",
+      "category": "general",
+      "title_ja": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
+      "summary_ja": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language."
+    },
+    {
+      "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+      "url": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+      "summary_en": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline.",
+      "published": "2026-03-20 09:49 JST",
+      "source": "Krebs on Security",
+      "category": "general",
+      "title_ja": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+      "summary_ja": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline."
+    },
+    {
+      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+      "url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+      "summary_en": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency.",
+      "published": "2026-03-12 01:20 JST",
+      "source": "Krebs on Security",
+      "category": "general",
+      "title_ja": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+      "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
+    }
+  ]
+}

@@ -5,27 +5,444 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SecNews - セキュリティニュース</title>
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
       background: #f4f5f7;
+      color: #1a1a2e;
+      line-height: 1.6;
+    }
+
+    /* ヘッダー */
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 0 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
       display: flex;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      color: #1a1a2e;
+      justify-content: space-between;
+      height: 56px;
     }
-    .message { text-align: center; }
-    .logo { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .logo {
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
     .logo span { color: #e74c3c; }
-    p { color: #666; font-size: 0.9rem; }
+    .updated {
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    /* メイン */
+    main {
+      max-width: 1100px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+
+    /* フィルターバー */
+    .filter-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.2rem;
+    }
+    .filter-btn {
+      padding: 0.3rem 0.9rem;
+      border: 1.5px solid #ccc;
+      border-radius: 20px;
+      background: #fff;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: #1a1a2e;
+      color: #fff;
+      border-color: #1a1a2e;
+    }
+
+    /* ニュースグリッド */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+
+    /* カード */
+    .news-card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+      transition: transform 0.15s, box-shadow 0.15s;
+      border-top: 3px solid transparent;
+    }
+    .news-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.13);
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .category-badge {
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.55rem;
+      border-radius: 12px;
+      letter-spacing: 0.03em;
+    }
+    .source {
+      font-size: 0.78rem;
+      color: #555;
+      font-weight: 500;
+    }
+    .date {
+      font-size: 0.75rem;
+      color: #999;
+      margin-left: auto;
+    }
+
+    .card-title {
+      font-size: 0.97rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      line-height: 1.45;
+    }
+    .card-title a {
+      color: #1a1a2e;
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: #e74c3c;
+      text-decoration: underline;
+    }
+
+    .card-summary {
+      font-size: 0.83rem;
+      color: #555;
+      line-height: 1.55;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    /* レスポンシブ */
+    @media (max-width: 600px) {
+      .news-grid { grid-template-columns: 1fr; }
+      .logo { font-size: 1.1rem; }
+    }
   </style>
 </head>
 <body>
-  <div class="message">
+
+<header>
+  <div class="header-inner">
     <div class="logo">Sec<span>News</span></div>
-    <p>初回のニュース取得をお待ちください...</p>
-    <p>GitHub Actions が実行されると記事が表示されます</p>
+    <div class="updated">最終更新: 2026-04-13 18:22 JST</div>
   </div>
+</header>
+
+<main>
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterArticles('all', this)">すべて</button>
+    <button class="filter-btn" onclick="filterArticles('general', this)">総合</button>
+    <button class="filter-btn" onclick="filterArticles('malware', this)">マルウェア</button>
+    <button class="filter-btn" onclick="filterArticles('technical', this)">技術</button>
+    <button class="filter-btn" onclick="filterArticles('cve', this)">CVE</button>
+  </div>
+
+  <div class="news-grid" id="news-grid">
+    
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">The Hacker News</span>
+            <span class="date">2026-04-13 15:50 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html" target="_blank" rel="noopener noreferrer">OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident</a>
+          </h2>
+          <p class="card-summary">OpenAI revealed a GitHub Actions workflow used to sign its macOS apps, which downloaded the malicious Axios library on March 31, but noted that no user data or internal system was compromised.
+&quot;Out of an abundance of caution, we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps,&quot; OpenAI said in a post last week. &quot;We found</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">The Hacker News</span>
+            <span class="date">2026-04-12 14:54 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html" target="_blank" rel="noopener noreferrer">CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads</a>
+          </h2>
+          <p class="card-summary">Unknown threat actors compromised CPUID (&quot;cpuid[.]com&quot;), a website that hosts popular hardware monitoring tools like CPU-Z, HWMonitor, HWMonitor Pro, and PerfMonitor, for less than 24 hours to serve malicious executables for the software and deploy a remote access trojan called STX RAT.
+The incident lasted from approximately April 9, 15:00 UTC, to about April 10, 10:00 UTC, with</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">The Hacker News</span>
+            <span class="date">2026-04-12 13:25 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html" target="_blank" rel="noopener noreferrer">Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621</a>
+          </h2>
+          <p class="card-summary">Adobe has released emergency updates to fix a critical security flaw in Acrobat Reader that has come under active exploitation in the wild.
+The vulnerability, assigned the CVE identifier CVE-2026-34621, carries a CVSS score of 8.6 out of 10.0. Successful exploitation of the flaw could allow an attacker to run malicious code on affected installations.
+It has been described as</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">The Hacker News</span>
+            <span class="date">2026-04-11 15:02 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html" target="_blank" rel="noopener noreferrer">Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data</a>
+          </h2>
+          <p class="card-summary">Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called Webloc.
+The tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after the two firms merged in July 2023</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">The Hacker News</span>
+            <span class="date">2026-04-10 22:23 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html" target="_blank" rel="noopener noreferrer">GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs</a>
+          </h2>
+          <p class="card-summary">Cybersecurity researchers have flagged yet another evolution of the ongoing GlassWorm campaign, which employs a new Zig dropper that&#x27;s designed to stealthily infect all integrated development environments (IDEs) on a developer&#x27;s machine.
+The technique has been discovered in an Open VSX extension named &quot;specstudio.code-wakatime-activity-tracker,&quot; which masquerades as WakaTime, a</p>
+        </article>
+
+        <article class="news-card" data-category="malware" style="border-top-color:#e67e22">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e67e22">マルウェア</span>
+            <span class="source">Bleeping Computer</span>
+            <span class="date">2026-04-12 23:20 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/" target="_blank" rel="noopener noreferrer">Critical Marimo pre-auth RCE flaw now under active exploitation</a>
+          </h2>
+          <p class="card-summary">A critical pre-authentication remote code execution (RCE) vulnerability in Marimo is now under active exploitation, leveraged for credential theft. [...]</p>
+        </article>
+
+        <article class="news-card" data-category="malware" style="border-top-color:#e67e22">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e67e22">マルウェア</span>
+            <span class="source">Bleeping Computer</span>
+            <span class="date">2026-04-11 23:20 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/" target="_blank" rel="noopener noreferrer">Over 20,000 crypto fraud victims identified in international crackdown</a>
+          </h2>
+          <p class="card-summary">An international law enforcement action led by the U.K.&#x27;s National Crime Agency (NCA) has identified over 20,000 victims of cryptocurrency fraud across Canada, the United Kingdom, and the United States. [...]</p>
+        </article>
+
+        <article class="news-card" data-category="malware" style="border-top-color:#e67e22">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e67e22">マルウェア</span>
+            <span class="source">Bleeping Computer</span>
+            <span class="date">2026-04-11 11:08 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-rolls-out-new-100-pro-subscription-to-challenge-claude/" target="_blank" rel="noopener noreferrer">ChatGPT rolls out new $100 Pro subscription to challenge Claude</a>
+          </h2>
+          <p class="card-summary">OpenAI has rolled out a new Pro subscription that costs $100 and is in line with Claude&#x27;s pricing, which also has a $100 subscription, in addition to the $200 Max monthly plan. [...]</p>
+        </article>
+
+        <article class="news-card" data-category="malware" style="border-top-color:#e67e22">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e67e22">マルウェア</span>
+            <span class="source">Bleeping Computer</span>
+            <span class="date">2026-04-11 00:52 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/" target="_blank" rel="noopener noreferrer">Nearly 4,000 US industrial devices exposed to Iranian cyberattacks</a>
+          </h2>
+          <p class="card-summary">The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufactured by Rockwell Automation. [...]</p>
+        </article>
+
+        <article class="news-card" data-category="malware" style="border-top-color:#e67e22">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e67e22">マルウェア</span>
+            <span class="source">Bleeping Computer</span>
+            <span class="date">2026-04-10 23:01 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://www.bleepingcomputer.com/news/security/analysis-of-one-billion-cisa-kev-remediation-records-exposes-limits-of-human-scale-security/" target="_blank" rel="noopener noreferrer">Analysis of one billion CISA KEV remediation records exposes limits of human-scale security</a>
+          </h2>
+          <p class="card-summary">Analysis of 1 billion CISA KEV remediation records reveal a breaking point for human-scale security. Qualys shows most critical flaws are exploited before defenders can patch them. [...]</p>
+        </article>
+
+        <article class="news-card" data-category="technical" style="border-top-color:#2980b9">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#2980b9">技術</span>
+            <span class="source">SANS Internet Storm Center</span>
+            <span class="date">2026-04-13 11:00 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://isc.sans.edu/diary/rss/32890" target="_blank" rel="noopener noreferrer">ISC Stormcast For Monday, April 13th, 2026 https://isc.sans.edu/podcastdetail/9888, (Mon, Apr 13th)</a>
+          </h2>
+          <p class="card-summary">(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.</p>
+        </article>
+
+        <article class="news-card" data-category="technical" style="border-top-color:#2980b9">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#2980b9">技術</span>
+            <span class="source">SANS Internet Storm Center</span>
+            <span class="date">2026-04-10 15:40 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://isc.sans.edu/diary/rss/32884" target="_blank" rel="noopener noreferrer">Obfuscated JavaScript or Nothing, (Thu, Apr 9th)</a>
+          </h2>
+          <p class="card-summary">I spotted an interesting piece of JavaScript code that was delivered via a phishing email in a RAR archive. The file was called â€œcbmjlzan.JSâ€ (SHA256:a8ba9ba93b4509a86e3d7dd40fd0652c2743e32277760c5f7942b788b74c5285) and is only identified as malicious by 15 AV&#x27;s on VirusTotal[1].</p>
+        </article>
+
+        <article class="news-card" data-category="technical" style="border-top-color:#2980b9">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#2980b9">技術</span>
+            <span class="source">SANS Internet Storm Center</span>
+            <span class="date">2026-04-09 11:00 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://isc.sans.edu/diary/rss/32882" target="_blank" rel="noopener noreferrer">ISC Stormcast For Thursday, April 9th, 2026 https://isc.sans.edu/podcastdetail/9886, (Thu, Apr 9th)</a>
+          </h2>
+          <p class="card-summary">(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.</p>
+        </article>
+
+        <article class="news-card" data-category="technical" style="border-top-color:#2980b9">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#2980b9">技術</span>
+            <span class="source">SANS Internet Storm Center</span>
+            <span class="date">2026-04-09 09:58 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://isc.sans.edu/diary/rss/32866" target="_blank" rel="noopener noreferrer">Number Usage in Passwords: Take Two, (Thu, Apr 9th)</a>
+          </h2>
+          <p class="card-summary">In a previous diary [1], we looked to see how numbers were used within passwords submitted to honeypots. One of the items of interest was how dates, and more specifically years, were represented within the data and how that changed over time. It is often seen that years and seasons are used in passwords, especially when password change requirements include frequenty password changes. Some examples we might see today:</p>
+        </article>
+
+        <article class="news-card" data-category="technical" style="border-top-color:#2980b9">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#2980b9">技術</span>
+            <span class="source">SANS Internet Storm Center</span>
+            <span class="date">2026-04-09 02:15 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://isc.sans.edu/diary/rss/32880" target="_blank" rel="noopener noreferrer">TeamPCP Supply Chain Campaign: Update 007 - Cisco Source Code Stolen via Trivy-Linked Breach, Google GTIG Tracks TeamPCP as UNC6780, and CISA KEV Deadline Arrives with No Standalone Advisory, (Wed, Apr 8th)</a>
+          </h2>
+          <p class="card-summary">This is the seventh update to the TeamPCP supply chain campaign threat intelligence report,&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;&quot;When the Security Scanner Became the Weapon&quot;&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;(v3.0, March 25, 2026).&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;Update 006&amp;#;x26;#;xc2;&amp;#;x26;#;xa0;covered developments through April 3, including the CERT-EU European Commission breach disclosure, ShinyHunters&amp;#;x26;#;39; confirmation of credential sharing, Sportradar breach details, and Mandiant&amp;#;x26;#;39;s quantification</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">Krebs on Security</span>
+            <span class="date">2026-04-08 02:02 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/" target="_blank" rel="noopener noreferrer">Russia Hacked Routers to Steal Microsoft Office Tokens</a>
+          </h2>
+          <p class="card-summary">Hackers linked to Russia&#x27;s military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">Krebs on Security</span>
+            <span class="date">2026-04-06 11:07 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/" target="_blank" rel="noopener noreferrer">Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab</a>
+          </h2>
+          <p class="card-summary">An elusive hacker who went by the handle &quot;UNKN&quot; and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">Krebs on Security</span>
+            <span class="date">2026-03-24 00:43 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/" target="_blank" rel="noopener noreferrer">‘CanisterWorm’ Springs Wiper Attack Targeting Iran</a>
+          </h2>
+          <p class="card-summary">A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran&#x27;s time zone or have Farsi set as the default language.</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">Krebs on Security</span>
+            <span class="date">2026-03-20 09:49 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/" target="_blank" rel="noopener noreferrer">Feds Disrupt IoT Botnets Behind Huge DDoS Attacks</a>
+          </h2>
+          <p class="card-summary">The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline.</p>
+        </article>
+
+        <article class="news-card" data-category="general" style="border-top-color:#e74c3c">
+          <div class="card-meta">
+            <span class="category-badge" style="background:#e74c3c">総合</span>
+            <span class="source">Krebs on Security</span>
+            <span class="date">2026-03-12 01:20 JST</span>
+          </div>
+          <h2 class="card-title">
+            <a href="https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/" target="_blank" rel="noopener noreferrer">Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker</a>
+          </h2>
+          <p class="card-summary">A hacktivist group with links to Iran&#x27;s intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker&#x27;s largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker&#x27;s main U.S. headquarters says the company is currently experiencing a building emergency.</p>
+        </article>
+
+  </div>
+</main>
+
+<footer>
+  SecNews — 海外セキュリティニュースの自動翻訳・要約サイト<br>
+  Powered by Gemini API &amp; GitHub Actions
+</footer>
+
+<script>
+  function filterArticles(category, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    document.querySelectorAll('.news-card').forEach(card => {
+      if (category === 'all' || card.dataset.category === category) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+</script>
+
 </body>
 </html>

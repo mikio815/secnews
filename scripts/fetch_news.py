@@ -4,11 +4,14 @@ Security News Fetcher
 RSSフィードからセキュリティニュースを取得し、Gemini APIで翻訳・要約してJSONを生成する
 """
 
+import html as html_mod
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -26,6 +29,32 @@ TEMPLATE_FILE = ROOT / "scripts" / "template.html"
 JST = ZoneInfo("Asia/Tokyo")
 MAX_ARTICLES_PER_SOURCE = 5
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+
+
+class _TextExtractor(HTMLParser):
+    """HTMLからプレーンテキストを抽出するパーサー"""
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self._parts: list[str] = []
+
+    def handle_data(self, data: str) -> None:
+        self._parts.append(data)
+
+    def get_text(self) -> str:
+        return "".join(self._parts)
+
+
+def strip_html(text: str) -> str:
+    """HTMLタグとエンティティを除去してプレーンテキストを返す。
+    正規表現ではなくHTMLParserを使うことで、属性値内の > など
+    正規表現が誤検知するケースを防ぐ。"""
+    extractor = _TextExtractor()
+    try:
+        extractor.feed(text)
+        return extractor.get_text().strip()
+    except Exception:
+        # パース失敗時は正規表現でフォールバック
+        return re.sub(r"<[^>]+>", "", text).strip()
 
 
 def load_sources() -> list[dict]:
@@ -46,9 +75,8 @@ def fetch_feed(source: dict) -> list[dict]:
             elif hasattr(entry, "description"):
                 summary_raw = entry.description
 
-            # HTMLタグを簡易除去
-            import re
-            summary_raw = re.sub(r"<[^>]+>", "", summary_raw).strip()
+            # HTMLタグとエンティティを除去してプレーンテキストにする
+            summary_raw = strip_html(summary_raw)
             summary_raw = summary_raw[:500] if len(summary_raw) > 500 else summary_raw
 
             pub_date = ""
@@ -57,7 +85,7 @@ def fetch_feed(source: dict) -> list[dict]:
                 pub_date = dt.astimezone(JST).strftime("%Y-%m-%d %H:%M JST")
 
             articles.append({
-                "title": entry.get("title", ""),
+                "title": strip_html(entry.get("title", "")),
                 "url": entry.get("link", ""),
                 "summary_en": summary_raw,
                 "published": pub_date,
@@ -103,7 +131,6 @@ def translate_and_summarize(articles: list[dict]) -> list[dict]:
             text = response.text.strip()
 
             # JSON部分を抽出
-            import re
             match = re.search(r"\{.*\}", text, re.DOTALL)
             if match:
                 result = json.loads(match.group())
@@ -136,6 +163,13 @@ def save_json(articles: list[dict]) -> None:
     print(f"JSON保存: {OUTPUT_JSON} ({len(articles)}件)")
 
 
+def safe_url(url: str) -> str:
+    """javascript: 等の危険なスキームを弾く"""
+    if url.startswith(("http://", "https://")):
+        return url
+    return "#"
+
+
 def generate_html(articles: list[dict], updated: str) -> None:
     with open(TEMPLATE_FILE, encoding="utf-8") as f:
         template = f.read()
@@ -159,23 +193,23 @@ def generate_html(articles: list[dict], updated: str) -> None:
     cards_html = ""
     for article in articles:
         cat = article.get("category", "general")
-        label = category_labels.get(cat, cat)
+        label = html_mod.escape(category_labels.get(cat, cat))
         color = category_colors.get(cat, "#666")
-        title_ja = article["title_ja"] or article["title"]
-        summary_ja = article["summary_ja"] or article["summary_en"]
-        pub = article.get("published", "")
-        source = article.get("source", "")
-        url = article.get("url", "#")
+        title_ja = html_mod.escape(article["title_ja"] or article["title"])
+        summary_ja = html_mod.escape(article["summary_ja"] or article["summary_en"])
+        pub = html_mod.escape(article.get("published", ""))
+        source = html_mod.escape(article.get("source", ""))
+        url = safe_url(article.get("url", "#"))
 
         cards_html += f"""
-        <article class="news-card" data-category="{cat}">
+        <article class="news-card" data-category="{html_mod.escape(cat)}" style="border-top-color:{color}">
           <div class="card-meta">
             <span class="category-badge" style="background:{color}">{label}</span>
             <span class="source">{source}</span>
             <span class="date">{pub}</span>
           </div>
           <h2 class="card-title">
-            <a href="{url}" target="_blank" rel="noopener">{title_ja}</a>
+            <a href="{url}" target="_blank" rel="noopener noreferrer">{title_ja}</a>
           </h2>
           <p class="card-summary">{summary_ja}</p>
         </article>

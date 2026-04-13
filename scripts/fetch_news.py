@@ -100,6 +100,9 @@ def fetch_feed(source: dict) -> list[dict]:
         return []
 
 
+BATCH_SIZE = 5  # 1リクエストで処理する記事数
+
+
 def translate_and_summarize(articles: list[dict]) -> list[dict]:
     if not GEMINI_API_KEY:
         print("警告: GEMINI_API_KEY が未設定です。翻訳・要約をスキップします。")
@@ -109,44 +112,60 @@ def translate_and_summarize(articles: list[dict]) -> list[dict]:
         return articles
 
     genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
-    for i, article in enumerate(articles):
-        if not article["title"] and not article["summary_en"]:
-            continue
-        try:
-            prompt = f"""以下のセキュリティニュースの記事タイトルと概要を日本語に翻訳・要約してください。
-出力はJSON形式で返してください。
+    # バッチ処理: BATCH_SIZE件ずつまとめて1リクエストで翻訳
+    for batch_start in range(0, len(articles), BATCH_SIZE):
+        batch = articles[batch_start:batch_start + BATCH_SIZE]
+        batch_num = batch_start // BATCH_SIZE + 1
+        total_batches = (len(articles) + BATCH_SIZE - 1) // BATCH_SIZE
+        print(f"  翻訳バッチ {batch_num}/{total_batches} ({len(batch)}件)...")
 
-タイトル: {article['title']}
-概要: {article['summary_en']}
+        # バッチをJSON配列としてプロンプトに渡す
+        articles_json = json.dumps(
+            [{"id": i, "title": a["title"], "summary": a["summary_en"]} for i, a in enumerate(batch)],
+            ensure_ascii=False,
+        )
+
+        prompt = f"""以下のセキュリティニュース記事リストを日本語に翻訳・要約してください。
+各記事の "id" はそのまま保持し、"title_ja"（タイトルの日本語訳）と "summary_ja"（2〜3文の日本語要約）を追加してください。
+必ずJSON配列のみを返してください。
+
+{articles_json}
 
 出力形式:
-{{
-  "title_ja": "日本語タイトル",
-  "summary_ja": "日本語で2〜3文の要約"
-}}"""
+[
+  {{"id": 0, "title_ja": "...", "summary_ja": "..."}},
+  ...
+]"""
 
+        try:
             response = model.generate_content(prompt)
             text = response.text.strip()
 
-            # JSON部分を抽出
-            match = re.search(r"\{.*\}", text, re.DOTALL)
+            # JSON配列部分を抽出
+            match = re.search(r"\[.*\]", text, re.DOTALL)
             if match:
-                result = json.loads(match.group())
-                article["title_ja"] = result.get("title_ja", article["title"])
-                article["summary_ja"] = result.get("summary_ja", article["summary_en"])
+                results = json.loads(match.group())
+                result_map = {r["id"]: r for r in results if "id" in r}
+                for i, article in enumerate(batch):
+                    r = result_map.get(i, {})
+                    article["title_ja"] = r.get("title_ja", article["title"])
+                    article["summary_ja"] = r.get("summary_ja", article["summary_en"])
             else:
+                for article in batch:
+                    article["title_ja"] = article["title"]
+                    article["summary_ja"] = article["summary_en"]
+
+        except Exception as e:
+            print(f"  翻訳エラー (バッチ {batch_num}): {e}", file=sys.stderr)
+            for article in batch:
                 article["title_ja"] = article["title"]
                 article["summary_ja"] = article["summary_en"]
 
-            print(f"  翻訳完了 ({i+1}/{len(articles)}): {article['title'][:40]}...")
-            time.sleep(1)  # レートリミット対策
-
-        except Exception as e:
-            print(f"  翻訳エラー: {e}", file=sys.stderr)
-            article["title_ja"] = article["title"]
-            article["summary_ja"] = article["summary_en"]
+        # RPM対策: バッチ間で待機（10RPM = 6秒に1リクエスト）
+        if batch_start + BATCH_SIZE < len(articles):
+            time.sleep(7)
 
     return articles
 

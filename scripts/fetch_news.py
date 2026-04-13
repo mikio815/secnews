@@ -101,6 +101,25 @@ def fetch_feed(source: dict) -> list[dict]:
 
 
 BATCH_SIZE = 5  # 1リクエストで処理する記事数
+BATCH_INTERVAL = 13  # RPM=5 → 60/5=12秒、余裕を持って13秒
+MAX_RETRIES = 2
+
+
+def _generate_with_retry(model, prompt: str) -> str:
+    """429時にエラーメッセージの待機時間に従ってリトライする"""
+    for attempt in range(MAX_RETRIES + 1):
+        try:
+            return model.generate_content(prompt).text.strip()
+        except Exception as e:
+            err = str(e)
+            if "429" in err and attempt < MAX_RETRIES:
+                m = re.search(r"retry in (\d+\.?\d*)s", err)
+                wait = float(m.group(1)) + 5 if m else 60
+                print(f"  レートリミット超過、{wait:.0f}秒待機してリトライ ({attempt+1}/{MAX_RETRIES})...")
+                time.sleep(wait)
+            else:
+                raise
+    return ""
 
 
 def translate_and_summarize(articles: list[dict]) -> list[dict]:
@@ -140,8 +159,7 @@ def translate_and_summarize(articles: list[dict]) -> list[dict]:
 ]"""
 
         try:
-            response = model.generate_content(prompt)
-            text = response.text.strip()
+            text = _generate_with_retry(model, prompt)
 
             # JSON配列部分を抽出
             match = re.search(r"\[.*\]", text, re.DOTALL)
@@ -163,9 +181,9 @@ def translate_and_summarize(articles: list[dict]) -> list[dict]:
                 article["title_ja"] = article["title"]
                 article["summary_ja"] = article["summary_en"]
 
-        # RPM対策: バッチ間で待機（10RPM = 6秒に1リクエスト）
+        # RPM対策: バッチ間で待機（RPM=5 → 13秒）
         if batch_start + BATCH_SIZE < len(articles):
-            time.sleep(7)
+            time.sleep(BATCH_INTERVAL)
 
     return articles
 

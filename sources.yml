@@ -6,7 +6,17 @@ sources:
 
   - name: Bleeping Computer
     url: https://www.bleepingcomputer.com/feed/
-    category: malware
+    category: incident
+    enabled: true
+
+  - name: The Record
+    url: https://therecord.media/feed
+    category: incident
+    enabled: true
+
+  - name: Krebs on Security
+    url: https://krebsonsecurity.com/feed/
+    category: incident
     enabled: true
 
   - name: SANS Internet Storm Center
@@ -14,9 +24,24 @@ sources:
     category: technical
     enabled: true
 
-  - name: Krebs on Security
-    url: https://krebsonsecurity.com/feed/
-    category: general
+  - name: Google Project Zero
+    url: https://googleprojectzero.blogspot.com/feeds/posts/default
+    category: technical
+    enabled: true
+
+  - name: Talos Intelligence
+    url: https://blog.talosintelligence.com/rss/
+    category: research
+    enabled: true
+
+  - name: Securelist
+    url: https://securelist.com/feed/
+    category: research
+    enabled: true
+
+  - name: CISA Alerts
+    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+    category: cve
     enabled: true
 
   - name: Dark Reading
@@ -30,10 +55,11 @@ sources:
     enabled: false
 
 # カテゴリ一覧:
-#   general  - 総合セキュリティニュース
-#   malware  - マルウェア・脆弱性
-#   technical - 技術・研究寄り
-#   cve      - CVE・脆弱性情報
+#   general   - 総合セキュリティニュース
+#   incident  - 実際の攻撃事例・インシデント報告
+#   technical - 技術・脆弱性リサーチ
+#   research  - 脅威インテリジェンス・APT分析
+#   cve       - CVE・脆弱性情報
 
 # 追加方法:
 #   - name: サイト名

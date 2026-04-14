@@ -27,7 +27,7 @@ OUTPUT_HTML = ROOT / "docs" / "index.html"
 TEMPLATE_FILE = ROOT / "scripts" / "template.html"
 
 JST = ZoneInfo("Asia/Tokyo")
-MAX_ARTICLES_PER_SOURCE = 5
+MAX_ARTICLES_PER_SOURCE = 8
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 
@@ -226,14 +226,16 @@ def generate_html(articles: list[dict], updated: str) -> None:
     # カテゴリラベル
     category_labels = {
         "general": "総合",
-        "malware": "マルウェア",
+        "incident": "インシデント",
         "technical": "技術",
+        "research": "リサーチ",
         "cve": "CVE",
     }
     category_colors = {
         "general": "#e74c3c",
-        "malware": "#e67e22",
+        "incident": "#e67e22",
         "technical": "#2980b9",
+        "research": "#27ae60",
         "cve": "#8e44ad",
     }
 

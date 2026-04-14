@@ -16,7 +16,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import feedparser
-import google.generativeai as genai
+from groq import Groq
 import yaml
 
 # プロジェクトルート
@@ -28,7 +28,7 @@ TEMPLATE_FILE = ROOT / "scripts" / "template.html"
 
 JST = ZoneInfo("Asia/Tokyo")
 MAX_ARTICLES_PER_SOURCE = 5
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 
 class _TextExtractor(HTMLParser):
@@ -100,21 +100,26 @@ def fetch_feed(source: dict) -> list[dict]:
         return []
 
 
-BATCH_SIZE = 5  # 1リクエストで処理する記事数
-BATCH_INTERVAL = 13  # RPM=5 → 60/5=12秒、余裕を持って13秒
+BATCH_SIZE = 5   # 1リクエストで処理する記事数
+BATCH_INTERVAL = 20  # TPM=6,000制限対策（1バッチ≈1,750トークン、3バッチ/分が上限）
 MAX_RETRIES = 2
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 
-def _generate_with_retry(model, prompt: str) -> str:
+def _generate_with_retry(client: Groq, prompt: str) -> str:
     """429時にエラーメッセージの待機時間に従ってリトライする"""
     for attempt in range(MAX_RETRIES + 1):
         try:
-            return model.generate_content(prompt).text.strip()
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return response.choices[0].message.content.strip()
         except Exception as e:
             err = str(e)
             if "429" in err and attempt < MAX_RETRIES:
-                m = re.search(r"retry in (\d+\.?\d*)s", err)
-                wait = float(m.group(1)) + 5 if m else 60
+                m = re.search(r"retry after (\d+\.?\d*)s", err, re.IGNORECASE)
+                wait = float(m.group(1)) + 5 if m else 30
                 print(f"  レートリミット超過、{wait:.0f}秒待機してリトライ ({attempt+1}/{MAX_RETRIES})...")
                 time.sleep(wait)
             else:
@@ -123,15 +128,14 @@ def _generate_with_retry(model, prompt: str) -> str:
 
 
 def translate_and_summarize(articles: list[dict]) -> list[dict]:
-    if not GEMINI_API_KEY:
-        print("警告: GEMINI_API_KEY が未設定です。翻訳・要約をスキップします。")
+    if not GROQ_API_KEY:
+        print("警告: GROQ_API_KEY が未設定です。翻訳をスキップします。")
         for a in articles:
             a["title_ja"] = a["title"]
             a["summary_ja"] = a["summary_en"]
         return articles
 
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    client = Groq(api_key=GROQ_API_KEY)
 
     # バッチ処理: BATCH_SIZE件ずつまとめて1リクエストで翻訳
     for batch_start in range(0, len(articles), BATCH_SIZE):
@@ -146,9 +150,15 @@ def translate_and_summarize(articles: list[dict]) -> list[dict]:
             ensure_ascii=False,
         )
 
-        prompt = f"""以下のセキュリティニュース記事リストを日本語に翻訳・要約してください。
-各記事の "id" はそのまま保持し、"title_ja"（タイトルの日本語訳）と "summary_ja"（2〜3文の日本語要約）を追加してください。
-必ずJSON配列のみを返してください。
+        prompt = f"""あなたはサイバーセキュリティの専門家です。以下のセキュリティニュース記事リストを日本語に翻訳・要約してください。
+
+ルール:
+- 各記事の "id" はそのまま保持する
+- "title_ja": タイトルを自然な日本語に翻訳する
+- "summary_ja": 2〜3文の日本語要約
+- exploit, ransomware, malware, zero-day, CVE, phishing など定着しているセキュリティ用語はカタカナ表記を優先する
+- privilege escalation→権限昇格, vulnerability→脆弱性, threat actor→脅威アクター など文脈に合った訳語を使う
+- JSON配列のみを返し、余計な説明は不要
 
 {articles_json}
 
@@ -159,7 +169,7 @@ def translate_and_summarize(articles: list[dict]) -> list[dict]:
 ]"""
 
         try:
-            text = _generate_with_retry(model, prompt)
+            text = _generate_with_retry(client, prompt)
 
             # JSON配列部分を抽出
             match = re.search(r"\[.*\]", text, re.DOTALL)

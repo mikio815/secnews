@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-16 08:43 JST",
+  "updated": "2026-04-16 20:57 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
+      "url": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
+      "summary_en": "Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate any user within the service.\nThe details of the vulnerabilities are below -\n\nCVE-2026-20184 (CVSS score: 9.8) - An improper certificate validation in the integration of single sign-on (SSO)",
+      "published": "2026-04-16 20:27 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "シスコ、アイデンティティサービスとWebexのクリティカルな脆弱性を修正",
+      "summary_ja": "シスコは、アイデンティティサービスとWebexサービスに影響を及ぼす4つのクリティカルなセキュリティ脆弱性を修正しました。これらの脆弱性により、任意のコードが実行され、攻撃者がサービス内の任意のユーザーになりすますことができます。修正された脆弱性の詳細は、CVE-2026-20184（CVSSスコア：9.8）がシングルサインオン（SSO）の不正な証明書検証であることが示されています。"
+    },
+    {
+      "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
+      "url": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
+      "summary_en": "A \"novel\" social engineering campaign has been observed abusing Obsidian, a cross-platform note-taking application, as an initial access vector to distribute a previously undocumented Windows remote access trojan called PHANTOMPULSE in attacks targeting individuals in the financial and cryptocurrency sectors.\nDubbed REF6598 by Elastic Security Labs, the activity has been found to leverage",
+      "published": "2026-04-16 20:02 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Obsidianプラグインの悪用により、目標型攻撃でPHANTOMPULSE RATが配布される",
+      "summary_ja": "新しいソーシャルエンジニアリングキャンペーンが観察され、Obsidianというノートテイクアプリケーションを悪用して、フィナンスと暗号通貨セクターを標的とした攻撃で、以前になくなるWindowsリモートアクセストロイ木馬のPHANTOMPULSEを配布しています。Elastic Security LabsによってREF6598と命名された、この活動はObsidianを初期アクセスベクトルとして利用しています。"
+    },
+    {
+      "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
+      "url": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
+      "summary_en": "",
+      "published": "2026-04-16 19:30 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": " Hidden Passenger？タブーラがログイン済みの銀行セッションをテムにルーティングする方法",
+      "summary_ja": "タブーラがログイン済みの銀行セッションをテムにルーティングする方法が発見された__.この現象は「Hidden Passenger」と呼ばれています。"
+    },
+    {
+      "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
+      "url": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
+      "summary_en": "The Computer Emergencies Response Team of Ukraine (CERT-UA) has disclosed details of a new campaign that has targeted governments and municipal healthcare institutions, mainly clinics and emergency hospitals, to deliver malware capable of stealing sensitive data from Chromium-based web browsers and WhatsApp.\nThe activity, which was observed between March and April",
+      "published": "2026-04-16 15:20 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "UAC-0247、ウクライナのクリニックと政府を標的としたデータ盗難マルウェアキャンペーン",
+      "summary_ja": "ウクライナのコンピューターエマージェンシーレスポンスチーム（CERT-UA）は、新しいキャンペーンの詳細を公開しました。このキャンペーンでは、ウクライナの政府と自治体の医療機関、主にクリニックと救急病院を標的として、ChromiumベースのウェブブラウザとWhatsAppから機密データを盗むことができるマルウェアを配布しています。"
+    },
     {
       "title": "n8n Webhooks Abused Since October 2025 to Deliver Malware via Phishing Emails",
       "url": "https://thehackernews.com/2026/04/n8n-webhooks-abused-since-october-2025.html",
@@ -9,8 +49,8 @@
       "published": "2026-04-16 02:09 JST",
       "source": "The Hacker News",
       "category": "general",
-      "title_ja": "n8n Webhooks を悪用したマルウェア配布、10 月 2025 年からフィッシング メールで行われている",
-      "summary_ja": "脅威アクターが、人気の AI ワークフロー自動化プラットフォーム n8n を悪用して、巧妙なフィッシング攻撃を行い、悪意のあるペイロードを配布していることが発見された。この攻撃では、信頼されたインフラストラクチャを利用して、伝統的なセキュリティフィルタを回避し、生産性ツールを配布ツールに転用している。"
+      "title_ja": "n8n Webhooks、2025年10月からフィッシングメールでマルウェアを配布するために悪用されている",
+      "summary_ja": "脅威アクターは、人気のあるAIワークフロー自動化プラットフォームであるn8nを利用して、洗練されたフィッシングキャンペーンを実施し、メールを送信することでマルウェアペイロードを配布したりデバイスの指紋を取得したりしています。信頼できるインフラストラクチャを利用することで、これらの攻撃者は従来のセキュリティフィルタを回避し、生産性ツールを配布ツールへと変えました。"
     },
     {
       "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
@@ -19,8 +59,8 @@
       "published": "2026-04-15 21:56 JST",
       "source": "The Hacker News",
       "category": "general",
-      "title_ja": "nginx-ui の脆弱性 (CVE-2026-33032) が活用されて、Nginx サーバーの完全な乗っ取りが可能",
-      "summary_ja": "nginx-ui に影響を及ぼす重要なセキュリティ脆弱性 (CVE-2026-33032) が発見され、実際に悪用されていることが分かった。この脆弱性は、認証の回避を可能にし、脅威アクターが Nginx サービスを乗っ取ることができる。"
+      "title_ja": "nginx-ui の脆弱性 (CVE-2026-33032) が活発に悪用され_Nginx サーバーの完全な接紮が可能になる",
+      "summary_ja": "nginx-ui というオープンソースの Web ベースの Nginx 管理ツールに影響する重大なセキュリティ脆弱性 (CVE-2026-33032、CVSS スコア: 9.8) が、脅威アクターによって活発に悪用されていることがわかった。この脆弱性は、認証バイパス脆弱性であり、脅威アクターが Nginx サービスを制御下に置くことができる。この脆弱性は Pluto Security によって MCPwn と命名されている。"
     },
     {
       "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
@@ -29,8 +69,8 @@
       "published": "2026-04-15 21:37 JST",
       "source": "The Hacker News",
       "category": "general",
-      "title_ja": "4 月のパッチ Tuesday で、SAP、Adobe、Microsoft、Fortinet などの複数のクリティカルな脆弱性を修正",
-      "summary_ja": "Adobe、Fortinet、Microsoft、SAP の製品に影響する複数のクリティカルな脆弱性が、4 月のパッチ Tuesday で修正された。修正される脆弱性のうち、最も重大なものは、SAP Business Planning and Consolidation および SAP Business Warehouse に影響する SQL インジェクション脆弱性 (CVE-2026-27681) であり、任意のデータベースを実行可能にする。"
+      "title_ja": "4 月のパッチTuesday で SAP、Adobe、Microsoft、Fortinet などでの重大な脆弱性が修正される",
+      "summary_ja": "Adobe、Fortinet、Microsoft、SAP の製品に影響する重大な脆弱性が、4 月のパッチ Tuesday リリースで注目を集めた。リストのトップは、SAP Business Planning and Consolidation および SAP Business Warehouse (CVE-2026-27681、CVSS スコア: 9.9) に影響する SQL インジェクション脆弱性であり、任意のデータベースの実行につながる可能性がある。"
     },
     {
       "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
@@ -39,48 +79,38 @@
       "published": "2026-04-15 20:30 JST",
       "source": "The Hacker News",
       "category": "general",
-      "title_ja": "決定論的 + 能動的 AI: アーキテクチャ露出の検証に必要な要件",
-      "summary_ja": "いくつかの技術が、実験から実践へと急速に移行してきたが、AI はその最たるものである。様々な業界で、リーダーシップチームが AI の幅広い潜在能力を認識しており、ボード、投資家、幹部は既に、組織全体で AI を採用するよう促している。Pentera の 2026 年 AI セキュリティおよび露出レポートは、この動向を反映しており、調査されたすべての CISO が AI をセキュリティ機能に取り入れている。"
+      "title_ja": "デターミニスト + エージェント AI: アーキテクチャ露出の検証が必要",
+      "summary_ja": "AI 技術は、他の多くの技術と比較して、実験から経営層の命令まで驚くほど短期間で展開された。業界全体で、リーダーシップチームはその潜在能力を受け入れ、取締役会、投資家、経営陣は組織全体でのオペレーションおよびセキュリティ機能への AI の採用を推進している。Pentera の AI セキュリティおよび露出レポート 2026 では、この動向が反映されており、調査対象の CISO 全員が AI を重要視している。"
     },
     {
-      "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
-      "url": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
-      "summary_en": "Microsoft on Tuesday released updates to address a record 169 security flaws across its product portfolio, including one vulnerability that has been actively exploited in the wild.\nOf these 169 vulnerabilities, 157 are rated Important, eight are rated Critical, three are rated Moderate, and one is rated Low in severity. Ninety-three of the flaws are",
-      "published": "2026-04-15 17:40 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Microsoft が SharePoint のゼロデイ 脆弱性と 168 の新しい脆弱性を修正するパッチをリリース",
-      "summary_ja": "Microsoft が、製品ポートフォリオ全体で 169 のセキュリティ脆弱性を修正するパッチをリリースした。このうち、1 つは実際に悪用されているゼロデイ脆弱性である。169 の脆弱性のうち、157 が重要度「重要」、8 が「クリティカル」、3 が「修正」、1 が「低」度と評価されている。また、93 の脆弱性がリモートで悪用可能である。"
+      "title": "Data breach at edtech giant McGraw Hill affects 13.5 million accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-edtech-giant-mcgraw-hill-affects-135-million-accounts/",
+      "summary_en": "The ShinyHunters extortion group has leaked data from 13.5 million McGraw Hill user accounts, stolen after breaching the company's Salesforce environment earlier this month. [...]",
+      "published": "2026-04-16 19:35 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "教育テクノロジー会社 McGraw Hill で約 1350 万のアカウントが漏洩",
+      "summary_ja": "ShinyHunters と呼ばれる脅迫グループが、McGraw Hill の Salesforce 環境を侵害した後に盗まれた、約 1350 万のユーザー アカウントのデータを漏洩した。"
     },
     {
-      "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
-      "url": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
-      "summary_en": "OpenAI on Tuesday unveiled GPT-5.4-Cyber, a variant of its latest flagship model, GPT‑5.4, that's specifically optimized for defensive cybersecurity use cases, days after rival Anthropic unveiled its own frontier model, Mythos.\n\"The progressive use of AI accelerates defenders – those responsible for keeping systems, data, and users safe – enabling them to find and fix problems",
-      "published": "2026-04-15 13:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "OpenAI、セキュリティチーム向けにGPT-5.4-Cyberをリリース",
-      "summary_ja": "OpenAIは、セキュリティ用途向けにGPT-5.4-Cyberをリリースしました。このモデルは、守りのサイバーセキュリティ用途に最適化された最新のフラグシップモデルGPT-5.4のバリアントです。AIの使用により、セキュリティチームは問題をより迅速に発見して修復できます。"
+      "title": "US nationals behind DPRK IT worker 'laptop farm' sent to prison",
+      "url": "https://www.bleepingcomputer.com/news/security/us-nationals-behind-north-korean-it-worker-laptop-farm-sent-to-prison/",
+      "summary_en": "Two U.S. nationals have been sent to prison for helping North Korean remote information technology (IT) workers to pose as U.S. residents and get hired by over 100 companies across the country, including many Fortune 500 firms. [...]",
+      "published": "2026-04-16 17:32 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "北朝鮮 IT 作業員を米国会社に雇用させた米国人は刑務所に",
+      "summary_ja": "2 人の米国人が、北朝鮮のリモート IT 作業員が米国在住者に成りすまして、米国企業に雇用されるのを手助けしたとして、刑務所へ送致された。このような被害を受けた企業は 100 社を超え、多くはフォーチュン 500 企業であった。"
     },
     {
-      "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
-      "url": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
-      "summary_en": "Two high-severity security vulnerabilities have been disclosed in Composer, a package manager for PHP, that, if successfully exploited, could result in arbitrary command execution.\nThe vulnerabilities have been described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below -\n\nCVE-2026-40176 (CVSS",
-      "published": "2026-04-15 00:57 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "PHP Composerの新たな脆弱性が公開——任意のコマンド実行が可能に",
-      "summary_ja": "PHPのパッケージマネージャーであるComposerに、高い脆弱性が2件公開されました。これらの脆弱性を悪用すると、任意のコマンド実行が可能になります。これらの脆弱性は、Perforce VCSドライバーに影響するコマンドインジェクションのバグです。"
-    },
-    {
-      "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
-      "url": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
-      "summary_en": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational level.\n\"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying",
-      "published": "2026-04-14 23:56 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Google、Pixel 10のモデムにRustベースのDNSパーサーを追加してセキュリティを強化",
-      "summary_ja": "Googleは、Pixelデバイスのセキュリティを強化するために、モデムファームウェアにRustベースのDNSパーサーを追加しました。これにより、メモリセーフコードを低レイヤーで実現し、セキュリティリスクを軽減します。"
+      "title": "Microsoft: April Windows Server 2025 update may fail to install",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-windows-server-2025-update-may-fail-to-install/",
+      "summary_en": "Microsoft is investigating an issue causing this month's KB5082063 security update to fail to install on some Windows Server 2025 systems. [...]",
+      "published": "2026-04-16 16:37 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft: Windows Server 2025 アプリケーションのアップデートに失敗する可能性",
+      "summary_ja": "Microsoft は、本月の KB5082063 セキュリティ アップデートが一部の Windows Server 2025 システムでインストールされないという問題を調査しています。調査中の問題により、アップデートの適用が失敗する可能性があります。"
     },
     {
       "title": "Critical Nginx UI auth bypass flaw now actively exploited in the wild",
@@ -89,8 +119,8 @@
       "published": "2026-04-16 07:35 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Nginx UIの脆弱性が実世界で活用されています",
-      "summary_ja": "Nginx UIに存在する高い脆弱性が、認証せずにサーバーを完全に乗っ取るために悪用されています。この脆弱性は、MCP（モデルコンテキストプロトコル）をサポートするNginx UIに影響します。"
+      "title_ja": "Nginx UI の認証無効化の脆弱性が活用されている",
+      "summary_ja": "Nginx UI の Model Context Protocol (MCP) サポートを利用することでサーバーを完全に乗っ取ることが可能な、認証無効化の脆弱性が発見され、既に活用されているという事態となっています。脅威アクターはこの脆弱性をサーバーへの未認証アクセスに利用しています。"
     },
     {
       "title": "New AgingFly malware used in attacks on Ukraine govt, hospitals",
@@ -99,8 +129,8 @@
       "published": "2026-04-16 06:57 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "ウクライナ政府や病院を狙った新型マルウェアが発見されました",
-      "summary_ja": "ウクライナ政府や病院を狙った新型マルウェア「AgingFly」が発見されました。このマルウェアは、クロムベースのブラウザやWhatsAppから認証データを盗みます。"
+      "title_ja": "ウクライナ政府、病院に対する攻撃で新しいマルウェア「AgingFly」が使用された",
+      "summary_ja": "ChromiumベースのブラウザやWhatsAppメッセンジャーの認証データを盗む、AgingFlyという新しいマルウェアファミリーがウクライナの政府や病院に対する攻撃で使用されていることがわかりました。AgingFlyマルウェアは、機密情報の盗難を目的とした攻撃に活用されています。"
     },
     {
       "title": "WordPress plugin suite hacked to push malware to thousands of sites",
@@ -109,8 +139,8 @@
       "published": "2026-04-16 05:33 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "WordPressプラグインスイートがハックされ、数千のサイトにマルウェアが配布される",
-      "summary_ja": "EssentialPluginパッケージの中の30以上のWordPressプラグインが侵害され、悪意のあるコードがサイトに不正アクセスを許してしまう脆弱性が見つかった。サイト運営者に対する被害が広がる可能性がある。"
+      "title_ja": "WordPressプラグインにマルウェアが仕込まれ、数千のサイトに影響",
+      "summary_ja": "EssentialPluginパッケージに含まれる30以上のWordPressプラグインが、ウェブサイトに不正アクセスを許すマルウェアと一緒に配布されています。影響を受けたプラグインは、認証せずにウェブサイトを操作できるようになっています。"
     },
     {
       "title": "Signed software abused to deploy antivirus-killing scripts",
@@ -119,8 +149,8 @@
       "published": "2026-04-16 02:59 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "デジタル署名付きソフトウェアが悪用され、ウイルス対策ソフトを殺すスクリプトが配置される",
-      "summary_ja": "デジタル署名付きのアドウェアツールが、システム権限で実行され、数千のエンドポイントでウイルス対策保護を無効にするペイロードを配布した。影響を受けた組織は教育、公益事業、政府、ヘルスケアの各分野に及ぶ。"
+      "title_ja": "デジタル署名付きソフトウェアが、アンチウイルスソフトを殺すスクリプトの配布に悪用される",
+      "summary_ja": "デジタル署名付きのアドウェアツールが、システムの特権で動作し、アンチウイルスソフトの保護を無効にするペイロードを配布しています。数千のエンドポイント、教育、公共、政府、ヘルスケア分野などに影響が出ています。"
     },
     {
       "title": "Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest",
@@ -129,38 +159,8 @@
       "published": "2026-04-16 01:20 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "マイクロソフトがクラウドとAIの脆弱性に対して230万ドルを支払う",
-      "summary_ja": "マイクロソフトは、今年のZero Day Questハッキングコンテストで受け取った約700の脆弱性報告に対して、セキュリティリサーチャーに230万ドルを授与した。"
-    },
-    {
-      "title": "CISA flags Windows Task Host vulnerability as exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
-      "summary_en": "CISA warned U.S. government agencies to secure their systems against a Windows Task Host privilege escalation vulnerability that could allow attackers to gain SYSTEM privileges. [...]",
-      "published": "2026-04-15 23:51 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "CISAがWindows Task Hostの脆弱性を攻撃で悪用されたと発表",
-      "summary_ja": "CISAは、米政府機関に対して、Windows Task Hostの権限昇格脆弱性を脆弱性を警告した。この脆弱性は攻撃者がシステム権限を得ることができる。"
-    },
-    {
-      "title": "Rolling Networks: Securing the Transportation Sector",
-      "url": "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/",
-      "summary_en": "Modern trucks are rolling networks packed with sensors, connectivity, and attack surfaces, creating new cyber risks. NMFTA's Cybersecurity Conference brings industry leaders together to tackle emerging threats in transportation. [...]",
-      "published": "2026-04-15 23:00 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Rolling Networks: 交通セクターのセキュリティ",
-      "summary_ja": "近代的なトラックは、センサー、接続性、攻撃対象領域などが一つになった「移動ネットワーク」であり、新たなサイバーリスクを生み出している。NMFTAのサイバーセキュリティ会議では、業界のリーダーが交通における新たな脅威に対処するために集まる。"
-    },
-    {
-      "title": "Microsoft: April updates trigger BitLocker key prompts on some servers",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-windows-servers-ask-for-bitlocker-key-after-april-updates/",
-      "summary_en": "Microsoft confirmed on Tuesday that some Windows Server 2025 devices will boot into BitLocker recovery after installing the April 2026 KB5082063 Windows security update. [...]",
-      "published": "2026-04-15 20:41 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "マイクロソフト：4月のアップデートで一部のサーバーでBitLockerキープロンプトが表示される",
-      "summary_ja": "マイクロソフトは、4月のセキュリティアップデートを適用した一部のWindows Server 2025デバイスでBitLockerの回復モードになることがあると確認した。 KB5082063アップデートが原因で、BitLockerのキーの入力を求められるという。"
+      "title_ja": "Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest",
+      "summary_ja": "Microsoft has awarded $2.3 million to security researchers after receiving nearly 700 submissions during this year's Zero Day Quest hacking contest. [...]"
     },
     {
       "title": "Big tech fails to opt-out users requesting not to be tracked much of the time, new research says",
@@ -169,8 +169,8 @@
       "published": "2026-04-16 09:44 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "大手テクノ企業：トラッキング拒否を申し込むユーザーを無視することが多い",
-      "summary_ja": "プライバシー団体webXrayの研究によると、ケイリー・フォーニア州のウェブトラフィックを調べたところ、194のオンライン広告サービスが「規制機関が承認した、globally standardなトラッキング拒否シグナル」を無視していることが発覚した。"
+      "title_ja": "Big tech fails to opt-out users requesting not to be tracked much of the time, new research says",
+      "summary_ja": "The audit from privacy organization webXray studied California web traffic in March and found that 194 online advertising services “ignore legally defined, globally standard, opt-out signals endorsed by regulators.\""
     },
     {
       "title": "NIST to limit work on CVE entries as submissions surge",
@@ -179,8 +179,8 @@
       "published": "2026-04-16 05:11 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "NIST：CVEエントリーの数が急増したため、一部の脆弱性情報の登録を制限",
-      "summary_ja": "NISTは、一定の基準を満たす脆弱性のみに詳細情報を追加し、以前に比べCVEの登録を制限することを決定した。CVEとはサイバーセキュリティ脆弱性と脆弱性を表す。"
+      "title_ja": "NIST to limit work on CVE entries as submissions surge",
+      "summary_ja": "NIST said it will only add details and information to the records of vulnerabilities that meet a certain threshold — changing a longstanding mission to categorize every CVE, which stands for cybersecurity vulnerabilities and exposures."
     },
     {
       "title": "Teen arrested in Northern Ireland over cyberattack on school network",
@@ -189,8 +189,8 @@
       "published": "2026-04-16 04:45 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "サイバー攻撃で学生数十万人に影響：北アイルランドで10代少年を逮捕",
-      "summary_ja": "北アイルランドで、サイバー攻撃を受けた教育システムの事件に関連して、16歳の少年が逮捕された。影響を受けたシステムは、数十万人の学生が利用していると報じられている。"
+      "title_ja": "Teen arrested in Northern Ireland over cyberattack on school network",
+      "summary_ja": "A 16-year-old boy has been arrested in Northern Ireland after a cyberattack disrupted access to educational systems used by potentially hundreds of thousands of students."
     },
     {
       "title": "UK warns businesses to address cyber risks amid Anthropic AI panic",
@@ -199,8 +199,8 @@
       "published": "2026-04-16 01:00 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "イギリス政府：アンチロピックAIの脅威を受けてサイバーセキュリティ対策を強化せよ",
-      "summary_ja": "イギリス政府は、アンチロピックAIの脅威に対して、企業がサイバーセキュリティ対策を強化する必要性を警告した。AnthropicのMythosのリリースを受けて、企業のサイバーリスクを軽減することが求められている。"
+      "title_ja": "UK warns businesses to address cyber risks amid Anthropic AI panic",
+      "summary_ja": "The British government warned businesses to strengthen their cyber defenses amid concerns prompted by the release of Anthropic's Mythos over how artificial intelligence could reshape the threat landscape."
     },
     {
       "title": "Educational company McGraw Hill says Salesforce misconfiguration led to data leak",
@@ -209,8 +209,8 @@
       "published": "2026-04-15 23:28 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "教育関連企業マクグローヒル、セールスフォースのミスコンフィギュレーションが原因でデータ漏洩",
-      "summary_ja": "サイバークライム組織のShinyHuntersが45万件のセールスフォースのデータを盗み、4月14日までに身代金を支払わない場合は情報を流すと脅したことで、この.week末にデータ漏洩が発覚した。セールスフォースのミスコンフィギュレーションが原因であるとマクグローヒルは述べている。"
+      "title_ja": "教育企業McGraw Hill、セールスフォースの設定ミスが原因でデータ漏洩",
+      "summary_ja": "サイバークライム組織のShinyHuntersがセールスフォースの記録4500万件を奪ったと主張し、4月14日までに身代金が支払われない場合は情報をリークすると脅した。McGraw Hillは設定ミスが原因と説明した。"
     },
     {
       "title": "Patch Tuesday, April 2026 Edition",
@@ -219,8 +219,8 @@
       "published": "2026-04-15 06:47 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "パッチチューズデー、2026年4月版",
-      "summary_ja": "マイクロソフトは、この週のパッチチューズデーに、Windowsオペレーティングシステムや関連ソフトウェアの167のセキュリティ脆弱性を修正するソフトウェアアップデートを配布した。修正された脆弱性の中には、SharePoint Serverのゼロデイ脆弱性や、ブルーハンマーと呼ばれるWindows Defenderの公開脆弱性も含まれる。別途、Google Chromeは2026年4回目のゼロデイ脆弱性を修正し、Adobe Readerの緊急アップデートにより、リモートコード実行につながるアクティブに悪用されている脆弱性が修正された。"
+      "title_ja": "パッチ・チューズデイ、2026年4月版",
+      "summary_ja": "マイクロソフトはWindowsオペレーティングシステムと関連ソフトウェアの167のセキュリティ脆弱性を修正するソフトウェアアップデートを提供した。この中にはSharePoint ServerのゼロデイとWindows Defenderのパブリックな脆弱性「BlueHammer」が含まれる。Google Chromeも2026年4回目のゼロデイの修正パッチを提供し、アドビReaderの緊急アップデートでリモートコード実行につながる脆弱性が修正された。"
     },
     {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
@@ -229,8 +229,8 @@
       "published": "2026-04-08 02:02 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "ロシアがルーターをハックし、Microsoft Officeのトークンを盗んだ",
-      "summary_ja": "ロシアの軍事情報部門にリンクされたハッカーが、古いインターネットルーターの既知の脆弱性を悪用して、Microsoft Officeユーザーから大量の認証トークンを盗んでいると、セキュリティの専門家が警告した。ロシアの国家支援ハッカーは、悪意のあるソフトウェアやコードを配布せずに、1万8000以上のネットワークから認証トークンを静かに抜き取った。"
+      "title_ja": "ロシア、ルーターをハックしてマイクロソフト・オフィスのトークンを盗んだ",
+      "summary_ja": "ロシアの軍事情報部門関連のハッカーが古いインターネットルーターの既知の脆弱性を利用して、マイクロソフト・オフィスの認証トークンを大量に収集していることがセキュリティ専門家によって警告された。このスパイキャンペーンでは、悪意のあるソフトウェアやコードを展開することなく、18000以上のネットワークから認証トークンが収集されていた。"
     },
     {
       "title": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab",
@@ -239,8 +239,8 @@
       "published": "2026-04-06 11:07 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "ドイツ当局、REvil、GandCrabのサイバー犯罪グループ「UNKN」の正体を特定",
-      "summary_ja": "ロシアのランサムウェアグループGandCrabとREvilを率いていたハッカー「UNKN」の正体がわかった。ドイツ当局によると、31歳のロシア人Daniil Maksimovich Shchukinがこのサイバー犯罪グループのリーダーであり、2019年から2021年にかけて、130以上のコンピューター破壊および強要事件を実行した。"
+      "title_ja": "ドイツ、ランサムウェア・ギャングの首領「UNKN」の実名を公開",
+      "summary_ja": "ロシアのランサムウェア・ギャングGandCrabとREvilを率いていたハッカー「UNKN」の正体が判明した。ドイツの当局によると、31歳のロシア人Daniil Maksimovich Shchukinが両者の首領であり、2019年から2021年にかけてドイツで少なくとも130件のコンピューターサボタージュと身代金要求事件に関与していた。"
     },
     {
       "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
@@ -249,8 +249,8 @@
       "published": "2026-03-24 00:43 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "『CanisterWorm』がイランをターゲットとしたワイパー攻撃を開始",
-      "summary_ja": "経済的な動機でデータを盗み、脅迫を行うグループが、イランの時間帯またはデフォルト言語がペルシア語に設定されているインフラストラクチャーに感染し、データを消去するワーム『CanisterWorm』を利用した攻撃を開始した。"
+      "title_ja": "『CanisterWorm』がイランを狙ったワイパー攻撃を仕掛ける",
+      "summary_ja": "経済的に動機付けられたデータ窃盗と脅迫グループがイランを狙ったワイパー攻撃を開始した。このワームは、セキュリティが緩いクラウドサービスを通じて感染し、イランの時間帯またはファルシ語をデフォルト言語に設定しているシステムのデータを消去する。"
     },
     {
       "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
@@ -259,8 +259,8 @@
       "published": "2026-03-20 09:49 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "米国とカナダ、ドイツの当局がIoTボットネットを壊滅させる",
-      "summary_ja": "米国司法省は、カナダとドイツの当局と協力して、約300万台のIoTデバイスを乗っ取った4つのボットネットのインフラを壊滅させた。壊滅させたボットネットは、Aisuru、Kimwolf、JackSkid、Mossadで、記録的なDDoS攻撃を実行し、ほとんどのターゲットをオフラインにすることができた。"
+      "title_ja": "IoTボットネットによるDDoS攻撃の背後にあるインフラを米国が壊した",
+      "summary_ja": "米国司法省は、カナダとドイツとの共同で、300万以上のIoTデバイスを悪用した4つのボットネットのオンラインインフラを排除した。排除されたボットネットはAisuru、Kimwolf、JackSkid、Mossadと呼ばれており、分布型サービス拒否（DDoS）攻撃によって大量のIoTデバイスを乗っ取ることを可能にし、ほぼ任意のターゲットをオフラインにすることができた。"
     },
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
@@ -269,8 +269,8 @@
       "published": "2026-03-12 01:20 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "イランのハッカーがメドテック企業へのワイパー攻撃を主張",
-      "summary_ja": "イランの情報機関とつながりのあるハッキビズム集団が、メドテック企業のStrykerに対するデータ消去攻撃を主張した。アイルランドの報道によれば、Strykerはアメリカ以外で最大の拠点であるアイルランドで5000人以上の従業員を解雇したとのことだ。"
+      "title_ja": "イラン支援ハッカーがメドテック企業へのウイパー攻撃を主張",
+      "summary_ja": "イランの諜報機関とつながりのあるハクティビスト集団が、メドテック企業のStrykerに対するデータ消去攻撃を主張した。アイルランドのニュース報道によると、Strykerはアイルランドの従業員5,000人以上を帰宅させた。Strykerの米国本社の電話メッセージによると、同社は現在ビルディングの緊急事態に陥っている。"
     },
     {
       "title": "Microsoft Patch Tuesday, March 2026 Edition",
@@ -279,8 +279,8 @@
       "published": "2026-03-11 09:32 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "Microsoftのパッチ・チューズデー（2026年3月版）",
-      "summary_ja": "Microsoftは、Windowsオペレーティングシステムと他のソフトウェアの少なくとも77の脆弱性を修正するセキュリティ更新プログラムをリリースした。この月の脆弱性には、ゼロデイの脆弱性は含まれていないが、一部のパッチはWindowsを使用する組織に速やかに注意が必要である。"
+      "title_ja": "Microsoft Patch Tuesday、2026年3月版",
+      "summary_ja": "Microsoftは、Windowsオペレーティングシステムとその他のソフトウェアの77の脆弱性を修復するためのセキュリティ更新プログラムをリリースした。Zero-Day脆弱性は存在しないが、Windowsを使用する組織には迅速な対応が必要となる修復プログラムがいくつか含まれる。"
     },
     {
       "title": "How AI Assistants are Moving the Security Goalposts",
@@ -289,8 +289,28 @@
       "published": "2026-03-09 08:35 JST",
       "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "AIアシスタントがセキュリティの目標を変更する",
-      "summary_ja": "AIベースのアシスタントまたは「エージェント」と呼ばれるプログラムは、ユーザーのコンピュータ、ファイル、オンラインサービスにアクセスし、ほぼすべてのタスクを自動化できる。開発者やITワーカーに人気があるが、最近の数週間の目立つヘッドラインに見られるように、セキュリティの優先順位を変えている。"
+      "title_ja": "AIアシスタントがセキュリティの目標を変えている",
+      "summary_ja": "AIベースのアシスタントや「エージェント」と呼ばれるプログラムは、ユーザーのコンピューター、ファイル、オンラインサービスにアクセスし、ほぼ任意のタスクを自動化できる。開発者やITワーカーに人気を博しているが、セキュリティの優先順位を変え、データとコード、信頼できる共同作業者とインサイダー脅威、ニンジャハッカーの線引きを曖昧にしている。"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, April 16th, 2026 https://isc.sans.edu/podcastdetail/9894, (Thu, Apr 16th)",
+      "url": "https://isc.sans.edu/diary/rss/32902",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-04-16 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISCストームキャスト、2026年4月16日木曜日",
+      "summary_ja": "この記事は、(c) SANS Internet Storm Centerであり、https://isc.sans.edu/podcastdetail/9894で配信されている。クリエイティブ・コモンズ・ライセンス（非商用、3.0、アメリカ）が適用される。"
+    },
+    {
+      "title": "[Guest Diary] Compromised DVRs and Finding Them in the Wild, (Thu, Apr 16th)",
+      "url": "https://isc.sans.edu/diary/rss/32886",
+      "summary_en": "&#x5b;This is a Guest Diary by Alec Jaffe, an ISC intern as part of the SANS.edu Bachelor&&#x23&#x3b;39&#x3b;s Degree in Applied Cybersecurity (BACS) program &#x5b;1].",
+      "published": "2026-04-16 08:59 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "[ゲストダイアリー] 野外でのDVRの侵害とその発見",
+      "summary_ja": "これは、SANS.eduの学士号プログラムの一部として、ISCのインターンであるAlec Jaffeによるゲストダイアリーです。このダイアリーでは、DVRの侵害について説明しています。"
     },
     {
       "title": "ISC Stormcast For Wednesday, April 15th, 2026 https://isc.sans.edu/podcastdetail/9892, (Wed, Apr 15th)",
@@ -299,8 +319,8 @@
       "published": "2026-04-15 11:00 JST",
       "source": "SANS Internet Storm Center",
       "category": "technical",
-      "title_ja": "ISC Stormcast（2026年4月15日）",
-      "summary_ja": "SANS Internet Storm Centerのポッドキャスト。"
+      "title_ja": "ISCストームキャスト 2026年4月15日(水)",
+      "summary_ja": "SANSインターネットストームセンターのポッドキャストです。ポッドキャストの詳細については、https://isc.sans.edu/podcastdetail/9892を参照してください。"
     },
     {
       "title": "Scanning for AI Models, (Tue, Apr 14th)",
@@ -309,8 +329,8 @@
       "published": "2026-04-15 09:19 JST",
       "source": "SANS Internet Storm Center",
       "category": "technical",
-      "title_ja": "AIモデルに対するスキャン",
-      "summary_ja": "2026年3月10日から、DShieldセンサーでは、ClaudeやOpenClaw、Hugging FaceなどのさまざまなAIモデルに対するプローブが開始された。このプローブは今も継続中であり、他のDShieldセンサーから報告されたデータも同様である。"
+      "title_ja": "AIモデルへのスキャニング",
+      "summary_ja": "2026年3月10日から、DShieldセンサーがCLAUD、OPENCLAW、HUGGINGFACEなどのAIモデルへのプローブを受け始めました。既存のデータをレビューしたところ、DShieldセンサーがISCに報告したデータからも同様のプローブが活発化していることがわかりました。"
     },
     {
       "title": "Microsoft Patch Tuesday April 2026., (Tue, Apr 14th)",
@@ -319,8 +339,8 @@
       "published": "2026-04-15 02:46 JST",
       "source": "SANS Internet Storm Center",
       "category": "technical",
-      "title_ja": "マイクロソフトのパッチTuesday（2026年4月）",
-      "summary_ja": "今月のマイクロソフトのパッチTuesdayは記録的なものになるかもしれないが、詳しく見てみよう。"
+      "title_ja": "Microsoft Patch Tuesday 2026年4月",
+      "summary_ja": "今月のMicrosoft Patch Tuesdayでは、大量の脆弱性が修正されています。この記事では、今月のパッチについて詳しく見ていきます。"
     },
     {
       "title": "ISC Stormcast For Tuesday, April 14th, 2026 https://isc.sans.edu/podcastdetail/9890, (Tue, Apr 14th)",
@@ -329,8 +349,8 @@
       "published": "2026-04-14 11:00 JST",
       "source": "SANS Internet Storm Center",
       "category": "technical",
-      "title_ja": "ISC Stormcast（2026年4月14日）",
-      "summary_ja": "ISC Stormcastは、サイバーセキュリティに関する最新情報を提供するポッドキャストである。このエピソードでは、セキュリティ関連のトピックが取り上げられている。"
+      "title_ja": "ISCストームキャスト 2026年4月14日(火)",
+      "summary_ja": "SANSインターネットストームセンターのポッドキャストです。ポッドキャストの詳細については、https://isc.sans.edu/podcastdetail/9890を参照してください。"
     },
     {
       "title": "Scans for EncystPHP Webshell, (Mon, Apr 13th)",
@@ -339,8 +359,8 @@
       "published": "2026-04-13 22:02 JST",
       "source": "SANS Internet Storm Center",
       "category": "technical",
-      "title_ja": "EncystPHP Webシェルのスキャン",
-      "summary_ja": "先週、攻撃者が認証不要または既知のクレデンシャルを使用するWebシェルをスキャンしていることがわかった。しかしながら、一部の攻撃者は、より推測が難しいクレデンシャルを使用したWebシェルを展開している。EncystPHP Webシェルに対するスキャンも発生しており、これはFreePBXシステムを侵害する攻撃者に人気のツールである。"
+      "title_ja": "EncystPHP Webshellのスキャン（2026年4月13日）",
+      "summary_ja": "攻撃者は、認証が不要か、よく知られた資格情報を使用するWebshellを見つけることを目的として、さまざまなWebshellのスキャンを行っています。しかし、一部の攻撃者は、更に推測が困難な資格情報を使用するWebshellを展開しています。今日、EncystPHP Webshellとみられるスキャンを発見しました。Fortinetは今年1月にこのWebshellについて報告しました。脆弱なFreePBXシステムを侵害する 攻撃者の中でも人気があるようです。"
     },
     {
       "title": "ISC Stormcast For Monday, April 13th, 2026 https://isc.sans.edu/podcastdetail/9888, (Mon, Apr 13th)",
@@ -349,28 +369,8 @@
       "published": "2026-04-13 11:00 JST",
       "source": "SANS Internet Storm Center",
       "category": "technical",
-      "title_ja": "ISC Stormcast（2026年4月13日）",
-      "summary_ja": "ISC Stormcastは、サイバーセキュリティに関する最新情報を提供するポッドキャストである。このエピソードでは、セキュリティ関連のトピックが取り上げられている。"
-    },
-    {
-      "title": "Obfuscated JavaScript or Nothing, (Thu, Apr 9th)",
-      "url": "https://isc.sans.edu/diary/rss/32884",
-      "summary_en": "I spotted an interesting piece of JavaScript code that was delivered via a phishing email in a RAR archive. The file was called â€œcbmjlzan.JSâ€ (SHA256:a8ba9ba93b4509a86e3d7dd40fd0652c2743e32277760c5f7942b788b74c5285) and is only identified as malicious by 15 AV's on VirusTotal[1].",
-      "published": "2026-04-10 15:40 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ファイルに隠されたJavascriptコード、または何でもない（2026年4月9日）",
-      "summary_ja": "フィッシングメールで配布されたRARアーカイブの中に interessant なJavascriptコードが見つかった。このコードはcbmjlzan.JSという名前で、VirusTotalでは15のウイルス対策ソフトだけがこれを悪意のあるコードと識別している。"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, April 9th, 2026 https://isc.sans.edu/podcastdetail/9886, (Thu, Apr 9th)",
-      "url": "https://isc.sans.edu/diary/rss/32882",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-04-09 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast 2026年4月9日",
-      "summary_ja": "SANS Internet Storm Centerのポッドキャスト。https://isc.sans.edu/podcastdetail/9886。このコンテンツは、Creative Commons Attribution-Noncommercial 3.0 United States Licenseの下で提供されている。"
+      "title_ja": "ISCストームキャスト（2026年4月13日）",
+      "summary_ja": "ISCストームキャストは、SANSインターネットストームセンターが提供するセキュリティ関連の情報を提供するポッドキャストです。"
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -379,8 +379,8 @@
       "published": "2026-03-05 17:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "変異文法フズィングの有効性について",
-      "summary_ja": "変異文法フズィングは、フザーサが事前に定義された文法を使用して、コードの構造を理解するようなフズィングの技法の一つである。この技法を使うことで、フザーが生成したコードが文法上の規則に従っていることを確認できる。"
+      "title_ja": "ミューテーショナルグラマーファジングの有効性",
+      "summary_ja": "ミューテーショナルグラマーファジングは、指定されたグラマーに従ってサンプルを生成するファジング手法です。ファジングによって生成されたサンプルは、事前定義されたグラマーの構造を維持しながら、ミューテーションが行われます。この手法により、コードの脆弱性をより効率的に発見できます。"
     },
     {
       "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
@@ -389,8 +389,8 @@
       "published": "2026-02-26 17:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "GetProcessHandleFromHwnd APIの深掘り",
-      "summary_ja": "先日、UACバイパスのために使用されているGetProcessHandleFromHwnd APIについて調べてみた。このAPIは、Quick Assist UI Accessアプリケーションを使用して権限昇格を行うために使用されている。"
+      "title_ja": "GetProcessHandleFromHwnd APIの深い理解",
+      "summary_ja": "GetProcessHandleFromHwnd APIは、Windows APIの一つで、ハンドルからプロセスハンドルを取得するための関数です。このAPIについて詳細に調べた結果、UACバイパスの実現方法が見つかりました。"
     },
     {
       "title": "Bypassing Administrator Protection by Abusing UI Access",
@@ -399,8 +399,8 @@
       "published": "2026-02-12 17:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "UIアクセスの濫用による管理者保護のバイパス",
-      "summary_ja": "先日、Windowsの新機能である管理者保護について調べてみた。この機能は、UACに対して安全な境界を設定するために導入された。ただし、この機能には5つの脆弱性があったことを発見し、すべての脆弱性が修正された。このポストでは、そのうちの5つの脆弱性について、具体的に解説する。"
+      "title_ja": "UI Accessの悪用による管理者保護のバイパス",
+      "summary_ja": "Windowsの新しい機能である管理者保護は、UACに対するセキュアな境界を実現することを目的としています。しかし、UI Accessを悪用することで、この保護をバイパスすることができることが発見されました。このバイパス方法は、UACの実装上の問題に起因しています。"
     },
     {
       "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
@@ -409,8 +409,8 @@
       "published": "2026-01-30 17:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "音の壁を破る、第2部：CVE-2024-54529の_exploit",
-      "summary_ja": "このシリーズの第1部では、macOSセキュリティの脆弱性を発見するプロセスについて説明しました。ここでは、_exploitの技術的な詳細について説明します。タイプコンフュージョンの脆弱性（CVE-2024-54529）とダブルフリーの脆弱性（CVE-2025-31235）を_knowledge-driven fuzzingというプロセスで発見しました。"
+      "title_ja": "音の壁を越えること：CVE-2024-54529の《exploit》",
+      "summary_ja": "macOSのセキュリティ研究を通じて、Coreaudiodシステムデーモンの《脆弱性》であるタイプ混乱《脆弱性》(CVE-2024-54529)と二重解放《脆弱性》(CVE-2025-31235)を発見しました。この記事では、《exploit》のプロセスに焦点を当てて、タイプ混混乱《脆弱性》の《exploit》方法を説明します。technical《詳細》について説明します。"
     },
     {
       "title": "Bypassing Windows Administrator Protection",
@@ -419,8 +419,8 @@
       "published": "2026-01-26 17:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "Windows管理者保護のバイパス",
-      "summary_ja": "Windows 11の最新リリースである25H2では、管理者保護という機能が導入されました。この機能は、従来のUser Account Control（UAC）に代わって、ローカルユーザーが必要な場合のみ 管理者権限を取得できるようにする、より堅牢でセキュアなシステムです。この記事では、新機能の概要と、それがUACとどのように異なるかについて説明します。さらに、管理者保護のセキュリティ研究についても触れています。"
+      "title_ja": "Windows管理者保護の《bypass》",
+      "summary_ja": "Windows 11の最新リリースである25H2では、管理者保護という機能が導入されました。この機能は、ローカルユーザーが管理者特権にアクセスできるように、UACの代替としてより堅牢でセキュアなシステムを提供することを目的としています。この記事では、この新機能の概要と《bypass》方法について説明します。"
     },
     {
       "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
@@ -429,8 +429,8 @@
       "published": "2026-01-15 03:01 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "Pixel 9の0クリック_exploit_チェーン、第3部：今後はどうするのか",
-      "summary_ja": "以前に投稿したブログでは、0クリック_exploit_チェーンの開発を困難にするための技術的な推奨事項を提供しました。しかし、これらの脆弱性を発見、報告、_exploit_する経験から、Androidエコシステムにいくつかの問題が存在することを発見しました。この記事では、発生した問題と改善に関する推奨事項について説明します。オーディオ攻撃サーフェスについても触れています。"
+      "title_ja": "Pixel 9の《Zero-day》《exploit》チェーン：今後どうするか",
+      "summary_ja": "過去2つの記事では、《Zero-day》《exploit》チェーンの開発をより困難にするための技術的な提案を行いました。しかし、《脆弱性》の発見、報告、そして《exploit》のプロセスでは、アンドロイドエコシステムにおけるいくつかの問題点が浮き彫りになりました。この記事では、これらの問題点と改善提案について説明します。"
     },
     {
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
@@ -439,8 +439,8 @@
       "published": "2026-01-15 03:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "Pixel 9の0クリック_exploit_チェーン、第2部：サンドボックスを大きな波で突破",
-      "summary_ja": "Dolby Unified Decoderのリモートコード実行（RCE）_exploit_が可能であることを確認しました。次に、Linuxカーネルドライバーをユーザーランドコンテキストからアクセス可能かどうかを検証する必要がありました。AOSPのドキュメントによると、_mediacodec_のSELinuxコンテキストは、安全でないソフトウェアデコーダーを使用するため、制約された（サンドボックス化された）コンテキストであると述べられています。 DriverCartographerツールを使用して、_/dev/bigwave_という interessantなデバイスドライバーがアクセス可能であることを発見しました。"
+      "title_ja": "Pixel 9の《Zero-day》《exploit》チェーン：《Sandbox》の破壊",
+      "summary_ja": "DolbyUnifiedDecoderの《RCE》《exploit》が可能になると、結果として得られるユーザーランドコンテキストからアクセス可能なLinuxカーネルドライバーを調査する必要がありました。AOSPドキュメントによれば、MediaCodecのSELinuxコンテキストは、非セキュアなソフトウェアデコーダーを利用するための制約付き(サンドボックス化)コンテキストです。ドライバーカートグラファーというツールを使用して、/dev/bigwaveというデバイスドライバーを発見しました。"
     },
     {
       "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
@@ -449,8 +449,28 @@
       "published": "2026-01-15 02:59 JST",
       "source": "Google Project Zero",
       "category": "technical",
-      "title_ja": "Pixel 9の0クリック_exploit_チェーン、第1部：Dolbyのデコード",
-      "summary_ja": "最近、モバイルフォンのユーザーがメッセージをより効率的に検索、理解できる機能が搭載されています。これにより、_0クリック攻撃サーフェスが拡大し、ユーザーへの干渉なしにメッセージメディアをデコードする必要が出てきました。オーディオトランスクリプション機能により、Googleメッセージを介して受信されるSMSとRCSオーディオアタッチメントは、ユーザーの操作なしで自動的にデコードされます。"
+      "title_ja": "Pixel 9の《Zero-day》《exploit》チェーン：Dolbyの解読",
+      "summary_ja": "最近の数年間で、ユーザーがメッセージをよりよい搜索して理解することができるように、モバイルフォーンにいくつかのAIパワード機能が追加されました。その結果、《Zero-click》《exploit》の攻撃面が増大しています。たとえば、自動音声変換機能が導入されました。Googleメッセージで受信されるSMSとRCSの音声添付ファイルは、ユーザーの操作なしに自動で解読されます。"
+    },
+    {
+      "title": "PowMix botnet targets Czech workforce",
+      "url": "https://blog.talosintelligence.com/powmix-botnet-targets-czech-workforce/",
+      "summary_en": "Cisco Talos discovered an ongoing malicious campaign, operating since at least December 2025, affecting a broader workforce in the Czech Republic with a previously undocumented botnet we call “PowMix.”",
+      "published": "2026-04-16 19:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "チェコの労働者を狙うPowMixボットネット",
+      "summary_ja": "シスコタロスによると、2025年12月から続いているマルウェアキャンペーンが発見され、チェコ共和国の広範な労働者が「PowMix」と呼ばれる以前になかったボットネットの影響を受けていることがわかった。このボットネットは、以前は発見されていなかったものである。"
+    },
+    {
+      "title": "More than pretty pictures: Wendy Bishop on visual storytelling in tech",
+      "url": "https://blog.talosintelligence.com/more-than-pretty-pictures-wendy-bishop-on-visual-storytelling-in-tech/",
+      "summary_en": "Wendy shares the unique challenges and rewards of bridging the gap between artistic expression and highly technical research.",
+      "published": "2026-04-16 19:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "技術におけるビジュアルストーリーテリング",
+      "summary_ja": "ウェンディ・ビショップが、技術とアートの間のギャップを埋めることのユニークな課題と報酬について語っている。彼女は、高度な技術研究と芸術的な表現methodを組み合わせることの難しさと価値について話す。"
     },
     {
       "title": "The n8n n8mare: How threat actors are misusing AI workflow automation",
@@ -459,8 +479,8 @@
       "published": "2026-04-15 19:00 JST",
       "source": "Talos Intelligence",
       "category": "research",
-      "title_ja": "n8nの悪夢：脅威アクターがAIワークフロー自動化を悪用する方法",
-      "summary_ja": "シスコのTalos研究チームは、AIワークフロー自動化プラットフォームの悪用を発見しました。最近、n8nというプラットフォームを悪用したイベントが、2025年10月から2026年3月にかけて増加していることがわかりました。"
+      "title_ja": "n8nの悪用: 脅威アクターがAIワークフロー自動化を利用する方法",
+      "summary_ja": "シスコタロスの研究では、AIワークフロー自動化プラットフォームの悪用が発見された。特に、n8nプラットフォームを悪用したメールが増加していることがわかった。これらのメールは2025年10月から2026年3月にかけて送信されていた。"
     },
     {
       "title": "Microsoft Patch Tuesday for April 2026 - Snort Rule and Prominent Vulnerabilities",
@@ -469,8 +489,8 @@
       "published": "2026-04-15 05:27 JST",
       "source": "Talos Intelligence",
       "category": "research",
-      "title_ja": "Microsoftのパッチ火曜日：2026年4月のセキュリティ更新と顕現的な脆弱性",
-      "summary_ja": "2026年4月のMicrosoftのパッチ火曜日についての概要です。"
+      "title_ja": "Microsoftの2026年4月パッチ星期二 - Snortルールと主な脆弱性",
+      "summary_ja": "2026年4月のMicrosoftパッチ星期二のリリース概要が発表された。このリリースでは、主な脆弱性と対応するSnortルールが説明されている。"
     },
     {
       "title": "State-sponsored threats: Different objectives, similar access paths",
@@ -479,8 +499,8 @@
       "published": "2026-04-14 22:49 JST",
       "source": "Talos Intelligence",
       "category": "research",
-      "title_ja": "国家支援型脅威：異なる目的、類似のアクセス手法",
-      "summary_ja": "2025年の国家支援型脅威について見ていきます。中国、ロシア、北朝鮮、イランに liên kếtされたアクターが脆弱性、ID、信頼されたアクセスパスを利用して目的を達成する方法を探っていきます。"
+      "title_ja": "国家支援型脅威: 異なる目的だが類似したアクセス経路",
+      "summary_ja": "2025年の国家支援型脅威について見ることによって、中国、ロシア、北朝鮮、イランなどの国家が脆弱性、アイデンティティ、信頼されているアクセス経路を利用して目的を達成する方法が明らかになる。"
     },
     {
       "title": "[Video] The TTP Ep. 22: The Collapse of the Patch Window",
@@ -489,8 +509,8 @@
       "published": "2026-04-11 00:29 JST",
       "source": "Talos Intelligence",
       "category": "research",
-      "title_ja": "[動画] The TTP 第22回：パッチウィンドウの崩壊",
-      "summary_ja": "The Talos Threat Perspectiveの第22回では、脆弱性の悪用が加速し、アタッカーの速度、AI、公開されたシステムがパッチウィンドウに与える影響について話し合います。"
+      "title_ja": "[動画] The TTP エピソード22: パッチウィンドウの崩壊",
+      "summary_ja": "このエピソードでは、脆弱性の悪用がどのように加速するのか、そして攻撃者のスピード、AI、公開システムがパッチウィンドウにどのように影響するのかについて話します。パッチウィンドウの崩壊は、脅威アクターの攻撃手法に大きな影響を与えています。"
     },
     {
       "title": "The threat hunter’s gambit",
@@ -500,7 +520,7 @@
       "source": "Talos Intelligence",
       "category": "research",
       "title_ja": "脅威ハンターの戦略",
-      "summary_ja": "ビルさんは、戦略ゲームに執念を注ぐことで、脅威アクターを出し抜く秘密の武器になることを説明しています。"
+      "summary_ja": "ビルは、戦略ゲームに凝っていると、なぜそれが脅威アクターを出し抜く秘密兵器になるのかについて話します。戦略ゲームの戦略が、実際のサイバーセキュリティの戦略に応用できるのかについて考えてみます。"
     },
     {
       "title": "From the field to the report and back again: How incident responders can use the Year in Review",
@@ -509,28 +529,8 @@
       "published": "2026-04-09 19:00 JST",
       "source": "Talos Intelligence",
       "category": "research",
-      "title_ja": "現場から報告書へ、そして再び現場へ：インシデントレスポンダーがYear in Reviewをどのように利用できるか",
-      "summary_ja": "Year in Reviewは、Talos IRの観察結果を構造化されたインテリジェンスにまとめたものですが、防御者もこの報告書を自分の準備サイクルにフィードバックすべきです。この方法について説明します。"
-    },
-    {
-      "title": "New Lua-based malware “LucidRook” observed in targeted attacks against Taiwanese organizations",
-      "url": "https://blog.talosintelligence.com/new-lua-based-malware-lucidrook/",
-      "summary_en": "Cisco Talos uncovered a cluster of activity we track as UAT-10362 conducting spear-phishing campaigns against Taiwanese non-governmental organizations (NGOs) and suspected universities to deliver a newly identified malware family, “LucidRook.”",
-      "published": "2026-04-08 19:00 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "ルア言語をベースとする新しいマルウェア「LucidRook」が台湾の組織への標的型攻撃で観測された",
-      "summary_ja": "シスコのTalosは、台湾の非政府組織や疑わしい大学に対してスピアフィッシング攻撃を実施し、 mớiに発見されたマルウェアファミリーである「LucidRook」を配布することを目的としたクラスターの活動（UAT-10362）を発見しました。"
-    },
-    {
-      "title": "Talos Takes: 2025's ransomware trends and zombie vulnerabilities",
-      "url": "https://blog.talosintelligence.com/talos-takes-2025s-ransomware-trends-and-zombie-vulnerabilities/",
-      "summary_en": "In this episode of Talos Takes, Amy and Pierre Cadieux unpack the ransomware and vulnerability trends that defined 2025.",
-      "published": "2026-04-07 21:03 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "Talos Takes：2025年のランサムウェアの傾向とゾンビ脆弱性",
-      "summary_ja": "このTalos Takesのエピソードでは、アミーとピエール・カディューは、2025年を定義するランサムウェアと脆弱性の傾向について解説します。"
+      "title_ja": "現場からレポートへ、そして再び現場へ: インシデントレスポンダーが年間レビューをどのように活用できるか",
+      "summary_ja": "年間レビューでは、Talos IRの観察結果を構造化されたインテリジェンスにまとめています。しかし、防御者はこのレポートを自身の準備サイクルにフィードバックする必要もあります。この活用方法について説明します。"
     },
     {
       "title": "Threat landscape for industrial automation systems in Q4 2025",
@@ -539,8 +539,8 @@
       "published": "2026-04-15 21:30 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "2025年第4四半期の産業自動化システムの脅威ランドスケープ",
-      "summary_ja": "この報告書には、2025年第4四半期の産業向け脅威統計が含まれています。さまざまな感染ベクトルやマルウェアの種類、および地域別および業種別の統計データが記載されています。"
+      "title_ja": "産業自動化システムの脅威ランドスケープ（2025年第4四半期）",
+      "summary_ja": "このレポートには、2025年第4四半期の産業向け脅威統計が含まれています。さまざまな感染ベクトルやマルウェアの種類、地域別の統計や業界別の統計などを網羅しています。"
     },
     {
       "title": "JanelaRAT: a financial threat targeting users in Latin America",
@@ -549,8 +549,8 @@
       "published": "2026-04-13 18:00 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "JanelaRAT：ラテンアメリカのユーザーを標的とする金融脅威",
-      "summary_ja": "カスペルスキーのGReATの専門家は、最新のJanelaRATキャンペーンについて説明し、感染チェーンとマルウェアの機能更新について詳細に述べています。"
+      "title_ja": "JanelaRAT: ラテンアメリカ向けのファイナンシャル脅威",
+      "summary_ja": "カスペルスキーGReATの専門家が、最新のJanelaRATキャンペーンについて、感染チェーンやマルウェアの機能の更新などを詳しく説明しています。ラテンアメリカにおけるファイナンシャル脅威について、事例を通じて解説します。"
     },
     {
       "title": "The long road to your crypto: ClipBanker and its marathon infection chain",
@@ -559,8 +559,8 @@
       "published": "2026-04-09 18:30 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "あなたの暗号資産への長い道: ClipBankerとそのマルウェア感染チェーン",
-      "summary_ja": "脅威アクターがProxifierソフトウェアに偽装したトロイの木馬を配布しており、複数段階の感染チェーンを通じてクリップボードに保存された暗号資産のウォレットアドレスを置き換えるマルウェアであるClipBankerを配布している。ClipBankerはクリップボードに保存された暗号資産のウォレットアドレスを変更するマルウェアである。"
+      "title_ja": "クリップボーダーへの長い道: ClipBankerとそのマルチステージな感染チェーン",
+      "summary_ja": "脅威アクターは、Proxifier ソフトウェアに偽装したトロイの木馬を配布しています。これは、マルチステージの感染チェーンを通じて、クリップボードに登録されたクリプトカレンシー ウォレットのアドレスを置き換えるマルウェアであるClipBankerを配布します。ClipBankerは、クリップボード内のクリプトカレンシー ウォレットのアドレスを乗っ取ります。"
     },
     {
       "title": "Financial cyberthreats in 2025 and the outlook for 2026",
@@ -569,8 +569,8 @@
       "published": "2026-04-08 18:00 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "2025年および2026年の金融サイバーセキュリティ脅威",
-      "summary_ja": "カスペルスキー社の専門家は、2025年の金融脅威状況に関する洞察を共有しており、フィッシング、PCマルウェア、インフォスティーラーに関する地域別の統計や傾向についても述べている。カスペルスキー社の専門家が2025年の金融脅威と2026年の見通しについて発表した。"
+      "title_ja": "2025 年および 2026 年の金融サイバーサイバーセキュリティ脅威",
+      "summary_ja": "カスペルスキーexpertは、このレポートにおいて、2025 年の金融脅威の状況を地域別の統計や、フィッシング、PC マルウェア、およびインフォスティーラーに関するトレンドをまとめています。金融サービスの安全性を守るために、最新の脅威情報が必要です。"
     },
     {
       "title": "A laughing RAT: CrystalX combines spyware, stealer, and prankware features",
@@ -579,8 +579,8 @@
       "published": "2026-04-01 15:00 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "新たなクリスタルXマルウェア: スパイウェア、スティーラー、いたずらソフトの機能を統合",
-      "summary_ja": "カスペルスキー社の研究者が、MaaSとして配布されている新しいクリスタルXリモートアクセストロイアン（RAT）を分析しており、広範なスパイウェア、スティーラー、いたずらソフトの機能を備えていることが判明した。クリスタルXマルウェアはスパイウェアやスティーラー、いたずらソフトの機能を組み合わせたマルウェアである。"
+      "title_ja": "笑顔の RAT: CrystalX はスパイウェア、スティーラー、プランクウェアの機能を組み合わせたもの",
+      "summary_ja": "カスペルスキーexpertは、新しいCrystalX RATを分析し、MaaS として配布されているこの マルウェアは、スパイウェア、スティーラー、プランクウェアの幅広い機能を備えています。マルウェアの分析結果から、ユーザーに与える影響と対策がわかります。"
     },
     {
       "title": "An AI gateway designed to steal your data",
@@ -589,8 +589,8 @@
       "published": "2026-03-26 20:01 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "あなたのデータを盗むように設計されたAIゲートウェイ",
-      "summary_ja": "多数のAIエージェントで使用されるマルチ機能ゲートウェイであるLiteLLMに対するサプライチェーン攻撃について解析し、悪意のあるコードの危険性と対策について説明している。LiteLLMは多くのAIエージェントで使用されているゲートウェイであるが、データを盗むためのマルウェアであった。"
+      "title_ja": "あなたのデータを盗むための AI ゲートウェイ",
+      "summary_ja": "多機能の AI エージェントで使用されている LiteLLM へのサプライ チェーン アタックを解剖します。悪意のあるコードの危険性と、自分を守る方法について説明します。AI の安全性は、ユーザーの重要なデータを守るために重要です。"
     },
     {
       "title": "Coruna: the framework used in Operation Triangulation",
@@ -599,8 +599,8 @@
       "published": "2026-03-26 17:00 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "Operation Triangulationでの利用: Corunaフレームワーク",
-      "summary_ja": "カスペルスキーGReATの専門家が、iPhoneを対象とするCorunaエクスプロイトキットを調査し、CVE-2023-32434およびCVE-2023-38606のカーネルエクスプロイトは、Operation Triangulationエクスプロイトの更新版であることが判明した。CorunaフレームワークはOperation Triangulationでの利用に供されていた。"
+      "title_ja": "Operation Triangulation で使用されているフレームワーク: Coruna",
+      "summary_ja": "カスペルスキーの GReAT expertは、iPhone をターゲットにする Coruna エクスプロイト キットを調査しました。CVE-2023-32434 および CVE-2023-38606 用のカーネル エクスプロイトは、Operation Triangulation エクスプロイトの更新版であることが判明しました。"
     },
     {
       "title": "Anatomy of a Cyber World Global Report 2026",
@@ -609,8 +609,8 @@
       "published": "2026-03-25 20:00 JST",
       "source": "Securelist",
       "category": "research",
-      "title_ja": "サイバー世界の解剖学 グローバルリポート2026",
-      "summary_ja": "カスペルスキーのセキュリティサービス報告書では、サイバー攻撃の傾向や統計がマネージド・デテクション＆レスポンスサービスを通じて明らかになっている。報告書には、2025年に実際のケースを特定して軽減したインシデントレスポンスの結果も含まれている。"
+      "title_ja": "サイバー世界の解剖学 2026年 グローバルレポート",
+      "summary_ja": "カスペルスキー・セキュリティ・サービスによる報告では、サイバー攻撃の傾向と統計が記載されており、Managed Detection and Responseサービスによって明らかになったものである。また、この報告には、2025年に同社によって特定され、緩和された実際の事件に対するインシデント・レスポンスの成果も含まれている。サイバー攻撃の脅威の高まりを示している。"
     },
     {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -619,8 +619,8 @@
       "published": "2026-04-14 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISAは2つの既知の脆弱性をカタログに追加",
-      "summary_ja": "CISAは、2つの新しい脆弱性を既知の脆弱性カタログに追加した。この脆弱性は、 CVE-2009-0238 および CVE-2026-32201 で、悪性サイバー・アクターが頻繁に利用する攻撃ベクトルであり、連邦企業に重大なリスクをもたらす。"
+      "title_ja": "CISA、既知の脆弱性2件をカタログに追加",
+      "summary_ja": "CISAは、2つの新しい脆弱性をKnown Exploited Vulnerabilities（KEV）カタログに追加した。これらの脆弱性は、CVE-2009-0238とCVE-2026-32201であり、それぞれMicrosoft OfficeとMicrosoft SharePoint Serverに関連する。これらは、悪意あるサイバー・アクターにとって頻繁な攻撃ベクトルであり、連邦企業に重大なリスクをもたらす。"
     },
     {
       "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
@@ -629,8 +629,8 @@
       "published": "2026-04-13 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISAは7つの既知の脆弱性をカタログに追加",
-      "summary_ja": "CISAは、7つの新しい脆弱性を既知の脆弱性カタログに追加した。これらの脆弱性には、CVE-2012-1854、CVE-2020-9715、CVE-2023-21529、CVE-2023-36424、CVE-2025-60710 が含まれる。悪性サイバー・アクターが頻繁に利用する攻撃ベクトルであり、連邦企業に重大なリスクをもたらす。"
+      "title_ja": "CISA、既知の脆弱性7件をカタログに追加",
+      "summary_ja": "CISAは、7つの新しい脆弱性をKnown Exploited Vulnerabilities（KEV）カタログに追加した。これらの脆弱性には、CVE-2012-1854、CVE-2020-9715、CVE-2023-21529、CVE-2023-36424、CVE-2025-60710などが含まれており、それぞれMicrosoftとAdobeの製品に関連している。これらは、悪意あるサイバー・アクターにとって重要な攻撃対象となる可能性がある。"
     },
     {
       "title": "Contemporary Controls BASC 20T",
@@ -639,8 +639,8 @@
       "published": "2026-04-09 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Contemporary Controls BASC 20T",
-      "summary_ja": "この脆弱性を活用することで、アタッカーは、PLCに関連する各コンポーネントの機能を列挙し、再構成を行い、名前を変更し、ファイルを削除し、リモート・プロシージャ・コールを行うことができる。Contemporary Controls BASC 20T の以下のバージョンが影響を受ける。BASControl20 3.1 (CVE-2025-13926) は、信頼されていない入力の依存性の脆弱性を抱えている。"
+      "title_ja": "Contemporary Controls BASC 20Tに関する脆弱性",
+      "summary_ja": "Contemporary Controls BASC 20T製品には、脆弱性が発見された。この脆弱性を успеш的に悪用した場合、アタッカーは、プログラマブル・ロジック・コントローラー（PLC）に関連する各コンポーネントの機能を列挙したり、名前を変更したり、削除したり、ファイル転送を実行したり、リモート手順呼び出しを実行したりする可能性がある。影響を受けるのはBASControl20 3.1（CVE-2025-13926）である。"
     },
     {
       "title": "GPL Odorizers GPL750",
@@ -649,8 +649,8 @@
       "published": "2026-04-09 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "GPL Odorizers GPL750",
-      "summary_ja": "この脆弱性を活用することで、権限の低いリモート・アタッカーはレジスタの値を操作し、ガスラインへの臭素化剤の注入量が多すぎるか少なすぎることを引き起こすことができる。GPL Odorizers GPL750 の以下のバージョンが影響を受ける。GPL750 (XL4) >=v1.0、GPL750 (XL4 Prime) >=v4.0、GPL750 (XL7) >=v13.0、GPL750 (XL7 Prime) >=v18.4 は、認証の欠如の脆弱性を抱えている。"
+      "title_ja": "GPL Odorizers GPL750に関する脆弱性",
+      "summary_ja": "GPL Odorizers GPL750製品には、脆弱性が見つかった。この脆弱性を悪用した場合、低特権のリモートアタッカーがレジスタ値を操作し、ガスラインへの臭化剤注入量が過多または不足する可能性がある。影響を受けるのはGPL750（XL4）>=v1.0、GPL750（XL4 Prime）>=v4.0、GPL750（XL7）>=v13.0、GPL750（XL7 Prime）>=v18.4である。"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -659,8 +659,8 @@
       "published": "2026-04-08 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISAがカタログに1つの既知の脆弱性を追加",
-      "summary_ja": "米国サイバーセキュリティ・インフラストラクチャ保障庁（CISA）は、証拠に基づいて、1つの新しい脆弱性を既知の脆弱性カタログ（KEV）に追加しました。CVE-2026-1340はイバンティ・エンドポイント・マネージャー・モバイル（EPMM）のコード・インジェクション・脆弱性です。このタイプの脆弱性は、悪意のあるサイバー・アクターにとって頻繁な攻撃ベクトルであり、連邦企業に重大なリスクをもたらします。"
+      "title_ja": "CISAが使用を知られている脆弱性のカタログに1つの新しい脆弱性を追加",
+      "summary_ja": "CISAは、活発な利用の証拠に基づいて、既知の使用を知られている脆弱性のカタログに新しい脆弱性を1つ追加しました。CVE-2026-1340は、Ivanti Endpoint Manager Mobileのコードインジェクション脆弱性です。このタイプの脆弱性は、悪意のあるサイバー・アクターにとって頻繁に使用される攻撃ベクトルであり、連邦政府のエンタープライズに重大なリスクをもたらします。"
     },
     {
       "title": "Mitsubishi Electric GENESIS64 and ICONICS Suite products",
@@ -669,8 +669,8 @@
       "published": "2026-04-07 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "三菱電機GENESIS64およびICONICS Suite製品",
-      "summary_ja": "これらの脆弱性を悪用すると、ローカル・アタッカーが影響を受ける製品で使用されるSQLサーバーの資格情報を開示し、それらを使用してデータを開示、改ざん、または破壊したり、システムでサービスを拒否（DoS）状態を引き起こしたりする可能性があります。影響を受けるGENESIS64およびICONICS Suite製品のバージョンは以下の通りです。GENESIS64 <=10.97.3（CVE-2025-14815、CVE-2025-14816）、ICONICS Suite <=10.97.3（CVE-2025-14815、CVE-2025-14816）"
+      "title_ja": "Mitsubishi ElectricのGENESIS64とICONICS Suite製品",
+      "summary_ja": "これらの脆弱性を悪用することで、ローカル・アタッカーは、影響を受ける製品で使用されているSQL Serverのクレデンシャルを漏えいさせ、データを漏えいさせ、改ざんしたり破壊したりする可能性があります。また、システムにサービス拒否（DoS）状況を引き起こす可能性もあります。GENESIS64とICONICS Suiteの次のバージョンが影響を受けています。GENESIS64 <=10.97.3（CVE-2025-14815、CVE-2025-14816）、ICONICS Suite <=10.97.3（CVE-2025-14815、CVE-2025-14816）"
     },
     {
       "title": "Iranian-Affiliated Cyber Actors Exploit Programmable Logic Controllers Across US Critical Infrastructure",
@@ -679,8 +679,8 @@
       "published": "2026-04-07 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "イラン系サイバー・アクターが米国の重要インフラストラクチャに対するプログラマブル・ロジック・コントローラーの悪用",
-      "summary_ja": "イラン系の高度な持続的脅威（APT）アクターは、ロックウェル・オートメーション/アレン・ブラッドリー社製のプログラマブル・ロジック・コントローラーを含むインターネット接続の運用技術（OT）デバイスを標的にして悪用活動を行っています。これにより、複数の重要インフラストラクチャのプログラマブル・ロジック・コントローラーが障害に陥りました。"
+      "title_ja": "イラン系サイバー・アクターが米国クリティカル・インフラストラクチャのプログラマブル・ロジック・コントローラーを利用",
+      "summary_ja": "イラン系の高度な継続的脅威（APT）アクターが、Rockwell Automation/Allen-Bradleyが製造したプログラマブル・ロジック・コントローラー（PLC）を対象としたオペレーショナル・テクノロジー（OT）デバイスのインターネット・フェイスを標的にする活動を実施しています。これにより、複数のクリティカル・インフラストラクチャでPLCの混乱が発生しました。"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -689,8 +689,8 @@
       "published": "2026-04-06 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISAがカタログに1つの既知の脆弱性を追加",
-      "summary_ja": "米国サイバーセキュリティ・インフラストラクチャ保障庁（CISA）は、証拠に基づいて、1つの新しい脆弱性を既知の脆弱性カタログ（KEV）に追加しました。CVE-2026-35616はフォーティネット・フォーティクライアント・EMSの不正なアクセス・コントロール・脆弱性です。このタイプの脆弱性は、悪意のあるサイバー・アクターにとって頻繁な攻撃ベクトルであり、連邦企業に重大なリスクをもたらします。"
+      "title_ja": "CISAが使用を知られている脆弱性のカタログに1つの新しい脆弱性を追加",
+      "summary_ja": "CISAは、活発な利用の証拠に基づいて、既知の使用を知られている脆弱性のカタログに新しい脆弱性を1つ追加しました。CVE-2026-35616は、FortinetFortiClientEMSの不適切なアクセス制御脆弱性です。このタイプの脆弱性は、悪意のあるサイバー・アクターにとって頻繁に使用される攻撃ベクトルであり、連邦政府のエンタープライズに重大なリスクをもたらします。"
     }
   ]
 }

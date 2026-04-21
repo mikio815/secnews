@@ -1,7 +1,57 @@
 {
-  "updated": "2026-04-21 20:58 JST",
+  "updated": "2026-04-22 08:35 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
+      "url": "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
+      "summary_en": "Threat actors associated with The Gentlemen ransomware‑as‑a‑service (RaaS) operation have been observed attempting to deploy a known proxy malware called SystemBC.\nAccording to new research published by Check Point, the command-and-control (C2 or C&C) server linked to SystemBC has led to the discovery of a botnet of more than 1,570 victims.\n\"SystemBC establishes SOCKS5 network tunnels within",
+      "published": "2026-04-22 03:18 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
+      "summary_ja": "Threat actors associated with The Gentlemen ransomware‑as‑a‑service (RaaS) operation have been observed attempting to deploy a known proxy malware called SystemBC.\nAccording to new research published by Check Point, the command-and-control (C2 or C&C) server linked to SystemBC has led to the discovery of a botnet of more than 1,570 victims.\n\"SystemBC establishes SOCKS5 network tunnels within"
+    },
+    {
+      "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
+      "url": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
+      "summary_en": "Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamper with data exchanged by them.\nThe vulnerabilities have been collectively codenamed BRIDGE:BREAK by Forescout Research Vedere Labs, which identified nearly 20,000 Serial-to-Ethernet converters exposed",
+      "published": "2026-04-22 00:46 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
+      "summary_ja": "Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamper with data exchanged by them.\nThe vulnerabilities have been collectively codenamed BRIDGE:BREAK by Forescout Research Vedere Labs, which identified nearly 20,000 Serial-to-Ethernet converters exposed"
+    },
+    {
+      "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
+      "url": "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
+      "summary_en": "A third individual who was employed as a ransomware negotiator has pleaded guilty to conducting ransomware attacks against U.S. companies in 2023.\nAngelo Martino, 41, of Land O'Lakes, Florida, teamed up with the operators of the BlackCat ransomware starting in April 2023 to assist the e-crime gang in extracting higher amounts as ransoms.\n\"Working as a negotiator on behalf of five different",
+      "published": "2026-04-21 23:31 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
+      "summary_ja": "A third individual who was employed as a ransomware negotiator has pleaded guilty to conducting ransomware attacks against U.S. companies in 2023.\nAngelo Martino, 41, of Land O'Lakes, Florida, teamed up with the operators of the BlackCat ransomware starting in April 2023 to assist the e-crime gang in extracting higher amounts as ransoms.\n\"Working as a negotiator on behalf of five different"
+    },
+    {
+      "title": "5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time",
+      "url": "https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html",
+      "summary_en": "Security teams often present MTTR as an internal KPI. Leadership sees it differently: every hour a threat dwells inside the environment is an hour of potential data exfiltration, service disruption, regulatory exposure, and brand damage. \nThe root cause of slow MTTR is almost never \"not enough analysts.\" It is almost always the same structural problem: threat intelligence that exists",
+      "published": "2026-04-21 22:00 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time",
+      "summary_ja": "Security teams often present MTTR as an internal KPI. Leadership sees it differently: every hour a threat dwells inside the environment is an hour of potential data exfiltration, service disruption, regulatory exposure, and brand damage. \nThe root cause of slow MTTR is almost never \"not enough analysts.\" It is almost always the same structural problem: threat intelligence that exists"
+    },
+    {
+      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+      "url": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
+      "summary_en": "Cybersecurity researchers have discovered a new iteration of an Android malware family called NGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate.\n\"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a",
+      "published": "2026-04-21 21:45 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+      "summary_ja": "Cybersecurity researchers have discovered a new iteration of an Android malware family called NGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate.\n\"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a"
+    },
     {
       "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
       "url": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
@@ -11,16 +61,6 @@
       "category": "general",
       "title_ja": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
       "summary_ja": "The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point for attackers still hasn't changed: stolen credentials.\nIdentity-based attacks remain a dominant initial access vector in breaches today. Attackers obtain valid credentials through credential stuffing"
-    },
-    {
-      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
-      "url": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
-      "summary_en": "Cybersecurity researchers have discovered a new iteration of an Android malware family calledNGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate.\n\"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a report",
-      "published": "2026-04-21 19:40 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
-      "summary_ja": "Cybersecurity researchers have discovered a new iteration of an Android malware family calledNGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate.\n\"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a report"
     },
     {
       "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
@@ -43,44 +83,54 @@
       "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing evidence of active exploitation.\nThe list of vulnerabilities is as follows -\n\nCVE-2023-27351 (CVSS score: 8.2) - An improper authentication vulnerability in PaperCut"
     },
     {
-      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
-      "url": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
-      "summary_en": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems.\nThe vulnerability, tracked as CVE-2026-5760, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code.\nSGLang is a high-performance, open-source serving",
-      "published": "2026-04-21 02:14 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
-      "summary_ja": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems.\nThe vulnerability, tracked as CVE-2026-5760, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code.\nSGLang is a high-performance, open-source serving"
+      "title": "French govt agency confirms breach as hacker offers to sell data",
+      "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
+      "summary_en": "France Titres, the government agency in France for issuing and managince administrative documents has disclosed a data breach after a threat actor claimed the attack and stealing citizen data. [...]",
+      "published": "2026-04-22 06:46 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "French govt agency confirms breach as hacker offers to sell data",
+      "summary_ja": "France Titres, the government agency in France for issuing and managince administrative documents has disclosed a data breach after a threat actor claimed the attack and stealing citizen data. [...]"
     },
     {
-      "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
-      "url": "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
-      "summary_en": "Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser extensions act normally while pulling data and running code. Even update channels are used to push payloads. It’s not breaking systems—it’s bending trust.\nThere’s also a shift in how attacks run.",
-      "published": "2026-04-20 22:41 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
-      "summary_ja": "Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser extensions act normally while pulling data and running code. Even update channels are used to push payloads. It’s not breaking systems—it’s bending trust.\nThere’s also a shift in how attacks run."
+      "title": "New Lotus data wiper used against Venezuelan energy, utility firms",
+      "url": "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
+      "summary_en": "A previously undocumented data-wiping malware dubbed Lotus was used last year in targeted attacks against energy and utilities organizations in Venezuela. [...]",
+      "published": "2026-04-22 03:38 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "New Lotus data wiper used against Venezuelan energy, utility firms",
+      "summary_ja": "A previously undocumented data-wiping malware dubbed Lotus was used last year in targeted attacks against energy and utilities organizations in Venezuela. [...]"
     },
     {
-      "title": "Why Most AI Deployments Stall After the Demo",
-      "url": "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
-      "summary_en": "The fastest way to fall in love with an AI tool is to watch the demo.\nEverything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning of a new era for your team.\nBut most AI initiatives don't fail because of bad technology. They stall because what worked in the demo doesn't survive contact with real operations. The gap between a",
-      "published": "2026-04-20 20:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Why Most AI Deployments Stall After the Demo",
-      "summary_ja": "The fastest way to fall in love with an AI tool is to watch the demo.\nEverything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning of a new era for your team.\nBut most AI initiatives don't fail because of bad technology. They stall because what worked in the demo doesn't survive contact with real operations. The gap between a"
+      "title": "Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction",
+      "url": "https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/",
+      "summary_en": "Fraud prevention and user experience don't have to be a tradeoff. IPQS shows how combining identity, device, and network signals stops fraud without adding friction. [...]",
+      "published": "2026-04-21 23:02 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction",
+      "summary_ja": "Fraud prevention and user experience don't have to be a tradeoff. IPQS shows how combining identity, device, and network signals stops fraud without adding friction. [...]"
     },
     {
-      "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
-      "url": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
-      "summary_en": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI) supply chain.\n\"This flaw enables Arbitrary Command Execution (RCE) on any system running a vulnerable MCP implementation, granting attackers direct access to",
-      "published": "2026-04-20 19:42 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
-      "summary_ja": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI) supply chain.\n\"This flaw enables Arbitrary Command Execution (RCE) on any system running a vulnerable MCP implementation, granting attackers direct access to"
+      "title": "UK probes Telegram, teen chat sites over CSAM sharing concerns",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/",
+      "summary_en": "Ofcom, the United Kingdom's independent communications regulator, has launched an investigation into Telegram based on evidence suggesting it's being used to share child sexual abuse material (CSAM). [...]",
+      "published": "2026-04-21 22:49 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "UK probes Telegram, teen chat sites over CSAM sharing concerns",
+      "summary_ja": "Ofcom, the United Kingdom's independent communications regulator, has launched an investigation into Telegram based on evidence suggesting it's being used to share child sexual abuse material (CSAM). [...]"
+    },
+    {
+      "title": "CISA flags new SD-WAN flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
+      "summary_en": "​CISA has given U.S. government agencies four days to secure their systems against another Catalyst SD-WAN Manager vulnerability it flagged as actively exploited in attacks. [...]",
+      "published": "2026-04-21 21:30 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "CISA flags new SD-WAN flaw as actively exploited in attacks",
+      "summary_ja": "​CISA has given U.S. government agencies four days to secure their systems against another Catalyst SD-WAN Manager vulnerability it flagged as actively exploited in attacks. [...]"
     },
     {
       "title": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
@@ -113,54 +163,44 @@
       "summary_ja": "A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool. [...]"
     },
     {
-      "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
-      "url": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
-      "summary_en": "State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday. [...]",
-      "published": "2026-04-21 07:23 JST",
-      "source": "Bleeping Computer",
+      "title": "UK regulator to probe Telegram, teen chat sites for potential child safety violations",
+      "url": "https://therecord.media/uk-regulator-to-probe-telegram-over-csam-allegations",
+      "summary_en": "The Telegram probe was launched after the Canadian Centre for Child Protection shared information that allegedly showed CSAM is present and shared on the platform, according to a press release from Ofcom.",
+      "published": "2026-04-22 01:46 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
-      "summary_ja": "State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday. [...]"
+      "title_ja": "UK regulator to probe Telegram, teen chat sites for potential child safety violations",
+      "summary_ja": "The Telegram probe was launched after the Canadian Centre for Child Protection shared information that allegedly showed CSAM is present and shared on the platform, according to a press release from Ofcom."
     },
     {
-      "title": "China's Apple App Store infiltrated by crypto-stealing wallet apps",
-      "url": "https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/",
-      "summary_en": "A set of 26 malicious apps on Apple App Store impersonate popular wallets, such as Metamask, Coinbase, Trust Wallet, and OneKey, to steal recovery or seed phrases and drain them of cryptocurrency assets. [...]",
-      "published": "2026-04-21 06:52 JST",
-      "source": "Bleeping Computer",
+      "title": "EU targets two Russian propaganda networks with new sanctions",
+      "url": "https://therecord.media/eu-targets-russian-propaganda-networks-sanctions",
+      "summary_en": "The measures target Euromore, a media outlet that EU officials say amplifies Kremlin narratives, and the Foundation for the Support and Protection of the Rights of Compatriots Living Abroad (Pravfond), a Moscow-funded group accused of promoting propaganda aligned with Russia’s foreign policy.",
+      "published": "2026-04-21 22:48 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "China's Apple App Store infiltrated by crypto-stealing wallet apps",
-      "summary_ja": "A set of 26 malicious apps on Apple App Store impersonate popular wallets, such as Metamask, Coinbase, Trust Wallet, and OneKey, to steal recovery or seed phrases and drain them of cryptocurrency assets. [...]"
+      "title_ja": "EU targets two Russian propaganda networks with new sanctions",
+      "summary_ja": "The measures target Euromore, a media outlet that EU officials say amplifies Kremlin narratives, and the Foundation for the Support and Protection of the Rights of Compatriots Living Abroad (Pravfond), a Moscow-funded group accused of promoting propaganda aligned with Russia’s foreign policy."
     },
     {
-      "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
-      "summary_en": "A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be corporate victims, has been discovered following an investigation into a Gentlemen ransomware attack carried out by a gang affiliate. [...]",
-      "published": "2026-04-21 05:02 JST",
-      "source": "Bleeping Computer",
+      "title": "Cloud platform Vercel says company breached through third-party AI tool",
+      "url": "https://therecord.media/cloud-platform-vercel-says-company-breached-through-ai-tool",
+      "summary_en": "Vercel released a statement acknowledging a breach and warning a “limited subset of customers” that their Vercel credentials were compromised.",
+      "published": "2026-04-21 22:10 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
-      "summary_ja": "A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be corporate victims, has been discovered following an investigation into a Gentlemen ransomware attack carried out by a gang affiliate. [...]"
+      "title_ja": "Cloud platform Vercel says company breached through third-party AI tool",
+      "summary_ja": "Vercel released a statement acknowledging a breach and warning a “limited subset of customers” that their Vercel credentials were compromised."
     },
     {
-      "title": "Seiko USA website defaced as hacker claims customer data theft",
-      "url": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
-      "summary_en": "The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]",
-      "published": "2026-04-21 03:22 JST",
-      "source": "Bleeping Computer",
+      "title": "Ukraine busts ‘bot farm’ supplying thousands of fake Telegram accounts to Russian spies",
+      "url": "https://therecord.media/ukraine-sbu-busts-bot-farm-supplying-russian-spies",
+      "summary_en": "Ukrainian authorities have dismantled a so-called “bot farm” that police say was supplying thousands of fake social media accounts to Russian intelligence services for use in disinformation campaigns against Ukraine.",
+      "published": "2026-04-21 08:00 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Seiko USA website defaced as hacker claims customer data theft",
-      "summary_ja": "The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]"
-    },
-    {
-      "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
-      "summary_en": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]",
-      "published": "2026-04-21 00:11 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
-      "summary_ja": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]"
+      "title_ja": "Ukraine busts ‘bot farm’ supplying thousands of fake Telegram accounts to Russian spies",
+      "summary_ja": "Ukrainian authorities have dismantled a so-called “bot farm” that police say was supplying thousands of fake social media accounts to Russian intelligence services for use in disinformation campaigns against Ukraine."
     },
     {
       "title": "Italian regulator fines national postal service orgs $15 million for data privacy violations",
@@ -173,44 +213,14 @@
       "summary_ja": "The regulator fined Poste Italiane SpA, the postal service provider, €6.6 million ($7.8 million) and Postepay SpA, a digital payments subsidiary, €5.9 million ($7 million) for allegedly illegally processing millions of users’ personal data."
     },
     {
-      "title": "Crypto infrastructure company blames $290 million theft on North Korean hackers",
-      "url": "https://therecord.media/crypto-north-korea-theft-kelp",
-      "summary_en": "A theft of nearly $300 million worth of cryptocurrency has been attributed to hackers from North Korea, as the industry grapples with the fallout of a wide-ranging incident involving multiple prominent platforms.",
-      "published": "2026-04-21 01:45 JST",
-      "source": "The Record",
+      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
+      "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
+      "summary_en": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors.",
+      "published": "2026-04-21 23:53 JST",
+      "source": "Krebs on Security",
       "category": "incident",
-      "title_ja": "Crypto infrastructure company blames $290 million theft on North Korean hackers",
-      "summary_ja": "A theft of nearly $300 million worth of cryptocurrency has been attributed to hackers from North Korea, as the industry grapples with the fallout of a wide-ranging incident involving multiple prominent platforms."
-    },
-    {
-      "title": "Elon Musk fails to appear for questioning by French police over sexualized AI images on X",
-      "url": "https://therecord.media/elon-musk-avoids-questioning-french-police-x-images-scandal",
-      "summary_en": "Musk, the billionaire owner of X, and the company's chief executive Linda Yaccarino had both been summoned for voluntary interviews with police on April 20 in Paris.",
-      "published": "2026-04-20 23:56 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Elon Musk fails to appear for questioning by French police over sexualized AI images on X",
-      "summary_ja": "Musk, the billionaire owner of X, and the company's chief executive Linda Yaccarino had both been summoned for voluntary interviews with police on April 20 in Paris."
-    },
-    {
-      "title": "Cyberattack at French identity document agency may have exposed personal data",
-      "url": "https://therecord.media/france-cyberattack-agency-passports",
-      "summary_en": "A cyberattack targeting a French government website used to manage identity documents and driver’s licenses may have exposed users’ personal data, the Interior Ministry said.",
-      "published": "2026-04-20 23:15 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Cyberattack at French identity document agency may have exposed personal data",
-      "summary_ja": "A cyberattack targeting a French government website used to manage identity documents and driver’s licenses may have exposed users’ personal data, the Interior Ministry said."
-    },
-    {
-      "title": "Bluesky blames app outage on ‘sophisticated’ DDoS attack",
-      "url": "https://therecord.media/bluesky-blames-app-outage-on-ddos",
-      "summary_en": "The decentralized social network said the incident began on April 15, when the company received reports of intermittent outages affecting the app.",
-      "published": "2026-04-20 22:57 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Bluesky blames app outage on ‘sophisticated’ DDoS attack",
-      "summary_ja": "The decentralized social network said the incident began on April 15, when the company received reports of intermittent outages affecting the app."
+      "title_ja": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
+      "summary_ja": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks in the summer of 2022 that allowed the group to hack into at least a dozen major technology companies and steal tens of millions of dollars worth of cryptocurrency from investors."
     },
     {
       "title": "Patch Tuesday, April 2026 Edition",
@@ -281,16 +291,6 @@
       "category": "incident",
       "title_ja": "Microsoft Patch Tuesday, March 2026 Edition",
       "summary_ja": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday."
-    },
-    {
-      "title": "How AI Assistants are Moving the Security Goalposts",
-      "url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
-      "summary_en": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and n",
-      "published": "2026-03-09 08:35 JST",
-      "source": "Krebs on Security",
-      "category": "incident",
-      "title_ja": "How AI Assistants are Moving the Security Goalposts",
-      "summary_ja": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and n"
     },
     {
       "title": "A .WAV With A Payload, (Tue, Apr 21st)",
@@ -453,6 +453,26 @@
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
     },
     {
+      "title": "[Podcast] It's not you, it's your printer: State-sponsored and phishing threats in 2025",
+      "url": "https://blog.talosintelligence.com/podcast-its-not-you-its-your-printer-state-sponsored-and-phishing-threats-in-2025/",
+      "summary_en": "In this episode of Talos Takes, Amy and Martin Lee unpack state-sponsored and phishing trends from the 2025 Talos Year in Review.",
+      "published": "2026-04-21 21:29 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "[Podcast] It's not you, it's your printer: State-sponsored and phishing threats in 2025",
+      "summary_ja": "In this episode of Talos Takes, Amy and Martin Lee unpack state-sponsored and phishing trends from the 2025 Talos Year in Review."
+    },
+    {
+      "title": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
+      "url": "https://blog.talosintelligence.com/phishing-and-mfa-exploitation-targeting-the-keys-to-the-kingdom/",
+      "summary_en": "In 2025, attackers increasingly targeted weaknesses in multi-factor authentication (MFA) workflows, and phishing attacks leveraged valid, compromised credentials to launch lures from trusted accounts. The trends focused entirely on trust, or the lack thereof, in everyday business operations.",
+      "published": "2026-04-21 21:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
+      "summary_ja": "In 2025, attackers increasingly targeted weaknesses in multi-factor authentication (MFA) workflows, and phishing attacks leveraged valid, compromised credentials to launch lures from trusted accounts. The trends focused entirely on trust, or the lack thereof, in everyday business operations."
+    },
+    {
       "title": "Bad Apples: Weaponizing native macOS primitives for movement and execution",
       "url": "https://blog.talosintelligence.com/bad-apples-weaponizing-native-macos-primitives-for-movement-and-execution/",
       "summary_en": "Cisco Talos documents several macOS living-off-the-land (LOTL) techniques, demonstrating that native pathways for movement and execution remain accessible to those who understand the underlying architecture.",
@@ -511,26 +531,6 @@
       "category": "research",
       "title_ja": "The n8n n8mare: How threat actors are misusing AI workflow automation",
       "summary_ja": "Cisco Talos research has uncovered agentic AI workflow automation platform abuse in emails. Recently, we identified an increase in the number of emails that abuse n8n, one of these platforms, from as early as October 2025 through March 2026."
-    },
-    {
-      "title": "Microsoft Patch Tuesday for April 2026 - Snort Rule and Prominent Vulnerabilities",
-      "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-april-2026/",
-      "summary_en": "Overview of patch tuesday release from Microsoft for April 2026.",
-      "published": "2026-04-15 05:27 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "Microsoft Patch Tuesday for April 2026 - Snort Rule and Prominent Vulnerabilities",
-      "summary_ja": "Overview of patch tuesday release from Microsoft for April 2026."
-    },
-    {
-      "title": "State-sponsored threats: Different objectives, similar access paths",
-      "url": "https://blog.talosintelligence.com/state-sponsored-threats-different-objectives-similar-access-paths/",
-      "summary_en": "A look at 2025 state-sponsored threats, exploring how actors linked to China, Russia, North Korea, and Iran use vulnerabilities, identity, and trusted access paths to achieve their goals.",
-      "published": "2026-04-14 22:49 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "State-sponsored threats: Different objectives, similar access paths",
-      "summary_ja": "A look at 2025 state-sponsored threats, exploring how actors linked to China, Russia, North Korea, and Iran use vulnerabilities, identity, and trusted access paths to achieve their goals."
     },
     {
       "title": "FakeWallet crypto stealer spreading through iOS apps in the App Store",
@@ -613,84 +613,84 @@
       "summary_ja": "Kaspersky GReAT experts look into the Coruna exploit kit targeting iPhones. We discovered that the kernel exploit for CVE-2023-32434 and CVE-2023-38606 is an updated version of the Operation Triangulation exploit."
     },
     {
-      "title": "​​Supply Chain Compromise Impacts Axios Node Package Manager​",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
-      "summary_en": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm).1 Axios is an HTTP client for JavaScript that developers commonly use in Node.js and browser environments. \n\n\nOn March 31, 2026, two npm packages for versions axios@1.14.1 and axios@0.30.4 of Axios npm injected the malicious dependency plain-crypto-js@4.2.1 that downloads multi-stage payloads from cyber",
-      "published": "2026-04-20 21:00 JST",
+      "title": "Silex Technology SD-330AC and AMC Manager",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without authentication.\nThe following versions of Silex Technology SD-330AC and AMC Manager are affected:\n\nSD-330AC <=1.42 (CVE-2026-32955, CVE-2026-32956, CVE-2026-32957, CVE-2026-32958, CVE-2015-5621, CVE-2026-32959, CVE-2026-32960, CVE-2026-32961, CVE-2026-32962, CVE-2024-24487, CVE-2026-32963, CVE-2026-329",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "​​Supply Chain Compromise Impacts Axios Node Package Manager​",
-      "summary_ja": "The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this alert to provide guidance in response to the software supply chain compromise of the Axios node package manager (npm).1 Axios is an HTTP client for JavaScript that developers commonly use in Node.js and browser environments. \n\n\nOn March 31, 2026, two npm packages for versions axios@1.14.1 and axios@0.30.4 of Axios npm injected the malicious dependency plain-crypto-js@4.2.1 that downloads multi-stage payloads from cyber"
+      "title_ja": "Silex Technology SD-330AC and AMC Manager",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without authentication.\nThe following versions of Silex Technology SD-330AC and AMC Manager are affected:\n\nSD-330AC <=1.42 (CVE-2026-32955, CVE-2026-32956, CVE-2026-32957, CVE-2026-32958, CVE-2015-5621, CVE-2026-32959, CVE-2026-32960, CVE-2026-32961, CVE-2026-32962, CVE-2024-24487, CVE-2026-32963, CVE-2026-329"
     },
     {
-      "title": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/20/cisa-adds-eight-known-exploited-vulnerabilities-catalog",
-      "summary_en": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \n\n\n\nCVE-2023-27351 PaperCut NG/MF Improper Authentication Vulnerability\nCVE-2024-27199 JetBrains TeamCity Relative Path Traversal Vulnerability\nCVE-2025-2749 Kentico Xperience Path Traversal Vulnerability\nCVE-2025-32975 Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability\nCVE-2025-48700 Synacor Zimbra Collaboration Suite (ZCS) Cro",
-      "published": "2026-04-20 21:00 JST",
+      "title": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02",
+      "summary_en": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version for RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) and recommends to update to the latest version.\nThe following versions of Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary are affected:\n\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) vers:intdot/<5.8 (CVE-2026-27668)\n\n\n\n\n",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISA Adds Eight Known Exploited Vulnerabilities to Catalog",
-      "summary_ja": "CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \n\n\n\nCVE-2023-27351 PaperCut NG/MF Improper Authentication Vulnerability\nCVE-2024-27199 JetBrains TeamCity Relative Path Traversal Vulnerability\nCVE-2025-2749 Kentico Xperience Path Traversal Vulnerability\nCVE-2025-32975 Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability\nCVE-2025-48700 Synacor Zimbra Collaboration Suite (ZCS) Cro"
+      "title_ja": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
+      "summary_ja": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version for RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) and recommends to update to the latest version.\nThe following versions of Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary are affected:\n\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) vers:intdot/<5.8 (CVE-2026-27668)\n\n\n\n\n"
     },
     {
-      "title": "AVEVA Pipeline Simulation",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-04",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthenticated attacker to modify simulation parameters, training configuration and training records.\nThe following versions of AVEVA Pipeline Simulation are affected:\n\nPipeline Simulation <=2025_SP1_build_7.1.9497.6351\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.1\nAVEVA\nAVEVA Pipeline Simulation\nMissing Authorization\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas Depl",
-      "published": "2026-04-16 21:00 JST",
+      "title": "Siemens TPM 2.0",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-01",
+      "summary_en": "View CSAF\nSummary\nThe products listed below contain a vulnerability that could allow an attacker to perform an out-of-bound read, potentially leading to information disclosure or denial of service of the TPM. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends countermeasures for products where fixes are not, or not yet available.\nThe following versions of Siemens TPM 2.0 are aff",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "AVEVA Pipeline Simulation",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an unauthenticated attacker to modify simulation parameters, training configuration and training records.\nThe following versions of AVEVA Pipeline Simulation are affected:\n\nPipeline Simulation <=2025_SP1_build_7.1.9497.6351\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.1\nAVEVA\nAVEVA Pipeline Simulation\nMissing Authorization\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas Depl"
+      "title_ja": "Siemens TPM 2.0",
+      "summary_ja": "View CSAF\nSummary\nThe products listed below contain a vulnerability that could allow an attacker to perform an out-of-bound read, potentially leading to information disclosure or denial of service of the TPM. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends countermeasures for products where fixes are not, or not yet available.\nThe following versions of Siemens TPM 2.0 are aff"
     },
     {
-      "title": "Delta Electronics ASDA-Soft",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-01",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code.\nThe following versions of Delta Electronics ASDA-Soft are affected:\n\nASDA-Soft <=V7.2.2.0\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nDelta Electronics\nDelta Electronics ASDA-Soft\nStack-based Buffer Overflow\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas Deployed: Worldwide\nCompany Headquarters Location: Taiwan\n\n\nVulnerabilities\n\nEx",
-      "published": "2026-04-16 21:00 JST",
+      "title": "SenseLive X3050",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to take complete control of the device.\nThe following versions of SenseLive X3050 are affected:\n\nX3050 V1.523 (CVE-2026-40630, CVE-2026-25720, CVE-2026-35503, CVE-2026-39462, CVE-2026-27843, CVE-2026-40431, CVE-2026-40623, CVE-2026-27841, CVE-2026-40620, CVE-2026-35064, CVE-2026-25775)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nSenseLive\nSenseLive X3050\nAuthentication Bypass Using an Alternate P",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Delta Electronics ASDA-Soft",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code.\nThe following versions of Delta Electronics ASDA-Soft are affected:\n\nASDA-Soft <=V7.2.2.0\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nDelta Electronics\nDelta Electronics ASDA-Soft\nStack-based Buffer Overflow\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas Deployed: Worldwide\nCompany Headquarters Location: Taiwan\n\n\nVulnerabilities\n\nEx"
+      "title_ja": "SenseLive X3050",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to take complete control of the device.\nThe following versions of SenseLive X3050 are affected:\n\nX3050 V1.523 (CVE-2026-40630, CVE-2026-25720, CVE-2026-35503, CVE-2026-39462, CVE-2026-27843, CVE-2026-40431, CVE-2026-40623, CVE-2026-27841, CVE-2026-40620, CVE-2026-35064, CVE-2026-25775)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nSenseLive\nSenseLive X3050\nAuthentication Bypass Using an Alternate P"
     },
     {
-      "title": "Horner Automation Cscape and XL4, XL7 PLC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-02",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain unauthorized access to systems and services.\nThe following versions of Horner Automation Cscape and XL4, XL7 PLC are affected:\n\nCscape v10.0\nXL7 PLC v15.60\nXL4 PLC v16.32.0\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.1\nHorner Automation\nHorner Automation Cscape and XL4, XL7 PLC\nWeak Password Requirements\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas De",
-      "published": "2026-04-16 21:00 JST",
+      "title": "Siemens Analytics Toolkit",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04",
+      "summary_en": "View CSAF\nSummary\nMultiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in the middle attacks. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Analytics Toolkit are affected:\n\nSiemens Software Center vers:intdot/<3.5.8.2 (CVE-2025-40745)\nSimcenter 3D vers:intdot/<2506.6000 (CVE-2025-",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Horner Automation Cscape and XL4, XL7 PLC",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain unauthorized access to systems and services.\nThe following versions of Horner Automation Cscape and XL4, XL7 PLC are affected:\n\nCscape v10.0\nXL7 PLC v15.60\nXL4 PLC v16.32.0\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.1\nHorner Automation\nHorner Automation Cscape and XL4, XL7 PLC\nWeak Password Requirements\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas De"
+      "title_ja": "Siemens Analytics Toolkit",
+      "summary_ja": "View CSAF\nSummary\nMultiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in the middle attacks. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Analytics Toolkit are affected:\n\nSiemens Software Center vers:intdot/<3.5.8.2 (CVE-2025-40745)\nSimcenter 3D vers:intdot/<2506.6000 (CVE-2025-"
     },
     {
-      "title": "Anviz Multiple Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-106-03",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to conduct reconnaissance, capture or decrypt sensitive data, alter device configurations, gain unauthorized administrative or root‑level access, execute arbitrary code, compromise credentials or communications, and ultimately obtain full control over affected devices.\nThe following versions of Anviz Multiple Products are affected:\n\nCX2 Lite Firmware vers:all/* (CVE-2026-32648, CVE-2026-40461, CVE-2026-35682",
-      "published": "2026-04-16 21:00 JST",
+      "title": "Siemens SCALANCE",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
+      "summary_en": "View CSAF\nSummary\nSCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends to update to the latest version.\nThe following versions of Siemens SCALANCE are affected:\n\nSCALANCE W721-1 RJ45 (6GK5721-1FC00-0AA0) vers:intdot/<6.6.0 (CVE-2020-24588, CVE-2020-26139, CVE-2020-26140, CVE-2020-26141, CVE-2020-26143, CVE-2020-26144, CVE-2020-26146, CVE-2020-26147, CVE-2021-3712, CVE-20",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Anviz Multiple Products",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow attackers to conduct reconnaissance, capture or decrypt sensitive data, alter device configurations, gain unauthorized administrative or root‑level access, execute arbitrary code, compromise credentials or communications, and ultimately obtain full control over affected devices.\nThe following versions of Anviz Multiple Products are affected:\n\nCX2 Lite Firmware vers:all/* (CVE-2026-32648, CVE-2026-40461, CVE-2026-35682"
+      "title_ja": "Siemens SCALANCE",
+      "summary_ja": "View CSAF\nSummary\nSCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends to update to the latest version.\nThe following versions of Siemens SCALANCE are affected:\n\nSCALANCE W721-1 RJ45 (6GK5721-1FC00-0AA0) vers:intdot/<6.6.0 (CVE-2020-24588, CVE-2020-26139, CVE-2020-26140, CVE-2020-26141, CVE-2020-26143, CVE-2020-26144, CVE-2020-26146, CVE-2020-26147, CVE-2021-3712, CVE-20"
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/16/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-34197 Apache ActiveMQ Improper Input Validation Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of k",
-      "published": "2026-04-16 21:00 JST",
+      "title": "Hardy Barth Salia EV Charge Controller",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution.\nThe following versions of Hardy Barth Salia EV Charge Controller are affected:\n\nSalia Board Firmware <=2.3.81 (CVE-2025-5873, CVE-2025-10371)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nHardy Barth\nHardy Barth Salia EV Charge Controller\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructur",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-34197 Apache ActiveMQ Improper Input Validation Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of k"
+      "title_ja": "Hardy Barth Salia EV Charge Controller",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution.\nThe following versions of Hardy Barth Salia EV Charge Controller are affected:\n\nSalia Board Firmware <=2.3.81 (CVE-2025-5873, CVE-2025-10371)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nHardy Barth\nHardy Barth Salia EV Charge Controller\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructur"
     },
     {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "summary_en": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2009-0238 Microsoft Office Remote Code Execution Vulnerability\nCVE-2026-32201 Microsoft SharePoint Server Improper Input Validation Vulnerability \n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk",
-      "published": "2026-04-14 21:00 JST",
+      "title": "Siemens SINEC NMS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-03",
+      "summary_en": "View CSAF\nSummary\nSiemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow an unauthenticated remote attacker to bypass authentication and gain unauthorized access to the application. Siemens has released a new version for SINEC NMS and recommends to update to the latest version.\nThe following versions of Siemens SINEC NMS are affected:\n\nSINEC NMS\n\n\n\n\n\nCVSS\nVendor\nEquipment\nV",
+      "published": "2026-04-21 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary_ja": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2009-0238 Microsoft Office Remote Code Execution Vulnerability\nCVE-2026-32201 Microsoft SharePoint Server Improper Input Validation Vulnerability \n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk"
+      "title_ja": "Siemens SINEC NMS",
+      "summary_ja": "View CSAF\nSummary\nSiemens SINEC NMS when used with User Management Component (UMC) contains an authentication bypass vulnerability due to insufficient validation of user identity. This could allow an unauthenticated remote attacker to bypass authentication and gain unauthorized access to the application. Siemens has released a new version for SINEC NMS and recommends to update to the latest version.\nThe following versions of Siemens SINEC NMS are affected:\n\nSINEC NMS\n\n\n\n\n\nCVSS\nVendor\nEquipment\nV"
     }
   ]
 }

@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-21 08:43 JST",
+  "updated": "2026-04-21 20:58 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
+      "url": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
+      "summary_en": "The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point for attackers still hasn't changed: stolen credentials.\nIdentity-based attacks remain a dominant initial access vector in breaches today. Attackers obtain valid credentials through credential stuffing",
+      "published": "2026-04-21 20:30 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
+      "summary_ja": "The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point for attackers still hasn't changed: stolen credentials.\nIdentity-based attacks remain a dominant initial access vector in breaches today. Attackers obtain valid credentials through credential stuffing"
+    },
+    {
+      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+      "url": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
+      "summary_en": "Cybersecurity researchers have discovered a new iteration of an Android malware family calledNGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate.\n\"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a report",
+      "published": "2026-04-21 19:40 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+      "summary_ja": "Cybersecurity researchers have discovered a new iteration of an Android malware family calledNGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate.\n\"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a report"
+    },
+    {
+      "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
+      "url": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
+      "summary_en": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution.\nThe flaw, since patched, combines Antigravity's permitted file-creation capabilities with an insufficient input sanitization in Antigravity's native file-searching tool, find_by_name, to bypass the program's Strict",
+      "published": "2026-04-21 19:22 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
+      "summary_ja": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution.\nThe flaw, since patched, combines Antigravity's permitted file-creation capabilities with an insufficient input sanitization in Antigravity's native file-searching tool, find_by_name, to bypass the program's Strict"
+    },
+    {
+      "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
+      "url": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
+      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing evidence of active exploitation.\nThe list of vulnerabilities is as follows -\n\nCVE-2023-27351 (CVSS score: 8.2) - An improper authentication vulnerability in PaperCut",
+      "published": "2026-04-21 15:23 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
+      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing evidence of active exploitation.\nThe list of vulnerabilities is as follows -\n\nCVE-2023-27351 (CVSS score: 8.2) - An improper authentication vulnerability in PaperCut"
+    },
     {
       "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
       "url": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
@@ -43,44 +83,34 @@
       "summary_ja": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI) supply chain.\n\"This flaw enables Arbitrary Command Execution (RCE) on any system running a vulnerable MCP implementation, granting attackers direct access to"
     },
     {
-      "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
-      "url": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
-      "summary_en": "Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems.\nThe malware has been codenamed ZionSiphon by Darktrace, highlighting its ability to set up persistence, tamper with local configuration files, and scan for operational technology (OT)-relevant services on the local subnet.",
-      "published": "2026-04-20 16:34 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
-      "summary_ja": "Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems.\nThe malware has been codenamed ZionSiphon by Darktrace, highlighting its ability to set up persistence, tamper with local configuration files, and scan for operational technology (OT)-relevant services on the local subnet."
+      "title": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
+      "url": "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
+      "summary_en": "Nonprofit security organization Shadowserver found that over 6,400 Apache ActiveMQ servers exposed online are vulnerable to ongoing attacks exploiting a high-severity code injection vulnerability. [...]",
+      "published": "2026-04-21 20:17 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
+      "summary_ja": "Nonprofit security organization Shadowserver found that over 6,400 Apache ActiveMQ servers exposed online are vulnerable to ongoing attacks exploiting a high-severity code injection vulnerability. [...]"
     },
     {
-      "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
-      "url": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
-      "summary_en": "Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems.\nThe incident stemmed from the compromise of Context.ai, a third-party artificial intelligence (AI) tool, that was used by an employee at the company.\n\"The attacker used that access to take over the employee's Vercel Google Workspace account,",
-      "published": "2026-04-20 12:35 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
-      "summary_ja": "Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems.\nThe incident stemmed from the compromise of Context.ai, a third-party artificial intelligence (AI) tool, that was used by an employee at the company.\n\"The attacker used that access to take over the employee's Vercel Google Workspace account,"
+      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
+      "summary_en": "41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023. [...]",
+      "published": "2026-04-21 19:12 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Former ransomware negotiator pleads guilty to BlackCat attacks",
+      "summary_ja": "41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023. [...]"
     },
     {
-      "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
-      "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
-      "summary_en": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching.\nFor every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, and OAuth grants. When projects end or employees leave, most",
-      "published": "2026-04-18 17:07 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
-      "summary_ja": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching.\nFor every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections, and OAuth grants. When projects end or employees leave, most"
-    },
-    {
-      "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
-      "url": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
-      "summary_en": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack.\nThe exchange said it fell victim to what it described as a large-scale cyber attack that bore hallmarks of foreign intelligence agency involvement. This attack led to the theft of over 1",
-      "published": "2026-04-18 16:59 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
-      "summary_ja": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack.\nThe exchange said it fell victim to what it described as a large-scale cyber attack that bore hallmarks of foreign intelligence agency involvement. This attack led to the theft of over 1"
+      "title": "NGate Android malware uses HandyPay NFC app to steal card data",
+      "url": "https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/",
+      "summary_en": "A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool. [...]",
+      "published": "2026-04-21 18:00 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "NGate Android malware uses HandyPay NFC app to steal card data",
+      "summary_ja": "A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool. [...]"
     },
     {
       "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
@@ -131,36 +161,6 @@
       "category": "incident",
       "title_ja": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
       "summary_ja": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]"
-    },
-    {
-      "title": "The backup myth that is putting businesses at risk",
-      "url": "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
-      "summary_en": "Backups protect data, but don't keep your business running during downtime. Datto shows why BCDR is essential to keep operations running during ransomware and outages. [...]",
-      "published": "2026-04-20 23:01 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "The backup myth that is putting businesses at risk",
-      "summary_ja": "Backups protect data, but don't keep your business running during downtime. Datto shows why BCDR is essential to keep operations running during ransomware and outages. [...]"
-    },
-    {
-      "title": "British Scattered Spider hacker pleads guilty to crypto theft charges",
-      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-pleads-guilty-to-crypto-theft-charges/",
-      "summary_en": "A British man, believed to be the leader of the Scattered Spider cybercrime collective, has pleaded guilty in the United States to charges of wire fraud and aggravated identity theft. [...]",
-      "published": "2026-04-20 22:33 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "British Scattered Spider hacker pleads guilty to crypto theft charges",
-      "summary_ja": "A British man, believed to be the leader of the Scattered Spider cybercrime collective, has pleaded guilty in the United States to charges of wire fraud and aggravated identity theft. [...]"
-    },
-    {
-      "title": "Microsoft tests Windows Explorer speed, performance improvements",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-file-explorer-speed-performance-improvements/",
-      "summary_en": "Microsoft is rolling out multiple File Explorer changes to Windows 11 users in the Insider program, including improvements to launch speed and performance. [...]",
-      "published": "2026-04-20 21:04 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Microsoft tests Windows Explorer speed, performance improvements",
-      "summary_ja": "Microsoft is rolling out multiple File Explorer changes to Windows 11 users in the Insider program, including improvements to launch speed and performance. [...]"
     },
     {
       "title": "Italian regulator fines national postal service orgs $15 million for data privacy violations",
@@ -293,6 +293,26 @@
       "summary_ja": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, while blurring the lines between data and code, trusted co-worker and insider threat, ninja hacker and n"
     },
     {
+      "title": "A .WAV With A Payload, (Tue, Apr 21st)",
+      "url": "https://isc.sans.edu/diary/rss/32910",
+      "summary_en": "There have been reports of threat actors using a .wav file as a vector for malware.",
+      "published": "2026-04-21 16:14 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "A .WAV With A Payload, (Tue, Apr 21st)",
+      "summary_ja": "There have been reports of threat actors using a .wav file as a vector for malware."
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, April 21st, 2026 https://isc.sans.edu/podcastdetail/9900, (Tue, Apr 21st)",
+      "url": "https://isc.sans.edu/diary/rss/32916",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-04-21 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Tuesday, April 21st, 2026 https://isc.sans.edu/podcastdetail/9900, (Tue, Apr 21st)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
       "title": "Handling the CVE Flood With EPSS, (Mon, Apr 20th)",
       "url": "https://isc.sans.edu/diary/rss/32914",
       "summary_en": "Every morning, security people around the world face the same ritual: opening their vulnerability feed to find a lot of new CVE entries that appeared overnight. Over the past decade, this flood has become a defining challenge of modern defensive security. Some numbers[1]:",
@@ -351,26 +371,6 @@
       "category": "technical",
       "title_ja": "ISC Stormcast For Thursday, April 16th, 2026 https://isc.sans.edu/podcastdetail/9894, (Thu, Apr 16th)",
       "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, April 15th, 2026 https://isc.sans.edu/podcastdetail/9892, (Wed, Apr 15th)",
-      "url": "https://isc.sans.edu/diary/rss/32900",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-04-15 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Wednesday, April 15th, 2026 https://isc.sans.edu/podcastdetail/9892, (Wed, Apr 15th)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "Scanning for AI Models, (Tue, Apr 14th)",
-      "url": "https://isc.sans.edu/diary/rss/32896",
-      "summary_en": "Starting March 10, 2026, my DShield sensor started getting probe for various AI models such as claude, openclaw, huggingface, etc. Reviewing the data already reported by other DShield sensors to ISC, the DShield database shows reporting of these probes started that day and has been active ever since.",
-      "published": "2026-04-15 09:19 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Scanning for AI Models, (Tue, Apr 14th)",
-      "summary_ja": "Starting March 10, 2026, my DShield sensor started getting probe for various AI models such as claude, openclaw, huggingface, etc. Reviewing the data already reported by other DShield sensors to ISC, the DShield database shows reporting of these probes started that day and has been active ever since."
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -453,6 +453,16 @@
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
     },
     {
+      "title": "Bad Apples: Weaponizing native macOS primitives for movement and execution",
+      "url": "https://blog.talosintelligence.com/bad-apples-weaponizing-native-macos-primitives-for-movement-and-execution/",
+      "summary_en": "Cisco Talos documents several macOS living-off-the-land (LOTL) techniques, demonstrating that native pathways for movement and execution remain accessible to those who understand the underlying architecture.",
+      "published": "2026-04-21 19:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "Bad Apples: Weaponizing native macOS primitives for movement and execution",
+      "summary_ja": "Cisco Talos documents several macOS living-off-the-land (LOTL) techniques, demonstrating that native pathways for movement and execution remain accessible to those who understand the underlying architecture."
+    },
+    {
       "title": "Foxit, LibRaw vulnerabilities",
       "url": "https://blog.talosintelligence.com/foxit-libraw-vulnerabilities/",
       "summary_en": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities.The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy.    For",
@@ -521,16 +531,6 @@
       "category": "research",
       "title_ja": "State-sponsored threats: Different objectives, similar access paths",
       "summary_ja": "A look at 2025 state-sponsored threats, exploring how actors linked to China, Russia, North Korea, and Iran use vulnerabilities, identity, and trusted access paths to achieve their goals."
-    },
-    {
-      "title": "[Video] The TTP Ep. 22: The Collapse of the Patch Window",
-      "url": "https://blog.talosintelligence.com/video-the-ttp-ep-22-the-collapse-of-the-patch-window/",
-      "summary_en": "In this episode of The Talos Threat Perspective, we discuss how vulnerability exploitation is accelerating, and why attacker speed, AI, and exposed systems are affecting the patch window.",
-      "published": "2026-04-11 00:29 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "[Video] The TTP Ep. 22: The Collapse of the Patch Window",
-      "summary_ja": "In this episode of The Talos Threat Perspective, we discuss how vulnerability exploitation is accelerating, and why attacker speed, AI, and exposed systems are affecting the patch window."
     },
     {
       "title": "FakeWallet crypto stealer spreading through iOS apps in the App Store",

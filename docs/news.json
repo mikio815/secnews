@@ -1,7 +1,37 @@
 {
-  "updated": "2026-04-23 08:46 JST",
+  "updated": "2026-04-23 20:58 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
+      "url": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+      "summary_en": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper.\n\"The group wields a wide array of tools mostly written in Go, using injectors and loaders to deploy and execute various backdoors in its arsenal,\" Slovakian cybersecurity company ESET said in a report shared with The Hacker",
+      "published": "2026-04-23 18:04 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
+      "summary_ja": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper.\n\"The group wields a wide array of tools mostly written in Go, using injectors and loaders to deploy and execute various backdoors in its arsenal,\" Slovakian cybersecurity company ESET said in a report shared with The Hacker"
+    },
+    {
+      "title": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
+      "url": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
+      "summary_en": "Vercel on Wednesday revealed that it has identified an additional set of customer accounts that were compromised as part of a security incident that enabled unauthorized access to its internal systems.\nThe company said it made the discovery after expanding its investigation to include an extra set of compromise indicators, alongside a review of requests to the Vercel network and environment",
+      "published": "2026-04-23 17:40 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
+      "summary_ja": "Vercel on Wednesday revealed that it has identified an additional set of customer accounts that were compromised as part of a security incident that enabled unauthorized access to its internal systems.\nThe company said it made the discovery after expanding its investigation to include an extra set of compromise indicators, alongside a review of requests to the Vercel network and environment"
+    },
+    {
+      "title": "Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages",
+      "url": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+      "summary_en": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device.\nThe vulnerability, tracked as CVE-2026-28950 (CVSS score: N/A), has been described as a logging issue that has been addressed with improved data redaction.\n\"Notifications marked for deletion could be unexpectedly retained on the device,\"",
+      "published": "2026-04-23 17:06 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages",
+      "summary_ja": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device.\nThe vulnerability, tracked as CVE-2026-28950 (CVSS score: N/A), has been described as a logging issue that has been addressed with improved data redaction.\n\"Notifications marked for deletion could be unexpectedly retained on the device,\""
+    },
     {
       "title": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
       "url": "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
@@ -53,43 +83,23 @@
       "summary_ja": "On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents.\nThe more worrying part sat inside the private messages. Some of those conversations held plaintext third-party credentials, including OpenAI API keys shared between agents,"
     },
     {
-      "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
-      "url": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
-      "summary_en": "Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges.\nThe vulnerability, tracked as CVE-2026-40372, carries a CVSS score of 9.1 out of 10.0. It's rated Important in severity. An anonymous researcher has been credited with discovering and reporting the flaw.\n\"Improper verification of cryptographic",
-      "published": "2026-04-22 18:29 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
-      "summary_ja": "Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges.\nThe vulnerability, tracked as CVE-2026-40372, carries a CVSS score of 9.1 out of 10.0. It's rated Important in severity. An anonymous researcher has been credited with discovering and reporting the flaw.\n\"Improper verification of cryptographic"
+      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
+      "summary_en": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]",
+      "published": "2026-04-23 20:05 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
+      "summary_ja": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]"
     },
     {
-      "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
-      "url": "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
-      "summary_en": "Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE that's distributed via a theme related to India's banking sector.\n\"The backdoor communicates with a dynamic DNS-based command-and-control server over HTTPS and supports remote shell access, file operations, and session management, indicating a continued espionage-focused capability set rather than",
-      "published": "2026-04-22 16:58 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
-      "summary_ja": "Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE that's distributed via a theme related to India's banking sector.\n\"The backdoor communicates with a dynamic DNS-based command-and-control server over HTTPS and supports remote shell access, file operations, and session management, indicating a continued espionage-focused capability set rather than"
-    },
-    {
-      "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
-      "url": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
-      "summary_en": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution.\nThe vulnerability, tracked as CVE-2026-5752, is rated 9.3 on the CVSS scoring system.\n\"Sandbox escape vulnerability in Terrarium allows arbitrary code execution with root privileges on a host process via JavaScript prototype chain traversal,\" according to",
-      "published": "2026-04-22 16:16 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
-      "summary_ja": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution.\nThe vulnerability, tracked as CVE-2026-5752, is rated 9.3 on the CVSS scoring system.\n\"Sandbox escape vulnerability in Terrarium allows arbitrary code execution with root privileges on a host process via JavaScript prototype chain traversal,\" according to"
-    },
-    {
-      "title": "Apple fixes iOS bug that retained deleted notification data",
+      "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
       "url": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
       "summary_en": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
       "published": "2026-04-23 05:58 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Apple fixes iOS bug that retained deleted notification data",
+      "title_ja": "Apple fixes bug that let the FBI recover deleted Signal messages",
       "summary_ja": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]"
     },
     {
@@ -151,16 +161,6 @@
       "category": "incident",
       "title_ja": "Microsoft Teams to get efficiency mode on PCs with limited resources",
       "summary_ja": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]"
-    },
-    {
-      "title": "Microsoft traces Universal Print issues to Graph API code change",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
-      "summary_en": "Microsoft says that an ongoing Universal Print sharing issue that prevents users from creating some printer shares is due to a Microsoft Graph API code change. [...]",
-      "published": "2026-04-22 19:15 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Microsoft traces Universal Print issues to Graph API code change",
-      "summary_ja": "Microsoft says that an ongoing Universal Print sharing issue that prevents users from creating some printer shares is due to a Microsoft Graph API code change. [...]"
     },
     {
       "title": "North Korean hackers siphon more than $12 million from crypto users in sprawling campaign",
@@ -293,6 +293,26 @@
       "summary_ja": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday."
     },
     {
+      "title": "Apple Patches Exploited Notification Flaw, (Thu, Apr 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/32922",
+      "summary_en": "Apple yesterday released iOS/iPadOS 26.4.2 and iOS/iPadOS 18.7.8. This update fixes a single Notification Services vulnerability, CVE-2026-28950:",
+      "published": "2026-04-23 19:18 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Apple Patches Exploited Notification Flaw, (Thu, Apr 23rd)",
+      "summary_ja": "Apple yesterday released iOS/iPadOS 26.4.2 and iOS/iPadOS 18.7.8. This update fixes a single Notification Services vulnerability, CVE-2026-28950:"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, April 23rd, 2026 https://isc.sans.edu/podcastdetail/9904, (Thu, Apr 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/32920",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-04-23 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Thursday, April 23rd, 2026 https://isc.sans.edu/podcastdetail/9904, (Thu, Apr 23rd)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
       "title": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
       "url": "https://isc.sans.edu/diary/rss/32918",
       "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -351,26 +371,6 @@
       "category": "technical",
       "title_ja": "ISC Stormcast For Monday, April 20th, 2026 https://isc.sans.edu/podcastdetail/9898, (Mon, Apr 20th)",
       "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "ISC Stormcast For Friday, April 17th, 2026 https://isc.sans.edu/podcastdetail/9896, (Fri, Apr 17th)",
-      "url": "https://isc.sans.edu/diary/rss/32906",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-04-17 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Friday, April 17th, 2026 https://isc.sans.edu/podcastdetail/9896, (Fri, Apr 17th)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "Lumma Stealer infection with Sectop RAT (ArechClient2), (Fri, Apr 17th)",
-      "url": "https://isc.sans.edu/diary/rss/32904",
-      "summary_en": "Introduction",
-      "published": "2026-04-17 09:30 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Lumma Stealer infection with Sectop RAT (ArechClient2), (Fri, Apr 17th)",
-      "summary_ja": "Introduction"
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -613,6 +613,16 @@
       "summary_ja": "Kaspersky GReAT experts look into the Coruna exploit kit targeting iPhones. We discovered that the kernel exploit for CVE-2023-32434 and CVE-2023-38606 is an updated version of the Operation Triangulation exploit."
     },
     {
+      "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
+      "summary_en": "Defending against china-nexus covert networks of compromised devices\nexecutive summary\nDefending against China-nexus covert networks of compromised devices \nExplaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it \nSummary\nWith support from the UK Cyber League, this advisory has been jointly released by the National Cyber Security Centre (NCSC-UK) and international partners: \n\nAustralian Signals Dire",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Defending Against China-Nexus Covert Networks of Compromised Devices",
+      "summary_ja": "Defending against china-nexus covert networks of compromised devices\nexecutive summary\nDefending against China-nexus covert networks of compromised devices \nExplaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it \nSummary\nWith support from the UK Cyber League, this advisory has been jointly released by the National Cyber Security Centre (NCSC-UK) and international partners: \n\nAustralian Signals Dire"
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-33825 Microsoft Defender Insufficient Granularity of Access Control Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog a",
@@ -681,16 +691,6 @@
       "category": "cve",
       "title_ja": "Siemens SCALANCE",
       "summary_ja": "View CSAF\nSummary\nSCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends to update to the latest version.\nThe following versions of Siemens SCALANCE are affected:\n\nSCALANCE W721-1 RJ45 (6GK5721-1FC00-0AA0) vers:intdot/<6.6.0 (CVE-2020-24588, CVE-2020-26139, CVE-2020-26140, CVE-2020-26141, CVE-2020-26143, CVE-2020-26144, CVE-2020-26146, CVE-2020-26147, CVE-2021-3712, CVE-20"
-    },
-    {
-      "title": "Hardy Barth Salia EV Charge Controller",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-05",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution.\nThe following versions of Hardy Barth Salia EV Charge Controller are affected:\n\nSalia Board Firmware <=2.3.81 (CVE-2025-5873, CVE-2025-10371)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nHardy Barth\nHardy Barth Salia EV Charge Controller\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructur",
-      "published": "2026-04-21 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Hardy Barth Salia EV Charge Controller",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed; a buffer overflow condition may allow remote code execution.\nThe following versions of Hardy Barth Salia EV Charge Controller are affected:\n\nSalia Board Firmware <=2.3.81 (CVE-2025-5873, CVE-2025-10371)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nHardy Barth\nHardy Barth Salia EV Charge Controller\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructur"
     }
   ]
 }

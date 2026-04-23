@@ -1,7 +1,57 @@
 {
-  "updated": "2026-04-23 20:58 JST",
+  "updated": "2026-04-24 08:45 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
+      "url": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+      "summary_en": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT helpdesk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account",
+      "published": "2026-04-24 03:16 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
+      "summary_ja": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT helpdesk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account"
+    },
+    {
+      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+      "url": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+      "summary_en": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket.\n\"The affected package version appears to be @bitwarden/cli@2026.4.0, and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the application security company said.\n\"The attack appears to have leveraged",
+      "published": "2026-04-23 22:42 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+      "summary_ja": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket.\n\"The affected package version appears to be @bitwarden/cli@2026.4.0, and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the application security company said.\n\"The attack appears to have leveraged"
+    },
+    {
+      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
+      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+      "summary_en": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.\nThe supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work",
+      "published": "2026-04-23 22:17 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
+      "summary_ja": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.\nThe supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work"
+    },
+    {
+      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
+      "url": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
+      "summary_en": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.\nWell, that world is already here.\nThanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window, and it means your",
+      "published": "2026-04-23 21:03 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
+      "summary_ja": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.\nWell, that world is already here.\nThanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window, and it means your"
+    },
+    {
+      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
+      "url": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
+      "summary_en": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can.\nMythos Preview, the model that led to Project Glasswing, found",
+      "published": "2026-04-23 20:30 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
+      "summary_ja": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can.\nMythos Preview, the model that led to Project Glasswing, found"
+    },
     {
       "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
       "url": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
@@ -33,184 +83,134 @@
       "summary_ja": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device.\nThe vulnerability, tracked as CVE-2026-28950 (CVSS score: N/A), has been described as a logging issue that has been addressed with improved data redaction.\n\"Notifications marked for deletion could be unexpectedly retained on the device,\""
     },
     {
-      "title": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
-      "url": "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
-      "summary_en": "Cybersecurity researchers have warned of malicious images pushed to the official \"checkmarx/kics\" Docker Hub repository.\nIn an alert published today, software supply chain security company Socket revealed that unknown threat actors managed to have overwritten existing tags, including v2.1.20 and alpine, while also introducing a new v2.1.21 tag that does not correspond to an official release. The",
-      "published": "2026-04-23 02:55 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
-      "summary_ja": "Cybersecurity researchers have warned of malicious images pushed to the official \"checkmarx/kics\" Docker Hub repository.\nIn an alert published today, software supply chain security company Socket revealed that unknown threat actors managed to have overwritten existing tags, including v2.1.20 and alpine, while also introducing a new v2.1.21 tag that does not correspond to an official release. The"
-    },
-    {
-      "title": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
-      "url": "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
-      "summary_en": "Cybersecurity researchers have flagged a fresh set of packages that have been compromised by bad actors to deliver a self-propagating worm that spreads through stolen developer npm tokens.\nThe supply chain worm has been detected by both Socket and StepSecurity, with the companies tracking the activity under the name CanisterSprawl owing to the use of an ICP canister to exfiltrate the stolen data",
-      "published": "2026-04-23 02:33 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
-      "summary_ja": "Cybersecurity researchers have flagged a fresh set of packages that have been compromised by bad actors to deliver a self-propagating worm that spreads through stolen developer npm tokens.\nThe supply chain worm has been detected by both Socket and StepSecurity, with the companies tracking the activity under the name CanisterSprawl owing to the use of an ICP canister to exfiltrate the stolen data"
-    },
-    {
-      "title": "Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API",
-      "url": "https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html",
-      "summary_en": "The threat actor known as Harvester has been attributed to a new Linux version of its GoGra backdoor deployed as part of attacks likely targeting entities in South Asia.\n\"The malware uses the legitimate Microsoft Graph API and Outlook mailboxes as a covert command-and-control (C2) channel, allowing it to bypass traditional perimeter network defenses,\" the Symantec and Carbon Black Threat Hunter",
-      "published": "2026-04-23 00:28 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API",
-      "summary_ja": "The threat actor known as Harvester has been attributed to a new Linux version of its GoGra backdoor deployed as part of attacks likely targeting entities in South Asia.\n\"The malware uses the legitimate Microsoft Graph API and Outlook mailboxes as a covert command-and-control (C2) channel, allowing it to bypass traditional perimeter network defenses,\" the Symantec and Carbon Black Threat Hunter"
-    },
-    {
-      "title": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack",
-      "url": "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
-      "summary_en": "Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026.\nDubbed Lotus Wiper, the novel file wiper has been used in a destructive campaign targeting the energy and utilities sector in Venezuela, per findings from Kaspersky.\n\"Two batch scripts are responsible for initiating the",
-      "published": "2026-04-22 19:55 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack",
-      "summary_ja": "Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026.\nDubbed Lotus Wiper, the novel file wiper has been used in a destructive campaign targeting the energy and utilities sector in Venezuela, per findings from Kaspersky.\n\"Two batch scripts are responsible for initiating the"
-    },
-    {
-      "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
-      "url": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
-      "summary_en": "On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents.\nThe more worrying part sat inside the private messages. Some of those conversations held plaintext third-party credentials, including OpenAI API keys shared between agents,",
-      "published": "2026-04-22 19:41 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
-      "summary_ja": "On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents.\nThe more worrying part sat inside the private messages. Some of those conversations held plaintext third-party credentials, including OpenAI API keys shared between agents,"
-    },
-    {
-      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
-      "summary_en": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]",
-      "published": "2026-04-23 20:05 JST",
+      "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
+      "summary_en": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]",
+      "published": "2026-04-24 06:33 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
-      "summary_ja": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]"
+      "title_ja": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
+      "summary_ja": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]"
     },
     {
-      "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
-      "url": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
-      "summary_en": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
-      "published": "2026-04-23 05:58 JST",
+      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
+      "summary_en": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]",
+      "published": "2026-04-24 04:21 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Apple fixes bug that let the FBI recover deleted Signal messages",
-      "summary_ja": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]"
+      "title_ja": "Bitwarden CLI npm package compromised to steal developer credentials",
+      "summary_ja": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]"
     },
     {
-      "title": "New Mirai campaign exploits RCE flaw in EoL D-Link routers",
-      "url": "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
-      "summary_en": "A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet. [...]",
-      "published": "2026-04-23 05:04 JST",
+      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+      "url": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
+      "summary_en": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]",
+      "published": "2026-04-24 03:59 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "New Mirai campaign exploits RCE flaw in EoL D-Link routers",
-      "summary_ja": "A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet. [...]"
+      "title_ja": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+      "summary_ja": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]"
     },
     {
-      "title": "Kyber ransomware gang toys with post-quantum encryption on Windows",
-      "url": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
-      "summary_en": "A new Kyber ransomware operation is targeting Windows systems and VMware ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum encryption. [...]",
-      "published": "2026-04-23 03:52 JST",
+      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
+      "url": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
+      "summary_en": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
+      "published": "2026-04-24 01:05 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Kyber ransomware gang toys with post-quantum encryption on Windows",
-      "summary_ja": "A new Kyber ransomware operation is targeting Windows systems and VMware ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum encryption. [...]"
+      "title_ja": "New Checkmarx supply-chain breach affects KICS analysis tool",
+      "summary_ja": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]"
     },
     {
-      "title": "Spain dismantles major $4.7M manga piracy platform, arrests four",
-      "url": "https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/",
-      "summary_en": "The Spanish police have dismantled the largest Spanish-language manga piracy platform, operating since 2014, with millions of monthly users from around the globe. [...]",
-      "published": "2026-04-23 00:06 JST",
+      "title": "Cosmetics giant Rituals discloses data breach affecting customers",
+      "url": "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
+      "summary_en": "Dutch cosmetics giant Rituals disclosed a data breach after attackers stole the personal information of an undisclosed number of customers from its \"My Rituals\" membership database. [...]",
+      "published": "2026-04-23 23:16 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Spain dismantles major $4.7M manga piracy platform, arrests four",
-      "summary_ja": "The Spanish police have dismantled the largest Spanish-language manga piracy platform, operating since 2014, with millions of monthly users from around the globe. [...]"
+      "title_ja": "Cosmetics giant Rituals discloses data breach affecting customers",
+      "summary_ja": "Dutch cosmetics giant Rituals disclosed a data breach after attackers stole the personal information of an undisclosed number of customers from its \"My Rituals\" membership database. [...]"
     },
     {
-      "title": "Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
-      "summary_en": "Fraud operations now operate like call centers, complete with hiring, training, and performance tracking. Flare reveals how cybercriminals manage \"Caller-as-a-Service\" operations like a professional sales team. [...]",
-      "published": "2026-04-22 23:01 JST",
+      "title": "Regular Password Resets Aren’t as Safe as You Think",
+      "url": "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
+      "summary_en": "Password resets are one of the easiest ways for attackers to bypass security controls. Specops Software shows how helpdesk social engineering turns a seemingly legitimate reset request into full account compromise. [...]",
+      "published": "2026-04-23 23:10 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process",
-      "summary_ja": "Fraud operations now operate like call centers, complete with hiring, training, and performance tracking. Flare reveals how cybercriminals manage \"Caller-as-a-Service\" operations like a professional sales team. [...]"
+      "title_ja": "Regular Password Resets Aren’t as Safe as You Think",
+      "summary_ja": "Password resets are one of the easiest ways for attackers to bypass security controls. Specops Software shows how helpdesk social engineering turns a seemingly legitimate reset request into full account compromise. [...]"
     },
     {
-      "title": "New npm supply-chain attack self-spreads to steal auth tokens",
-      "url": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
-      "summary_en": "A new supply chain attack targeting the Node Package Manager (npm) ecosystem is stealing developer credentials and attempting to spread through packages published from compromised accounts. [...]",
-      "published": "2026-04-22 21:57 JST",
+      "title": "Microsoft: Some Teams users can’t join meetings after Edge update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/",
+      "summary_en": "Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]",
+      "published": "2026-04-23 22:18 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "New npm supply-chain attack self-spreads to steal auth tokens",
-      "summary_ja": "A new supply chain attack targeting the Node Package Manager (npm) ecosystem is stealing developer credentials and attempting to spread through packages published from compromised accounts. [...]"
+      "title_ja": "Microsoft: Some Teams users can’t join meetings after Edge update",
+      "summary_ja": "Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]"
     },
     {
-      "title": "Microsoft Teams to get efficiency mode on PCs with limited resources",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
-      "summary_en": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]",
-      "published": "2026-04-22 21:24 JST",
+      "title": "UK warns of Chinese hackers using proxy networks to evade detection",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/",
+      "summary_en": "The United Kingdom's National Cyber Security Centre (NCSC-UK) and international partners warned that China-nexus hackers are increasingly using large-scale proxy networks of hijacked consumer devices to evade detection and disguise their malicious activity. [...]",
+      "published": "2026-04-23 21:28 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Microsoft Teams to get efficiency mode on PCs with limited resources",
-      "summary_ja": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]"
+      "title_ja": "UK warns of Chinese hackers using proxy networks to evade detection",
+      "summary_ja": "The United Kingdom's National Cyber Security Centre (NCSC-UK) and international partners warned that China-nexus hackers are increasingly using large-scale proxy networks of hijacked consumer devices to evade detection and disguise their malicious activity. [...]"
     },
     {
-      "title": "North Korean hackers siphon more than $12 million from crypto users in sprawling campaign",
-      "url": "https://therecord.media/north-korean-hackers-siphon-12-million-from-crypto-users",
-      "summary_en": "Researchers said the group stole up to $12 million in cryptocurrency in the first three months of 2026 through malware attacks on personal devices.",
-      "published": "2026-04-23 05:48 JST",
+      "title": "US sanctions Cambodian senator for millions earned through scam compounds",
+      "url": "https://therecord.media/us-sanctions-cambodian-senator-scam-compounds",
+      "summary_en": "The Treasury Department said Cambodian senator Kok An was being sanctioned alongside 28 others involved in his scam center operation.",
+      "published": "2026-04-24 05:07 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "North Korean hackers siphon more than $12 million from crypto users in sprawling campaign",
-      "summary_ja": "Researchers said the group stole up to $12 million in cryptocurrency in the first three months of 2026 through malware attacks on personal devices."
+      "title_ja": "US sanctions Cambodian senator for millions earned through scam compounds",
+      "summary_ja": "The Treasury Department said Cambodian senator Kok An was being sanctioned alongside 28 others involved in his scam center operation."
     },
     {
-      "title": "Hackers deployed wiper malware in destructive attacks on Venezuela’s energy sector",
-      "url": "https://therecord.media/hackers-venezuela-wiper-malware-oil",
-      "summary_en": "Hackers deployed a previously unknown wiper malware against Venezuela’s energy and utilities sector in an attack that appears to have been designed to destroy systems.",
-      "published": "2026-04-23 04:00 JST",
+      "title": "CISA: US agency breached through Cisco vulnerability, FIRESTARTER backdoor allowed access through March",
+      "url": "https://therecord.media/cisa-us-agency-breached-cisco-vulnerability-backdoor",
+      "summary_en": "CISA said the unnamed department was infected with malware called “FIRESTARTER” that allowed the hackers to return to the Cisco device in March without re-exploiting the original vulnerabilities.",
+      "published": "2026-04-24 04:03 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Hackers deployed wiper malware in destructive attacks on Venezuela’s energy sector",
-      "summary_ja": "Hackers deployed a previously unknown wiper malware against Venezuela’s energy and utilities sector in an attack that appears to have been designed to destroy systems."
+      "title_ja": "CISA: US agency breached through Cisco vulnerability, FIRESTARTER backdoor allowed access through March",
+      "summary_ja": "CISA said the unnamed department was infected with malware called “FIRESTARTER” that allowed the hackers to return to the Cisco device in March without re-exploiting the original vulnerabilities."
     },
     {
-      "title": "French police arrest suspected hacker behind dozens of data breaches",
-      "url": "https://therecord.media/french-hacker-cyberattacks-arrest",
-      "summary_en": "French authorities have arrested a suspected hacker believed to be behind dozens of data breaches targeting public institutions, sports federations and private organizations across the country.",
-      "published": "2026-04-23 00:30 JST",
+      "title": "Surveillance companies exploiting telecom system to spy on targets’ locations, research shows",
+      "url": "https://therecord.media/surveillance-companies-exploiting-telecom-systems-to-track-location",
+      "summary_en": "The campaigns exploited a weakness in telecom infrastructure to allow the unnamed vendors to secretly pose as real cellular providers and pinpoint victims’ locations.",
+      "published": "2026-04-24 03:43 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "French police arrest suspected hacker behind dozens of data breaches",
-      "summary_ja": "French authorities have arrested a suspected hacker believed to be behind dozens of data breaches targeting public institutions, sports federations and private organizations across the country."
+      "title_ja": "Surveillance companies exploiting telecom system to spy on targets’ locations, research shows",
+      "summary_ja": "The campaigns exploited a weakness in telecom infrastructure to allow the unnamed vendors to secretly pose as real cellular providers and pinpoint victims’ locations."
     },
     {
-      "title": "China’s cyber capabilities now equal to the US, warns Dutch intelligence",
-      "url": "https://therecord.media/china-cyber-capabilities-match-us-dutch-intel-says",
-      "summary_en": "Dutch intelligence says the threat from Beijing is now largely going unmet and is so sophisticated its operations are regularly missed by intelligence agencies and cybersecurity defenders.",
-      "published": "2026-04-22 22:33 JST",
+      "title": "China-linked hackers targeted Mongolian government using Slack, Discord for covert communications",
+      "url": "https://therecord.media/china-linked-hackers-target-mongolian-gov-slack-discord",
+      "summary_en": "The group, which researchers at cybersecurity firm ESET named GopherWhisper, has been active since at least November 2023 and was discovered in January 2025 after investigators found a previously unknown backdoor on the network of a Mongolian government institution.",
+      "published": "2026-04-24 01:03 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "China’s cyber capabilities now equal to the US, warns Dutch intelligence",
-      "summary_ja": "Dutch intelligence says the threat from Beijing is now largely going unmet and is so sophisticated its operations are regularly missed by intelligence agencies and cybersecurity defenders."
+      "title_ja": "China-linked hackers targeted Mongolian government using Slack, Discord for covert communications",
+      "summary_ja": "The group, which researchers at cybersecurity firm ESET named GopherWhisper, has been active since at least November 2023 and was discovered in January 2025 after investigators found a previously unknown backdoor on the network of a Mongolian government institution."
     },
     {
-      "title": "UK cyber agency handling four major incidents a week as nation-state attacks surge",
-      "url": "https://therecord.media/UK-cyberattacks-ncsc-china",
-      "summary_en": "Britain's cybersecurity chief warned Tuesday that the country is handling four nationally significant cyber incidents every week, with the majority now traced back to hostile foreign governments rather than criminal hackers.",
-      "published": "2026-04-22 21:45 JST",
+      "title": "Trump’s pick for CISA director withdraws from consideration",
+      "url": "https://therecord.media/trump-pick-to-lead-cisa-withdraws-from-consideration",
+      "summary_en": "Sean Plankey reportedly told colleagues that he needed to focus on assuaging concerns about his Coast Guard work that had led Sen. Rick Scott (R-FL) to block his nomination.",
+      "published": "2026-04-23 22:35 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "UK cyber agency handling four major incidents a week as nation-state attacks surge",
-      "summary_ja": "Britain's cybersecurity chief warned Tuesday that the country is handling four nationally significant cyber incidents every week, with the majority now traced back to hostile foreign governments rather than criminal hackers."
+      "title_ja": "Trump’s pick for CISA director withdraws from consideration",
+      "summary_ja": "Sean Plankey reportedly told colleagues that he needed to focus on assuaging concerns about his Coast Guard work that had led Sen. Rick Scott (R-FL) to block his nomination."
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -453,6 +453,26 @@
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
     },
     {
+      "title": "It pays to be a forever student",
+      "url": "https://blog.talosintelligence.com/it-pays-to-be-a-forever-student/",
+      "summary_en": "In this newsletter, Joe discusses why understanding other disciplines can often flow back into the macro and micro of cybersecurity, especially in a world of AI.",
+      "published": "2026-04-24 03:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "It pays to be a forever student",
+      "summary_ja": "In this newsletter, Joe discusses why understanding other disciplines can often flow back into the macro and micro of cybersecurity, especially in a world of AI."
+    },
+    {
+      "title": "UAT-4356's Targeting of Cisco Firepower Devices",
+      "url": "https://blog.talosintelligence.com/uat-4356-firestarter/",
+      "summary_en": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices.",
+      "published": "2026-04-24 00:10 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "UAT-4356's Targeting of Cisco Firepower Devices",
+      "summary_ja": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices."
+    },
+    {
       "title": "IR Trends Q1 2026: Phishing reemerges as top initial access vector, as attacks targeting public administration persist",
       "url": "https://blog.talosintelligence.com/ir-trends-q1-2026/",
       "summary_en": "Phishing reemerged as the most observed means of gaining initial access, accounting for over a third of the engagements where initial access could be determined. Phishing has not been the top vertical for initial access since Q2 2025.",
@@ -511,26 +531,6 @@
       "category": "research",
       "title_ja": "The Q1 vulnerability pulse",
       "summary_ja": "Thor provides an overview of the Q1 2026 vulnerability statistics, highlighting key trends in legacy CVEs and the evolving impact of AI on the threat landscape."
-    },
-    {
-      "title": "PowMix botnet targets Czech workforce",
-      "url": "https://blog.talosintelligence.com/powmix-botnet-targets-czech-workforce/",
-      "summary_en": "Cisco Talos discovered an ongoing malicious campaign, operating since at least December 2025, affecting a broader workforce in the Czech Republic with a previously undocumented botnet we call “PowMix.”",
-      "published": "2026-04-16 19:00 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "PowMix botnet targets Czech workforce",
-      "summary_ja": "Cisco Talos discovered an ongoing malicious campaign, operating since at least December 2025, affecting a broader workforce in the Czech Republic with a previously undocumented botnet we call “PowMix.”"
-    },
-    {
-      "title": "More than pretty pictures: Wendy Bishop on visual storytelling in tech",
-      "url": "https://blog.talosintelligence.com/more-than-pretty-pictures-wendy-bishop-on-visual-storytelling-in-tech/",
-      "summary_en": "Wendy shares the unique challenges and rewards of bridging the gap between artistic expression and highly technical research.",
-      "published": "2026-04-16 19:00 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "More than pretty pictures: Wendy Bishop on visual storytelling in tech",
-      "summary_ja": "Wendy shares the unique challenges and rewards of bridging the gap between artistic expression and highly technical research."
     },
     {
       "title": "FakeWallet crypto stealer spreading through iOS apps in the App Store",
@@ -613,6 +613,56 @@
       "summary_ja": "Kaspersky GReAT experts look into the Coruna exploit kit targeting iPhones. We discovered that the kernel exploit for CVE-2023-32434 and CVE-2023-38606 is an updated version of the Operation Triangulation exploit."
     },
     {
+      "title": "Carlson Software VASCO-B GNSS Receiver",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation.\nThe following versions of Carlson Software VASCO-B GNSS Receiver are affected:\n\nVASCO-B GNSS Receiver <1.4.0 (CVE-2026-3893)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.4\nCarlson Software\nCarlson Software VASCO-B GNSS Receiver\nMissing Authentication for Critical Function\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Man",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Carlson Software VASCO-B GNSS Receiver",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation.\nThe following versions of Carlson Software VASCO-B GNSS Receiver are affected:\n\nVASCO-B GNSS Receiver <1.4.0 (CVE-2026-3893)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.4\nCarlson Software\nCarlson Software VASCO-B GNSS Receiver\nMissing Authentication for Critical Function\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Man"
+    },
+    {
+      "title": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device.\nThe following versions of Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera are affected:\n\nIP Camera XM530V200_X6-WEQ_8M firmware V5.00.R02.000807D8.10010.346624.S.ONVIF_21.06 (CVE-2025-65856)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nHangzhou Xiongmai Technology Co., Ltd\nHangzhou Xiongmai Technology Co., L",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device.\nThe following versions of Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera are affected:\n\nIP Camera XM530V200_X6-WEQ_8M firmware V5.00.R02.000807D8.10010.346624.S.ONVIF_21.06 (CVE-2025-65856)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nHangzhou Xiongmai Technology Co., Ltd\nHangzhou Xiongmai Technology Co., L"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-39987 Marimo Remote Code Execution Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common V",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-39987 Marimo Remote Code Execution Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common V"
+    },
+    {
+      "title": "FIRESTARTER Backdoor",
+      "url": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
+      "summary_en": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "FIRESTARTER Backdoor",
+      "summary_ja": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa"
+    },
+    {
+      "title": "Yadea T5 Electric Bicycle",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft.\nThe following versions of Yadea T5 Electric Bicycle are affected:\n\nT5 Electric Bicycle vers:all/* (CVE-2025-70994)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nYadea\nYadea T5 Electric Bicycle\nWeak Authentication\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Transportation Systems\nCountries/Areas Deployed: Worldwide\nCompany H",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Yadea T5 Electric Bicycle",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft.\nThe following versions of Yadea T5 Electric Bicycle are affected:\n\nT5 Electric Bicycle vers:all/* (CVE-2025-70994)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nYadea\nYadea T5 Electric Bicycle\nWeak Authentication\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Transportation Systems\nCountries/Areas Deployed: Worldwide\nCompany H"
+    },
+    {
       "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
       "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
       "summary_en": "Defending against china-nexus covert networks of compromised devices\nexecutive summary\nDefending against China-nexus covert networks of compromised devices \nExplaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it \nSummary\nWith support from the UK Cyber League, this advisory has been jointly released by the National Cyber Security Centre (NCSC-UK) and international partners: \n\nAustralian Signals Dire",
@@ -623,74 +673,24 @@
       "summary_ja": "Defending against china-nexus covert networks of compromised devices\nexecutive summary\nDefending against China-nexus covert networks of compromised devices \nExplaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it \nSummary\nWith support from the UK Cyber League, this advisory has been jointly released by the National Cyber Security Centre (NCSC-UK) and international partners: \n\nAustralian Signals Dire"
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/22/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-33825 Microsoft Defender Insufficient Granularity of Access Control Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog a",
-      "published": "2026-04-22 21:00 JST",
+      "title": "Milesight Cameras",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution.\nThe following versions of Milesight Cameras are affected:\n\nMS-Cxx63-PD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx64-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx73-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-202",
+      "published": "2026-04-23 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-33825 Microsoft Defender Insufficient Granularity of Access Control Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog a"
+      "title_ja": "Milesight Cameras",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution.\nThe following versions of Milesight Cameras are affected:\n\nMS-Cxx63-PD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx64-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx73-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-202"
     },
     {
-      "title": "Silex Technology SD-330AC and AMC Manager",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-10",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without authentication.\nThe following versions of Silex Technology SD-330AC and AMC Manager are affected:\n\nSD-330AC <=1.42 (CVE-2026-32955, CVE-2026-32956, CVE-2026-32957, CVE-2026-32958, CVE-2015-5621, CVE-2026-32959, CVE-2026-32960, CVE-2026-32961, CVE-2026-32962, CVE-2024-24487, CVE-2026-32963, CVE-2026-329",
-      "published": "2026-04-21 21:00 JST",
+      "title": "Intrado 911 Emergency Gateway (EGW)",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read, modify, or delete files.\nThe following versions of Intrado 911 Emergency Gateway (EGW) are affected:\n\nEmergency Gateway 7.x (CVE-2026-6074)\nEmergency Gateway 6.x (CVE-2026-6074)\nEmergency Gateway 5.x (CVE-2026-6074)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nIntrado\nIntrado 911 Emergency Gateway (EGW)\nPath Traversal: '.../...//'\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Emergency Se",
+      "published": "2026-04-23 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Silex Technology SD-330AC and AMC Manager",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code, cause a denial-of-service, or configuration information may be altered without authentication.\nThe following versions of Silex Technology SD-330AC and AMC Manager are affected:\n\nSD-330AC <=1.42 (CVE-2026-32955, CVE-2026-32956, CVE-2026-32957, CVE-2026-32958, CVE-2015-5621, CVE-2026-32959, CVE-2026-32960, CVE-2026-32961, CVE-2026-32962, CVE-2024-24487, CVE-2026-32963, CVE-2026-329"
-    },
-    {
-      "title": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-02",
-      "summary_en": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version for RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) and recommends to update to the latest version.\nThe following versions of Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary are affected:\n\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) vers:intdot/<5.8 (CVE-2026-27668)\n\n\n\n\n",
-      "published": "2026-04-21 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary",
-      "summary_ja": "View CSAF\nSummary\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) contains a vulnerability that could allow an attacker to escalate their own privileges. Siemens has released a new version for RUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) and recommends to update to the latest version.\nThe following versions of Siemens RUGGEDCOM CROSSBOW Secure Access Manager Primary are affected:\n\nRUGGEDCOM CROSSBOW Secure Access Manager Primary (SAM-P) vers:intdot/<5.8 (CVE-2026-27668)\n\n\n\n\n"
-    },
-    {
-      "title": "Siemens TPM 2.0",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-01",
-      "summary_en": "View CSAF\nSummary\nThe products listed below contain a vulnerability that could allow an attacker to perform an out-of-bound read, potentially leading to information disclosure or denial of service of the TPM. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends countermeasures for products where fixes are not, or not yet available.\nThe following versions of Siemens TPM 2.0 are aff",
-      "published": "2026-04-21 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Siemens TPM 2.0",
-      "summary_ja": "View CSAF\nSummary\nThe products listed below contain a vulnerability that could allow an attacker to perform an out-of-bound read, potentially leading to information disclosure or denial of service of the TPM. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends countermeasures for products where fixes are not, or not yet available.\nThe following versions of Siemens TPM 2.0 are aff"
-    },
-    {
-      "title": "SenseLive X3050",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-12",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to take complete control of the device.\nThe following versions of SenseLive X3050 are affected:\n\nX3050 V1.523 (CVE-2026-40630, CVE-2026-25720, CVE-2026-35503, CVE-2026-39462, CVE-2026-27843, CVE-2026-40431, CVE-2026-40623, CVE-2026-27841, CVE-2026-40620, CVE-2026-35064, CVE-2026-25775)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nSenseLive\nSenseLive X3050\nAuthentication Bypass Using an Alternate P",
-      "published": "2026-04-21 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "SenseLive X3050",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to take complete control of the device.\nThe following versions of SenseLive X3050 are affected:\n\nX3050 V1.523 (CVE-2026-40630, CVE-2026-25720, CVE-2026-35503, CVE-2026-39462, CVE-2026-27843, CVE-2026-40431, CVE-2026-40623, CVE-2026-27841, CVE-2026-40620, CVE-2026-35064, CVE-2026-25775)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nSenseLive\nSenseLive X3050\nAuthentication Bypass Using an Alternate P"
-    },
-    {
-      "title": "Siemens Analytics Toolkit",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-04",
-      "summary_en": "View CSAF\nSummary\nMultiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in the middle attacks. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Analytics Toolkit are affected:\n\nSiemens Software Center vers:intdot/<3.5.8.2 (CVE-2025-40745)\nSimcenter 3D vers:intdot/<2506.6000 (CVE-2025-",
-      "published": "2026-04-21 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Siemens Analytics Toolkit",
-      "summary_ja": "View CSAF\nSummary\nMultiple Siemens applications are affected by improper certificate validation in Siemens Analytics Toolkit. This could allow an unauthenticated remote attacker to perform man in the middle attacks. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Analytics Toolkit are affected:\n\nSiemens Software Center vers:intdot/<3.5.8.2 (CVE-2025-40745)\nSimcenter 3D vers:intdot/<2506.6000 (CVE-2025-"
-    },
-    {
-      "title": "Siemens SCALANCE",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-111-07",
-      "summary_en": "View CSAF\nSummary\nSCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends to update to the latest version.\nThe following versions of Siemens SCALANCE are affected:\n\nSCALANCE W721-1 RJ45 (6GK5721-1FC00-0AA0) vers:intdot/<6.6.0 (CVE-2020-24588, CVE-2020-26139, CVE-2020-26140, CVE-2020-26141, CVE-2020-26143, CVE-2020-26144, CVE-2020-26146, CVE-2020-26147, CVE-2021-3712, CVE-20",
-      "published": "2026-04-21 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Siemens SCALANCE",
-      "summary_ja": "View CSAF\nSummary\nSCALANCE W-700 IEEE 802.11n family before V6.6.0 are affected by multiple vulnerabilities. Siemens has released a new version for SCALANCE W-700 IEEE 802.11n family and recommends to update to the latest version.\nThe following versions of Siemens SCALANCE are affected:\n\nSCALANCE W721-1 RJ45 (6GK5721-1FC00-0AA0) vers:intdot/<6.6.0 (CVE-2020-24588, CVE-2020-26139, CVE-2020-26140, CVE-2020-26141, CVE-2020-26143, CVE-2020-26144, CVE-2020-26146, CVE-2020-26147, CVE-2021-3712, CVE-20"
+      "title_ja": "Intrado 911 Emergency Gateway (EGW)",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read, modify, or delete files.\nThe following versions of Intrado 911 Emergency Gateway (EGW) are affected:\n\nEmergency Gateway 7.x (CVE-2026-6074)\nEmergency Gateway 6.x (CVE-2026-6074)\nEmergency Gateway 5.x (CVE-2026-6074)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nIntrado\nIntrado 911 Emergency Gateway (EGW)\nPath Traversal: '.../...//'\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Emergency Se"
     }
   ]
 }

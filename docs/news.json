@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-24 20:57 JST",
+  "updated": "2026-04-25 08:40 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
+      "url": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
+      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with malware called FIRESTARTER.\nFIRESTARTER, per CISA and the U.K.'s National Cyber Security Centre (NCSC), is assessed to be a backdoor designed for remote access and",
+      "published": "2026-04-25 02:06 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
+      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with malware called FIRESTARTER.\nFIRESTARTER, per CISA and the U.K.'s National Cyber Security Centre (NCSC), is assessed to be a backdoor designed for remote access and"
+    },
+    {
+      "title": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software",
+      "url": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
+      "summary_en": "The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing campaign to obtain sensitive information from the space agency, as well as from government entities, universities, and private companies, in violation of export control laws.\n\"For years, NASA employees",
+      "published": "2026-04-24 23:13 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software",
+      "summary_ja": "The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing campaign to obtain sensitive information from the space agency, as well as from government entities, universities, and private companies, in violation of export control laws.\n\"For years, NASA employees"
+    },
+    {
+      "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
+      "url": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+      "summary_en": "The AI Agent Authority Gap - From Ungoverned to Delegation\nAs discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too narrowly.\nThe issue is not simply that agents are new actors. It is that agents are delegated actors. They do not emerge with independent authority. They are triggered, invoked, provisioned, or",
+      "published": "2026-04-24 20:49 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
+      "summary_ja": "The AI Agent Authority Gap - From Ungoverned to Delegation\nAs discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too narrowly.\nThe issue is not simply that agents are new actors. It is that agents are delegated actors. They do not emerge with independent authority. They are triggered, invoked, provisioned, or"
+    },
+    {
+      "title": "26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases",
+      "url": "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
+      "summary_en": "Cybersecurity researchers have discovered a set of malicious apps on the Apple App Store that impersonate popular cryptocurrency wallets in an attempt to steal recovery phrases and private keys since at least fall 2025.\n\"Once launched, these apps redirect users to browser pages designed to look similar to the App Store and distribute trojanized versions of legitimate wallets,\" Kaspersky",
+      "published": "2026-04-24 20:48 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases",
+      "summary_ja": "Cybersecurity researchers have discovered a set of malicious apps on the Apple App Store that impersonate popular cryptocurrency wallets in an attempt to steal recovery phrases and private keys since at least fall 2025.\n\"Once launched, these apps redirect users to browser pages designed to look similar to the App Store and distribute trojanized versions of legitimate wallets,\" Kaspersky"
+    },
     {
       "title": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2",
       "url": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
@@ -43,174 +83,134 @@
       "summary_ja": "Bitwarden CLI, the command-line interface for the password manager Bitwarden, has reportedly been compromised as part of a newly discovered and ongoing Checkmarx supply chain campaign, according to findings from JFrog and Socket.\n\"The affected package version appears to be @bitwarden/cli@2026.4.0, and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the"
     },
     {
-      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
-      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
-      "summary_en": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.\nThe supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work",
-      "published": "2026-04-23 22:17 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
-      "summary_ja": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.\nThe supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work"
-    },
-    {
-      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
-      "url": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "summary_en": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.\nWell, that world is already here.\nThanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window, and it means your",
-      "published": "2026-04-23 21:03 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
-      "summary_ja": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.\nWell, that world is already here.\nThanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window, and it means your"
-    },
-    {
-      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
-      "url": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "summary_en": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can.\nMythos Preview, the model that led to Project Glasswing, found",
-      "published": "2026-04-23 20:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
-      "summary_ja": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can.\nMythos Preview, the model that led to Project Glasswing, found"
-    },
-    {
-      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
-      "url": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
-      "summary_en": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper.\n\"The group wields a wide array of tools mostly written in Go, using injectors and loaders to deploy and execute various backdoors in its arsenal,\" Slovakian cybersecurity company ESET said in a report shared with The Hacker",
-      "published": "2026-04-23 18:04 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
-      "summary_ja": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper.\n\"The group wields a wide array of tools mostly written in Go, using injectors and loaders to deploy and execute various backdoors in its arsenal,\" Slovakian cybersecurity company ESET said in a report shared with The Hacker"
-    },
-    {
-      "title": "Microsoft now lets admins uninstall Copilot on enterprise devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-uninstall-copilot-on-enterprise-devices/",
-      "summary_en": "Microsoft says IT administrators can now uninstall the AI-powered Copilot digital assistant from enterprise devices using a new policy setting, which has become broadly available after the April 2026 Patch Tuesday. [...]",
-      "published": "2026-04-24 20:38 JST",
+      "title": "ADT confirms data breach after ShinyHunters leak threat",
+      "url": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
+      "summary_en": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]",
+      "published": "2026-04-25 07:53 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Microsoft now lets admins uninstall Copilot on enterprise devices",
-      "summary_ja": "Microsoft says IT administrators can now uninstall the AI-powered Copilot digital assistant from enterprise devices using a new policy setting, which has become broadly available after the April 2026 Patch Tuesday. [...]"
+      "title_ja": "ADT confirms data breach after ShinyHunters leak threat",
+      "summary_ja": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]"
     },
     {
-      "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
-      "summary_en": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]",
-      "published": "2026-04-24 06:33 JST",
+      "title": "Firestarter malware survives Cisco firewall updates, security patches",
+      "url": "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
+      "summary_en": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or Firepower Threat Defense (FTD) software. [...]",
+      "published": "2026-04-25 05:34 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
-      "summary_ja": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]"
+      "title_ja": "Firestarter malware survives Cisco firewall updates, security patches",
+      "summary_ja": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or Firepower Threat Defense (FTD) software. [...]"
     },
     {
-      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
-      "summary_en": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]",
-      "published": "2026-04-24 04:21 JST",
+      "title": "Windows Update gets new controls to reduce forced restarts",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-update-gets-new-controls-to-reduce-forced-restarts/",
+      "summary_en": "Microsoft is rolling out Windows Update improvements that give users more control over how updates are installed while reducing disruption from frequent or poorly timed restarts. [...]",
+      "published": "2026-04-25 05:08 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Bitwarden CLI npm package compromised to steal developer credentials",
-      "summary_ja": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]"
+      "title_ja": "Windows Update gets new controls to reduce forced restarts",
+      "summary_ja": "Microsoft is rolling out Windows Update improvements that give users more control over how updates are installed while reducing disruption from frequent or poorly timed restarts. [...]"
     },
     {
-      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
-      "url": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
-      "summary_en": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]",
-      "published": "2026-04-24 03:59 JST",
+      "title": "New BlackFile extortion group linked to surge of vishing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/",
+      "summary_en": "A new financially motivated hacking group tracked as BlackFile has been linked to a wave of data theft and extortion attacks against retail and hospitality organizations since February 2026. [...]",
+      "published": "2026-04-25 03:26 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Trigona ransomware attacks use custom exfiltration tool to steal data",
-      "summary_ja": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]"
+      "title_ja": "New BlackFile extortion group linked to surge of vishing attacks",
+      "summary_ja": "A new financially motivated hacking group tracked as BlackFile has been linked to a wave of data theft and extortion attacks against retail and hospitality organizations since February 2026. [...]"
     },
     {
-      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
-      "url": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
-      "summary_en": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
-      "published": "2026-04-24 01:05 JST",
+      "title": "Microsoft to roll out Entra passkeys on Windows in late April",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-roll-out-entra-passkeys-on-windows-in-late-april/",
+      "summary_en": "Microsoft will roll out passkey support for phishing-resistant passwordless authentication to Microsoft Entra‑protected resources from Windows devices starting late April. [...]",
+      "published": "2026-04-25 03:13 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "New Checkmarx supply-chain breach affects KICS analysis tool",
-      "summary_ja": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]"
+      "title_ja": "Microsoft to roll out Entra passkeys on Windows in late April",
+      "summary_ja": "Microsoft will roll out passkey support for phishing-resistant passwordless authentication to Microsoft Entra‑protected resources from Windows devices starting late April. [...]"
     },
     {
-      "title": "Cosmetics giant Rituals discloses data breach affecting customers",
-      "url": "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
-      "summary_en": "Dutch cosmetics giant Rituals disclosed a data breach after attackers stole the personal information of an undisclosed number of customers from its \"My Rituals\" membership database. [...]",
-      "published": "2026-04-23 23:16 JST",
+      "title": "New ‘Pack2TheRoot’ flaw gives hackers root Linux access",
+      "url": "https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/",
+      "summary_en": "A new vulnerability dubbed Pack2TheRoot could be exploited in the PackageKit daemon to allow local Linux users to install or remove system packages and gain root permissions. [...]",
+      "published": "2026-04-25 02:28 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Cosmetics giant Rituals discloses data breach affecting customers",
-      "summary_ja": "Dutch cosmetics giant Rituals disclosed a data breach after attackers stole the personal information of an undisclosed number of customers from its \"My Rituals\" membership database. [...]"
+      "title_ja": "New ‘Pack2TheRoot’ flaw gives hackers root Linux access",
+      "summary_ja": "A new vulnerability dubbed Pack2TheRoot could be exploited in the PackageKit daemon to allow local Linux users to install or remove system packages and gain root permissions. [...]"
     },
     {
-      "title": "Regular Password Resets Aren’t as Safe as You Think",
-      "url": "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
-      "summary_en": "Password resets are one of the easiest ways for attackers to bypass security controls. Specops Software shows how helpdesk social engineering turns a seemingly legitimate reset request into full account compromise. [...]",
-      "published": "2026-04-23 23:10 JST",
+      "title": "DORA and operational resilience: Credential management as a financial risk control",
+      "url": "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/",
+      "summary_en": "Article 9 of DORA makes authentication and access control a legal obligation for EU financial entities. Here is what the regulation requires, and what a breach looks like when those controls are missing. [...]",
+      "published": "2026-04-24 23:10 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Regular Password Resets Aren’t as Safe as You Think",
-      "summary_ja": "Password resets are one of the easiest ways for attackers to bypass security controls. Specops Software shows how helpdesk social engineering turns a seemingly legitimate reset request into full account compromise. [...]"
+      "title_ja": "DORA and operational resilience: Credential management as a financial risk control",
+      "summary_ja": "Article 9 of DORA makes authentication and access control a legal obligation for EU financial entities. Here is what the regulation requires, and what a breach looks like when those controls are missing. [...]"
     },
     {
-      "title": "Microsoft: Some Teams users can’t join meetings after Edge update",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/",
-      "summary_en": "Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]",
-      "published": "2026-04-23 22:18 JST",
+      "title": "Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/",
+      "summary_en": "Over 10,000 Zimbra Collaboration Suite (ZCS) instances exposed online are vulnerable to ongoing attacks exploiting a cross-site scripting (XSS) security flaw. [...]",
+      "published": "2026-04-24 22:35 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Microsoft: Some Teams users can’t join meetings after Edge update",
-      "summary_ja": "Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]"
+      "title_ja": "Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks",
+      "summary_ja": "Over 10,000 Zimbra Collaboration Suite (ZCS) instances exposed online are vulnerable to ongoing attacks exploiting a cross-site scripting (XSS) security flaw. [...]"
     },
     {
-      "title": "US sanctions Cambodian senator for millions earned through scam compounds",
-      "url": "https://therecord.media/us-sanctions-cambodian-senator-scam-compounds",
-      "summary_en": "The Treasury Department said Cambodian senator Kok An was being sanctioned alongside 28 others involved in his scam center operation.",
-      "published": "2026-04-24 05:07 JST",
+      "title": "Iran’s cyber threat may be less ‘shock and awe’ than ‘low and slow,’ officials say",
+      "url": "https://therecord.media/iran-cyber-warfare-haugh",
+      "summary_en": "Officials and experts believe the most likely threat from Iranian hackers is not a digital shock-and-awe campaign, but something quieter: opportunistic intrusions, dressed up to look bigger than they are.",
+      "published": "2026-04-25 04:15 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "US sanctions Cambodian senator for millions earned through scam compounds",
-      "summary_ja": "The Treasury Department said Cambodian senator Kok An was being sanctioned alongside 28 others involved in his scam center operation."
+      "title_ja": "Iran’s cyber threat may be less ‘shock and awe’ than ‘low and slow,’ officials say",
+      "summary_ja": "Officials and experts believe the most likely threat from Iranian hackers is not a digital shock-and-awe campaign, but something quieter: opportunistic intrusions, dressed up to look bigger than they are."
     },
     {
-      "title": "CISA: US agency breached through Cisco vulnerability, FIRESTARTER backdoor allowed access through March",
-      "url": "https://therecord.media/cisa-us-agency-breached-cisco-vulnerability-backdoor",
-      "summary_en": "CISA said the unnamed department was infected with malware called “FIRESTARTER” that allowed the hackers to return to the Cisco device in March without re-exploiting the original vulnerabilities.",
-      "published": "2026-04-24 04:03 JST",
+      "title": "ADT says customer data stolen in cyber intrusion",
+      "url": "https://therecord.media/ADT-data-breach-cyberattack",
+      "summary_en": "The home security company ADT said cybercriminals breached company systems on Monday and stole a “limited set” of customer and prospective customer information.",
+      "published": "2026-04-25 03:45 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "CISA: US agency breached through Cisco vulnerability, FIRESTARTER backdoor allowed access through March",
-      "summary_ja": "CISA said the unnamed department was infected with malware called “FIRESTARTER” that allowed the hackers to return to the Cisco device in March without re-exploiting the original vulnerabilities."
+      "title_ja": "ADT says customer data stolen in cyber intrusion",
+      "summary_ja": "The home security company ADT said cybercriminals breached company systems on Monday and stole a “limited set” of customer and prospective customer information."
     },
     {
-      "title": "Surveillance companies exploiting telecom system to spy on targets’ locations, research shows",
-      "url": "https://therecord.media/surveillance-companies-exploiting-telecom-systems-to-track-location",
-      "summary_en": "The campaigns exploited a weakness in telecom infrastructure to allow the unnamed vendors to secretly pose as real cellular providers and pinpoint victims’ locations.",
-      "published": "2026-04-24 03:43 JST",
+      "title": "Pentagon grapples with securing AI as it moves toward autonomous warfare",
+      "url": "https://therecord.media/pentagon-grapples-with-securing-ai-as-it-moves-towards-autonomous-warfare",
+      "summary_en": "Autonomous weapons are becoming an \"essential\" part of modern war, Chairman of the Joint Chiefs of Staff Gen. Dan Caine told an audience at Vanderbilt University’s Asness Summit on Modern Conflict and Emerging Threats.",
+      "published": "2026-04-25 02:14 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Surveillance companies exploiting telecom system to spy on targets’ locations, research shows",
-      "summary_ja": "The campaigns exploited a weakness in telecom infrastructure to allow the unnamed vendors to secretly pose as real cellular providers and pinpoint victims’ locations."
+      "title_ja": "Pentagon grapples with securing AI as it moves toward autonomous warfare",
+      "summary_ja": "Autonomous weapons are becoming an \"essential\" part of modern war, Chairman of the Joint Chiefs of Staff Gen. Dan Caine told an audience at Vanderbilt University’s Asness Summit on Modern Conflict and Emerging Threats."
     },
     {
-      "title": "China-linked hackers targeted Mongolian government using Slack, Discord for covert communications",
-      "url": "https://therecord.media/china-linked-hackers-target-mongolian-gov-slack-discord",
-      "summary_en": "The group, which researchers at cybersecurity firm ESET named GopherWhisper, has been active since at least November 2023 and was discovered in January 2025 after investigators found a previously unknown backdoor on the network of a Mongolian government institution.",
-      "published": "2026-04-24 01:03 JST",
+      "title": "Norway's prime minister proposes ban on social media access for young teens",
+      "url": "https://therecord.media/norway-prime-minister-proposes-social-media-ban-for-young-teens",
+      "summary_en": "An upcoming proposed bill will include language that holds big tech accountable for using age verification tools to block young users.",
+      "published": "2026-04-24 23:41 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "China-linked hackers targeted Mongolian government using Slack, Discord for covert communications",
-      "summary_ja": "The group, which researchers at cybersecurity firm ESET named GopherWhisper, has been active since at least November 2023 and was discovered in January 2025 after investigators found a previously unknown backdoor on the network of a Mongolian government institution."
+      "title_ja": "Norway's prime minister proposes ban on social media access for young teens",
+      "summary_ja": "An upcoming proposed bill will include language that holds big tech accountable for using age verification tools to block young users."
     },
     {
-      "title": "Trump’s pick for CISA director withdraws from consideration",
-      "url": "https://therecord.media/trump-pick-to-lead-cisa-withdraws-from-consideration",
-      "summary_en": "Sean Plankey reportedly told colleagues that he needed to focus on assuaging concerns about his Coast Guard work that had led Sen. Rick Scott (R-FL) to block his nomination.",
-      "published": "2026-04-23 22:35 JST",
+      "title": "Toronto police arrest three in Canada’s first mobile SMS blaster case",
+      "url": "https://therecord.media/canada-sms-blaster-cybercriminals",
+      "summary_en": "Canadian police arrested three men over the use of a mobile “SMS blaster,” a device capable of impersonating a cellular tower to send mass phishing messages and disrupt mobile networks.",
+      "published": "2026-04-24 22:45 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Trump’s pick for CISA director withdraws from consideration",
-      "summary_ja": "Sean Plankey reportedly told colleagues that he needed to focus on assuaging concerns about his Coast Guard work that had led Sen. Rick Scott (R-FL) to block his nomination."
+      "title_ja": "Toronto police arrest three in Canada’s first mobile SMS blaster case",
+      "summary_ja": "Canadian police arrested three men over the use of a mobile “SMS blaster,” a device capable of impersonating a cellular tower to send mass phishing messages and disrupt mobile networks."
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -613,6 +613,16 @@
       "summary_ja": "Dissecting the supply chain attack on LiteLLM, a multifunctional gateway used in many AI agents. Explaining the dangers of the malicious code and how to protect yourself."
     },
     {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "summary_en": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-7399 Samsung MagicINFO 9 Server Path Traversal Vulnerability\nCVE-2024-57726 SimpleHelp Missing Authorization Vulnerability\nCVE-2024-57728 SimpleHelp Path Traversal Vulnerability\nCVE-2025-29635 D-Link DIR-823X Command Injection Vulnerability \n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risk",
+      "published": "2026-04-24 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "summary_ja": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-7399 Samsung MagicINFO 9 Server Path Traversal Vulnerability\nCVE-2024-57726 SimpleHelp Missing Authorization Vulnerability\nCVE-2024-57728 SimpleHelp Path Traversal Vulnerability\nCVE-2025-29635 D-Link DIR-823X Command Injection Vulnerability \n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risk"
+    },
+    {
       "title": "Carlson Software VASCO-B GNSS Receiver",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
       "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation.\nThe following versions of Carlson Software VASCO-B GNSS Receiver are affected:\n\nVASCO-B GNSS Receiver <1.4.0 (CVE-2026-3893)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.4\nCarlson Software\nCarlson Software VASCO-B GNSS Receiver\nMissing Authentication for Critical Function\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Man",
@@ -681,16 +691,6 @@
       "category": "cve",
       "title_ja": "Milesight Cameras",
       "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution.\nThe following versions of Milesight Cameras are affected:\n\nMS-Cxx63-PD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx64-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx73-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-202"
-    },
-    {
-      "title": "Intrado 911 Emergency Gateway (EGW)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-06",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read, modify, or delete files.\nThe following versions of Intrado 911 Emergency Gateway (EGW) are affected:\n\nEmergency Gateway 7.x (CVE-2026-6074)\nEmergency Gateway 6.x (CVE-2026-6074)\nEmergency Gateway 5.x (CVE-2026-6074)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nIntrado\nIntrado 911 Emergency Gateway (EGW)\nPath Traversal: '.../...//'\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Emergency Se",
-      "published": "2026-04-23 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Intrado 911 Emergency Gateway (EGW)",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to read, modify, or delete files.\nThe following versions of Intrado 911 Emergency Gateway (EGW) are affected:\n\nEmergency Gateway 7.x (CVE-2026-6074)\nEmergency Gateway 6.x (CVE-2026-6074)\nEmergency Gateway 5.x (CVE-2026-6074)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nIntrado\nIntrado 911 Emergency Gateway (EGW)\nPath Traversal: '.../...//'\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Emergency Se"
     }
   ]
 }

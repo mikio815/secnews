@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-25 20:36 JST",
+  "updated": "2026-04-26 08:37 JST",
   "count": 69,
   "articles": [
     {
@@ -83,6 +83,26 @@
       "summary_ja": "A high-severity security flaw in LMDeploy, an open-source toolkit for compressing, deploying, and serving LLMs, has come under active exploitation in the wild less than 13 hours after its public disclosure.\nThe vulnerability, tracked as CVE-2026-33626 (CVSS score: 7.5), relates to a Server-Side Request Forgery (SSRF) vulnerability that could be exploited to access sensitive data.\n\"A server-side"
     },
     {
+      "title": "Microsoft rolls out revamped Windows Insider Program",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
+      "summary_en": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]",
+      "published": "2026-04-26 02:07 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft rolls out revamped Windows Insider Program",
+      "summary_ja": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]"
+    },
+    {
+      "title": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
+      "url": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
+      "summary_en": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]",
+      "published": "2026-04-26 00:07 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
+      "summary_ja": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]"
+    },
+    {
       "title": "ADT confirms data breach after ShinyHunters leak threat",
       "url": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
       "summary_en": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]",
@@ -141,26 +161,6 @@
       "category": "incident",
       "title_ja": "New ‘Pack2TheRoot’ flaw gives hackers root Linux access",
       "summary_ja": "A new vulnerability dubbed Pack2TheRoot could be exploited in the PackageKit daemon to allow local Linux users to install or remove system packages and gain root permissions. [...]"
-    },
-    {
-      "title": "DORA and operational resilience: Credential management as a financial risk control",
-      "url": "https://www.bleepingcomputer.com/news/security/dora-and-operational-resilience-credential-management-as-a-financial-risk-control/",
-      "summary_en": "Article 9 of DORA makes authentication and access control a legal obligation for EU financial entities. Here is what the regulation requires, and what a breach looks like when those controls are missing. [...]",
-      "published": "2026-04-24 23:10 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "DORA and operational resilience: Credential management as a financial risk control",
-      "summary_ja": "Article 9 of DORA makes authentication and access control a legal obligation for EU financial entities. Here is what the regulation requires, and what a breach looks like when those controls are missing. [...]"
-    },
-    {
-      "title": "Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-says-zimbra-flaw-now-exploited-over-10k-servers-vulnerable/",
-      "summary_en": "Over 10,000 Zimbra Collaboration Suite (ZCS) instances exposed online are vulnerable to ongoing attacks exploiting a cross-site scripting (XSS) security flaw. [...]",
-      "published": "2026-04-24 22:35 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Over 10,000 Zimbra servers vulnerable to ongoing XSS attacks",
-      "summary_ja": "Over 10,000 Zimbra Collaboration Suite (ZCS) instances exposed online are vulnerable to ongoing attacks exploiting a cross-site scripting (XSS) security flaw. [...]"
     },
     {
       "title": "Iran’s cyber threat may be less ‘shock and awe’ than ‘low and slow,’ officials say",

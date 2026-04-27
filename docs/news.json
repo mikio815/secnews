@@ -1,7 +1,27 @@
 {
-  "updated": "2026-04-27 21:20 JST",
+  "updated": "2026-04-28 08:54 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
+      "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
+      "summary_en": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web.\n\"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
+      "published": "2026-04-27 23:19 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
+      "summary_ja": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web.\n\"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,"
+    },
+    {
+      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
+      "url": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
+      "summary_en": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are.\nMost of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same",
+      "published": "2026-04-27 22:30 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
+      "summary_ja": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are.\nMost of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same"
+    },
     {
       "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
       "url": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
@@ -63,154 +83,134 @@
       "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe list of vulnerabilities is below -\n\nCVE-2024-57726 (CVSS score: 9.9) - A missing authorization vulnerability in"
     },
     {
-      "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
-      "url": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
-      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with a new malware called FIRESTARTER.\nFIRESTARTER, per CISA and the U.K.'s National Cyber Security Centre (NCSC), is assessed to be a backdoor designed for remote access",
-      "published": "2026-04-25 02:06 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
-      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with a new malware called FIRESTARTER.\nFIRESTARTER, per CISA and the U.K.'s National Cyber Security Centre (NCSC), is assessed to be a backdoor designed for remote access"
-    },
-    {
-      "title": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software",
-      "url": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
-      "summary_en": "The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing campaign to obtain sensitive information from the space agency, as well as from government entities, universities, and private companies, in violation of export control laws.\n\"For years, NASA employees",
-      "published": "2026-04-24 23:13 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software",
-      "summary_ja": "The Office of Inspector General (OIG) of the U.S. National Aeronautics and Space Administration (NASA) has revealed how a Chinese national posed as a U.S. researcher as part of a spear-phishing campaign to obtain sensitive information from the space agency, as well as from government entities, universities, and private companies, in violation of export control laws.\n\"For years, NASA employees"
-    },
-    {
-      "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/",
-      "summary_en": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]",
-      "published": "2026-04-27 21:03 JST",
+      "title": "Robinhood account creation flaw abused to send phishing emails",
+      "url": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+      "summary_en": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]",
+      "published": "2026-04-28 08:11 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Microsoft says Outlook.com outage is causing sign‑in failures",
-      "summary_ja": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]"
+      "title_ja": "Robinhood account creation flaw abused to send phishing emails",
+      "summary_ja": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]"
     },
     {
-      "title": "American utility firm Itron discloses breach of internal IT network",
-      "url": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
-      "summary_en": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [...]",
-      "published": "2026-04-26 23:22 JST",
+      "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
+      "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+      "summary_en": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
+      "published": "2026-04-28 06:41 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "American utility firm Itron discloses breach of internal IT network",
-      "summary_ja": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [...]"
+      "title_ja": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
+      "summary_ja": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]"
     },
     {
-      "title": "Microsoft rolls out revamped Windows Insider Program",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
-      "summary_en": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]",
-      "published": "2026-04-26 02:07 JST",
+      "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
+      "url": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
+      "summary_en": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
+      "published": "2026-04-28 05:00 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Microsoft rolls out revamped Windows Insider Program",
-      "summary_ja": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]"
+      "title_ja": "Canada arrests three for operating “SMS blaster” device in Toronto",
+      "summary_ja": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]"
     },
     {
-      "title": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
-      "url": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
-      "summary_en": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]",
-      "published": "2026-04-26 00:07 JST",
+      "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
+      "summary_en": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]",
+      "published": "2026-04-28 04:56 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
-      "summary_ja": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]"
+      "title_ja": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
+      "summary_ja": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]"
     },
     {
-      "title": "ADT confirms data breach after ShinyHunters leak threat",
-      "url": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
-      "summary_en": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]",
-      "published": "2026-04-25 07:53 JST",
+      "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
+      "url": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
+      "summary_en": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]",
+      "published": "2026-04-28 01:27 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "ADT confirms data breach after ShinyHunters leak threat",
-      "summary_ja": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]"
+      "title_ja": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
+      "summary_ja": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]"
     },
     {
-      "title": "Firestarter malware survives Cisco firewall updates, security patches",
-      "url": "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
-      "summary_en": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or Firepower Threat Defense (FTD) software. [...]",
-      "published": "2026-04-25 05:34 JST",
+      "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
+      "url": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
+      "summary_en": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
+      "published": "2026-04-28 00:17 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Firestarter malware survives Cisco firewall updates, security patches",
-      "summary_ja": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or Firepower Threat Defense (FTD) software. [...]"
+      "title_ja": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
+      "summary_ja": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]"
     },
     {
-      "title": "Windows Update gets new controls to reduce forced restarts",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-update-gets-new-controls-to-reduce-forced-restarts/",
-      "summary_en": "Microsoft is rolling out Windows Update improvements that give users more control over how updates are installed while reducing disruption from frequent or poorly timed restarts. [...]",
-      "published": "2026-04-25 05:08 JST",
+      "title": "Home security giant ADT data breach affects 5.5 million people",
+      "url": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
+      "summary_en": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notification service Have I Been Pwned. [...]",
+      "published": "2026-04-27 23:43 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Windows Update gets new controls to reduce forced restarts",
-      "summary_ja": "Microsoft is rolling out Windows Update improvements that give users more control over how updates are installed while reducing disruption from frequent or poorly timed restarts. [...]"
+      "title_ja": "Home security giant ADT data breach affects 5.5 million people",
+      "summary_ja": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notification service Have I Been Pwned. [...]"
     },
     {
-      "title": "New BlackFile extortion group linked to surge of vishing attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/new-blackfile-extortion-gang-targets-retail-and-hospitality-orgs/",
-      "summary_en": "A new financially motivated hacking group tracked as BlackFile has been linked to a wave of data theft and extortion attacks against retail and hospitality organizations since February 2026. [...]",
-      "published": "2026-04-25 03:26 JST",
+      "title": "Webinar: Spotting cyberattacks before they begin",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/",
+      "summary_en": "On Thursday, April 30 at 2:00 PM ET, BleepingComputer will host a live webinar with threat intelligence company Flare and threat intelligence researcher Tammy Harper, exploring how security teams can identify early warning signs of attacks before they escalate into incidents. [...]",
+      "published": "2026-04-27 23:25 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "New BlackFile extortion group linked to surge of vishing attacks",
-      "summary_ja": "A new financially motivated hacking group tracked as BlackFile has been linked to a wave of data theft and extortion attacks against retail and hospitality organizations since February 2026. [...]"
+      "title_ja": "Webinar: Spotting cyberattacks before they begin",
+      "summary_ja": "On Thursday, April 30 at 2:00 PM ET, BleepingComputer will host a live webinar with threat intelligence company Flare and threat intelligence researcher Tammy Harper, exploring how security teams can identify early warning signs of attacks before they escalate into incidents. [...]"
     },
     {
-      "title": "Iran’s cyber threat may be less ‘shock and awe’ than ‘low and slow,’ officials say",
-      "url": "https://therecord.media/iran-cyber-warfare-haugh",
-      "summary_en": "Officials and experts believe the most likely threat from Iranian hackers is not a digital shock-and-awe campaign, but something quieter: opportunistic intrusions, dressed up to look bigger than they are.",
-      "published": "2026-04-25 04:15 JST",
+      "title": "Supreme Court signals location data searches should require a warrant",
+      "url": "https://therecord.media/supreme-court-signals-location-data-searches-require-warrant",
+      "summary_en": "Privacy advocates had worried that the high court would rule that geofencing does not qualify as a constitutionally protected search, opening the door to much broader use of warrantless reverse searches of all types.",
+      "published": "2026-04-28 05:52 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Iran’s cyber threat may be less ‘shock and awe’ than ‘low and slow,’ officials say",
-      "summary_ja": "Officials and experts believe the most likely threat from Iranian hackers is not a digital shock-and-awe campaign, but something quieter: opportunistic intrusions, dressed up to look bigger than they are."
+      "title_ja": "Supreme Court signals location data searches should require a warrant",
+      "summary_ja": "Privacy advocates had worried that the high court would rule that geofencing does not qualify as a constitutionally protected search, opening the door to much broader use of warrantless reverse searches of all types."
     },
     {
-      "title": "ADT says customer data stolen in cyber intrusion",
-      "url": "https://therecord.media/ADT-data-breach-cyberattack",
-      "summary_en": "The home security company ADT said cybercriminals breached company systems on Monday and stole a “limited set” of customer and prospective customer information.",
-      "published": "2026-04-25 03:45 JST",
+      "title": "Tennessee becomes second state to ban cryptocurrency ATMs over scam concerns",
+      "url": "https://therecord.media/tennessee-bans-cryptocurrency-atms-over-scams",
+      "summary_en": "State officials said they observed overseas criminals carrying out government impersonation or tech support cons, as well as romance and pig butchering scams using cryptocurrency ATMs.",
+      "published": "2026-04-28 05:06 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "ADT says customer data stolen in cyber intrusion",
-      "summary_ja": "The home security company ADT said cybercriminals breached company systems on Monday and stole a “limited set” of customer and prospective customer information."
+      "title_ja": "Tennessee becomes second state to ban cryptocurrency ATMs over scam concerns",
+      "summary_ja": "State officials said they observed overseas criminals carrying out government impersonation or tech support cons, as well as romance and pig butchering scams using cryptocurrency ATMs."
     },
     {
-      "title": "Pentagon grapples with securing AI as it moves toward autonomous warfare",
-      "url": "https://therecord.media/pentagon-grapples-with-securing-ai-as-it-moves-towards-autonomous-warfare",
-      "summary_en": "Autonomous weapons are becoming an \"essential\" part of modern war, Chairman of the Joint Chiefs of Staff Gen. Dan Caine told an audience at Vanderbilt University’s Asness Summit on Modern Conflict and Emerging Threats.",
-      "published": "2026-04-25 02:14 JST",
+      "title": "Money launderer for crypto thieves given 5-year sentence",
+      "url": "https://therecord.media/cryptocurrency-launderer-sentenced-californai",
+      "summary_en": "A California man was sentenced to more than five years in prison for his role in supporting a cybercriminal organization that stole about $260 million worth of cryptocurrency from victims.",
+      "published": "2026-04-28 03:45 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Pentagon grapples with securing AI as it moves toward autonomous warfare",
-      "summary_ja": "Autonomous weapons are becoming an \"essential\" part of modern war, Chairman of the Joint Chiefs of Staff Gen. Dan Caine told an audience at Vanderbilt University’s Asness Summit on Modern Conflict and Emerging Threats."
+      "title_ja": "Money launderer for crypto thieves given 5-year sentence",
+      "summary_ja": "A California man was sentenced to more than five years in prison for his role in supporting a cybercriminal organization that stole about $260 million worth of cryptocurrency from victims."
     },
     {
-      "title": "Norway's prime minister proposes ban on social media access for young teens",
-      "url": "https://therecord.media/norway-prime-minister-proposes-social-media-ban-for-young-teens",
-      "summary_en": "An upcoming proposed bill will include language that holds big tech accountable for using age verification tools to block young users.",
-      "published": "2026-04-24 23:41 JST",
+      "title": "Disinformation campaign targeted Tibetan parliament-in-exile elections",
+      "url": "https://therecord.media/disinformation-campaign-targeted-tibetan-elections",
+      "summary_en": "The operation, identified by the Digital Forensic Research Lab (DFRLab), was part of Spamouflage, a long-running influence network linked to Beijing.",
+      "published": "2026-04-28 00:28 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Norway's prime minister proposes ban on social media access for young teens",
-      "summary_ja": "An upcoming proposed bill will include language that holds big tech accountable for using age verification tools to block young users."
+      "title_ja": "Disinformation campaign targeted Tibetan parliament-in-exile elections",
+      "summary_ja": "The operation, identified by the Digital Forensic Research Lab (DFRLab), was part of Spamouflage, a long-running influence network linked to Beijing."
     },
     {
-      "title": "Toronto police arrest three in Canada’s first mobile SMS blaster case",
-      "url": "https://therecord.media/canada-sms-blaster-cybercriminals",
-      "summary_en": "Canadian police arrested three men over the use of a mobile “SMS blaster,” a device capable of impersonating a cellular tower to send mass phishing messages and disrupt mobile networks.",
-      "published": "2026-04-24 22:45 JST",
+      "title": "Italy extradites alleged Chinese state hacker to US",
+      "url": "https://therecord.media/chinese-hacker-italy-extradited",
+      "summary_en": "A Chinese national accused of being a member of a state-backed hacking group that allegedly broke into systems to steal COVID-19 vaccine information has been extradited to the U.S. from Milan.",
+      "published": "2026-04-28 00:15 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Toronto police arrest three in Canada’s first mobile SMS blaster case",
-      "summary_ja": "Canadian police arrested three men over the use of a mobile “SMS blaster,” a device capable of impersonating a cellular tower to send mass phishing messages and disrupt mobile networks."
+      "title_ja": "Italy extradites alleged Chinese state hacker to US",
+      "summary_ja": "A Chinese national accused of being a member of a state-backed hacking group that allegedly broke into systems to steal COVID-19 vaccine information has been extradited to the U.S. from Milan."
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -293,6 +293,16 @@
       "summary_ja": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday."
     },
     {
+      "title": "TeamPCP Supply Chain Campaign: Update 008 - 26-Day Pause Ends with Three Concurrent Compromises (Checkmarx KICS, Bitwarden CLI Cascade, xinference PyPI), CanisterSprawl npm Worm Identified, and Tier 1 Coverage Returns, (Mon, Apr 27th)",
+      "url": "https://isc.sans.edu/diary/rss/32926",
+      "summary_en": "This update succeeds&#;x26;#;xc2;&#;x26;#;xa0;TeamPCP Supply Chain Campaign Update 007, published April 8, 2026, which left the campaign in credential-monetization mode following the Cisco source code theft via Trivy-linked credentials, Google GTIG&#;x26;#;39;s formal designation of the operators as UNC6780 (with their credential stealer named SANDCLOCK), and the lapsed CISA KEV remediation deadline for CVE-2026-33634 with no standalone federal advisory. The Sportradar publication deadline flagg",
+      "published": "2026-04-27 23:01 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "TeamPCP Supply Chain Campaign: Update 008 - 26-Day Pause Ends with Three Concurrent Compromises (Checkmarx KICS, Bitwarden CLI Cascade, xinference PyPI), CanisterSprawl npm Worm Identified, and Tier 1 Coverage Returns, (Mon, Apr 27th)",
+      "summary_ja": "This update succeeds&#;x26;#;xc2;&#;x26;#;xa0;TeamPCP Supply Chain Campaign Update 007, published April 8, 2026, which left the campaign in credential-monetization mode following the Cisco source code theft via Trivy-linked credentials, Google GTIG&#;x26;#;39;s formal designation of the operators as UNC6780 (with their credential stealer named SANDCLOCK), and the lapsed CISA KEV remediation deadline for CVE-2026-33634 with no standalone federal advisory. The Sportradar publication deadline flagg"
+    },
+    {
       "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
       "url": "https://isc.sans.edu/diary/rss/32924",
       "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "ISC Stormcast For Tuesday, April 21st, 2026 https://isc.sans.edu/podcastdetail/9900, (Tue, Apr 21st)",
       "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "Handling the CVE Flood With EPSS, (Mon, Apr 20th)",
-      "url": "https://isc.sans.edu/diary/rss/32914",
-      "summary_en": "Every morning, security people around the world face the same ritual: opening their vulnerability feed to find a lot of new CVE entries that appeared overnight. Over the past decade, this flood has become a defining challenge of modern defensive security. Some numbers[1]:",
-      "published": "2026-04-20 15:43 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Handling the CVE Flood With EPSS, (Mon, Apr 20th)",
-      "summary_ja": "Every morning, security people around the world face the same ritual: opening their vulnerability feed to find a lot of new CVE entries that appeared overnight. Over the past decade, this flood has become a defining challenge of modern defensive security. Some numbers[1]:"
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",

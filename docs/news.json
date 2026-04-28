@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-28 21:24 JST",
+  "updated": "2026-04-29 08:56 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
+      "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
+      "summary_en": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\" command.\nThe flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve",
+      "published": "2026-04-29 03:19 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
+      "summary_ja": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\" command.\nThe flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve"
+    },
+    {
+      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
+      "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
+      "summary_en": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot).\n\"The malware disguises itself as a Minecraft hack called 'Slinky,'\" Brazil-based cybersecurity company ZenoX said in a technical report. \"It uses the official game icon to induce voluntary execution,",
+      "published": "2026-04-29 02:39 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
+      "summary_ja": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot).\n\"The malware disguises itself as a Minecraft hack called 'Slinky,'\" Brazil-based cybersecurity company ZenoX said in a technical report. \"It uses the official game icon to induce voluntary execution,"
+    },
+    {
+      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
+      "url": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
+      "summary_en": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors.\nThe fact that VECT's locker permanently destroys large files rather than encrypting them means even victims who opt to",
+      "published": "2026-04-28 23:01 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
+      "summary_ja": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors.\nThe fact that VECT's locker permanently destroys large files rather than encrypting them means even victims who opt to"
+    },
+    {
+      "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+      "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
+      "summary_en": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done.\nThat assumption is wrong. It is also a major reason Zero Trust programs stall.\nNew research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security",
+      "published": "2026-04-28 20:58 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+      "summary_ja": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done.\nThat assumption is wrong. It is also a major reason Zero Trust programs stall.\nNew research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security"
+    },
     {
       "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
       "url": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
@@ -43,44 +83,74 @@
       "summary_ja": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort.\nAgent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a"
     },
     {
-      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
-      "url": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
-      "summary_en": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild.\nThe vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update for this",
-      "published": "2026-04-28 14:50 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
-      "summary_ja": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild.\nThe vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update for this"
+      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+      "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+      "summary_en": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
+      "published": "2026-04-29 06:25 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+      "summary_ja": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]"
     },
     {
-      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
-      "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
-      "summary_en": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web.\n\"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
-      "published": "2026-04-27 23:19 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
-      "summary_ja": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web.\n\"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,"
+      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+      "summary_en": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability  tracked as CVE-2026-42208. [...]",
+      "published": "2026-04-29 06:07 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+      "summary_ja": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability  tracked as CVE-2026-42208. [...]"
     },
     {
-      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
-      "url": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
-      "summary_en": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are.\nMost of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same",
-      "published": "2026-04-27 22:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
-      "summary_ja": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are.\nMost of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same"
+      "title": "Video service Vimeo confirms Anodot breach exposed user data",
+      "url": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
+      "summary_en": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
+      "published": "2026-04-29 04:04 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Video service Vimeo confirms Anodot breach exposed user data",
+      "summary_ja": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]"
     },
     {
-      "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
-      "url": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
-      "summary_en": "Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious questions about how quickly organizations can validate, prioritize, and remediate what it finds.\nThe debate that followed has mostly focused on the right",
-      "published": "2026-04-27 20:58 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
-      "summary_ja": "Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious questions about how quickly organizations can validate, prioritize, and remediate what it finds.\nThe debate that followed has mostly focused on the right"
+      "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
+      "url": "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
+      "summary_en": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacking collective. [...]",
+      "published": "2026-04-29 00:39 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "US reportedly charges Scattered Spider hacker arrested in Finland",
+      "summary_ja": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacking collective. [...]"
+    },
+    {
+      "title": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
+      "url": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
+      "summary_en": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]",
+      "published": "2026-04-28 23:50 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
+      "summary_ja": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]"
+    },
+    {
+      "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
+      "summary_en": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]",
+      "published": "2026-04-28 22:18 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+      "summary_ja": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]"
+    },
+    {
+      "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
+      "summary_en": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]",
+      "published": "2026-04-28 21:50 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+      "summary_ja": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]"
     },
     {
       "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
@@ -93,74 +163,44 @@
       "summary_ja": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]"
     },
     {
-      "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
-      "summary_en": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail accounts via the default Mail app. [...]",
-      "published": "2026-04-28 17:37 JST",
-      "source": "Bleeping Computer",
+      "title": "Cyber Command, NSA chief warns foreign adversaries likely to target midterms",
+      "url": "https://therecord.media/cyber-command-nsa-chief-midterm-election-threat",
+      "summary_en": "Army Gen. Joshua Rudd told lawmakers “we are postured and ready to support as required or tasked, making sure that we safeguard our elections.”",
+      "published": "2026-04-29 02:26 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
-      "summary_ja": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail accounts via the default Mail app. [...]"
+      "title_ja": "Cyber Command, NSA chief warns foreign adversaries likely to target midterms",
+      "summary_ja": "Army Gen. Joshua Rudd told lawmakers “we are postured and ready to support as required or tasked, making sure that we safeguard our elections.”"
     },
     {
-      "title": "Robinhood account creation flaw abused to send phishing emails",
-      "url": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
-      "summary_en": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]",
-      "published": "2026-04-28 08:11 JST",
-      "source": "Bleeping Computer",
+      "title": "Video site Vimeo blames security incident on Anodot breach",
+      "url": "https://therecord.media/vimeo-blames-security-incident-on-anodot-breach",
+      "summary_en": "The hackers did not access video content, user logins or payment card information, and there was no disruption to Vimeo’s services,",
+      "published": "2026-04-29 01:21 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Robinhood account creation flaw abused to send phishing emails",
-      "summary_ja": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]"
+      "title_ja": "Video site Vimeo blames security incident on Anodot breach",
+      "summary_ja": "The hackers did not access video content, user logins or payment card information, and there was no disruption to Vimeo’s services,"
     },
     {
-      "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
-      "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
-      "summary_en": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
-      "published": "2026-04-28 06:41 JST",
-      "source": "Bleeping Computer",
+      "title": "Ukrainian police detain hackers suspected of stealing thousands of Roblox accounts for resale",
+      "url": "https://therecord.media/ukraine-police-detain-hackers-suspected-of-stealing-roblox-accounts",
+      "summary_en": "Police said on Monday the victims included both Ukrainian and foreign players whose accounts contained valuable digital items, rare equipment and in-game currency purchased with real money.",
+      "published": "2026-04-28 23:57 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
-      "summary_ja": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]"
+      "title_ja": "Ukrainian police detain hackers suspected of stealing thousands of Roblox accounts for resale",
+      "summary_ja": "Police said on Monday the victims included both Ukrainian and foreign players whose accounts contained valuable digital items, rare equipment and in-game currency purchased with real money."
     },
     {
-      "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
-      "url": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
-      "summary_en": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
-      "published": "2026-04-28 05:00 JST",
-      "source": "Bleeping Computer",
+      "title": "China-linked hackers led phishing campaigns targeting journalists and activists, researchers say",
+      "url": "https://therecord.media/china-linked-hackers-led-phishing-campaigns-journalists",
+      "summary_en": "The aim of the campaigns was to steal credentials and likely enable “follow-on operations in the interest of the Chinese government,” the report said.",
+      "published": "2026-04-28 13:00 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Canada arrests three for operating “SMS blaster” device in Toronto",
-      "summary_ja": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]"
-    },
-    {
-      "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
-      "summary_en": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]",
-      "published": "2026-04-28 04:56 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
-      "summary_ja": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]"
-    },
-    {
-      "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
-      "url": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
-      "summary_en": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]",
-      "published": "2026-04-28 01:27 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
-      "summary_ja": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]"
-    },
-    {
-      "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
-      "url": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
-      "summary_en": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
-      "published": "2026-04-28 00:17 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
-      "summary_ja": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]"
+      "title_ja": "China-linked hackers led phishing campaigns targeting journalists and activists, researchers say",
+      "summary_ja": "The aim of the campaigns was to steal credentials and likely enable “follow-on operations in the interest of the Chinese government,” the report said."
     },
     {
       "title": "Supreme Court signals location data searches should require a warrant",
@@ -171,46 +211,6 @@
       "category": "incident",
       "title_ja": "Supreme Court signals location data searches should require a warrant",
       "summary_ja": "Privacy advocates had worried that the high court would rule that geofencing does not qualify as a constitutionally protected search, opening the door to much broader use of warrantless reverse searches of all types."
-    },
-    {
-      "title": "Tennessee becomes second state to ban cryptocurrency ATMs over scam concerns",
-      "url": "https://therecord.media/tennessee-bans-cryptocurrency-atms-over-scams",
-      "summary_en": "State officials said they observed overseas criminals carrying out government impersonation or tech support cons, as well as romance and pig butchering scams using cryptocurrency ATMs.",
-      "published": "2026-04-28 05:06 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Tennessee becomes second state to ban cryptocurrency ATMs over scam concerns",
-      "summary_ja": "State officials said they observed overseas criminals carrying out government impersonation or tech support cons, as well as romance and pig butchering scams using cryptocurrency ATMs."
-    },
-    {
-      "title": "Money launderer for crypto thieves given 5-year sentence",
-      "url": "https://therecord.media/cryptocurrency-launderer-sentenced-californai",
-      "summary_en": "A California man was sentenced to more than five years in prison for his role in supporting a cybercriminal organization that stole about $260 million worth of cryptocurrency from victims.",
-      "published": "2026-04-28 03:45 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Money launderer for crypto thieves given 5-year sentence",
-      "summary_ja": "A California man was sentenced to more than five years in prison for his role in supporting a cybercriminal organization that stole about $260 million worth of cryptocurrency from victims."
-    },
-    {
-      "title": "Disinformation campaign targeted Tibetan parliament-in-exile elections",
-      "url": "https://therecord.media/disinformation-campaign-targeted-tibetan-elections",
-      "summary_en": "The operation, identified by the Digital Forensic Research Lab (DFRLab), was part of Spamouflage, a long-running influence network linked to Beijing.",
-      "published": "2026-04-28 00:28 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Disinformation campaign targeted Tibetan parliament-in-exile elections",
-      "summary_ja": "The operation, identified by the Digital Forensic Research Lab (DFRLab), was part of Spamouflage, a long-running influence network linked to Beijing."
-    },
-    {
-      "title": "Italy extradites alleged Chinese state hacker to US",
-      "url": "https://therecord.media/chinese-hacker-italy-extradited",
-      "summary_en": "A Chinese national accused of being a member of a state-backed hacking group that allegedly broke into systems to steal COVID-19 vaccine information has been extradited to the U.S. from Milan.",
-      "published": "2026-04-28 00:15 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Italy extradites alleged Chinese state hacker to US",
-      "summary_ja": "A Chinese national accused of being a member of a state-backed hacking group that allegedly broke into systems to steal COVID-19 vaccine information has been extradited to the U.S. from Milan."
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -293,6 +293,16 @@
       "summary_ja": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday."
     },
     {
+      "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
+      "url": "https://isc.sans.edu/diary/rss/32930",
+      "summary_en": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:",
+      "published": "2026-04-28 22:28 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
+      "summary_ja": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:"
+    },
+    {
       "title": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
       "url": "https://isc.sans.edu/diary/rss/32928",
       "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "[Guest Diary] Beyond Cryptojacking: Telegram tdata as a Credential Harvesting Vector, Lessons from a Honeypot Incident, (Wed, Apr 22nd)",
       "summary_ja": "&#x5b;This is a Guest Diary by L. Carty, an ISC intern as part of the SANS.edu Bachelor&&#x23&#x3b;39&#x3b;s Degree in Applied Cybersecurity (BACS) program &#x5b;1].]"
-    },
-    {
-      "title": "A .WAV With A Payload, (Tue, Apr 21st)",
-      "url": "https://isc.sans.edu/diary/rss/32910",
-      "summary_en": "There have been reports of threat actors using a .wav file as a vector for malware.",
-      "published": "2026-04-21 16:14 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "A .WAV With A Payload, (Tue, Apr 21st)",
-      "summary_ja": "There have been reports of threat actors using a .wav file as a vector for malware."
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -453,6 +453,16 @@
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
     },
     {
+      "title": "Five defender priorities from the Talos Year in Review",
+      "url": "https://blog.talosintelligence.com/five-defender-priorities-from-the-talos-year-in-review/",
+      "summary_en": "With attackers moving faster than ever, it’s easy to feel overwhelmed. This blog breaks down five practical priorities from the Cisco Talos 2025 Year in Review to help defenders focus and prioritize, amidst all the noise.",
+      "published": "2026-04-28 22:23 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "Five defender priorities from the Talos Year in Review",
+      "summary_ja": "With attackers moving faster than ever, it’s easy to feel overwhelmed. This blog breaks down five practical priorities from the Cisco Talos 2025 Year in Review to help defenders focus and prioritize, amidst all the noise."
+    },
+    {
       "title": "It pays to be a forever student",
       "url": "https://blog.talosintelligence.com/it-pays-to-be-a-forever-student/",
       "summary_en": "In this newsletter, Joe discusses why understanding other disciplines can often flow back into the macro and micro of cybersecurity, especially in a world of AI.",
@@ -521,16 +531,6 @@
       "category": "research",
       "title_ja": "Foxit, LibRaw vulnerabilities",
       "summary_ja": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities.The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy.    For"
-    },
-    {
-      "title": "The Q1 vulnerability pulse",
-      "url": "https://blog.talosintelligence.com/the-q1-vulnerability-pulse/",
-      "summary_en": "Thor provides an overview of the Q1 2026 vulnerability statistics, highlighting key trends in legacy CVEs and the evolving impact of AI on the threat landscape.",
-      "published": "2026-04-17 03:00 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "The Q1 vulnerability pulse",
-      "summary_ja": "Thor provides an overview of the Q1 2026 vulnerability statistics, highlighting key trends in legacy CVEs and the evolving impact of AI on the threat landscape."
     },
     {
       "title": "PhantomRPC: A new privilege escalation technique in Windows RPC",
@@ -613,6 +613,26 @@
       "summary_ja": "Dissecting the supply chain attack on LiteLLM, a multifunctional gateway used in many AI agents. Explaining the dangers of the malicious code and how to protect yourself."
     },
     {
+      "title": "NSA GRASSMARLIN",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to disclose sensitive information.\nThe following versions of NSA GRASSMARLIN are affected:\n\nGRASSMARLIN vers:all/*\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 5.5\nNSA\nNSA GRASSMARLIN\nImproper Restriction of XML External Entity Reference\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Information Technology\nCountries/Areas Deployed: Worldwide\nCompany Headquarters Location: United States\n\n\nVulnerabilitie",
+      "published": "2026-04-28 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "NSA GRASSMARLIN",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to disclose sensitive information.\nThe following versions of NSA GRASSMARLIN are affected:\n\nGRASSMARLIN vers:all/*\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 5.5\nNSA\nNSA GRASSMARLIN\nImproper Restriction of XML External Entity Reference\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Information Technology\nCountries/Areas Deployed: Worldwide\nCompany Headquarters Location: United States\n\n\nVulnerabilitie"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/04/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary_en": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-1708 ConnectWise ScreenConnect Path Traversal Vulnerability\nCVE-2026-32202 Microsoft Windows Protection Mechanism Failure Vulnerability\n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. \nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of K",
+      "published": "2026-04-28 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary_ja": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-1708 ConnectWise ScreenConnect Path Traversal Vulnerability\nCVE-2026-32202 Microsoft Windows Protection Mechanism Failure Vulnerability\n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. \nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of K"
+    },
+    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "summary_en": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-7399 Samsung MagicINFO 9 Server Path Traversal Vulnerability\nCVE-2024-57726 SimpleHelp Missing Authorization Vulnerability\nCVE-2024-57728 SimpleHelp Path Traversal Vulnerability\nCVE-2025-29635 D-Link DIR-823X Command Injection Vulnerability \n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risk",
@@ -623,54 +643,14 @@
       "summary_ja": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-7399 Samsung MagicINFO 9 Server Path Traversal Vulnerability\nCVE-2024-57726 SimpleHelp Missing Authorization Vulnerability\nCVE-2024-57728 SimpleHelp Path Traversal Vulnerability\nCVE-2025-29635 D-Link DIR-823X Command Injection Vulnerability \n\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risk"
     },
     {
-      "title": "Carlson Software VASCO-B GNSS Receiver",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-02",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation.\nThe following versions of Carlson Software VASCO-B GNSS Receiver are affected:\n\nVASCO-B GNSS Receiver <1.4.0 (CVE-2026-3893)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.4\nCarlson Software\nCarlson Software VASCO-B GNSS Receiver\nMissing Authentication for Critical Function\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Man",
+      "title": "Milesight Cameras",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution.\nThe following versions of Milesight Cameras are affected:\n\nMS-Cxx63-PD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx64-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx73-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-202",
       "published": "2026-04-23 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Carlson Software VASCO-B GNSS Receiver",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could enable a remote attacker to alter critical system functions or disrupt device operation.\nThe following versions of Carlson Software VASCO-B GNSS Receiver are affected:\n\nVASCO-B GNSS Receiver <1.4.0 (CVE-2026-3893)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.4\nCarlson Software\nCarlson Software VASCO-B GNSS Receiver\nMissing Authentication for Critical Function\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Man"
-    },
-    {
-      "title": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-05",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device.\nThe following versions of Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera are affected:\n\nIP Camera XM530V200_X6-WEQ_8M firmware V5.00.R02.000807D8.10010.346624.S.ONVIF_21.06 (CVE-2025-65856)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nHangzhou Xiongmai Technology Co., Ltd\nHangzhou Xiongmai Technology Co., L",
-      "published": "2026-04-23 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to bypass authentication and have remote access to sensitive information on the device.\nThe following versions of Hangzhou Xiongmai Technology Co., Ltd XM530 IP Camera are affected:\n\nIP Camera XM530V200_X6-WEQ_8M firmware V5.00.R02.000807D8.10010.346624.S.ONVIF_21.06 (CVE-2025-65856)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nHangzhou Xiongmai Technology Co., Ltd\nHangzhou Xiongmai Technology Co., L"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-39987 Marimo Remote Code Execution Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common V",
-      "published": "2026-04-23 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-39987 Marimo Remote Code Execution Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common V"
-    },
-    {
-      "title": "FIRESTARTER Backdoor",
-      "url": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
-      "summary_en": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa",
-      "published": "2026-04-23 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "FIRESTARTER Backdoor",
-      "summary_ja": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa"
-    },
-    {
-      "title": "Yadea T5 Electric Bicycle",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft.\nThe following versions of Yadea T5 Electric Bicycle are affected:\n\nT5 Electric Bicycle vers:all/* (CVE-2025-70994)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nYadea\nYadea T5 Electric Bicycle\nWeak Authentication\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Transportation Systems\nCountries/Areas Deployed: Worldwide\nCompany H",
-      "published": "2026-04-23 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Yadea T5 Electric Bicycle",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft.\nThe following versions of Yadea T5 Electric Bicycle are affected:\n\nT5 Electric Bicycle vers:all/* (CVE-2025-70994)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nYadea\nYadea T5 Electric Bicycle\nWeak Authentication\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Transportation Systems\nCountries/Areas Deployed: Worldwide\nCompany H"
+      "title_ja": "Milesight Cameras",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution.\nThe following versions of Milesight Cameras are affected:\n\nMS-Cxx63-PD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx64-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx73-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-202"
     },
     {
       "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
@@ -683,14 +663,34 @@
       "summary_ja": "Defending against china-nexus covert networks of compromised devices\nexecutive summary\nDefending against China-nexus covert networks of compromised devices \nExplaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it \nSummary\nWith support from the UK Cyber League, this advisory has been jointly released by the National Cyber Security Centre (NCSC-UK) and international partners: \n\nAustralian Signals Dire"
     },
     {
-      "title": "Milesight Cameras",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution.\nThe following versions of Milesight Cameras are affected:\n\nMS-Cxx63-PD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx64-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx73-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-202",
+      "title": "SpiceJet Online Booking System",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information.\nThe following versions of SpiceJet Online Booking System are affected:\n\nOnline Booking System vers:all/* (CVE-2026-6375, CVE-2026-6376)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.5\nSpiceJet\nSpiceJet Online Booking System\nAuthorization Bypass Through User-Controlled Key, Missing Authentication for Critical Function\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: ",
       "published": "2026-04-23 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Milesight Cameras",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution.\nThe following versions of Milesight Cameras are affected:\n\nMS-Cxx63-PD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx64-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-2026-32649, CVE-2026-20766)\nMS-Cxx73-xPD <=51.7.0.77-r12 (CVE-2026-28747, CVE-2026-27785, CVE-2026-32644, CVE-202"
+      "title_ja": "SpiceJet Online Booking System",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information.\nThe following versions of SpiceJet Online Booking System are affected:\n\nOnline Booking System vers:all/* (CVE-2026-6375, CVE-2026-6376)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.5\nSpiceJet\nSpiceJet Online Booking System\nAuthorization Bypass Through User-Controlled Key, Missing Authentication for Critical Function\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: "
+    },
+    {
+      "title": "Yadea T5 Electric Bicycle",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft.\nThe following versions of Yadea T5 Electric Bicycle are affected:\n\nT5 Electric Bicycle vers:all/* (CVE-2025-70994)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nYadea\nYadea T5 Electric Bicycle\nWeak Authentication\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Transportation Systems\nCountries/Areas Deployed: Worldwide\nCompany H",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Yadea T5 Electric Bicycle",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft.\nThe following versions of Yadea T5 Electric Bicycle are affected:\n\nT5 Electric Bicycle vers:all/* (CVE-2025-70994)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nYadea\nYadea T5 Electric Bicycle\nWeak Authentication\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Transportation Systems\nCountries/Areas Deployed: Worldwide\nCompany H"
+    },
+    {
+      "title": "FIRESTARTER Backdoor",
+      "url": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
+      "summary_en": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa",
+      "published": "2026-04-23 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "FIRESTARTER Backdoor",
+      "summary_ja": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa"
     }
   ]
 }

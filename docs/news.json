@@ -1,7 +1,37 @@
 {
-  "updated": "2026-04-29 21:15 JST",
+  "updated": "2026-04-30 08:55 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "summary_en": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's JavaScript and cloud application",
+      "published": "2026-04-30 01:26 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "summary_ja": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's JavaScript and cloud application"
+    },
+    {
+      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+      "summary_en": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM).\nThe package in question is \"@validate-sdk/v2,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real",
+      "published": "2026-04-29 23:43 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "summary_ja": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM).\nThe package in question is \"@validate-sdk/v2,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real"
+    },
+    {
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "summary_en": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.\nWe aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes.\nThe problem? Most defensive workflows",
+      "published": "2026-04-29 21:02 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "summary_ja": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.\nWe aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes.\nThe problem? Most defensive workflows"
+    },
     {
       "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
       "url": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
@@ -53,114 +83,124 @@
       "summary_ja": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\" command.\nThe flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve"
     },
     {
-      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-      "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
-      "summary_en": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot).\n\"The malware disguises itself as a Minecraft hack called 'Slinky,'\" Brazil-based cybersecurity company ZenoX said in a technical report. \"It uses the official game icon to induce voluntary execution,",
-      "published": "2026-04-29 02:39 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-      "summary_ja": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot).\n\"The malware disguises itself as a Minecraft hack called 'Slinky,'\" Brazil-based cybersecurity company ZenoX said in a technical report. \"It uses the official game icon to induce voluntary execution,"
-    },
-    {
-      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-      "url": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-      "summary_en": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors.\nThe fact that VECT's locker permanently destroys large files rather than encrypting them means even victims who opt to",
-      "published": "2026-04-28 23:01 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-      "summary_ja": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors.\nThe fact that VECT's locker permanently destroys large files rather than encrypting them means even victims who opt to"
-    },
-    {
-      "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
-      "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
-      "summary_en": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done.\nThat assumption is wrong. It is also a major reason Zero Trust programs stall.\nNew research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security",
-      "published": "2026-04-28 20:58 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
-      "summary_ja": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done.\nThat assumption is wrong. It is also a major reason Zero Trust programs stall.\nNew research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security"
-    },
-    {
-      "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
-      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]",
-      "published": "2026-04-29 19:29 JST",
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "summary_en": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
+      "published": "2026-04-30 07:43 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "CISA orders feds to patch Windows flaw exploited as zero-day",
-      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]"
+      "title_ja": "Official SAP npm packages compromised to steal credentials",
+      "summary_ja": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]"
     },
     {
-      "title": "Microsoft says backend change broke Teams Free chat and calls",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
-      "summary_en": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]",
-      "published": "2026-04-29 17:38 JST",
+      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "summary_en": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]",
+      "published": "2026-04-30 07:13 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Microsoft says backend change broke Teams Free chat and calls",
-      "summary_ja": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]"
+      "title_ja": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "summary_ja": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]"
     },
     {
-      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
-      "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "summary_en": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
-      "published": "2026-04-29 06:25 JST",
+      "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
+      "summary_en": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]",
+      "published": "2026-04-30 05:50 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
-      "summary_ja": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]"
+      "title_ja": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
+      "summary_ja": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]"
     },
     {
-      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
-      "summary_en": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability  tracked as CVE-2026-42208. [...]",
-      "published": "2026-04-29 06:07 JST",
+      "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
+      "summary_en": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
+      "published": "2026-04-30 03:32 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
-      "summary_ja": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability  tracked as CVE-2026-42208. [...]"
+      "title_ja": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
+      "summary_ja": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]"
     },
     {
-      "title": "Video service Vimeo confirms Anodot breach exposed user data",
-      "url": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
-      "summary_en": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
-      "published": "2026-04-29 04:04 JST",
+      "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
+      "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
+      "summary_en": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
+      "published": "2026-04-30 00:51 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Video service Vimeo confirms Anodot breach exposed user data",
-      "summary_ja": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]"
+      "title_ja": "cPanel, WHM emergency update fixes critical auth bypass bug",
+      "summary_ja": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]"
     },
     {
-      "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
-      "url": "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
-      "summary_en": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacking collective. [...]",
-      "published": "2026-04-29 00:39 JST",
+      "title": "European police dismantles €50 million crypto investment fraud ring",
+      "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
+      "summary_en": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 million) to victims worldwide. [...]",
+      "published": "2026-04-29 23:27 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "US reportedly charges Scattered Spider hacker arrested in Finland",
-      "summary_ja": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacking collective. [...]"
+      "title_ja": "European police dismantles €50 million crypto investment fraud ring",
+      "summary_ja": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 million) to victims worldwide. [...]"
     },
     {
-      "title": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
-      "url": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
-      "summary_en": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]",
-      "published": "2026-04-28 23:50 JST",
+      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
+      "summary_en": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream customers. [...]",
+      "published": "2026-04-29 22:05 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
-      "summary_ja": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]"
+      "title_ja": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
+      "summary_ja": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream customers. [...]"
     },
     {
-      "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
-      "summary_en": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]",
-      "published": "2026-04-28 22:18 JST",
+      "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
+      "url": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
+      "summary_en": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]",
+      "published": "2026-04-29 21:41 JST",
       "source": "Bleeping Computer",
       "category": "incident",
-      "title_ja": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
-      "summary_ja": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]"
+      "title_ja": "GitHub fixes RCE flaw that gave access to millions of private repos",
+      "summary_ja": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]"
+    },
+    {
+      "title": "House approves spy program on second attempt, Senate fate murky",
+      "url": "https://therecord.media/house-approves-spy-program-on-second-attempt",
+      "summary_en": "The bill, which passed 235-191, would renew Section 702 of the Foreign Intelligence Surveillance Act for three years.",
+      "published": "2026-04-30 07:41 JST",
+      "source": "The Record",
+      "category": "incident",
+      "title_ja": "House approves spy program on second attempt, Senate fate murky",
+      "summary_ja": "The bill, which passed 235-191, would renew Section 702 of the Foreign Intelligence Surveillance Act for three years."
+    },
+    {
+      "title": "US, China partner on scam center takedown in Dubai",
+      "url": "https://therecord.media/us-china-partner-on-dubai-scam-compound-takedown",
+      "summary_en": "The Justice Department said the operation began last year following “numerous” victim complaints to the FBI by U.S. victims who lost millions through cryptocurrency investment fraud schemes.",
+      "published": "2026-04-30 05:51 JST",
+      "source": "The Record",
+      "category": "incident",
+      "title_ja": "US, China partner on scam center takedown in Dubai",
+      "summary_ja": "The Justice Department said the operation began last year following “numerous” victim complaints to the FBI by U.S. victims who lost millions through cryptocurrency investment fraud schemes."
+    },
+    {
+      "title": "European Commission accuses Meta of breaching child safety rules",
+      "url": "https://therecord.media/european-commission-accuses-meta-of-breaching-digital-child-safety-laws",
+      "summary_en": "The platforms allegedly flouted the bloc’s Digital Services Act (DSA) by “failing to diligently identify, assess and mitigate the risks of minors under 13 years old accessing their services,” the commission said.",
+      "published": "2026-04-30 00:47 JST",
+      "source": "The Record",
+      "category": "incident",
+      "title_ja": "European Commission accuses Meta of breaching child safety rules",
+      "summary_ja": "The platforms allegedly flouted the bloc’s Digital Services Act (DSA) by “failing to diligently identify, assess and mitigate the risks of minors under 13 years old accessing their services,” the commission said."
+    },
+    {
+      "title": "Swiss police arrest 10 suspected members of Nigeria-linked crime group Black Axe",
+      "url": "https://therecord.media/black-axe-switzerland-germany-cyber",
+      "summary_en": "Swiss and German law enforcement have arrested 10 suspected members of the Nigerian criminal network Black Axe, including a regional leader believed to oversee operations in Southern Europe.",
+      "published": "2026-04-29 23:15 JST",
+      "source": "The Record",
+      "category": "incident",
+      "title_ja": "Swiss police arrest 10 suspected members of Nigeria-linked crime group Black Axe",
+      "summary_ja": "Swiss and German law enforcement have arrested 10 suspected members of the Nigerian criminal network Black Axe, including a regional leader believed to oversee operations in Southern Europe."
     },
     {
       "title": "Cyber Command, NSA chief warns foreign adversaries likely to target midterms",
@@ -171,46 +211,6 @@
       "category": "incident",
       "title_ja": "Cyber Command, NSA chief warns foreign adversaries likely to target midterms",
       "summary_ja": "Army Gen. Joshua Rudd told lawmakers “we are postured and ready to support as required or tasked, making sure that we safeguard our elections.”"
-    },
-    {
-      "title": "Video site Vimeo blames security incident on Anodot breach",
-      "url": "https://therecord.media/vimeo-blames-security-incident-on-anodot-breach",
-      "summary_en": "The hackers did not access video content, user logins or payment card information, and there was no disruption to Vimeo’s services,",
-      "published": "2026-04-29 01:21 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Video site Vimeo blames security incident on Anodot breach",
-      "summary_ja": "The hackers did not access video content, user logins or payment card information, and there was no disruption to Vimeo’s services,"
-    },
-    {
-      "title": "Ukrainian police detain hackers suspected of stealing thousands of Roblox accounts for resale",
-      "url": "https://therecord.media/ukraine-police-detain-hackers-suspected-of-stealing-roblox-accounts",
-      "summary_en": "Police said on Monday the victims included both Ukrainian and foreign players whose accounts contained valuable digital items, rare equipment and in-game currency purchased with real money.",
-      "published": "2026-04-28 23:57 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Ukrainian police detain hackers suspected of stealing thousands of Roblox accounts for resale",
-      "summary_ja": "Police said on Monday the victims included both Ukrainian and foreign players whose accounts contained valuable digital items, rare equipment and in-game currency purchased with real money."
-    },
-    {
-      "title": "China-linked hackers led phishing campaigns targeting journalists and activists, researchers say",
-      "url": "https://therecord.media/china-linked-hackers-led-phishing-campaigns-journalists",
-      "summary_en": "The aim of the campaigns was to steal credentials and likely enable “follow-on operations in the interest of the Chinese government,” the report said.",
-      "published": "2026-04-28 13:00 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "China-linked hackers led phishing campaigns targeting journalists and activists, researchers say",
-      "summary_ja": "The aim of the campaigns was to steal credentials and likely enable “follow-on operations in the interest of the Chinese government,” the report said."
-    },
-    {
-      "title": "Supreme Court signals location data searches should require a warrant",
-      "url": "https://therecord.media/supreme-court-signals-location-data-searches-require-warrant",
-      "summary_en": "Privacy advocates had worried that the high court would rule that geofencing does not qualify as a constitutionally protected search, opening the door to much broader use of warrantless reverse searches of all types.",
-      "published": "2026-04-28 05:52 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Supreme Court signals location data searches should require a warrant",
-      "summary_ja": "Privacy advocates had worried that the high court would rule that geofencing does not qualify as a constitutionally protected search, opening the door to much broader use of warrantless reverse searches of all types."
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -293,6 +293,16 @@
       "summary_ja": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday."
     },
     {
+      "title": "Today's Odd Web Requests, (Wed, Apr 29th)",
+      "url": "https://isc.sans.edu/diary/rss/32934",
+      "summary_en": "Today, two different \"new\" requests hit our honeypots. Both appear to be recon requests and not associated with specific vulnerabilities. But as always, please let me know if you have additional information",
+      "published": "2026-04-29 22:11 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Today's Odd Web Requests, (Wed, Apr 29th)",
+      "summary_ja": "Today, two different \"new\" requests hit our honeypots. Both appear to be recon requests and not associated with specific vulnerabilities. But as always, please let me know if you have additional information"
+    },
+    {
       "title": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
       "url": "https://isc.sans.edu/diary/rss/32932",
       "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -360,16 +370,6 @@
       "source": "SANS Internet Storm Center",
       "category": "technical",
       "title_ja": "ISC Stormcast For Thursday, April 23rd, 2026 https://isc.sans.edu/podcastdetail/9904, (Thu, Apr 23rd)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/32918",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-04-22 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
       "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
     },
     {
@@ -613,6 +613,16 @@
       "summary_ja": "Dissecting the supply chain attack on LiteLLM, a multifunctional gateway used in many AI agents. Explaining the dangers of the malicious code and how to protect yourself."
     },
     {
+      "title": "Adapting Zero Trust Principles to Operational Technology",
+      "url": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
+      "summary_en": "Adapting Zero Trust Principles to Operational Technology\nCISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released Adapting Zero Trust Principles to Operational Technology, joint guidance for organizations applying zero trust (ZT) principles to operational technology (OT). Zero trust is a modern, adaptive approach to cybersecurity that eliminates implicit trust and requires continuously validating access based on id",
+      "published": "2026-04-29 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Adapting Zero Trust Principles to Operational Technology",
+      "summary_ja": "Adapting Zero Trust Principles to Operational Technology\nCISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released Adapting Zero Trust Principles to Operational Technology, joint guidance for organizations applying zero trust (ZT) principles to operational technology (OT). Zero trust is a modern, adaptive approach to cybersecurity that eliminates implicit trust and requires continuously validating access based on id"
+    },
+    {
       "title": "NSA GRASSMARLIN",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-118-01",
       "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to disclose sensitive information.\nThe following versions of NSA GRASSMARLIN are affected:\n\nGRASSMARLIN vers:all/*\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 5.5\nNSA\nNSA GRASSMARLIN\nImproper Restriction of XML External Entity Reference\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Information Technology\nCountries/Areas Deployed: Worldwide\nCompany Headquarters Location: United States\n\n\nVulnerabilitie",
@@ -681,16 +691,6 @@
       "category": "cve",
       "title_ja": "Yadea T5 Electric Bicycle",
       "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft.\nThe following versions of Yadea T5 Electric Bicycle are affected:\n\nT5 Electric Bicycle vers:all/* (CVE-2025-70994)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nYadea\nYadea T5 Electric Bicycle\nWeak Authentication\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Transportation Systems\nCountries/Areas Deployed: Worldwide\nCompany H"
-    },
-    {
-      "title": "FIRESTARTER Backdoor",
-      "url": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
-      "summary_en": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa",
-      "published": "2026-04-23 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "FIRESTARTER Backdoor",
-      "summary_ja": "Malware Analysis Report at a Glance\n\n\n\nMalware Name\nFIRESTARTER\n\n\nOriginal Publication\nApril 23, 2026\n\n\nExecutive Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRESTARTER malware obtained from a forensic investigation. CISA and the United Kingdom National Cyber Security Centre (NCSC) assess advanced persistent threat (APT) actors are using FIRESTARTER malware for persistence, specifically targeting publicly accessible Cisco Firepower and Secure Firewa"
     }
   ]
 }

@@ -1,7 +1,47 @@
 {
-  "updated": "2026-04-29 08:56 JST",
+  "updated": "2026-04-29 21:15 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+      "url": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+      "summary_en": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\"\nCrickets.\nThe room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure",
+      "published": "2026-04-29 20:30 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+      "summary_ja": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\"\nCrickets.\nThe room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure"
+    },
+    {
+      "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
+      "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
+      "summary_en": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software.\nThe problem affects all currently supported versions, according to an alert released by cPanel on Tuesday. The issue has been addressed in the following versions -\n\n11.110.0.97\n11.118.0.63\n11.126.0.54\n11.132.0.29",
+      "published": "2026-04-29 18:37 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
+      "summary_ja": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software.\nThe problem affects all currently supported versions, according to an alert released by cPanel on Tuesday. The issue has been addressed in the following versions -\n\n11.110.0.97\n11.118.0.63\n11.126.0.54\n11.132.0.29"
+    },
+    {
+      "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
+      "url": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerabilities are listed below -\n\nCVE-2024-1708 (CVSS score: 8.4) - A path traversal vulnerability in  ConnectWise ScreenConnect",
+      "published": "2026-04-29 17:46 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
+      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerabilities are listed below -\n\nCVE-2024-1708 (CVSS score: 8.4) - A path traversal vulnerability in  ConnectWise ScreenConnect"
+    },
+    {
+      "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+      "url": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+      "summary_en": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug becoming public knowledge.\nThe vulnerability, tracked as CVE-2026-42208 (CVSS score: 9.3), is an SQL injection that could be exploited to modify the underlying",
+      "published": "2026-04-29 14:34 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+      "summary_ja": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug becoming public knowledge.\nThe vulnerability, tracked as CVE-2026-42208 (CVSS score: 9.3), is an SQL injection that could be exploited to modify the underlying"
+    },
     {
       "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
       "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
@@ -43,44 +83,24 @@
       "summary_ja": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done.\nThat assumption is wrong. It is also a major reason Zero Trust programs stall.\nNew research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security"
     },
     {
-      "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
-      "summary_en": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited to achieve remote code execution.\nThe vulnerability in question is CVE-2026-25874 (CVSS score: 9.3), which has been described as a case of untrusted data deserialization stemming from the use of the",
-      "published": "2026-04-28 20:18 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
-      "summary_ja": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited to achieve remote code execution.\nThe vulnerability in question is CVE-2026-25874 (CVSS score: 9.3), which has been described as a case of untrusted data deserialization stemming from the use of the"
+      "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
+      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]",
+      "published": "2026-04-29 19:29 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "CISA orders feds to patch Windows flaw exploited as zero-day",
+      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]"
     },
     {
-      "title": "After Mythos: New Playbooks For a Zero-Window Era",
-      "url": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
-      "summary_en": "When patching isn’t fast enough, NDR helps contain the next era of threats.\nIf you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability disclosure, is closing fast.\nAnthropic’s new model, Claude Mythos, and its Project Glasswing, showed that finding exploitable vulnerabilities and subtle cracks",
-      "published": "2026-04-28 19:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "After Mythos: New Playbooks For a Zero-Window Era",
-      "summary_ja": "When patching isn’t fast enough, NDR helps contain the next era of threats.\nIf you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability disclosure, is closing fast.\nAnthropic’s new model, Claude Mythos, and its Project Glasswing, showed that finding exploitable vulnerabilities and subtle cracks"
-    },
-    {
-      "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
-      "url": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
-      "summary_en": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy. \nXu Zewei, 34, was arrested in July 2025 by Italian authorities for his alleged links to the Chinese state-sponsored threat group and for orchestrating cyber attacks against American organizations and government agencies between February 2020 and June 2021, including",
-      "published": "2026-04-28 16:57 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
-      "summary_ja": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy. \nXu Zewei, 34, was arrested in July 2025 by Italian authorities for his alleged links to the Chinese state-sponsored threat group and for orchestrating cyber attacks against American organizations and government agencies between February 2020 and June 2021, including"
-    },
-    {
-      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
-      "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
-      "summary_en": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort.\nAgent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a",
-      "published": "2026-04-28 15:37 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
-      "summary_ja": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort.\nAgent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a"
+      "title": "Microsoft says backend change broke Teams Free chat and calls",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
+      "summary_en": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]",
+      "published": "2026-04-29 17:38 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft says backend change broke Teams Free chat and calls",
+      "summary_ja": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]"
     },
     {
       "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
@@ -141,26 +161,6 @@
       "category": "incident",
       "title_ja": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
       "summary_ja": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]"
-    },
-    {
-      "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
-      "summary_en": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]",
-      "published": "2026-04-28 21:50 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
-      "summary_ja": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]"
-    },
-    {
-      "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
-      "summary_en": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
-      "published": "2026-04-28 18:51 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Microsoft: New Remote Desktop warnings may display incorrectly",
-      "summary_ja": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]"
     },
     {
       "title": "Cyber Command, NSA chief warns foreign adversaries likely to target midterms",
@@ -293,6 +293,16 @@
       "summary_ja": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday."
     },
     {
+      "title": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
+      "url": "https://isc.sans.edu/diary/rss/32932",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-04-29 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
       "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
       "url": "https://isc.sans.edu/diary/rss/32930",
       "summary_en": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
       "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "[Guest Diary] Beyond Cryptojacking: Telegram tdata as a Credential Harvesting Vector, Lessons from a Honeypot Incident, (Wed, Apr 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/32888",
-      "summary_en": "&#x5b;This is a Guest Diary by L. Carty, an ISC intern as part of the SANS.edu Bachelor&&#x23&#x3b;39&#x3b;s Degree in Applied Cybersecurity (BACS) program &#x5b;1].]",
-      "published": "2026-04-22 09:03 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "[Guest Diary] Beyond Cryptojacking: Telegram tdata as a Credential Harvesting Vector, Lessons from a Honeypot Incident, (Wed, Apr 22nd)",
-      "summary_ja": "&#x5b;This is a Guest Diary by L. Carty, an ISC intern as part of the SANS.edu Bachelor&&#x23&#x3b;39&#x3b;s Degree in Applied Cybersecurity (BACS) program &#x5b;1].]"
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -453,6 +453,16 @@
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
     },
     {
+      "title": "AI-powered honeypots: Turning the tables on malicious AI agents",
+      "url": "https://blog.talosintelligence.com/ai-powered-honeypots-turning-the-tables-on-malicious-ai-agents/",
+      "summary_en": "Just as AI brings time-saving advantages to our lives, it brings similar advantages to threat actors. We can take the advantage back. This blog shows how generative AI can be used to rapidly deploy adaptive honeypot systems.",
+      "published": "2026-04-29 19:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "AI-powered honeypots: Turning the tables on malicious AI agents",
+      "summary_ja": "Just as AI brings time-saving advantages to our lives, it brings similar advantages to threat actors. We can take the advantage back. This blog shows how generative AI can be used to rapidly deploy adaptive honeypot systems."
+    },
+    {
       "title": "Five defender priorities from the Talos Year in Review",
       "url": "https://blog.talosintelligence.com/five-defender-priorities-from-the-talos-year-in-review/",
       "summary_en": "With attackers moving faster than ever, it’s easy to feel overwhelmed. This blog breaks down five practical priorities from the Cisco Talos 2025 Year in Review to help defenders focus and prioritize, amidst all the noise.",
@@ -521,16 +531,6 @@
       "category": "research",
       "title_ja": "Bad Apples: Weaponizing native macOS primitives for movement and execution",
       "summary_ja": "Cisco Talos documents several macOS living-off-the-land (LOTL) techniques, demonstrating that native pathways for movement and execution remain accessible to those who understand the underlying architecture."
-    },
-    {
-      "title": "Foxit, LibRaw vulnerabilities",
-      "url": "https://blog.talosintelligence.com/foxit-libraw-vulnerabilities/",
-      "summary_en": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities.The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy.    For",
-      "published": "2026-04-17 04:00 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "Foxit, LibRaw vulnerabilities",
-      "summary_ja": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities.The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy.    For"
     },
     {
       "title": "PhantomRPC: A new privilege escalation technique in Windows RPC",

@@ -1,7 +1,37 @@
 {
-  "updated": "2026-05-01 20:54 JST",
+  "updated": "2026-05-02 08:51 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
+      "url": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+      "summary_en": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts.\nThe activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are",
+      "published": "2026-05-02 03:09 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
+      "summary_ja": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts.\nThe activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are"
+    },
+    {
+      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+      "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+      "summary_en": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions.\nThe clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and",
+      "published": "2026-05-01 23:26 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+      "summary_ja": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions.\nThe clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and"
+    },
+    {
+      "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
+      "url": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
+      "summary_en": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO.\nTrend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053. The adversarial collective is assessed to",
+      "published": "2026-05-01 23:02 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
+      "summary_ja": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO.\nTrend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053. The adversarial collective is assessed to"
+    },
     {
       "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
       "url": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
@@ -53,34 +83,54 @@
       "summary_ja": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online.\nSecurity is always a moving target. Millions of servers are currently sitting online without any passwords, and"
     },
     {
-      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
-      "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
-      "summary_en": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts.\n\"The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an",
-      "published": "2026-04-30 21:36 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
-      "summary_ja": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts.\n\"The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an"
+      "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
+      "url": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
+      "summary_en": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]",
+      "published": "2026-05-02 08:43 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Edu tech firm Instructure discloses cyber incident, probes impact",
+      "summary_ja": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]"
     },
     {
-      "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
-      "url": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
-      "summary_en": "Intro\nA sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating administrative utilities they rely on for daily operations. By integrating Search Engine Order (SEO)",
-      "published": "2026-04-30 20:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
-      "summary_ja": "Intro\nA sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating administrative utilities they rely on for daily operations. By integrating Search Engine Order (SEO)"
+      "title": "15-year-old detained over French govt agency data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
+      "summary_en": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]",
+      "published": "2026-05-02 02:52 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "15-year-old detained over French govt agency data breach",
+      "summary_ja": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]"
     },
     {
-      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
-      "url": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
-      "summary_en": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.\nThe high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori.\n\"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux",
-      "published": "2026-04-30 18:24 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
-      "summary_ja": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.\nThe high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori.\n\"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux"
+      "title": "Story retracted",
+      "url": "https://www.bleepingcomputer.com/news/security/story-retracted/",
+      "summary_en": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated details from a prior incident. The article has been retracted, and we regret the error. [...]",
+      "published": "2026-05-02 01:26 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Story retracted",
+      "summary_ja": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated details from a prior incident. The article has been retracted, and we regret the error. [...]"
+    },
+    {
+      "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
+      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
+      "summary_en": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigations. [...]",
+      "published": "2026-05-01 23:02 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
+      "summary_ja": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigations. [...]"
+    },
+    {
+      "title": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
+      "summary_en": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
+      "published": "2026-05-01 21:46 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
+      "summary_ja": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]"
     },
     {
       "title": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
@@ -113,104 +163,54 @@
       "summary_ja": "Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]"
     },
     {
-      "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
-      "url": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
-      "summary_en": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]",
-      "published": "2026-05-01 03:58 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "New Bluekit phishing service includes an AI assistant, 40 templates",
-      "summary_ja": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]"
-    },
-    {
-      "title": "Romanian leader of online swatting ring gets 4 years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
-      "summary_en": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]",
-      "published": "2026-05-01 02:45 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Romanian leader of online swatting ring gets 4 years in prison",
-      "summary_ja": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]"
-    },
-    {
-      "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
-      "summary_en": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reaching nearly $725 million in 2025. [...]",
-      "published": "2026-05-01 01:32 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "FBI links cybercriminals to sharp surge in cargo theft attacks",
-      "summary_ja": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reaching nearly $725 million in 2025. [...]"
-    },
-    {
-      "title": "April KB5083769 Windows 11 update causes backup software failures",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
-      "summary_en": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]",
-      "published": "2026-05-01 00:23 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "April KB5083769 Windows 11 update causes backup software failures",
-      "summary_ja": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]"
-    },
-    {
-      "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
-      "url": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
-      "summary_en": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]",
-      "published": "2026-04-30 23:02 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "What Happens in the First 24 Hours After a New Asset Goes Live",
-      "summary_ja": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]"
-    },
-    {
-      "title": "Congress punts FISA renewal to June",
-      "url": "https://therecord.media/congress-punts-fisa-renewal-to-june",
-      "summary_en": "The latest House action came after the Senate declared the previous bill dead on arrival because it included a ban on the Federal Reserve’s ability to issue a digital currency. Instead, the upper chamber approved a 45-day extension by unanimous consent.",
-      "published": "2026-05-01 06:31 JST",
+      "title": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",
+      "url": "https://therecord.media/senate-judiciary-advances-bill-barring-children-ai-chatbots",
+      "summary_en": "The bill, known as the GUARD Act, also requires that AI companions advise users of all ages that they are not human and lack professional credentials. It also makes it a crime for AI companions to knowingly ask kids for sexual content or to produce it.",
+      "published": "2026-05-02 01:28 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Congress punts FISA renewal to June",
-      "summary_ja": "The latest House action came after the Senate declared the previous bill dead on arrival because it included a ban on the Federal Reserve’s ability to issue a digital currency. Instead, the upper chamber approved a 45-day extension by unanimous consent."
+      "title_ja": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",
+      "summary_ja": "The bill, known as the GUARD Act, also requires that AI companions advise users of all ages that they are not human and lack professional credentials. It also makes it a crime for AI companions to knowingly ask kids for sexual content or to produce it."
     },
     {
-      "title": "Hackers earning millions from hijacked cargo, FBI says",
-      "url": "https://therecord.media/hackers-earning-millions-from-hijacked-cargo-fbi",
-      "summary_en": "In an advisory this week, FBI officials said cyber actors have spent the last two years breaking into the systems of brokers and carriers — allowing them to pose as victim companies and post fraudulent listings on freight delivery message boards.",
-      "published": "2026-05-01 05:22 JST",
+      "title": "Federal agencies must patch cPanel bug by Sunday, CISA says",
+      "url": "https://therecord.media/cisa-orders-federal-agencies-to-patch-cpanel-bug",
+      "summary_en": "Incident responders at Rapid7 said successful exploitation of CVE-2026-41940 “grants an attacker control over the cPanel host system, its configurations and databases, and websites it manages.”",
+      "published": "2026-05-02 01:20 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Hackers earning millions from hijacked cargo, FBI says",
-      "summary_ja": "In an advisory this week, FBI officials said cyber actors have spent the last two years breaking into the systems of brokers and carriers — allowing them to pose as victim companies and post fraudulent listings on freight delivery message boards."
+      "title_ja": "Federal agencies must patch cPanel bug by Sunday, CISA says",
+      "summary_ja": "Incident responders at Rapid7 said successful exploitation of CVE-2026-41940 “grants an attacker control over the cPanel host system, its configurations and databases, and websites it manages.”"
     },
     {
-      "title": "Zambia cancels global digital freedoms conference days before start",
-      "url": "https://therecord.media/zabia-cancels-global-digital-freedoms-conference-shortly-before-start",
-      "summary_en": "On Tuesday, Zambia’s Minister of Technology and Science offered the first hint that the conference would be cancelled, telling a Zambian news outlet that participants’ security clearances were incomplete and that the government has concerns about the conference’s “dialogue.”",
-      "published": "2026-05-01 02:11 JST",
+      "title": "Cyber incident responders who carried out ransomware attacks given 4-year sentences",
+      "url": "https://therecord.media/ransomware-cyber-incident-responders",
+      "summary_en": "Two cybersecurity incident responders who abused their positions to carry out covert ransomware attacks were sentenced to four years in prison.",
+      "published": "2026-05-01 23:15 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Zambia cancels global digital freedoms conference days before start",
-      "summary_ja": "On Tuesday, Zambia’s Minister of Technology and Science offered the first hint that the conference would be cancelled, telling a Zambian news outlet that participants’ security clearances were incomplete and that the government has concerns about the conference’s “dialogue.”"
+      "title_ja": "Cyber incident responders who carried out ransomware attacks given 4-year sentences",
+      "summary_ja": "Two cybersecurity incident responders who abused their positions to carry out covert ransomware attacks were sentenced to four years in prison."
     },
     {
-      "title": "Trump’s cyber ambassador nominee advances to full Senate vote",
-      "url": "https://therecord.media/trump-cyber-ambassador-nominee-advances-to-senate",
-      "summary_en": "Adam Cassady, who was nominated last month to helm the State Department’s Bureau of Cyberspace and Digital Policy, was approved by a vote of 17-5.",
-      "published": "2026-05-01 01:34 JST",
+      "title": "British cyber agency warns of looming ‘patch wave’ as AI speeds flaw discovery",
+      "url": "https://therecord.media/british-cyber-ai-patch-wave",
+      "summary_en": "Britain’s cyber agency warned that organizations should prepare for a surge of urgent software updates as artificial intelligence accelerates the discovery of security flaws, raising the risk of widespread exploitation.",
+      "published": "2026-05-01 22:30 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Trump’s cyber ambassador nominee advances to full Senate vote",
-      "summary_ja": "Adam Cassady, who was nominated last month to helm the State Department’s Bureau of Cyberspace and Digital Policy, was approved by a vote of 17-5."
+      "title_ja": "British cyber agency warns of looming ‘patch wave’ as AI speeds flaw discovery",
+      "summary_ja": "Britain’s cyber agency warned that organizations should prepare for a surge of urgent software updates as artificial intelligence accelerates the discovery of security flaws, raising the risk of widespread exploitation."
     },
     {
-      "title": "France investigates 15-year-old over alleged hack of national ID agency",
-      "url": "https://therecord.media/france-investigates-teen-over-national-id-agency-hack",
-      "summary_en": "The minor was taken into police custody on April 25 on suspicion of involvement in a data breach affecting the National Agency for Secure Documents (ANTS), which processes applications for passports, national identity cards, residence permits and driver’s licenses.",
-      "published": "2026-05-01 01:28 JST",
+      "title": "Cyber spies target Russian aviation firms to steal satellite and GPS data",
+      "url": "https://therecord.media/russia-cyber-espionage-aviation",
+      "summary_en": "A cyber-espionage group has been targeting Russian government agencies and companies in the aviation industry to steal sensitive geospatial data.",
+      "published": "2026-05-01 22:00 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "France investigates 15-year-old over alleged hack of national ID agency",
-      "summary_ja": "The minor was taken into police custody on April 25 on suspicion of involvement in a data breach affecting the National Agency for Secure Documents (ANTS), which processes applications for passports, national identity cards, residence permits and driver’s licenses."
+      "title_ja": "Cyber spies target Russian aviation firms to steal satellite and GPS data",
+      "summary_ja": "A cyber-espionage group has been targeting Russian government agencies and companies in the aviation industry to steal sensitive geospatial data."
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -293,6 +293,16 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "Malicious Ad for Homebrew Leads to MacSync Stealer, (Fri, May 1st)",
+      "url": "https://isc.sans.edu/diary/rss/32942",
+      "summary_en": "Introduction",
+      "published": "2026-05-02 04:01 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Malicious Ad for Homebrew Leads to MacSync Stealer, (Fri, May 1st)",
+      "summary_ja": "Introduction"
+    },
+    {
       "title": "ISC Stormcast For Friday, May 1st, 2026 https://isc.sans.edu/podcastdetail/9914, (Fri, May 1st)",
       "url": "https://isc.sans.edu/diary/rss/32940",
       "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
       "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "TeamPCP Supply Chain Campaign: Update 008 - 26-Day Pause Ends with Three Concurrent Compromises (Checkmarx KICS, Bitwarden CLI Cascade, xinference PyPI), CanisterSprawl npm Worm Identified, and Tier 1 Coverage Returns, (Mon, Apr 27th)",
-      "url": "https://isc.sans.edu/diary/rss/32926",
-      "summary_en": "This update succeeds&#;x26;#;xc2;&#;x26;#;xa0;TeamPCP Supply Chain Campaign Update 007, published April 8, 2026, which left the campaign in credential-monetization mode following the Cisco source code theft via Trivy-linked credentials, Google GTIG&#;x26;#;39;s formal designation of the operators as UNC6780 (with their credential stealer named SANDCLOCK), and the lapsed CISA KEV remediation deadline for CVE-2026-33634 with no standalone federal advisory. The Sportradar publication deadline flagg",
-      "published": "2026-04-27 23:01 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "TeamPCP Supply Chain Campaign: Update 008 - 26-Day Pause Ends with Three Concurrent Compromises (Checkmarx KICS, Bitwarden CLI Cascade, xinference PyPI), CanisterSprawl npm Worm Identified, and Tier 1 Coverage Returns, (Mon, Apr 27th)",
-      "summary_ja": "This update succeeds&#;x26;#;xc2;&#;x26;#;xa0;TeamPCP Supply Chain Campaign Update 007, published April 8, 2026, which left the campaign in credential-monetization mode following the Cisco source code theft via Trivy-linked credentials, Google GTIG&#;x26;#;39;s formal designation of the operators as UNC6780 (with their credential stealer named SANDCLOCK), and the lapsed CISA KEV remediation deadline for CVE-2026-33634 with no standalone federal advisory. The Sportradar publication deadline flagg"
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -613,6 +613,26 @@
       "summary_ja": "Kaspersky researchers analyze a new CrystalX RAT distributed as MaaS and featuring extensive spyware, stealer, and prankware capabilities."
     },
     {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l",
+      "published": "2026-05-01 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l"
+    },
+    {
+      "title": "Careful Adoption of Agentic AI Services",
+      "url": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
+      "summary_en": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on adopting agentic artificial intelligence (AI) systems.\nThis guide outlines key security challenges and risks associated with agentic AI, and provides actionable steps for designing, deploying, and operating these systems safely. It helps organizations align AI risk management with existing cybersecurity fr",
+      "published": "2026-05-01 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Careful Adoption of Agentic AI Services",
+      "summary_ja": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on adopting agentic artificial intelligence (AI) systems.\nThis guide outlines key security challenges and risks associated with agentic AI, and provides actionable steps for designing, deploying, and operating these systems safely. It helps organizations align AI risk management with existing cybersecurity fr"
+    },
+    {
       "title": "ABB AWIN Gateways",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
       "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, including sensitive details.\nThe following versions of ABB AWIN Gateways are affected:\n\nABB AWIN Firmware (2.0-0) installed on ABB AWIN GW100 rev.2 2.0-0 \nABB AWIN Firmware (2.0-1) installed on ABB AWIN GW100 rev.2 2.0-1 \nABB AWIN Firmware (1.2-0) installed on ABB AWIN GW120 1.2-0 \nABB AWIN Firmware (1.2-1) i",
@@ -671,26 +691,6 @@
       "category": "cve",
       "title_ja": "ABB Ability Symphony Plus Engineering",
       "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQL version 13.11 and earlier versions. If an attacker gains access to a site’s S+ Client Server network, they could exploit such vulnerabilities by executing arbitrary code and potentially compromising the entire system.\nThe following versions of ABB Ability Symphony Plus Engineering are affected:\n\nAbil"
-    },
-    {
-      "title": "ABB System 800xA, Symphony Plus IEC 61850",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
-      "summary_en": "View CSAF\nSummary\nThis vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control system products. Note: IEC 61850 communication typically supports MMS and GOOSE protocols. Some ABB products support both, others only MMS (e.g. S+ Operations and PM 877). In any case, GOOSE communication is not impacted by this reported vulnerability. If an attacker gains access to a site’s IEC 61850 network",
-      "published": "2026-04-30 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "ABB System 800xA, Symphony Plus IEC 61850",
-      "summary_ja": "View CSAF\nSummary\nThis vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control system products. Note: IEC 61850 communication typically supports MMS and GOOSE protocols. Some ABB products support both, others only MMS (e.g. S+ Operations and PM 877). In any case, GOOSE communication is not impacted by this reported vulnerability. If an attacker gains access to a site’s IEC 61850 network"
-    },
-    {
-      "title": "Adapting Zero Trust Principles to Operational Technology",
-      "url": "https://www.cisa.gov/resources-tools/resources/adapting-zero-trust-principles-operational-technology",
-      "summary_en": "Adapting Zero Trust Principles to Operational Technology\nCISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released Adapting Zero Trust Principles to Operational Technology, joint guidance for organizations applying zero trust (ZT) principles to operational technology (OT). Zero trust is a modern, adaptive approach to cybersecurity that eliminates implicit trust and requires continuously validating access based on id",
-      "published": "2026-04-29 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "Adapting Zero Trust Principles to Operational Technology",
-      "summary_ja": "Adapting Zero Trust Principles to Operational Technology\nCISA, in coordination with the Department of War, Department of Energy, Federal Bureau of Investigation, and Department of State, released Adapting Zero Trust Principles to Operational Technology, joint guidance for organizations applying zero trust (ZT) principles to operational technology (OT). Zero trust is a modern, adaptive approach to cybersecurity that eliminates implicit trust and requires continuously validating access based on id"
     }
   ]
 }

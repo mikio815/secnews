@@ -1,7 +1,17 @@
 {
-  "updated": "2026-05-02 08:51 JST",
+  "updated": "2026-05-02 20:41 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+      "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+      "summary_en": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code.\nIt said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter.\nTrellix did not disclose the",
+      "published": "2026-05-02 15:41 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+      "summary_ja": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code.\nIt said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter.\nTrellix did not disclose the"
+    },
     {
       "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
       "url": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
@@ -73,14 +83,14 @@
       "summary_ja": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft.\nAccording to Aikido Security, OX Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an"
     },
     {
-      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
-      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
-      "summary_en": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online.\nSecurity is always a moving target. Millions of servers are currently sitting online without any passwords, and",
-      "published": "2026-04-30 22:55 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
-      "summary_ja": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online.\nSecurity is always a moving target. Millions of servers are currently sitting online without any passwords, and"
+      "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
+      "summary_en": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]",
+      "published": "2026-05-02 09:18 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
+      "summary_ja": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]"
     },
     {
       "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
@@ -151,16 +161,6 @@
       "category": "incident",
       "title_ja": "Windows 11 KB5083631 update released with 34 changes and fixes",
       "summary_ja": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance improvements for launching startup apps. [...]"
-    },
-    {
-      "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
-      "summary_en": "Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
-      "published": "2026-05-01 16:47 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
-      "summary_ja": "Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]"
     },
     {
       "title": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",

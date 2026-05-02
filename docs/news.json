@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-02 20:41 JST",
+  "updated": "2026-05-03 08:42 JST",
   "count": 69,
   "articles": [
     {
@@ -83,6 +83,26 @@
       "summary_ja": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft.\nAccording to Aikido Security, OX Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an"
     },
     {
+      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
+      "summary_en": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
+      "published": "2026-05-03 06:54 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+      "summary_ja": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]"
+    },
+    {
+      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
+      "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
+      "summary_en": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]",
+      "published": "2026-05-02 23:32 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
+      "summary_ja": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]"
+    },
+    {
       "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
       "summary_en": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]",
@@ -141,26 +161,6 @@
       "category": "incident",
       "title_ja": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
       "summary_ja": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]"
-    },
-    {
-      "title": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/",
-      "summary_en": "Microsoft has updated a Windows 11 in-box app removal policy introduced in October to include a dynamic list that lets IT admins choose which preinstalled Store apps to uninstall. [...]",
-      "published": "2026-05-01 20:10 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
-      "summary_ja": "Microsoft has updated a Windows 11 in-box app removal policy introduced in October to include a dynamic list that lets IT admins choose which preinstalled Store apps to uninstall. [...]"
-    },
-    {
-      "title": "Windows 11 KB5083631 update released with 34 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
-      "summary_en": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance improvements for launching startup apps. [...]",
-      "published": "2026-05-01 19:00 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Windows 11 KB5083631 update released with 34 changes and fixes",
-      "summary_ja": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance improvements for launching startup apps. [...]"
     },
     {
       "title": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",

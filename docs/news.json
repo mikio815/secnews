@@ -1,7 +1,17 @@
 {
-  "updated": "2026-05-03 08:42 JST",
+  "updated": "2026-05-03 20:39 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+      "url": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an",
+      "published": "2026-05-03 15:26 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an"
+    },
     {
       "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
       "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
@@ -71,16 +81,6 @@
       "category": "general",
       "title_ja": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
       "summary_ja": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence.\nThe activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of"
-    },
-    {
-      "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
-      "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
-      "summary_en": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft.\nAccording to Aikido Security, OX Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an",
-      "published": "2026-05-01 01:31 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
-      "summary_ja": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft.\nAccording to Aikido Security, OX Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an"
     },
     {
       "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",

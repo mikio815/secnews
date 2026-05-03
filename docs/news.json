@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-03 20:39 JST",
+  "updated": "2026-05-04 08:44 JST",
   "count": 69,
   "articles": [
     {
@@ -83,6 +83,36 @@
       "summary_ja": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence.\nThe activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of"
     },
     {
+      "title": "Instructure confirms data breach, ShinyHunters claims attack",
+      "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
+      "summary_en": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]",
+      "published": "2026-05-04 07:16 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Instructure confirms data breach, ShinyHunters claims attack",
+      "summary_ja": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]"
+    },
+    {
+      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "summary_en": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]",
+      "published": "2026-05-04 03:11 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+      "summary_ja": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]"
+    },
+    {
+      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+      "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+      "summary_en": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]",
+      "published": "2026-05-03 23:11 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+      "summary_ja": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]"
+    },
+    {
       "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
       "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
       "summary_en": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
@@ -131,36 +161,6 @@
       "category": "incident",
       "title_ja": "15-year-old detained over French govt agency data breach",
       "summary_ja": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]"
-    },
-    {
-      "title": "Story retracted",
-      "url": "https://www.bleepingcomputer.com/news/security/story-retracted/",
-      "summary_en": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated details from a prior incident. The article has been retracted, and we regret the error. [...]",
-      "published": "2026-05-02 01:26 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Story retracted",
-      "summary_ja": "BleepingComputer initially published a story about a new data breach at Instructure. Shortly after publication, we determined that the information was incorrect and primarily based on outdated details from a prior incident. The article has been retracted, and we regret the error. [...]"
-    },
-    {
-      "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
-      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
-      "summary_en": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigations. [...]",
-      "published": "2026-05-01 23:02 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
-      "summary_ja": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigations. [...]"
-    },
-    {
-      "title": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
-      "summary_en": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
-      "published": "2026-05-01 21:46 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
-      "summary_ja": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]"
     },
     {
       "title": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",
@@ -293,6 +293,16 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
+      "url": "https://isc.sans.edu/diary/rss/32944",
+      "summary_en": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs.",
+      "published": "2026-05-04 01:49 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
+      "summary_ja": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs."
+    },
+    {
       "title": "Malicious Ad for Homebrew Leads to MacSync Stealer, (Fri, May 1st)",
       "url": "https://isc.sans.edu/diary/rss/32942",
       "summary_en": "Introduction",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
       "summary_ja": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
-      "url": "https://isc.sans.edu/diary/rss/32928",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-04-28 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",

@@ -1,7 +1,37 @@
 {
-  "updated": "2026-05-04 21:22 JST",
+  "updated": "2026-05-05 08:55 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
+      "url": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+      "summary_en": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
+      "published": "2026-05-05 03:06 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
+      "summary_ja": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters"
+    },
+    {
+      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+      "url": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+      "summary_en": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass.\nMOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. \nThe",
+      "published": "2026-05-05 01:34 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+      "summary_ja": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass.\nMOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. \nThe"
+    },
+    {
+      "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "summary_en": "This week, the shadows moved faster than the patches.\nWhile most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems.\nThe game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling",
+      "published": "2026-05-04 23:23 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+      "summary_ja": "This week, the shadows moved faster than the patches.\nWhile most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems.\nThe game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling"
+    },
     {
       "title": "2026: The Year of AI-Assisted Attacks",
       "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
@@ -53,34 +83,74 @@
       "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an"
     },
     {
-      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
-      "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-      "summary_en": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code.\nIt said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter.\nTrellix did not disclose the",
-      "published": "2026-05-02 15:41 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
-      "summary_ja": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code.\nIt said it \"recently identified\" the compromise of its source code repository and that it began working with \"leading forensic experts\" to resolve the matter immediately. It also said it has notified law enforcement of the matter.\nTrellix did not disclose the"
+      "title": "Weaver E-cology critical bug exploited in attacks since March",
+      "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
+      "summary_en": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
+      "published": "2026-05-05 07:12 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Weaver E-cology critical bug exploited in attacks since March",
+      "summary_ja": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]"
     },
     {
-      "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
-      "url": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
-      "summary_en": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts.\nThe activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are",
-      "published": "2026-05-02 03:09 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
-      "summary_ja": "A newly discovered Vietnamese-linked operation has been observed using a Google AppSheet as a \"phishing relay\" to distribute phishing emails with an aim to compromise Facebook accounts.\nThe activity has been codenamed AccountDumpling by Guardio, with the scheme selling the stolen accounts back through an illicit storefront run by the threat actors. In all, roughly 30,000 Facebook accounts are"
+      "title": "Amazon SES increasingly abused in phishing to evade detection",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
+      "summary_en": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
+      "published": "2026-05-05 05:03 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Amazon SES increasingly abused in phishing to evade detection",
+      "summary_ja": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]"
     },
     {
-      "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
-      "url": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
-      "summary_en": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions.\nThe clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and",
-      "published": "2026-05-01 23:26 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
-      "summary_ja": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions.\nThe clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and"
+      "title": "Backdoored PyTorch Lightning package drops credential stealer",
+      "url": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+      "summary_en": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]",
+      "published": "2026-05-05 02:15 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Backdoored PyTorch Lightning package drops credential stealer",
+      "summary_ja": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]"
+    },
+    {
+      "title": "Trellix discloses data breach after source code repository hack",
+      "url": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
+      "summary_en": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]",
+      "published": "2026-05-05 01:25 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Trellix discloses data breach after source code repository hack",
+      "summary_ja": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
+    },
+    {
+      "title": "They don’t hack, they borrow: How fraudsters target credit unions",
+      "url": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
+      "summary_en": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]",
+      "published": "2026-05-04 22:42 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "They don’t hack, they borrow: How fraudsters target credit unions",
+      "summary_ja": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]"
+    },
+    {
+      "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
+      "summary_en": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]",
+      "published": "2026-05-04 21:18 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Progress warns of critical MOVEit Automation auth bypass flaw",
+      "summary_ja": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]"
+    },
+    {
+      "title": "Webinar: Why MSPs must rethink security and backup strategies",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
+      "summary_en": "Security breaches don't just test your defenses—they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational after attacks. [...]",
+      "published": "2026-05-04 21:16 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Webinar: Why MSPs must rethink security and backup strategies",
+      "summary_ja": "Security breaches don't just test your defenses—they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational after attacks. [...]"
     },
     {
       "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
@@ -93,74 +163,34 @@
       "summary_ja": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]"
     },
     {
-      "title": "Microsoft confirms April Windows updates cause backup failures",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
-      "summary_en": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]",
-      "published": "2026-05-04 19:40 JST",
-      "source": "Bleeping Computer",
+      "title": "Educational company Infrastructure reports cyber incident",
+      "url": "https://therecord.media/infrastructure-education-company-canvas-incident",
+      "summary_en": "By Saturday, Infrastructure’s chief information security officer Steve Proud confirmed that the hackers gained access to information about users at some educational institutions, including names, email addresses, student ID numbers and messages between users.",
+      "published": "2026-05-05 02:19 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Microsoft confirms April Windows updates cause backup failures",
-      "summary_ja": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]"
+      "title_ja": "Educational company Infrastructure reports cyber incident",
+      "summary_ja": "By Saturday, Infrastructure’s chief information security officer Steve Proud confirmed that the hackers gained access to information about users at some educational institutions, including names, email addresses, student ID numbers and messages between users."
     },
     {
-      "title": "Instructure confirms data breach, ShinyHunters claims attack",
-      "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
-      "summary_en": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]",
-      "published": "2026-05-04 07:16 JST",
-      "source": "Bleeping Computer",
+      "title": "Forbes preliminarily agrees to pay $10 million to settle California wiretapping lawsuit",
+      "url": "https://therecord.media/forbes-agrees-10-million-settlement-privacy-class-action",
+      "summary_en": "The preliminary settlement agreement, released on Thursday, said that Forbes has agreed to give users “greater notice” of its use of trackers and will add language to its website providing  California residents with more control over how their data is collected and shared with third parties.",
+      "published": "2026-05-05 01:49 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Instructure confirms data breach, ShinyHunters claims attack",
-      "summary_ja": "Educational tech giant Instructure has confirmed that data was stolen in a cyberattack, with the ShinyHunters extortion gang claiming responsibility. [...]"
+      "title_ja": "Forbes preliminarily agrees to pay $10 million to settle California wiretapping lawsuit",
+      "summary_ja": "The preliminary settlement agreement, released on Thursday, said that Forbes has agreed to give users “greater notice” of its use of trackers and will add language to its website providing  California residents with more control over how their data is collected and shared with third parties."
     },
     {
-      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
-      "summary_en": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]",
-      "published": "2026-05-04 03:11 JST",
-      "source": "Bleeping Computer",
+      "title": "Ransomware group claims breach of pro-Orbán Hungarian media firm",
+      "url": "https://therecord.media/ransomware-group-claims-breach-of-pro-orban-media-firm",
+      "summary_en": "Mediaworks confirmed the incident on Friday, warning that “a significant amount of illegally obtained data may have come into the possession of unauthorized persons.\"",
+      "published": "2026-05-05 00:23 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
-      "summary_ja": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]"
-    },
-    {
-      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
-      "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
-      "summary_en": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]",
-      "published": "2026-05-03 23:11 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
-      "summary_ja": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]"
-    },
-    {
-      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
-      "summary_en": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
-      "published": "2026-05-03 06:54 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
-      "summary_ja": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]"
-    },
-    {
-      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-      "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
-      "summary_en": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]",
-      "published": "2026-05-02 23:32 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
-      "summary_ja": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]"
-    },
-    {
-      "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
-      "summary_en": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]",
-      "published": "2026-05-02 09:18 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
-      "summary_ja": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]"
+      "title_ja": "Ransomware group claims breach of pro-Orbán Hungarian media firm",
+      "summary_ja": "Mediaworks confirmed the incident on Friday, warning that “a significant amount of illegally obtained data may have come into the possession of unauthorized persons.\""
     },
     {
       "title": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",
@@ -181,36 +211,6 @@
       "category": "incident",
       "title_ja": "Federal agencies must patch cPanel bug by Sunday, CISA says",
       "summary_ja": "Incident responders at Rapid7 said successful exploitation of CVE-2026-41940 “grants an attacker control over the cPanel host system, its configurations and databases, and websites it manages.”"
-    },
-    {
-      "title": "Cyber incident responders who carried out ransomware attacks given 4-year sentences",
-      "url": "https://therecord.media/ransomware-cyber-incident-responders",
-      "summary_en": "Two cybersecurity incident responders who abused their positions to carry out covert ransomware attacks were sentenced to four years in prison.",
-      "published": "2026-05-01 23:15 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Cyber incident responders who carried out ransomware attacks given 4-year sentences",
-      "summary_ja": "Two cybersecurity incident responders who abused their positions to carry out covert ransomware attacks were sentenced to four years in prison."
-    },
-    {
-      "title": "British cyber agency warns of looming ‘patch wave’ as AI speeds flaw discovery",
-      "url": "https://therecord.media/british-cyber-ai-patch-wave",
-      "summary_en": "Britain’s cyber agency warned that organizations should prepare for a surge of urgent software updates as artificial intelligence accelerates the discovery of security flaws, raising the risk of widespread exploitation.",
-      "published": "2026-05-01 22:30 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "British cyber agency warns of looming ‘patch wave’ as AI speeds flaw discovery",
-      "summary_ja": "Britain’s cyber agency warned that organizations should prepare for a surge of urgent software updates as artificial intelligence accelerates the discovery of security flaws, raising the risk of widespread exploitation."
-    },
-    {
-      "title": "Cyber spies target Russian aviation firms to steal satellite and GPS data",
-      "url": "https://therecord.media/russia-cyber-espionage-aviation",
-      "summary_en": "A cyber-espionage group has been targeting Russian government agencies and companies in the aviation industry to steal sensitive geospatial data.",
-      "published": "2026-05-01 22:00 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Cyber spies target Russian aviation firms to steal satellite and GPS data",
-      "summary_ja": "A cyber-espionage group has been targeting Russian government agencies and companies in the aviation industry to steal sensitive geospatial data."
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -293,6 +293,26 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "TeamPCP Weekly Analysis: 2026-W18 (2026-04-27 through 2026-05-03), (Mon, May 4th)",
+      "url": "https://isc.sans.edu/diary/rss/32950",
+      "summary_en": "Summary",
+      "published": "2026-05-05 02:12 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "TeamPCP Weekly Analysis: 2026-W18 (2026-04-27 through 2026-05-03), (Mon, May 4th)",
+      "summary_ja": "Summary"
+    },
+    {
+      "title": "DShield Honeypot Update, (Mon, May 4th)",
+      "url": "https://isc.sans.edu/diary/rss/32948",
+      "summary_en": "This week, I will release a few updates to our DShield honeypot. The update should happen automatically if you have \"automatic updates\" enabled on your system. There will be two major changes:",
+      "published": "2026-05-04 23:23 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "DShield Honeypot Update, (Mon, May 4th)",
+      "summary_ja": "This week, I will release a few updates to our DShield honeypot. The update should happen automatically if you have \"automatic updates\" enabled on your system. There will be two major changes:"
+    },
+    {
       "title": "ISC Stormcast For Monday, May 4th, 2026 https://isc.sans.edu/podcastdetail/9916, (Mon, May 4th)",
       "url": "https://isc.sans.edu/diary/rss/32946",
       "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -351,26 +371,6 @@
       "category": "technical",
       "title_ja": "Danger of Libredtail [Guest Diary], (Wed, Apr 29th)",
       "summary_ja": "[This is a Guest Diary by James Roberts, an ISC intern as part of the SANS.edu BACS program]"
-    },
-    {
-      "title": "Today's Odd Web Requests, (Wed, Apr 29th)",
-      "url": "https://isc.sans.edu/diary/rss/32934",
-      "summary_en": "Today, two different \"new\" requests hit our honeypots. Both appear to be recon requests and not associated with specific vulnerabilities. But as always, please let me know if you have additional information",
-      "published": "2026-04-29 22:11 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Today's Odd Web Requests, (Wed, Apr 29th)",
-      "summary_ja": "Today, two different \"new\" requests hit our honeypots. Both appear to be recon requests and not associated with specific vulnerabilities. But as always, please let me know if you have additional information"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
-      "url": "https://isc.sans.edu/diary/rss/32932",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-04-29 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",

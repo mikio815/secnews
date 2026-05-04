@@ -1,7 +1,47 @@
 {
-  "updated": "2026-05-04 08:44 JST",
+  "updated": "2026-05-04 21:22 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "2026: The Year of AI-Assisted Attacks",
+      "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+      "summary_en": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club, Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards.\nIn a sense, this is a fairly conventional story.",
+      "published": "2026-05-04 20:58 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "2026: The Year of AI-Assisted Attacks",
+      "summary_ja": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club, Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards.\nIn a sense, this is a fairly conventional story."
+    },
+    {
+      "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
+      "url": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+      "summary_en": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor.\nThe activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities.\n\"Both waves followed a nearly identical",
+      "published": "2026-05-04 20:57 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
+      "summary_ja": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor.\nThe activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities.\n\"Both waves followed a nearly identical"
+    },
+    {
+      "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
+      "url": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
+      "summary_en": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel.\nThe activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the",
+      "published": "2026-05-04 18:27 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
+      "summary_ja": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel.\nThe activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the"
+    },
+    {
+      "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
+      "url": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
+      "summary_en": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses.\nThe crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal",
+      "published": "2026-05-04 14:59 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
+      "summary_ja": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses.\nThe crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal"
+    },
     {
       "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
       "url": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
@@ -43,44 +83,24 @@
       "summary_ja": "Cybersecurity researchers are warning of two cybercrime groups that are carrying out \"rapid, high-impact attacks\" operating almost within the confines of SaaS environments, while leaving minimal traces of their actions.\nThe clusters, Cordial Spider (aka BlackFile, CL-CRI-1116, O-UNC-045, and UNC6671) and Snarky Spider (aka O-UNC-025 and UNC6661), have been attributed to high-speed data theft and"
     },
     {
-      "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
-      "url": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-      "summary_en": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO.\nTrend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053. The adversarial collective is assessed to",
-      "published": "2026-05-01 23:02 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
-      "summary_ja": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO.\nTrend Micro has attributed the activity to a threat activity cluster it tracks under the temporary designation SHADOW-EARTH-053. The adversarial collective is assessed to"
+      "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
+      "summary_en": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]",
+      "published": "2026-05-04 20:28 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
+      "summary_ja": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]"
     },
     {
-      "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
-      "url": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
-      "summary_en": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs.\nThis execution gap is where most deals stall. MSPs often focus on",
-      "published": "2026-05-01 19:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
-      "summary_ja": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity, many MSPs leave revenue on the table because their go-to-market strategy fails to connect technical expertise with business needs.\nThis execution gap is where most deals stall. MSPs often focus on"
-    },
-    {
-      "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
-      "url": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-      "summary_en": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023.\nRyan Goldberg, 40, of Georgia, and Kevin Martin, 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023.",
-      "published": "2026-05-01 18:56 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
-      "summary_ja": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023.\nRyan Goldberg, 40, of Georgia, and Kevin Martin, 36, of Texas, were accused of deploying the ransomware against multiple victims located throughout the U.S. between April and December 2023."
-    },
-    {
-      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-      "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "summary_en": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence.\nThe activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of",
-      "published": "2026-05-01 18:43 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-      "summary_ja": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence.\nThe activity has been attributed to the GitHub account \"BufferZoneCorp,\" which has published a set of repositories that are associated with malicious Ruby gems and Go modules. As of"
+      "title": "Microsoft confirms April Windows updates cause backup failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
+      "summary_en": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]",
+      "published": "2026-05-04 19:40 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Microsoft confirms April Windows updates cause backup failures",
+      "summary_ja": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]"
     },
     {
       "title": "Instructure confirms data breach, ShinyHunters claims attack",
@@ -141,26 +161,6 @@
       "category": "incident",
       "title_ja": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
       "summary_ja": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]"
-    },
-    {
-      "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
-      "url": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
-      "summary_en": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]",
-      "published": "2026-05-02 08:43 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Edu tech firm Instructure discloses cyber incident, probes impact",
-      "summary_ja": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]"
-    },
-    {
-      "title": "15-year-old detained over French govt agency data breach",
-      "url": "https://www.bleepingcomputer.com/news/security/15-year-old-detained-over-french-govt-agency-data-breach/",
-      "summary_en": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]",
-      "published": "2026-05-02 02:52 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "15-year-old detained over French govt agency data breach",
-      "summary_ja": "French authorities have detained a 15-year-old suspected of selling data stolen in a cyberattack on France Titres (ANTS), the country's agency for issuing and managing administrative documents. [...]"
     },
     {
       "title": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",
@@ -293,6 +293,16 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "ISC Stormcast For Monday, May 4th, 2026 https://isc.sans.edu/podcastdetail/9916, (Mon, May 4th)",
+      "url": "https://isc.sans.edu/diary/rss/32946",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-05-04 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Monday, May 4th, 2026 https://isc.sans.edu/podcastdetail/9916, (Mon, May 4th)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
       "title": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
       "url": "https://isc.sans.edu/diary/rss/32944",
       "summary_en": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs.",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
       "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
-      "url": "https://isc.sans.edu/diary/rss/32930",
-      "summary_en": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:",
-      "published": "2026-04-28 22:28 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
-      "summary_ja": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:"
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -533,6 +533,16 @@
       "summary_ja": "In 2025, attackers increasingly targeted weaknesses in multi-factor authentication (MFA) workflows, and phishing attacks leveraged valid, compromised credentials to launch lures from trusted accounts. The trends focused entirely on trust, or the lack thereof, in everyday business operations."
     },
     {
+      "title": "“Legitimate” phishing: how attackers weaponize Amazon SES to bypass email security",
+      "url": "https://securelist.com/amazon-ses-phishing-and-bec-attacks/119623/",
+      "summary_en": "Kaspersky expert breaks down a new phishing scheme that uses the Amazon SES cloud email service. Let's look at some examples to see how you can tell a phishing email from a real one.",
+      "published": "2026-05-04 19:00 JST",
+      "source": "Securelist",
+      "category": "research",
+      "title_ja": "“Legitimate” phishing: how attackers weaponize Amazon SES to bypass email security",
+      "summary_ja": "Kaspersky expert breaks down a new phishing scheme that uses the Amazon SES cloud email service. Let's look at some examples to see how you can tell a phishing email from a real one."
+    },
+    {
       "title": "Silver Fox uses the new ABCDoor backdoor to target organizations in Russia and India",
       "url": "https://securelist.com/silver-fox-tax-notification-campaign/119575/",
       "summary_en": "The Silver Fox group is targeting companies in Russia and India by impersonating tax authorities to distribute ValleyRAT and the new ABCDoor backdoor.",
@@ -601,16 +611,6 @@
       "category": "research",
       "title_ja": "Financial cyberthreats in 2025 and the outlook for 2026",
       "summary_ja": "In this report, Kaspersky experts share their insights into the 2025 financial threat landscape, including regional statistics and trends in phishing, PC malware, and infostealers."
-    },
-    {
-      "title": "A laughing RAT: CrystalX combines spyware, stealer, and prankware features",
-      "url": "https://securelist.com/crystalx-rat-with-prankware-features/119283/",
-      "summary_en": "Kaspersky researchers analyze a new CrystalX RAT distributed as MaaS and featuring extensive spyware, stealer, and prankware capabilities.",
-      "published": "2026-04-01 15:00 JST",
-      "source": "Securelist",
-      "category": "research",
-      "title_ja": "A laughing RAT: CrystalX combines spyware, stealer, and prankware features",
-      "summary_ja": "Kaspersky researchers analyze a new CrystalX RAT distributed as MaaS and featuring extensive spyware, stealer, and prankware capabilities."
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",

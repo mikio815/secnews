@@ -1,7 +1,57 @@
 {
-  "updated": "2026-05-05 20:58 JST",
+  "updated": "2026-05-06 08:47 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
+      "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+      "summary_en": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE).\nThe vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue",
+      "published": "2026-05-06 01:19 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
+      "summary_ja": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE).\nThe vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue"
+    },
+    {
+      "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
+      "url": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
+      "summary_en": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky.\n\"These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging to DAEMON Tools developers,\" Kaspersky researchers  Igor Kuznetsov, Georgy Kucherin, Leonid",
+      "published": "2026-05-06 01:07 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
+      "summary_ja": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky.\n\"These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging to DAEMON Tools developers,\" Kaspersky researchers  Igor Kuznetsov, Georgy Kucherin, Leonid"
+    },
+    {
+      "title": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
+      "url": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
+      "summary_en": "A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.\nThe activity is being tracked by Cisco Talos under the moniker UAT-8302, with post-exploitation involving the deployment of custom-made malware families that have been put",
+      "published": "2026-05-05 23:19 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
+      "summary_ja": "A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.\nThe activity is being tracked by Cisco Talos under the moniker UAT-8302, with post-exploitation involving the deployment of custom-made malware families that have been put"
+    },
+    {
+      "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
+      "url": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
+      "summary_en": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your MFA doesn't stop it. And when an attacker gets hold of one, they don't need a password.\nOAuth",
+      "published": "2026-05-05 20:58 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
+      "summary_ja": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your MFA doesn't stop it. And when an attacker gets hold of one, they don't need a password.\nOAuth"
+    },
+    {
+      "title": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
+      "url": "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
+      "summary_en": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck.\nThe vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution.\n\"MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code",
+      "published": "2026-05-05 20:56 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
+      "summary_ja": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck.\nThe vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution.\n\"MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code"
+    },
     {
       "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
       "url": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
@@ -33,54 +83,74 @@
       "summary_ja": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild.\nThe vulnerability (CVE-2026-22679, CVSS score: 9.8) relates to a case of unauthenticated remote code execution affecting Weaver E-cology 10.0 versions prior to 20260312. The issue resides in the \"/papi/esearch/data/devops/"
     },
     {
-      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
-      "url": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
-      "summary_en": "Microsoft has disclosed details of a large-scale credential theft campaign that has leveraged a combination of code of conduct-themed lures and legitimate email services to direct users to attacker-controlled domains and steal authentication tokens.\nThe multi-stage campaign, observed between April 14 and 16, 2026, targeted more than 35,000 users across over 13,000 organizations in 26 countries,",
-      "published": "2026-05-05 15:35 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
-      "summary_ja": "Microsoft has disclosed details of a large-scale credential theft campaign that has leveraged a combination of code of conduct-themed lures and legitimate email services to direct users to attacker-controlled domains and steal authentication tokens.\nThe multi-stage campaign, observed between April 14 and 16, 2026, targeted more than 35,000 users across over 13,000 organizations in 26 countries,"
+      "title": "New stealthy Quasar Linux malware targets software developers",
+      "url": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
+      "summary_en": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]",
+      "published": "2026-05-06 07:01 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "New stealthy Quasar Linux malware targets software developers",
+      "summary_ja": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]"
     },
     {
-      "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
-      "url": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-      "summary_en": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
-      "published": "2026-05-05 03:06 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
-      "summary_ja": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters"
+      "title": "Instructure hacker claims data theft from 8,800 schools, universities",
+      "url": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+      "summary_en": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]",
+      "published": "2026-05-06 06:20 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Instructure hacker claims data theft from 8,800 schools, universities",
+      "summary_ja": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]"
     },
     {
-      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
-      "url": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
-      "summary_en": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass.\nMOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. \nThe",
-      "published": "2026-05-05 01:34 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
-      "summary_ja": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass.\nMOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. \nThe"
+      "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
+      "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
+      "summary_en": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]",
+      "published": "2026-05-06 04:21 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
+      "summary_ja": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]"
     },
     {
-      "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
-      "url": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
-      "summary_en": "This week, the shadows moved faster than the patches.\nWhile most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems.\nThe game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling",
-      "published": "2026-05-04 23:23 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
-      "summary_ja": "This week, the shadows moved faster than the patches.\nWhile most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems.\nThe game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling"
+      "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
+      "url": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
+      "summary_en": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]",
+      "published": "2026-05-06 02:34 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
+      "summary_ja": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]"
     },
     {
-      "title": "2026: The Year of AI-Assisted Attacks",
-      "url": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
-      "summary_en": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club, Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards.\nIn a sense, this is a fairly conventional story.",
-      "published": "2026-05-04 20:58 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "2026: The Year of AI-Assisted Attacks",
-      "summary_ja": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club, Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards.\nIn a sense, this is a fairly conventional story."
+      "title": "FTC to ban data broker Kochava from selling Americans’ location data",
+      "url": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
+      "summary_en": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data collected from hundreds of millions of mobile devices. [...]",
+      "published": "2026-05-05 23:39 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "FTC to ban data broker Kochava from selling Americans’ location data",
+      "summary_ja": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data collected from hundreds of millions of mobile devices. [...]"
+    },
+    {
+      "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
+      "url": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
+      "summary_en": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]",
+      "published": "2026-05-05 23:00 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
+      "summary_ja": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]"
+    },
+    {
+      "title": "Vimeo data breach exposes personal information of 119,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
+      "summary_en": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]",
+      "published": "2026-05-05 22:03 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Vimeo data breach exposes personal information of 119,000 people",
+      "summary_ja": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]"
     },
     {
       "title": "Google now offers up to $1.5 million for some Android exploits",
@@ -93,124 +163,54 @@
       "summary_ja": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]"
     },
     {
-      "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
-      "summary_en": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]",
-      "published": "2026-05-05 19:13 JST",
-      "source": "Bleeping Computer",
+      "title": "FTC bans data broker Kochava from selling sensitive location info",
+      "url": "https://therecord.media/ftc-bans-kochava-location-data-sales",
+      "summary_en": "The FTC has said that Kochava sold precise geolocation data showing consumers visiting houses of worship and health care clinics without their consent or awareness, an alleged violation of a law barring companies from engaging in unfair and deceptive practices.",
+      "published": "2026-05-06 03:02 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
-      "summary_ja": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]"
+      "title_ja": "FTC bans data broker Kochava from selling sensitive location info",
+      "summary_ja": "The FTC has said that Kochava sold precise geolocation data showing consumers visiting houses of worship and health care clinics without their consent or awareness, an alleged violation of a law barring companies from engaging in unfair and deceptive practices."
     },
     {
-      "title": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
-      "url": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
-      "summary_en": "A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mobile devices. [...]",
-      "published": "2026-05-05 19:03 JST",
-      "source": "Bleeping Computer",
+      "title": "Conti, Akira ransomware affiliate given 8-year sentence",
+      "url": "https://therecord.media/conti-akira-ransomware-affiliate-sentenced",
+      "summary_en": "Deniss Zolotarjovs pleaded guilty in July 2025 to money laundering and wire fraud charges after being arrested in the country of Georgia.",
+      "published": "2026-05-06 02:33 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
-      "summary_ja": "A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mobile devices. [...]"
+      "title_ja": "Conti, Akira ransomware affiliate given 8-year sentence",
+      "summary_ja": "Deniss Zolotarjovs pleaded guilty in July 2025 to money laundering and wire fraud charges after being arrested in the country of Georgia."
     },
     {
-      "title": "ScarCruft hackers push BirdCall Android malware via game platform",
-      "url": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
-      "summary_en": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]",
-      "published": "2026-05-05 18:04 JST",
-      "source": "Bleeping Computer",
+      "title": "Australia launches cyber review board modeled on version disbanded in US",
+      "url": "https://therecord.media/australia-launches-cyber-review-board",
+      "summary_en": "The Cyber Incident Review Board will carry out no-fault, post-incident reviews of significant cyberattacks on Australian government and industry, focusing on systemic lessons rather than individual or corporate culpability.",
+      "published": "2026-05-05 21:45 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "ScarCruft hackers push BirdCall Android malware via game platform",
-      "summary_ja": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]"
+      "title_ja": "Australia launches cyber review board modeled on version disbanded in US",
+      "summary_ja": "The Cyber Incident Review Board will carry out no-fault, post-incident reviews of significant cyberattacks on Australian government and industry, focusing on systemic lessons rather than individual or corporate culpability."
     },
     {
-      "title": "Weaver E-cology critical bug exploited in attacks since March",
-      "url": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
-      "summary_en": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]",
-      "published": "2026-05-05 07:12 JST",
-      "source": "Bleeping Computer",
+      "title": "German officials advance legislation that would expand law enforcement use of surveillance technology",
+      "url": "https://therecord.media/german-officials-advance-laws-surveillance",
+      "summary_en": "The bills would legalize the use of automated data analysis and artificial intelligence tools that let police upload a photo of a face and scour the internet for more images depicting the same person.",
+      "published": "2026-05-05 13:00 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Weaver E-cology critical bug exploited in attacks since March",
-      "summary_ja": "Hackers have been exploiting a critical vulnerability (CVE-2026-22679) in the Weaver E-cology office automation since mid-March to run discovery commands. [...]"
+      "title_ja": "German officials advance legislation that would expand law enforcement use of surveillance technology",
+      "summary_ja": "The bills would legalize the use of automated data analysis and artificial intelligence tools that let police upload a photo of a face and scour the internet for more images depicting the same person."
     },
     {
-      "title": "Amazon SES increasingly abused in phishing to evade detection",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-ses-increasingly-abused-in-phishing-to-evade-detection/",
-      "summary_en": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]",
-      "published": "2026-05-05 05:03 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Amazon SES increasingly abused in phishing to evade detection",
-      "summary_ja": "The Amazon Simple Email Service (SES) is being increasingly abused to send convincing phishing emails that can bypass standard security filters and render reputation-based blocks ineffective. [...]"
-    },
-    {
-      "title": "Backdoored PyTorch Lightning package drops credential stealer",
-      "url": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
-      "summary_en": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]",
-      "published": "2026-05-05 02:15 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Backdoored PyTorch Lightning package drops credential stealer",
-      "summary_ja": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]"
-    },
-    {
-      "title": "Trellix discloses data breach after source code repository hack",
-      "url": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
-      "summary_en": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]",
-      "published": "2026-05-05 01:25 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Trellix discloses data breach after source code repository hack",
-      "summary_ja": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
-    },
-    {
-      "title": "Educational company Infrastructure reports cyber incident",
+      "title": "Educational company Instructure reports cyber incident",
       "url": "https://therecord.media/infrastructure-education-company-canvas-incident",
       "summary_en": "By Saturday, Infrastructure’s chief information security officer Steve Proud confirmed that the hackers gained access to information about users at some educational institutions, including names, email addresses, student ID numbers and messages between users.",
       "published": "2026-05-05 02:19 JST",
       "source": "The Record",
       "category": "incident",
-      "title_ja": "Educational company Infrastructure reports cyber incident",
+      "title_ja": "Educational company Instructure reports cyber incident",
       "summary_ja": "By Saturday, Infrastructure’s chief information security officer Steve Proud confirmed that the hackers gained access to information about users at some educational institutions, including names, email addresses, student ID numbers and messages between users."
-    },
-    {
-      "title": "Forbes preliminarily agrees to pay $10 million to settle California wiretapping lawsuit",
-      "url": "https://therecord.media/forbes-agrees-10-million-settlement-privacy-class-action",
-      "summary_en": "The preliminary settlement agreement, released on Thursday, said that Forbes has agreed to give users “greater notice” of its use of trackers and will add language to its website providing  California residents with more control over how their data is collected and shared with third parties.",
-      "published": "2026-05-05 01:49 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Forbes preliminarily agrees to pay $10 million to settle California wiretapping lawsuit",
-      "summary_ja": "The preliminary settlement agreement, released on Thursday, said that Forbes has agreed to give users “greater notice” of its use of trackers and will add language to its website providing  California residents with more control over how their data is collected and shared with third parties."
-    },
-    {
-      "title": "Ransomware group claims breach of pro-Orbán Hungarian media firm",
-      "url": "https://therecord.media/ransomware-group-claims-breach-of-pro-orban-media-firm",
-      "summary_en": "Mediaworks confirmed the incident on Friday, warning that “a significant amount of illegally obtained data may have come into the possession of unauthorized persons.\"",
-      "published": "2026-05-05 00:23 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Ransomware group claims breach of pro-Orbán Hungarian media firm",
-      "summary_ja": "Mediaworks confirmed the incident on Friday, warning that “a significant amount of illegally obtained data may have come into the possession of unauthorized persons.\""
-    },
-    {
-      "title": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",
-      "url": "https://therecord.media/senate-judiciary-advances-bill-barring-children-ai-chatbots",
-      "summary_en": "The bill, known as the GUARD Act, also requires that AI companions advise users of all ages that they are not human and lack professional credentials. It also makes it a crime for AI companions to knowingly ask kids for sexual content or to produce it.",
-      "published": "2026-05-02 01:28 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Senate Judiciary advances bill that would bar minors from interacting with AI companions",
-      "summary_ja": "The bill, known as the GUARD Act, also requires that AI companions advise users of all ages that they are not human and lack professional credentials. It also makes it a crime for AI companions to knowingly ask kids for sexual content or to produce it."
-    },
-    {
-      "title": "Federal agencies must patch cPanel bug by Sunday, CISA says",
-      "url": "https://therecord.media/cisa-orders-federal-agencies-to-patch-cpanel-bug",
-      "summary_en": "Incident responders at Rapid7 said successful exploitation of CVE-2026-41940 “grants an attacker control over the cPanel host system, its configurations and databases, and websites it manages.”",
-      "published": "2026-05-02 01:20 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Federal agencies must patch cPanel bug by Sunday, CISA says",
-      "summary_ja": "Incident responders at Rapid7 said successful exploitation of CVE-2026-41940 “grants an attacker control over the cPanel host system, its configurations and databases, and websites it manages.”"
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -293,6 +293,16 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "Cleartext Passwords in MS Edge? In 2026?, (Mon, May 4th)",
+      "url": "https://isc.sans.edu/diary/rss/32954",
+      "summary_en": "Yup, that is for real.",
+      "published": "2026-05-05 23:37 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Cleartext Passwords in MS Edge? In 2026?, (Mon, May 4th)",
+      "summary_ja": "Yup, that is for real."
+    },
+    {
       "title": "SSL.com rotates their root certificate today, (Tue, May 5th)",
       "url": "https://isc.sans.edu/diary/rss/32956",
       "summary_en": "I just got an email from SSL.com last night, they are rotating &#;x26;#;xc2;&#;x26;#;xa0;out their root certificate today (May 5,2026). &#;x26;#;xc2;&#;x26;#;xa0;This is normal, business as usual stuff for a CA, but certificates get used for all kinds of things, and sometimes they aren&#;x26;#;39;t used like they should be, so sometimes hiccups happen.",
@@ -301,16 +311,6 @@
       "category": "technical",
       "title_ja": "SSL.com rotates their root certificate today, (Tue, May 5th)",
       "summary_ja": "I just got an email from SSL.com last night, they are rotating &#;x26;#;xc2;&#;x26;#;xa0;out their root certificate today (May 5,2026). &#;x26;#;xc2;&#;x26;#;xa0;This is normal, business as usual stuff for a CA, but certificates get used for all kinds of things, and sometimes they aren&#;x26;#;39;t used like they should be, so sometimes hiccups happen."
-    },
-    {
-      "title": "Cleartext Passwords in MS Edge? In 2026?, (Mon, May 4th)",
-      "url": "https://isc.sans.edu/diary/rss/32954",
-      "summary_en": "Yup, that is for real.",
-      "published": "2026-05-05 20:38 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Cleartext Passwords in MS Edge? In 2026?, (Mon, May 4th)",
-      "summary_ja": "Yup, that is for real."
     },
     {
       "title": "ISC Stormcast For Tuesday, May 5th, 2026 https://isc.sans.edu/podcastdetail/9918, (Tue, May 5th)",
@@ -613,6 +613,56 @@
       "summary_ja": "In this report, Kaspersky experts share their insights into the 2025 financial threat landscape, including regional statistics and trends in phishing, PC malware, and infostealers."
     },
     {
+      "title": "ABB B&R Automation Studio",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
+      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe",
+      "published": "2026-05-05 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "ABB B&R Automation Studio",
+      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe"
+    },
+    {
+      "title": "ABB B&R Automation Runtime",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03",
+      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully exploited this vulnerability could cause the product to stop.\nThe following versions of ABB B&R Automation Runtime are affected:\n\nAutomation Runtime <6.5, >=6.5, =R4.93 (CVE-2025-11044, CVE-2025-11044)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 6.8\nABB\nABB B&R Automation Runtime\nAllocation of Reso",
+      "published": "2026-05-05 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "ABB B&R Automation Runtime",
+      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully exploited this vulnerability could cause the product to stop.\nThe following versions of ABB B&R Automation Runtime are affected:\n\nAutomation Runtime <6.5, >=6.5, =R4.93 (CVE-2025-11044, CVE-2025-11044)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 6.8\nABB\nABB B&R Automation Runtime\nAllocation of Reso"
+    },
+    {
+      "title": "Hitachi Energy PCM600",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-01",
+      "summary_en": "View CSAF\nSummary\nHitachi Energy is aware of a vulnerability that affects the Hitachi Energy PCM600 product versions listed in this document. An attacker successfully exploiting this vulnerability can impact integrity of the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.\nThe following versions of Hitachi Energy PCM600 are affected:\n\nPCM600 Legacy vers:PCM600_Legacy/<=2.11 (CVE-2018-1002208)\nPCM600 3.0, 3.0_HF1, 3.0_HF2, 3.0_HF3, 3.1, ",
+      "published": "2026-05-05 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Hitachi Energy PCM600",
+      "summary_ja": "View CSAF\nSummary\nHitachi Energy is aware of a vulnerability that affects the Hitachi Energy PCM600 product versions listed in this document. An attacker successfully exploiting this vulnerability can impact integrity of the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.\nThe following versions of Hitachi Energy PCM600 are affected:\n\nPCM600 Legacy vers:PCM600_Legacy/<=2.11 (CVE-2018-1002208)\nPCM600 3.0, 3.0_HF1, 3.0_HF2, 3.0_HF3, 3.1, "
+    },
+    {
+      "title": "Johnson Controls CEM AC2000",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-05",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a standard user to escalate privileges on the host machine.\nThe following versions of Johnson Controls CEM AC2000 are affected:\n\nCEM AC2000 12.0 (CVE-2026-21661)\nCEM AC2000 11.0 (CVE-2026-21661)\nCEM AC2000 10.6 (CVE-2026-21661)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.7\nJohnson Controls Inc.\nJohnson Controls CEM AC2000\nUncontrolled Search Path Element\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical M",
+      "published": "2026-05-05 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "Johnson Controls CEM AC2000",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow a standard user to escalate privileges on the host machine.\nThe following versions of Johnson Controls CEM AC2000 are affected:\n\nCEM AC2000 12.0 (CVE-2026-21661)\nCEM AC2000 11.0 (CVE-2026-21661)\nCEM AC2000 10.6 (CVE-2026-21661)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.7\nJohnson Controls Inc.\nJohnson Controls CEM AC2000\nUncontrolled Search Path Element\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical M"
+    },
+    {
+      "title": "ABB B&R PVI",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-02",
+      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. An attacker who successfully exploited this vulnerability could read sensitive information in the logging data of the PVI client application. Logging is deactivated by default in all PVI client versions.\nThe following versions of ABB B&R PVI are affected:\n\nPVI <6.5.0, 6.5.0 (CVE-2026-0936)\n\n\n\n\n\nCVSS\nVendor\nEqui",
+      "published": "2026-05-05 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "ABB B&R PVI",
+      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. An attacker who successfully exploited this vulnerability could read sensitive information in the logging data of the PVI client application. Logging is deactivated by default in all PVI client versions.\nThe following versions of ABB B&R PVI are affected:\n\nPVI <6.5.0, 6.5.0 (CVE-2026-0936)\n\n\n\n\n\nCVSS\nVendor\nEqui"
+    },
+    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l",
@@ -641,56 +691,6 @@
       "category": "cve",
       "title_ja": "ABB AWIN Gateways",
       "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, including sensitive details.\nThe following versions of ABB AWIN Gateways are affected:\n\nABB AWIN Firmware (2.0-0) installed on ABB AWIN GW100 rev.2 2.0-0 \nABB AWIN Firmware (2.0-1) installed on ABB AWIN GW100 rev.2 2.0-1 \nABB AWIN Firmware (1.2-0) installed on ABB AWIN GW120 1.2-0 \nABB AWIN Firmware (1.2-1) i"
-    },
-    {
-      "title": "ABB Ability OPTIMAX",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sign On integration.\nThe following versions of ABB Ability OPTIMAX are affected:\n\nABB Ability OPTIMAX 6.1 vers:all/* \nABB Ability OPTIMAX 6.2 vers:all/* \nABB Ability OPTIMAX 6.3 <6.3.1-251120 \nABB Ability OPTIMAX 6.4 <6.4.1-251120 \n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.1\nABB\nABB Ability OPTI",
-      "published": "2026-04-30 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "ABB Ability OPTIMAX",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sign On integration.\nThe following versions of ABB Ability OPTIMAX are affected:\n\nABB Ability OPTIMAX 6.1 vers:all/* \nABB Ability OPTIMAX 6.2 vers:all/* \nABB Ability OPTIMAX 6.3 <6.3.1-251120 \nABB Ability OPTIMAX 6.4 <6.4.1-251120 \n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.1\nABB\nABB Ability OPTI"
-    },
-    {
-      "title": "ABB PCM600",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code.\nThe following versions of ABB PCM600 are affected:\n\nPCM600 >=1.5|<=2.13 \n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 4.4\nABB\nABB PCM600\nImproper Limitation of a Pathname to a Restricted Directory ('Path Traversal')\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas Deploye",
-      "published": "2026-04-30 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "ABB PCM600",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code.\nThe following versions of ABB PCM600 are affected:\n\nPCM600 >=1.5|<=2.13 \n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 4.4\nABB\nABB PCM600\nImproper Limitation of a Pathname to a Restricted Directory ('Path Traversal')\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Critical Manufacturing\nCountries/Areas Deploye"
-    },
-    {
-      "title": "ABB Edgenius Management Portal",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary code, uninstall applications, and modify the configuration of installed applications.\nThe following versions of ABB Edgenius Management Portal are affected:\n\nEdgenius Management Portal 3.2.0.0|3.2.1.1\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.6\nABB\nABB Edgenius Management Portal\nAuthentication B",
-      "published": "2026-04-30 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "ABB Edgenius Management Portal",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary code, uninstall applications, and modify the configuration of installed applications.\nThe following versions of ABB Edgenius Management Portal are affected:\n\nEdgenius Management Portal 3.2.0.0|3.2.1.1\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.6\nABB\nABB Edgenius Management Portal\nAuthentication B"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \n\nCVE-2026-41940 WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilit",
-      "published": "2026-04-30 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \n\nCVE-2026-41940 WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilit"
-    },
-    {
-      "title": "ABB Ability Symphony Plus Engineering",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-06",
-      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQL version 13.11 and earlier versions. If an attacker gains access to a site’s S+ Client Server network, they could exploit such vulnerabilities by executing arbitrary code and potentially compromising the entire system.\nThe following versions of ABB Ability Symphony Plus Engineering are affected:\n\nAbil",
-      "published": "2026-04-30 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "ABB Ability Symphony Plus Engineering",
-      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQL version 13.11 and earlier versions. If an attacker gains access to a site’s S+ Client Server network, they could exploit such vulnerabilities by executing arbitrary code and potentially compromising the entire system.\nThe following versions of ABB Ability Symphony Plus Engineering are affected:\n\nAbil"
     }
   ]
 }

@@ -1,16 +1,56 @@
 {
-  "updated": "2026-05-05 08:55 JST",
+  "updated": "2026-05-05 20:58 JST",
   "count": 69,
   "articles": [
     {
+      "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
+      "url": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
+      "summary_en": "While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the pressure to deliver more value faster. But speed is coming at the expense of security.\nIn the wake of the",
+      "published": "2026-05-05 19:30 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
+      "summary_ja": "While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the pressure to deliver more value faster. But speed is coming at the expense of security.\nIn the wake of the"
+    },
+    {
+      "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
+      "url": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
+      "summary_en": "The North Korea-aligned state-sponsored hacking group known as ScarCruft has compromised a video game platform in a supply chain espionage attack, trojanizing its components with a backdoor called BirdCallto likely target ethnic Koreans residing in China.\nWhile prior versions of the backdoor have primarily targeted Windows users only, the supply chain attack is assessed to have enabled the",
+      "published": "2026-05-05 18:07 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
+      "summary_ja": "The North Korea-aligned state-sponsored hacking group known as ScarCruft has compromised a video game platform in a supply chain espionage attack, trojanizing its components with a backdoor called BirdCallto likely target ethnic Koreans residing in China.\nWhile prior versions of the backdoor have primarily targeted Windows users only, the supply chain attack is assessed to have enabled the"
+    },
+    {
+      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
+      "url": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
+      "summary_en": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild.\nThe vulnerability (CVE-2026-22679, CVSS score: 9.8) relates to a case of unauthenticated remote code execution affecting Weaver E-cology 10.0 versions prior to 20260312. The issue resides in the \"/papi/esearch/data/devops/",
+      "published": "2026-05-05 16:37 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
+      "summary_ja": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild.\nThe vulnerability (CVE-2026-22679, CVSS score: 9.8) relates to a case of unauthenticated remote code execution affecting Weaver E-cology 10.0 versions prior to 20260312. The issue resides in the \"/papi/esearch/data/devops/"
+    },
+    {
+      "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+      "url": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+      "summary_en": "Microsoft has disclosed details of a large-scale credential theft campaign that has leveraged a combination of code of conduct-themed lures and legitimate email services to direct users to attacker-controlled domains and steal authentication tokens.\nThe multi-stage campaign, observed between April 14 and 16, 2026, targeted more than 35,000 users across over 13,000 organizations in 26 countries,",
+      "published": "2026-05-05 15:35 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+      "summary_ja": "Microsoft has disclosed details of a large-scale credential theft campaign that has leveraged a combination of code of conduct-themed lures and legitimate email services to direct users to attacker-controlled domains and steal authentication tokens.\nThe multi-stage campaign, observed between April 14 and 16, 2026, targeted more than 35,000 users across over 13,000 organizations in 26 countries,"
+    },
+    {
       "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
       "url": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
-      "summary_en": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
+      "summary_en": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
       "published": "2026-05-05 03:06 JST",
       "source": "The Hacker News",
       "category": "general",
       "title_ja": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
-      "summary_ja": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters"
+      "summary_ja": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts.\nThe activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters"
     },
     {
       "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
@@ -43,44 +83,44 @@
       "summary_ja": "On December 4, 2025, a 17-year-old was arrested in Osaka under Japan’s Unauthorized Access Prohibition Act. The young man had run malicious code to extract the personal data of over 7 million users of Kaikatsu Club, Japan's largest internet cafe chain. When asked, the young man shared his motivation for the hack: he wanted to buy Pokémon cards.\nIn a sense, this is a fairly conventional story."
     },
     {
-      "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
-      "url": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
-      "summary_en": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor.\nThe activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities.\n\"Both waves followed a nearly identical",
-      "published": "2026-05-04 20:57 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
-      "summary_ja": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor.\nThe activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities.\n\"Both waves followed a nearly identical"
+      "title": "Google now offers up to $1.5 million for some Android exploits",
+      "url": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+      "summary_en": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]",
+      "published": "2026-05-05 20:24 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Google now offers up to $1.5 million for some Android exploits",
+      "summary_ja": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]"
     },
     {
-      "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
-      "url": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
-      "summary_en": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel.\nThe activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the",
-      "published": "2026-05-04 18:27 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
-      "summary_ja": "A previously unknown threat actor has been observed targeting government and military entities in Southeast Asia, alongside a smaller cluster of managed service providers (MSPs) and hosting providers in the Philippines, Laos, Canada, South Africa, and the U.S., by exploiting the recently disclosed vulnerability in cPanel.\nThe activity, detected by Ctrl-Alt-Intel on May 2, 2026, involves the"
+      "title": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/karakurt-extortion-gang-negotiator-sentenced-to-85-years-in-prison/",
+      "summary_en": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]",
+      "published": "2026-05-05 19:13 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Karakurt extortion gang ‘cold case’ negotiator gets 8.5 years in prison",
+      "summary_ja": "A Latvian national extradited to the United States was sentenced to 8.5 years in prison for his \"cold case\" negotiator role in the Russian Karakurt ransomware group. [...]"
     },
     {
-      "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
-      "url": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
-      "summary_en": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses.\nThe crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal",
-      "published": "2026-05-04 14:59 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
-      "summary_ja": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses.\nThe crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal"
+      "title": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudz-malware-abuses-microsoft-phone-link-to-steal-sms-and-otps/",
+      "summary_en": "A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mobile devices. [...]",
+      "published": "2026-05-05 19:03 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "CloudZ malware abuses Microsoft Phone Link to steal SMS and OTPs",
+      "summary_ja": "A new version of the CloudZ remote access tool (RAT) is deploying a previously unseen malicious plugin called Pheno that hijacks the Microsoft Phone Link connection to steal sensitive codes from mobile devices. [...]"
     },
     {
-      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
-      "url": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
-      "summary_en": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an",
-      "published": "2026-05-03 15:26 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
-      "summary_ja": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild.\nThe vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an"
+      "title": "ScarCruft hackers push BirdCall Android malware via game platform",
+      "url": "https://www.bleepingcomputer.com/news/security/scarcruft-hackers-push-birdcall-android-malware-via-game-platform/",
+      "summary_en": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]",
+      "published": "2026-05-05 18:04 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "ScarCruft hackers push BirdCall Android malware via game platform",
+      "summary_ja": "The North Korean hacker group APT37 has been delivering an Android version of a backdoor called BirdCall in a supply-chain attack through a video game platform. [...]"
     },
     {
       "title": "Weaver E-cology critical bug exploited in attacks since March",
@@ -121,46 +161,6 @@
       "category": "incident",
       "title_ja": "Trellix discloses data breach after source code repository hack",
       "summary_ja": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]"
-    },
-    {
-      "title": "They don’t hack, they borrow: How fraudsters target credit unions",
-      "url": "https://www.bleepingcomputer.com/news/security/they-dont-hack-they-borrow-how-fraudsters-target-credit-unions/",
-      "summary_en": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]",
-      "published": "2026-05-04 22:42 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "They don’t hack, they borrow: How fraudsters target credit unions",
-      "summary_ja": "Fraudsters aren't hacking credit unions, they are exploiting normal business processes. Flare reveals how structured loan fraud methods use stolen identities to pass verification and secure funds. [...]"
-    },
-    {
-      "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
-      "summary_en": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]",
-      "published": "2026-05-04 21:18 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Progress warns of critical MOVEit Automation auth bypass flaw",
-      "summary_ja": "Progress Software warned customers to patch a critical authentication bypass vulnerability in its MOVEit Automation enterprise-grade managed file transfer (MFT) application. [...]"
-    },
-    {
-      "title": "Webinar: Why MSPs must rethink security and backup strategies",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-msps-must-rethink-security-and-backup-strategies/",
-      "summary_en": "Security breaches don't just test your defenses—they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational after attacks. [...]",
-      "published": "2026-05-04 21:16 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Webinar: Why MSPs must rethink security and backup strategies",
-      "summary_ja": "Security breaches don't just test your defenses—they test your recovery. Join Kaseya in our upcoming webinar to learn how MSPs strengthen resilience with SaaS backups and BCDR to stay operational after attacks. [...]"
-    },
-    {
-      "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
-      "summary_en": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]",
-      "published": "2026-05-04 20:28 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
-      "summary_ja": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]"
     },
     {
       "title": "Educational company Infrastructure reports cyber incident",
@@ -293,6 +293,36 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "SSL.com rotates their root certificate today, (Tue, May 5th)",
+      "url": "https://isc.sans.edu/diary/rss/32956",
+      "summary_en": "I just got an email from SSL.com last night, they are rotating &#;x26;#;xc2;&#;x26;#;xa0;out their root certificate today (May 5,2026). &#;x26;#;xc2;&#;x26;#;xa0;This is normal, business as usual stuff for a CA, but certificates get used for all kinds of things, and sometimes they aren&#;x26;#;39;t used like they should be, so sometimes hiccups happen.",
+      "published": "2026-05-05 20:39 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "SSL.com rotates their root certificate today, (Tue, May 5th)",
+      "summary_ja": "I just got an email from SSL.com last night, they are rotating &#;x26;#;xc2;&#;x26;#;xa0;out their root certificate today (May 5,2026). &#;x26;#;xc2;&#;x26;#;xa0;This is normal, business as usual stuff for a CA, but certificates get used for all kinds of things, and sometimes they aren&#;x26;#;39;t used like they should be, so sometimes hiccups happen."
+    },
+    {
+      "title": "Cleartext Passwords in MS Edge? In 2026?, (Mon, May 4th)",
+      "url": "https://isc.sans.edu/diary/rss/32954",
+      "summary_en": "Yup, that is for real.",
+      "published": "2026-05-05 20:38 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "Cleartext Passwords in MS Edge? In 2026?, (Mon, May 4th)",
+      "summary_ja": "Yup, that is for real."
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, May 5th, 2026 https://isc.sans.edu/podcastdetail/9918, (Tue, May 5th)",
+      "url": "https://isc.sans.edu/diary/rss/32952",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-05-05 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Tuesday, May 5th, 2026 https://isc.sans.edu/podcastdetail/9918, (Tue, May 5th)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
       "title": "TeamPCP Weekly Analysis: 2026-W18 (2026-04-27 through 2026-05-03), (Mon, May 4th)",
       "url": "https://isc.sans.edu/diary/rss/32950",
       "summary_en": "Summary",
@@ -343,40 +373,10 @@
       "summary_ja": "Introduction"
     },
     {
-      "title": "ISC Stormcast For Friday, May 1st, 2026 https://isc.sans.edu/podcastdetail/9914, (Fri, May 1st)",
-      "url": "https://isc.sans.edu/diary/rss/32940",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-05-01 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Friday, May 1st, 2026 https://isc.sans.edu/podcastdetail/9914, (Fri, May 1st)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "ISC Stormcast For Thursday, April 30th, 2026 https://isc.sans.edu/podcastdetail/9912, (Thu, Apr 30th)",
-      "url": "https://isc.sans.edu/diary/rss/32938",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-04-30 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Thursday, April 30th, 2026 https://isc.sans.edu/podcastdetail/9912, (Thu, Apr 30th)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "Danger of Libredtail [Guest Diary], (Wed, Apr 29th)",
-      "url": "https://isc.sans.edu/diary/rss/32936",
-      "summary_en": "[This is a Guest Diary by James Roberts, an ISC intern as part of the SANS.edu BACS program]",
-      "published": "2026-04-30 09:07 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Danger of Libredtail [Guest Diary], (Wed, Apr 29th)",
-      "summary_ja": "[This is a Guest Diary by James Roberts, an ISC intern as part of the SANS.edu BACS program]"
-    },
-    {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
       "url": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
       "summary_en": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adhere to the grammar rules, thus the structure of the samples gets maintained by the mutation process. In case of coverage-guided grammar fuzzing, if the resulting sample (after the mutation) triggers previously unseen code coverage, this sample is saved to the ",
-      "published": "2026-03-05 17:00 JST",
+      "published": "2026-03-05 08:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -386,7 +386,7 @@
       "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
       "url": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
       "summary_en": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I thought I should take a closer look. I typically start by reading the documentation for an API I don’t know about, assuming it’s documented at all. It can give you an idea of how long the API has existed as well as its security properties. The documentation’s remark",
-      "published": "2026-02-26 17:00 JST",
+      "published": "2026-02-26 08:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "A Deep Dive into the GetProcessHandleFromHwnd API",
@@ -396,7 +396,7 @@
       "title": "Bypassing Administrator Protection by Abusing UI Access",
       "url": "https://projectzero.google/2026/02/windows-administrator-protection.html",
       "summary_en": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was released. In total I found 9 bypasses during my research that have now all been fixed. In this blog post I wanted to describe the root cause of 5 of those 9 issues, specifically the implementation of UI Access, how this has been a long standing problem with UAC th",
-      "published": "2026-02-12 17:00 JST",
+      "published": "2026-02-12 08:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "Bypassing Administrator Protection by Abusing UI Access",
@@ -406,7 +406,7 @@
       "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
       "url": "https://projectzero.google/2026/01/sound-barrier-2.html",
       "summary_en": "In the first part of this series, I detailed my journey into macOS security research, which led to the discovery of a type confusion vulnerability (CVE-2024-54529) and a double-free vulnerability (CVE-2025-31235) in the coreaudiod system daemon through a process I call knowledge-driven fuzzing. While the first post focused on the process of finding the vulnerabilities, this post dives into the intricate process of exploiting the type confusion vulnerability. I’ll explain the technical details of",
-      "published": "2026-01-30 17:00 JST",
+      "published": "2026-01-30 08:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
@@ -416,7 +416,7 @@
       "title": "Bypassing Windows Administrator Protection",
       "url": "https://projectzero.google/2026/26/windows-administrator-protection.html",
       "summary_en": "A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC. I’ll then describe some of the security research I undertook while it was in the insider previ",
-      "published": "2026-01-26 17:00 JST",
+      "published": "2026-01-26 08:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "Bypassing Windows Administrator Protection",
@@ -426,7 +426,7 @@
       "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
       "url": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
       "summary_en": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the",
-      "published": "2026-01-15 03:01 JST",
+      "published": "2026-01-14 18:01 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
@@ -436,7 +436,7 @@
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
       "url": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
       "summary_en": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
-      "published": "2026-01-15 03:00 JST",
+      "published": "2026-01-14 18:00 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
@@ -446,11 +446,31 @@
       "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
       "url": "https://projectzero.google/2026/01/pixel-0-click-part-1.html",
       "summary_en": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au",
-      "published": "2026-01-15 02:59 JST",
+      "published": "2026-01-14 17:59 JST",
       "source": "Google Project Zero",
       "category": "technical",
       "title_ja": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
+    },
+    {
+      "title": "UAT-8302 and its box full of malware",
+      "url": "https://blog.talosintelligence.com/uat-8302/",
+      "summary_en": "Cisco Talos is disclosing UAT-8302, a sophisticated, China-nexus advanced persistent threat (APT) group targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.",
+      "published": "2026-05-05 19:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "UAT-8302 and its box full of malware",
+      "summary_ja": "Cisco Talos is disclosing UAT-8302, a sophisticated, China-nexus advanced persistent threat (APT) group targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025."
+    },
+    {
+      "title": "CloudZ RAT potentially steals OTP messages using Pheno plugin",
+      "url": "https://blog.talosintelligence.com/cloudz-pheno-infostealer/",
+      "summary_en": "Cisco Talos discovered an intrusion, active since at least January 2026, where an unknown attacker implanted a CloudZ remote access tool (RAT) and a previously undocumented plugin called “Pheno.”",
+      "published": "2026-05-05 19:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "CloudZ RAT potentially steals OTP messages using Pheno plugin",
+      "summary_ja": "Cisco Talos discovered an intrusion, active since at least January 2026, where an unknown attacker implanted a CloudZ remote access tool (RAT) and a previously undocumented plugin called “Pheno.”"
     },
     {
       "title": "Great responsibility, without great power",
@@ -511,26 +531,6 @@
       "category": "research",
       "title_ja": "IR Trends Q1 2026: Phishing reemerges as top initial access vector, as attacks targeting public administration persist",
       "summary_ja": "Phishing reemerged as the most observed means of gaining initial access, accounting for over a third of the engagements where initial access could be determined. Phishing has not been the top vertical for initial access since Q2 2025."
-    },
-    {
-      "title": "[Podcast] It's not you, it's your printer: State-sponsored and phishing threats in 2025",
-      "url": "https://blog.talosintelligence.com/podcast-its-not-you-its-your-printer-state-sponsored-and-phishing-threats-in-2025/",
-      "summary_en": "In this episode of Talos Takes, Amy and Martin Lee unpack state-sponsored and phishing trends from the 2025 Talos Year in Review.",
-      "published": "2026-04-21 21:29 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "[Podcast] It's not you, it's your printer: State-sponsored and phishing threats in 2025",
-      "summary_ja": "In this episode of Talos Takes, Amy and Martin Lee unpack state-sponsored and phishing trends from the 2025 Talos Year in Review."
-    },
-    {
-      "title": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
-      "url": "https://blog.talosintelligence.com/phishing-and-mfa-exploitation-targeting-the-keys-to-the-kingdom/",
-      "summary_en": "In 2025, attackers increasingly targeted weaknesses in multi-factor authentication (MFA) workflows, and phishing attacks leveraged valid, compromised credentials to launch lures from trusted accounts. The trends focused entirely on trust, or the lack thereof, in everyday business operations.",
-      "published": "2026-04-21 21:00 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "Phishing and MFA exploitation: Targeting the keys to the kingdom",
-      "summary_ja": "In 2025, attackers increasingly targeted weaknesses in multi-factor authentication (MFA) workflows, and phishing attacks leveraged valid, compromised credentials to launch lures from trusted accounts. The trends focused entirely on trust, or the lack thereof, in everyday business operations."
     },
     {
       "title": "“Legitimate” phishing: how attackers weaponize Amazon SES to bypass email security",

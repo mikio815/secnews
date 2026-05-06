@@ -1,7 +1,47 @@
 {
-  "updated": "2026-05-06 21:27 JST",
+  "updated": "2026-05-07 08:49 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
+      "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
+      "summary_en": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks.\nHunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted",
+      "published": "2026-05-07 05:21 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
+      "summary_ja": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks.\nHunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted"
+    },
+    {
+      "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
+      "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
+      "summary_en": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation.\nThe attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident",
+      "published": "2026-05-06 22:00 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
+      "summary_ja": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation.\nThe attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident"
+    },
+    {
+      "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
+      "url": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
+      "summary_en": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats.\nBut behind every headline, there’s a quieter, better story.\nIt’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard.\nMost of the time, this work is",
+      "published": "2026-05-06 21:03 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
+      "summary_ja": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats.\nBut behind every headline, there’s a quieter, better story.\nIt’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard.\nMost of the time, this work is"
+    },
+    {
+      "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
+      "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
+      "summary_en": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for",
+      "published": "2026-05-06 19:57 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
+      "summary_ja": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for"
+    },
     {
       "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
       "url": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
@@ -43,44 +83,74 @@
       "summary_ja": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE).\nThe vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue"
     },
     {
-      "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
-      "url": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
-      "summary_en": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky.\n\"These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging to DAEMON Tools developers,\" Kaspersky researchers  Igor Kuznetsov, Georgy Kucherin, Leonid",
-      "published": "2026-05-06 01:07 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
-      "summary_ja": "A newly identified supply chain attack targeting DAEMON Tools software has compromised its installers to serve a malicious payload, according to findings from Kaspersky.\n\"These installers are distributed from the legitimate website of DAEMON Tools and are signed with digital certificates belonging to DAEMON Tools developers,\" Kaspersky researchers  Igor Kuznetsov, Georgy Kucherin, Leonid"
+      "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
+      "summary_en": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]",
+      "published": "2026-05-07 06:36 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
+      "summary_ja": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]"
     },
     {
-      "title": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
-      "url": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
-      "summary_en": "A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.\nThe activity is being tracked by Cisco Talos under the moniker UAT-8302, with post-exploitation involving the deployment of custom-made malware families that have been put",
-      "published": "2026-05-05 23:19 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
-      "summary_ja": "A sophisticated China-nexus advanced persistent threat (APT) group has been attributed to attacks targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.\nThe activity is being tracked by Cisco Talos under the moniker UAT-8302, with post-exploitation involving the deployment of custom-made malware families that have been put"
+      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
+      "summary_en": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
+      "published": "2026-05-07 03:38 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Critical vm2 sandbox bug lets attackers execute code on hosts",
+      "summary_ja": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]"
     },
     {
-      "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
-      "url": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
-      "summary_en": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your MFA doesn't stop it. And when an attacker gets hold of one, they don't need a password.\nOAuth",
-      "published": "2026-05-05 20:58 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
-      "summary_ja": "Every AI tool, workflow automation, and productivity app your employees connected to Google or Microsoft this year left something behind: a persistent OAuth token with no expiration date, no automatic cleanup, and in most organizations, no one watching it. Your perimeter controls don't see it. Your MFA doesn't stop it. And when an attacker gets hold of one, they don't need a password.\nOAuth"
+      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
+      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
+      "summary_en": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
+      "published": "2026-05-07 03:06 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "New Cisco DoS flaw requires manual reboot to revive devices",
+      "summary_ja": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]"
     },
     {
-      "title": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
-      "url": "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
-      "summary_en": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck.\nThe vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution.\n\"MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code",
-      "published": "2026-05-05 20:56 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
-      "summary_ja": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck.\nThe vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution.\n\"MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code"
+      "title": "DAEMON Tools devs confirm breach, release malware-free version",
+      "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "summary_en": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
+      "published": "2026-05-07 01:43 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "DAEMON Tools devs confirm breach, release malware-free version",
+      "summary_ja": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]"
+    },
+    {
+      "title": "Why ransomware attacks succeed even when backups exist",
+      "url": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
+      "summary_en": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]",
+      "published": "2026-05-06 23:04 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Why ransomware attacks succeed even when backups exist",
+      "summary_ja": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]"
+    },
+    {
+      "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
+      "summary_en": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on  Microsoft Teams social engineering to gain access and establish persistence. [...]",
+      "published": "2026-05-06 22:02 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
+      "summary_ja": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on  Microsoft Teams social engineering to gain access and establish persistence. [...]"
+    },
+    {
+      "title": "Webinar: Why network incidents escalate and how to fix response gaps",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
+      "summary_en": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]",
+      "published": "2026-05-06 21:56 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Webinar: Why network incidents escalate and how to fix response gaps",
+      "summary_ja": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]"
     },
     {
       "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
@@ -93,76 +163,6 @@
       "summary_ja": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]"
     },
     {
-      "title": "New stealthy Quasar Linux malware targets software developers",
-      "url": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
-      "summary_en": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]",
-      "published": "2026-05-06 07:01 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "New stealthy Quasar Linux malware targets software developers",
-      "summary_ja": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]"
-    },
-    {
-      "title": "Instructure hacker claims data theft from 8,800 schools, universities",
-      "url": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
-      "summary_en": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]",
-      "published": "2026-05-06 06:20 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Instructure hacker claims data theft from 8,800 schools, universities",
-      "summary_ja": "The hacker behind a breach at education technology giant Instructure claims to have stolen 280 million data records for students and staff from 8,809 colleges, school districts, and online education platforms. [...]"
-    },
-    {
-      "title": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
-      "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-trojanized-in-supply-chain-attack-to-deploy-backdoor/",
-      "summary_en": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]",
-      "published": "2026-05-06 04:21 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "DAEMON Tools trojanized in supply-chain attack to deploy backdoor",
-      "summary_ja": "Hackers trojanized installers for the DAEMON Tools software and since April 8, delivered a backdoor to thousands of systems that downloaded the product from the official website. [...]"
-    },
-    {
-      "title": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
-      "url": "https://www.bleepingcomputer.com/news/security/student-hacked-taiwan-high-speed-rail-to-trigger-emergency-brakes/",
-      "summary_en": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]",
-      "published": "2026-05-06 02:34 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Student hacked Taiwan high-speed rail to trigger emergency brakes",
-      "summary_ja": "A 23-year-old university student in Taiwan was arrested for interfering with the TETRA communication system used by the country's high-speed railway network (THSR). [...]"
-    },
-    {
-      "title": "FTC to ban data broker Kochava from selling Americans’ location data",
-      "url": "https://www.bleepingcomputer.com/news/security/ftc-to-ban-data-broker-kochava-from-selling-americans-location-data/",
-      "summary_en": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data collected from hundreds of millions of mobile devices. [...]",
-      "published": "2026-05-05 23:39 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "FTC to ban data broker Kochava from selling Americans’ location data",
-      "summary_ja": "The FTC will ban data broker Kochava and its subsidiary, Collective Data Solutions (CDS), from selling location data without consumers' explicit consent to settle charges alleging that it sold precise geolocation data collected from hundreds of millions of mobile devices. [...]"
-    },
-    {
-      "title": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
-      "url": "https://www.bleepingcomputer.com/news/security/the-eol-blind-spot-in-your-cve-feed-what-sca-tools-miss/",
-      "summary_en": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]",
-      "published": "2026-05-05 23:00 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "The EOL Blind Spot in Your CVE Feed: What SCA Tools Miss",
-      "summary_ja": "Critical vulnerabilities can exist in open source software your scanners don't check. HeroDevs reveals how EOL software creates blind spots in CVE feeds and SCA tools, and how you can receive a free end-of-life scan for your projects. [...]"
-    },
-    {
-      "title": "Vimeo data breach exposes personal information of 119,000 people",
-      "url": "https://www.bleepingcomputer.com/news/security/vimeo-data-breach-exposes-personal-information-of-119-000-people/",
-      "summary_en": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]",
-      "published": "2026-05-05 22:03 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Vimeo data breach exposes personal information of 119,000 people",
-      "summary_ja": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]"
-    },
-    {
       "title": "North Korean hackers targeted ethnic Koreans in China with Android ‘BirdCall’ malware",
       "url": "https://therecord.media/north-korean-hackers-target-ethnic-koreans-in-china",
       "summary_en": "Researchers at cybersecurity firm ESET attributed the campaign to APT37 and said the hackers used a backdoor attached to a suite of card games from a company called Sqgame.",
@@ -173,6 +173,36 @@
       "summary_ja": "Researchers at cybersecurity firm ESET attributed the campaign to APT37 and said the hackers used a backdoor attached to a suite of card games from a company called Sqgame."
     },
     {
+      "title": "Palo Alto warns of critical software bug used in firewall attacks",
+      "url": "https://therecord.media/palo-alto-warns-of-critical-software-bug-firewalls",
+      "summary_en": "A patch for the bug, tracked as CVE-2026-0300, has not been published yet and Palo Alto Networks said it will be included in releases over the next two weeks.",
+      "published": "2026-05-07 05:33 JST",
+      "source": "The Record",
+      "category": "incident",
+      "title_ja": "Palo Alto warns of critical software bug used in firewall attacks",
+      "summary_ja": "A patch for the bug, tracked as CVE-2026-0300, has not been published yet and Palo Alto Networks said it will be included in releases over the next two weeks."
+    },
+    {
+      "title": "New CISA initiative aims for critical infrastructure to operate offline during cyberattacks",
+      "url": "https://therecord.media/cisa-initiative-aims-for-critical-infrastructure-to-operate-during-cyberattacks",
+      "summary_en": "The initiative, named CI Fortify, focuses on isolation and recovery efforts that would see critical infrastructure organizations proactively disconnect from third-party dependencies and find ways to operate without reliable telecommunications and internet.",
+      "published": "2026-05-07 02:26 JST",
+      "source": "The Record",
+      "category": "incident",
+      "title_ja": "New CISA initiative aims for critical infrastructure to operate offline during cyberattacks",
+      "summary_ja": "The initiative, named CI Fortify, focuses on isolation and recovery efforts that would see critical infrastructure organizations proactively disconnect from third-party dependencies and find ways to operate without reliable telecommunications and internet."
+    },
+    {
+      "title": "Hackers compromise Daemon Tools in global supply-chain attack, researchers say",
+      "url": "https://therecord.media/hackers-compromise-daemon-tools-global-supply-chain-attack",
+      "summary_en": "Researchers at Kaspersky said attackers tampered with installers for Daemon Tools — a popular program used to mount disk images as virtual drives — and distributed them through the software’s official website.",
+      "published": "2026-05-06 21:45 JST",
+      "source": "The Record",
+      "category": "incident",
+      "title_ja": "Hackers compromise Daemon Tools in global supply-chain attack, researchers say",
+      "summary_ja": "Researchers at Kaspersky said attackers tampered with installers for Daemon Tools — a popular program used to mount disk images as virtual drives — and distributed them through the software’s official website."
+    },
+    {
       "title": "FTC bans data broker Kochava from selling sensitive location info",
       "url": "https://therecord.media/ftc-bans-kochava-location-data-sales",
       "summary_en": "The FTC has said that Kochava sold precise geolocation data showing consumers visiting houses of worship and health care clinics without their consent or awareness, an alleged violation of a law barring companies from engaging in unfair and deceptive practices.",
@@ -181,36 +211,6 @@
       "category": "incident",
       "title_ja": "FTC bans data broker Kochava from selling sensitive location info",
       "summary_ja": "The FTC has said that Kochava sold precise geolocation data showing consumers visiting houses of worship and health care clinics without their consent or awareness, an alleged violation of a law barring companies from engaging in unfair and deceptive practices."
-    },
-    {
-      "title": "Conti, Akira ransomware affiliate given 8-year sentence",
-      "url": "https://therecord.media/conti-akira-ransomware-affiliate-sentenced",
-      "summary_en": "Deniss Zolotarjovs pleaded guilty in July 2025 to money laundering and wire fraud charges after being arrested in the country of Georgia.",
-      "published": "2026-05-06 02:33 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Conti, Akira ransomware affiliate given 8-year sentence",
-      "summary_ja": "Deniss Zolotarjovs pleaded guilty in July 2025 to money laundering and wire fraud charges after being arrested in the country of Georgia."
-    },
-    {
-      "title": "Australia launches cyber review board modeled on version disbanded in US",
-      "url": "https://therecord.media/australia-launches-cyber-review-board",
-      "summary_en": "The Cyber Incident Review Board will carry out no-fault, post-incident reviews of significant cyberattacks on Australian government and industry, focusing on systemic lessons rather than individual or corporate culpability.",
-      "published": "2026-05-05 21:45 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Australia launches cyber review board modeled on version disbanded in US",
-      "summary_ja": "The Cyber Incident Review Board will carry out no-fault, post-incident reviews of significant cyberattacks on Australian government and industry, focusing on systemic lessons rather than individual or corporate culpability."
-    },
-    {
-      "title": "German officials advance legislation that would expand law enforcement use of surveillance technology",
-      "url": "https://therecord.media/german-officials-advance-laws-surveillance",
-      "summary_en": "The bills would legalize the use of automated data analysis and artificial intelligence tools that let police upload a photo of a face and scour the internet for more images depicting the same person.",
-      "published": "2026-05-05 13:00 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "German officials advance legislation that would expand law enforcement use of surveillance technology",
-      "summary_ja": "The bills would legalize the use of automated data analysis and artificial intelligence tools that let police upload a photo of a face and scour the internet for more images depicting the same person."
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -533,6 +533,16 @@
       "summary_ja": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices."
     },
     {
+      "title": "OceanLotus suspected of using PyPI to deliver ZiChatBot malware",
+      "url": "https://securelist.com/oceanlotus-suspected-pypi-zichatbot-campaign/119603/",
+      "summary_en": "Kaspersky researchers uncovered malicious wheel packages in PyPI that targeted both Windows and Linux and contained a dropper delivering malware dubbed ZiChatBot. We attribute this activity to OceanLotus APT.",
+      "published": "2026-05-06 22:00 JST",
+      "source": "Securelist",
+      "category": "research",
+      "title_ja": "OceanLotus suspected of using PyPI to deliver ZiChatBot malware",
+      "summary_ja": "Kaspersky researchers uncovered malicious wheel packages in PyPI that targeted both Windows and Linux and contained a dropper delivering malware dubbed ZiChatBot. We attribute this activity to OceanLotus APT."
+    },
+    {
       "title": "Websites with an undefined trust level: avoiding the trap",
       "url": "https://securelist.com/suspicious-websites-undefined-trust-level/119675/",
       "summary_en": "We explain what suspicious websites are and how to distinguish a safe site from a fraudulent one. A new category in Kaspersky solutions: we're sharing global statistics on untrusted site detection.",
@@ -603,24 +613,14 @@
       "summary_ja": "Kaspersky GReAT experts describe the latest JanelaRAT campaign detailing infection chain and malware functionality updates."
     },
     {
-      "title": "The long road to your crypto: ClipBanker and its marathon infection chain",
-      "url": "https://securelist.com/clipbanker-malware-distributed-via-trojanized-proxifier/119341/",
-      "summary_en": "Threat actors are distributing a Trojan disguised as Proxifier software; through a multi-stage infection chain, it delivers ClipBanker – malware that replaces cryptocurrency wallet addresses in the clipboard.",
-      "published": "2026-04-09 18:30 JST",
-      "source": "Securelist",
-      "category": "research",
-      "title_ja": "The long road to your crypto: ClipBanker and its marathon infection chain",
-      "summary_ja": "Threat actors are distributing a Trojan disguised as Proxifier software; through a multi-stage infection chain, it delivers ClipBanker – malware that replaces cryptocurrency wallet addresses in the clipboard."
-    },
-    {
-      "title": "ABB B&R Automation Studio",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
-      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe",
-      "published": "2026-05-05 21:00 JST",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \n\nCVE-2026-0300 Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list ",
+      "published": "2026-05-06 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "ABB B&R Automation Studio",
-      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe"
+      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \n\nCVE-2026-0300 Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list "
     },
     {
       "title": "ABB B&R Automation Runtime",
@@ -631,6 +631,16 @@
       "category": "cve",
       "title_ja": "ABB B&R Automation Runtime",
       "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully exploited this vulnerability could cause the product to stop.\nThe following versions of ABB B&R Automation Runtime are affected:\n\nAutomation Runtime <6.5, >=6.5, =R4.93 (CVE-2025-11044, CVE-2025-11044)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 6.8\nABB\nABB B&R Automation Runtime\nAllocation of Reso"
+    },
+    {
+      "title": "ABB B&R Automation Studio",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
+      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe",
+      "published": "2026-05-05 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "ABB B&R Automation Studio",
+      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe"
     },
     {
       "title": "Hitachi Energy PCM600",
@@ -663,16 +673,6 @@
       "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. An attacker who successfully exploited this vulnerability could read sensitive information in the logging data of the PVI client application. Logging is deactivated by default in all PVI client versions.\nThe following versions of ABB B&R PVI are affected:\n\nPVI <6.5.0, 6.5.0 (CVE-2026-0936)\n\n\n\n\n\nCVSS\nVendor\nEqui"
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l",
-      "published": "2026-05-01 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l"
-    },
-    {
       "title": "Careful Adoption of Agentic AI Services",
       "url": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
       "summary_en": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on adopting agentic artificial intelligence (AI) systems.\nThis guide outlines key security challenges and risks associated with agentic AI, and provides actionable steps for designing, deploying, and operating these systems safely. It helps organizations align AI risk management with existing cybersecurity fr",
@@ -683,14 +683,14 @@
       "summary_ja": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on adopting agentic artificial intelligence (AI) systems.\nThis guide outlines key security challenges and risks associated with agentic AI, and provides actionable steps for designing, deploying, and operating these systems safely. It helps organizations align AI risk management with existing cybersecurity fr"
     },
     {
-      "title": "ABB AWIN Gateways",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
-      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, including sensitive details.\nThe following versions of ABB AWIN Gateways are affected:\n\nABB AWIN Firmware (2.0-0) installed on ABB AWIN GW100 rev.2 2.0-0 \nABB AWIN Firmware (2.0-1) installed on ABB AWIN GW100 rev.2 2.0-1 \nABB AWIN Firmware (1.2-0) installed on ABB AWIN GW120 1.2-0 \nABB AWIN Firmware (1.2-1) i",
-      "published": "2026-04-30 21:00 JST",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l",
+      "published": "2026-05-01 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "ABB AWIN Gateways",
-      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, including sensitive details.\nThe following versions of ABB AWIN Gateways are affected:\n\nABB AWIN Firmware (2.0-0) installed on ABB AWIN GW100 rev.2 2.0-0 \nABB AWIN Firmware (2.0-1) installed on ABB AWIN GW100 rev.2 2.0-1 \nABB AWIN Firmware (1.2-0) installed on ABB AWIN GW120 1.2-0 \nABB AWIN Firmware (1.2-1) i"
+      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l"
     }
   ]
 }

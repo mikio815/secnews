@@ -1,7 +1,37 @@
 {
-  "updated": "2026-05-06 08:47 JST",
+  "updated": "2026-05-06 21:27 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
+      "summary_en": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks.\n\"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said.\nThe initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021",
+      "published": "2026-05-06 18:13 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
+      "summary_ja": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks.\n\"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said.\nThe initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021"
+    },
+    {
+      "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
+      "url": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
+      "summary_en": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft.\n\"According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs),\"",
+      "published": "2026-05-06 17:34 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
+      "summary_ja": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft.\n\"According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs),\""
+    },
+    {
+      "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
+      "url": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+      "summary_en": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3 if the User-ID Authentication Portal is configured to enable access from the internet or any",
+      "published": "2026-05-06 15:14 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
+      "summary_ja": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3 if the User-ID Authentication Portal is configured to enable access from the internet or any"
+    },
     {
       "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
       "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
@@ -53,34 +83,14 @@
       "summary_ja": "Threat actors are actively exploiting a critical security flaw impacting an open-source content management system (CMS) known as MetInfo, according to new findings from VulnCheck.\nThe vulnerability in question is CVE-2026-29014 (CVSS score: 9.8), a code injection flaw that could result in arbitrary code execution.\n\"MetInfo CMS versions 7.9, 8.0, and 8.1 contain an unauthenticated PHP code"
     },
     {
-      "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
-      "url": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
-      "summary_en": "While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the pressure to deliver more value faster. But speed is coming at the expense of security.\nIn the wake of the",
-      "published": "2026-05-05 19:30 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
-      "summary_ja": "While the software industry has made genuine strides over the past few decades to deliver products securely, the furious pace of AI adoption is putting that progress at risk. Businesses are moving fast to self-host LLM infrastructure, drawn by the promise of AI as a force multiplier and the pressure to deliver more value faster. But speed is coming at the expense of security.\nIn the wake of the"
-    },
-    {
-      "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
-      "url": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
-      "summary_en": "The North Korea-aligned state-sponsored hacking group known as ScarCruft has compromised a video game platform in a supply chain espionage attack, trojanizing its components with a backdoor called BirdCallto likely target ethnic Koreans residing in China.\nWhile prior versions of the backdoor have primarily targeted Windows users only, the supply chain attack is assessed to have enabled the",
-      "published": "2026-05-05 18:07 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
-      "summary_ja": "The North Korea-aligned state-sponsored hacking group known as ScarCruft has compromised a video game platform in a supply chain espionage attack, trojanizing its components with a backdoor called BirdCallto likely target ethnic Koreans residing in China.\nWhile prior versions of the backdoor have primarily targeted Windows users only, the supply chain attack is assessed to have enabled the"
-    },
-    {
-      "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
-      "url": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
-      "summary_en": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild.\nThe vulnerability (CVE-2026-22679, CVSS score: 9.8) relates to a case of unauthenticated remote code execution affecting Weaver E-cology 10.0 versions prior to 20260312. The issue resides in the \"/papi/esearch/data/devops/",
-      "published": "2026-05-05 16:37 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
-      "summary_ja": "A critical security vulnerability in Weaver (Fanwei) E-cology, an enterprise office automation (OA) and collaboration platform, has come under active exploitation in the wild.\nThe vulnerability (CVE-2026-22679, CVSS score: 9.8) relates to a case of unauthenticated remote code execution affecting Weaver E-cology 10.0 versions prior to 20260312. The issue resides in the \"/papi/esearch/data/devops/"
+      "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
+      "summary_en": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]",
+      "published": "2026-05-06 18:18 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
+      "summary_ja": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]"
     },
     {
       "title": "New stealthy Quasar Linux malware targets software developers",
@@ -153,14 +163,14 @@
       "summary_ja": "The ShinyHunters extortion gang stole personal information belonging to over 119,000 people after hacking the Vimeo online video platform in April, according to data breach notification service Have I Been Pwned. [...]"
     },
     {
-      "title": "Google now offers up to $1.5 million for some Android exploits",
-      "url": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
-      "summary_en": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]",
-      "published": "2026-05-05 20:24 JST",
-      "source": "Bleeping Computer",
+      "title": "North Korean hackers targeted ethnic Koreans in China with Android ‘BirdCall’ malware",
+      "url": "https://therecord.media/north-korean-hackers-target-ethnic-koreans-in-china",
+      "summary_en": "Researchers at cybersecurity firm ESET attributed the campaign to APT37 and said the hackers used a backdoor attached to a suite of card games from a company called Sqgame.",
+      "published": "2026-05-07 09:12 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Google now offers up to $1.5 million for some Android exploits",
-      "summary_ja": "Google overhauls its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for the most difficult exploits while scaling back payouts for flaws that artificial intelligence (AI) has made easier to find. [...]"
+      "title_ja": "North Korean hackers targeted ethnic Koreans in China with Android ‘BirdCall’ malware",
+      "summary_ja": "Researchers at cybersecurity firm ESET attributed the campaign to APT37 and said the hackers used a backdoor attached to a suite of card games from a company called Sqgame."
     },
     {
       "title": "FTC bans data broker Kochava from selling sensitive location info",
@@ -201,16 +211,6 @@
       "category": "incident",
       "title_ja": "German officials advance legislation that would expand law enforcement use of surveillance technology",
       "summary_ja": "The bills would legalize the use of automated data analysis and artificial intelligence tools that let police upload a photo of a face and scour the internet for more images depicting the same person."
-    },
-    {
-      "title": "Educational company Instructure reports cyber incident",
-      "url": "https://therecord.media/infrastructure-education-company-canvas-incident",
-      "summary_en": "By Saturday, Infrastructure’s chief information security officer Steve Proud confirmed that the hackers gained access to information about users at some educational institutions, including names, email addresses, student ID numbers and messages between users.",
-      "published": "2026-05-05 02:19 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Educational company Instructure reports cyber incident",
-      "summary_ja": "By Saturday, Infrastructure’s chief information security officer Steve Proud confirmed that the hackers gained access to information about users at some educational institutions, including names, email addresses, student ID numbers and messages between users."
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -293,6 +293,16 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "ISC Stormcast For Wednesday, May 6th, 2026 https://isc.sans.edu/podcastdetail/9920, (Wed, May 6th)",
+      "url": "https://isc.sans.edu/diary/rss/32960",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-05-06 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Wednesday, May 6th, 2026 https://isc.sans.edu/podcastdetail/9920, (Wed, May 6th)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
       "title": "Cleartext Passwords in MS Edge? In 2026?, (Mon, May 4th)",
       "url": "https://isc.sans.edu/diary/rss/32954",
       "summary_en": "Yup, that is for real.",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
       "summary_ja": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs."
-    },
-    {
-      "title": "Malicious Ad for Homebrew Leads to MacSync Stealer, (Fri, May 1st)",
-      "url": "https://isc.sans.edu/diary/rss/32942",
-      "summary_en": "Introduction",
-      "published": "2026-05-02 04:01 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Malicious Ad for Homebrew Leads to MacSync Stealer, (Fri, May 1st)",
-      "summary_ja": "Introduction"
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -453,6 +453,16 @@
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
     },
     {
+      "title": "Insights into the clustering and reuse of phone numbers in scam emails",
+      "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/",
+      "summary_en": "Talos has recently started to collect and gather intelligence around phone numbers within emails as an additional indicator of compromise (IOC). In this blog, we discuss new insights into in-the-wild phone number reuse in scam emails.",
+      "published": "2026-05-06 19:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "Insights into the clustering and reuse of phone numbers in scam emails",
+      "summary_ja": "Talos has recently started to collect and gather intelligence around phone numbers within emails as an additional indicator of compromise (IOC). In this blog, we discuss new insights into in-the-wild phone number reuse in scam emails."
+    },
+    {
       "title": "UAT-8302 and its box full of malware",
       "url": "https://blog.talosintelligence.com/uat-8302/",
       "summary_en": "Cisco Talos is disclosing UAT-8302, a sophisticated, China-nexus advanced persistent threat (APT) group targeting government entities in South America since at least late 2024 and government agencies in southeastern Europe in 2025.",
@@ -523,14 +533,14 @@
       "summary_ja": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices."
     },
     {
-      "title": "IR Trends Q1 2026: Phishing reemerges as top initial access vector, as attacks targeting public administration persist",
-      "url": "https://blog.talosintelligence.com/ir-trends-q1-2026/",
-      "summary_en": "Phishing reemerged as the most observed means of gaining initial access, accounting for over a third of the engagements where initial access could be determined. Phishing has not been the top vertical for initial access since Q2 2025.",
-      "published": "2026-04-22 19:00 JST",
-      "source": "Talos Intelligence",
+      "title": "Websites with an undefined trust level: avoiding the trap",
+      "url": "https://securelist.com/suspicious-websites-undefined-trust-level/119675/",
+      "summary_en": "We explain what suspicious websites are and how to distinguish a safe site from a fraudulent one. A new category in Kaspersky solutions: we're sharing global statistics on untrusted site detection.",
+      "published": "2026-05-06 18:30 JST",
+      "source": "Securelist",
       "category": "research",
-      "title_ja": "IR Trends Q1 2026: Phishing reemerges as top initial access vector, as attacks targeting public administration persist",
-      "summary_ja": "Phishing reemerged as the most observed means of gaining initial access, accounting for over a third of the engagements where initial access could be determined. Phishing has not been the top vertical for initial access since Q2 2025."
+      "title_ja": "Websites with an undefined trust level: avoiding the trap",
+      "summary_ja": "We explain what suspicious websites are and how to distinguish a safe site from a fraudulent one. A new category in Kaspersky solutions: we're sharing global statistics on untrusted site detection."
     },
     {
       "title": "“Legitimate” phishing: how attackers weaponize Amazon SES to bypass email security",
@@ -601,16 +611,6 @@
       "category": "research",
       "title_ja": "The long road to your crypto: ClipBanker and its marathon infection chain",
       "summary_ja": "Threat actors are distributing a Trojan disguised as Proxifier software; through a multi-stage infection chain, it delivers ClipBanker – malware that replaces cryptocurrency wallet addresses in the clipboard."
-    },
-    {
-      "title": "Financial cyberthreats in 2025 and the outlook for 2026",
-      "url": "https://securelist.com/financial-threat-report-2025/119304/",
-      "summary_en": "In this report, Kaspersky experts share their insights into the 2025 financial threat landscape, including regional statistics and trends in phishing, PC malware, and infostealers.",
-      "published": "2026-04-08 18:00 JST",
-      "source": "Securelist",
-      "category": "research",
-      "title_ja": "Financial cyberthreats in 2025 and the outlook for 2026",
-      "summary_ja": "In this report, Kaspersky experts share their insights into the 2025 financial threat landscape, including regional statistics and trends in phishing, PC malware, and infostealers."
     },
     {
       "title": "ABB B&R Automation Studio",

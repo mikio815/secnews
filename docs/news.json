@@ -1,7 +1,47 @@
 {
-  "updated": "2026-05-07 21:28 JST",
+  "updated": "2026-05-08 08:54 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+      "url": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+      "summary_en": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild.\nThe high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1.\nIt allows \"a remotely authenticated user with administrative access to achieve remote code",
+      "published": "2026-05-08 02:55 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+      "summary_ja": "Ivanti is warning that a new security flaw impacting Endpoint Manager Mobile (EPMM) has been explored in limited attacks in the wild.\nThe high-severity vulnerability, CVE-2026-6973 (CVSS score: 7.2), is a case of improper input validation affecting EPMM before versions 12.6.1.1, 12.7.0.1, and 12.8.0.1.\nIt allows \"a remotely authenticated user with administrative access to achieve remote code"
+    },
+    {
+      "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
+      "url": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
+      "summary_en": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments.\n\"The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the data through attacker-controlled infrastructure while attempting",
+      "published": "2026-05-08 02:45 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
+      "summary_ja": "Cybersecurity researchers have disclosed details of a new credential theft framework dubbed PCPJack that targets exposed cloud infrastructure and ousts any artifacts linked to TeamPCP from the environments.\n\"The toolset harvests credentials from cloud, container, developer, productivity, and financial services, then exfiltrates the data through attacker-controlled infrastructure while attempting"
+    },
+    {
+      "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+      "url": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+      "summary_en": "The hardest part of cybersecurity isn't the technology, it’s the people.\nEvery major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection.\nIn 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down",
+      "published": "2026-05-07 22:50 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+      "summary_ja": "The hardest part of cybersecurity isn't the technology, it’s the people.\nEvery major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection.\nIn 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down"
+    },
+    {
+      "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
+      "url": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
+      "summary_en": "Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026.\nThe vulnerability in question is CVE-2026-0300 (CVSS score: 9.3/8.7), a buffer overflow vulnerability in the User-ID Authentication Portal service of Palo Alto Networks PAN-OS software that could allow an unauthenticated attacker",
+      "published": "2026-05-07 22:34 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
+      "summary_ja": "Palo Alto Networks has disclosed that threat actors may have attempted to unsuccessfully exploit a recently disclosed critical security flaw as early as April 9, 2026.\nThe vulnerability in question is CVE-2026-0300 (CVSS score: 9.3/8.7), a buffer overflow vulnerability in the User-ID Authentication Portal service of Palo Alto Networks PAN-OS software that could allow an unauthenticated attacker"
+    },
     {
       "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
       "url": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
@@ -43,44 +83,74 @@
       "summary_ja": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible systems.\nvm2 is an open-source library used to run untrusted JavaScript code inside a secure sandbox by intercepting and proxying JavaScript objects to prevent sandboxed code from accessing the host"
     },
     {
-      "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
-      "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
-      "summary_en": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks.\nHunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted",
-      "published": "2026-05-07 05:21 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
-      "summary_ja": "Cybersecurity researchers have exposed a new Mirai-derived botnet that self-identifies as xlabs_v1 and targets internet-exposed devices running Android Debug Bridge (ADB) to enlist them in a network capable of carrying out distributed denial-of-service (DDoS) attacks.\nHunt.io, which detailed the malware, said it made the discovery after identifying an exposed directory on a Netherlands-hosted"
+      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+      "url": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
+      "summary_en": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]",
+      "published": "2026-05-08 07:36 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
+      "summary_ja": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]"
     },
     {
-      "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
-      "url": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
-      "summary_en": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation.\nThe attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident",
-      "published": "2026-05-06 22:00 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
-      "summary_ja": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation.\nThe attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident"
+      "title": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/new-tclbanker-malware-self-spreads-over-whatsapp-and-outlook/",
+      "summary_en": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]",
+      "published": "2026-05-08 07:06 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "New TCLBanker malware self-spreads over WhatsApp and Outlook",
+      "summary_ja": "A new trojan named TCLBanker, which targets 59 banking, fintech, and cryptocurrency platforms, uses a trojanized MSI installer for Logitech AI Prompt Builder to infect systems. [...]"
     },
     {
-      "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
-      "url": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
-      "summary_en": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats.\nBut behind every headline, there’s a quieter, better story.\nIt’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard.\nMost of the time, this work is",
-      "published": "2026-05-06 21:03 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
-      "summary_ja": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats.\nBut behind every headline, there’s a quieter, better story.\nIt’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard.\nMost of the time, this work is"
+      "title": "New PCPJack worm steals credentials, cleans TeamPCP infections",
+      "url": "https://www.bleepingcomputer.com/news/security/new-pcpjack-worm-steals-credentials-cleans-teampcp-infections/",
+      "summary_en": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]",
+      "published": "2026-05-08 03:35 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "New PCPJack worm steals credentials, cleans TeamPCP infections",
+      "summary_ja": "A new malware framework called PCPJack is stealing credentials from exposed cloud infrastructure while actively removing TeamPCP's access to the systems. [...]"
     },
     {
-      "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
-      "url": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
-      "summary_en": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for",
-      "published": "2026-05-06 19:57 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
-      "summary_ja": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for"
+      "title": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-clickfix-attacks-pushing-vidar-stealer-malware/",
+      "summary_en": "The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute  the Vidar Stealer info-stealing malware. [...]",
+      "published": "2026-05-08 03:00 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Australia warns of ClickFix attacks pushing Vidar Stealer malware",
+      "summary_ja": "The Australian Cyber Security Center (ACSC) is warning organizations of an ongoing malware campaign using the ClickFix social engineering technique to distribute  the Vidar Stealer info-stealing malware. [...]"
+    },
+    {
+      "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
+      "summary_en": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]",
+      "published": "2026-05-08 00:20 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
+      "summary_ja": "Ivanti warned customers today to patch a high-severity remote code execution vulnerability in Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]"
+    },
+    {
+      "title": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
+      "url": "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
+      "summary_en": "Your security controls aren't failing, they're missing where most of today's work actually happens. Keep Aware shows how browser activity like copy/paste and AI prompts bypass traditional protections. [...]",
+      "published": "2026-05-07 23:01 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
+      "summary_ja": "Your security controls aren't failing, they're missing where most of today's work actually happens. Keep Aware shows how browser activity like copy/paste and AI prompts bypass traditional protections. [...]"
+    },
+    {
+      "title": "Americans sentenced for running 'laptop farms' for North Korea",
+      "url": "https://www.bleepingcomputer.com/news/security/americans-sentenced-for-running-laptop-farms-for-north-korea/",
+      "summary_en": "Two U.S. nationals were sentenced to 18 months in prison each for operating so-called laptop farms that helped North Korean IT workers fraudulently obtain remote employment at nearly 70 American companies. [...]",
+      "published": "2026-05-07 22:45 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Americans sentenced for running 'laptop farms' for North Korea",
+      "summary_ja": "Two U.S. nationals were sentenced to 18 months in prison each for operating so-called laptop farms that helped North Korean IT workers fraudulently obtain remote employment at nearly 70 American companies. [...]"
     },
     {
       "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
@@ -93,74 +163,44 @@
       "summary_ja": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]"
     },
     {
-      "title": "Webinar: Why modern attacks require both security and recovery",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
-      "summary_en": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]",
-      "published": "2026-05-07 21:00 JST",
-      "source": "Bleeping Computer",
+      "title": "Iranian government hackers using Chaos ransomware as cover, researchers say",
+      "url": "https://therecord.media/iran-government-hackers-use-chaos-ransomware-as-cover",
+      "summary_en": "Incident responders from cybersecurity firm Rapid7 published a report about a recent intrusion that initially appeared to be a Chaos ransomware attack but was later discovered to be an attack attributed to MuddyWater, an Iranian APT group tied to the country’s Ministry of Intelligence and Security (MOIS).",
+      "published": "2026-05-08 06:30 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Webinar: Why modern attacks require both security and recovery",
-      "summary_ja": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]"
+      "title_ja": "Iranian government hackers using Chaos ransomware as cover, researchers say",
+      "summary_ja": "Incident responders from cybersecurity firm Rapid7 published a report about a recent intrusion that initially appeared to be a Chaos ransomware attack but was later discovered to be an attack attributed to MuddyWater, an Iranian APT group tied to the country’s Ministry of Intelligence and Security (MOIS)."
     },
     {
-      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-      "url": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
-      "summary_en": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]",
-      "published": "2026-05-07 19:57 JST",
-      "source": "Bleeping Computer",
+      "title": "North Carolina man pleads guilty to doxxing Supreme Court justices",
+      "url": "https://therecord.media/north-carolina-man-pleads-guilty-to-doxxing",
+      "summary_en": "The incident underscores the dangers public officials face from doxxing, as well as how easy it has become to find sensitive information online.",
+      "published": "2026-05-08 00:00 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Palo Alto Networks firewall zero-day exploited for nearly a month",
-      "summary_ja": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]"
+      "title_ja": "North Carolina man pleads guilty to doxxing Supreme Court justices",
+      "summary_ja": "The incident underscores the dangers public officials face from doxxing, as well as how easy it has become to find sensitive information online."
     },
     {
-      "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
-      "summary_en": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]",
-      "published": "2026-05-07 19:02 JST",
-      "source": "Bleeping Computer",
+      "title": "Polish intelligence warns hackers attacked water treatment control systems",
+      "url": "https://therecord.media/polish-intelligence-warns-hackers-attacked-water-treatment",
+      "summary_en": "The agency did not publicly attribute the incidents to a specific group or country but said Poland faced intensified hostile cyber activity in 2024 and 2025, “with particular emphasis on the special services of the Russian Federation.”",
+      "published": "2026-05-07 21:38 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Fake Claude AI website delivers new 'Beagle' Windows malware",
-      "summary_ja": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]"
+      "title_ja": "Polish intelligence warns hackers attacked water treatment control systems",
+      "summary_ja": "The agency did not publicly attribute the incidents to a specific group or country but said Poland faced intensified hostile cyber activity in 2024 and 2025, “with particular emphasis on the special services of the Russian Federation.”"
     },
     {
-      "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-for-godaddy-managewp-login-phishing/",
-      "summary_en": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]",
-      "published": "2026-05-07 06:36 JST",
-      "source": "Bleeping Computer",
+      "title": "European leaders unveil tentative deal for AI Act simplification, including a ban on nudification tools",
+      "url": "https://therecord.media/european-leaders-unveil-deal-ai-act-nudification",
+      "summary_en": "The tentative deal responds to industry criticism by postponing enforcement of rules governing so-called “high-risk” AI tools involving biometrics and those used in employment, law enforcement and critical infrastructure to December 2027.",
+      "published": "2026-05-07 13:00 JST",
+      "source": "The Record",
       "category": "incident",
-      "title_ja": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
-      "summary_ja": "A phishing campaign delivered through Google sponsored search results is targeting credentials for ManageWP, GoDaddy's platform for managing fleets of WordPress websites. [...]"
-    },
-    {
-      "title": "Critical vm2 sandbox bug lets attackers execute code on hosts",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-vm2-sandbox-bug-lets-attackers-execute-code-on-hosts/",
-      "summary_en": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]",
-      "published": "2026-05-07 03:38 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Critical vm2 sandbox bug lets attackers execute code on hosts",
-      "summary_ja": "A critical vulnerability in the popular Node.js sandboxing library vm2 allows escaping the sandbox and executing arbitrary code on the host system. [...]"
-    },
-    {
-      "title": "New Cisco DoS flaw requires manual reboot to revive devices",
-      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-dos-flaw-requires-manual-reboot-to-revive-devices/",
-      "summary_en": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]",
-      "published": "2026-05-07 03:06 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "New Cisco DoS flaw requires manual reboot to revive devices",
-      "summary_ja": "Cisco patched a Crosswork Network Controller and Network Services Orchestrator denial-of-service vulnerability that requires manually rebooting targeted systems for recovery. [...]"
-    },
-    {
-      "title": "DAEMON Tools devs confirm breach, release malware-free version",
-      "url": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
-      "summary_en": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
-      "published": "2026-05-07 01:43 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "DAEMON Tools devs confirm breach, release malware-free version",
-      "summary_ja": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]"
+      "title_ja": "European leaders unveil tentative deal for AI Act simplification, including a ban on nudification tools",
+      "summary_ja": "The tentative deal responds to industry criticism by postponing enforcement of rules governing so-called “high-risk” AI tools involving biometrics and those used in employment, law enforcement and critical infrastructure to December 2027."
     },
     {
       "title": "North Korean hackers targeted ethnic Koreans in China with Android ‘BirdCall’ malware",
@@ -171,46 +211,6 @@
       "category": "incident",
       "title_ja": "North Korean hackers targeted ethnic Koreans in China with Android ‘BirdCall’ malware",
       "summary_ja": "Researchers at cybersecurity firm ESET attributed the campaign to APT37 and said the hackers used a backdoor attached to a suite of card games from a company called Sqgame."
-    },
-    {
-      "title": "Palo Alto warns of critical software bug used in firewall attacks",
-      "url": "https://therecord.media/palo-alto-warns-of-critical-software-bug-firewalls",
-      "summary_en": "A patch for the bug, tracked as CVE-2026-0300, has not been published yet and Palo Alto Networks said it will be included in releases over the next two weeks.",
-      "published": "2026-05-07 05:33 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Palo Alto warns of critical software bug used in firewall attacks",
-      "summary_ja": "A patch for the bug, tracked as CVE-2026-0300, has not been published yet and Palo Alto Networks said it will be included in releases over the next two weeks."
-    },
-    {
-      "title": "New CISA initiative aims for critical infrastructure to operate offline during cyberattacks",
-      "url": "https://therecord.media/cisa-initiative-aims-for-critical-infrastructure-to-operate-during-cyberattacks",
-      "summary_en": "The initiative, named CI Fortify, focuses on isolation and recovery efforts that would see critical infrastructure organizations proactively disconnect from third-party dependencies and find ways to operate without reliable telecommunications and internet.",
-      "published": "2026-05-07 02:26 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "New CISA initiative aims for critical infrastructure to operate offline during cyberattacks",
-      "summary_ja": "The initiative, named CI Fortify, focuses on isolation and recovery efforts that would see critical infrastructure organizations proactively disconnect from third-party dependencies and find ways to operate without reliable telecommunications and internet."
-    },
-    {
-      "title": "Hackers compromise Daemon Tools in global supply-chain attack, researchers say",
-      "url": "https://therecord.media/hackers-compromise-daemon-tools-global-supply-chain-attack",
-      "summary_en": "Researchers at Kaspersky said attackers tampered with installers for Daemon Tools — a popular program used to mount disk images as virtual drives — and distributed them through the software’s official website.",
-      "published": "2026-05-06 21:45 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "Hackers compromise Daemon Tools in global supply-chain attack, researchers say",
-      "summary_ja": "Researchers at Kaspersky said attackers tampered with installers for Daemon Tools — a popular program used to mount disk images as virtual drives — and distributed them through the software’s official website."
-    },
-    {
-      "title": "FTC bans data broker Kochava from selling sensitive location info",
-      "url": "https://therecord.media/ftc-bans-kochava-location-data-sales",
-      "summary_en": "The FTC has said that Kochava sold precise geolocation data showing consumers visiting houses of worship and health care clinics without their consent or awareness, an alleged violation of a law barring companies from engaging in unfair and deceptive practices.",
-      "published": "2026-05-06 03:02 JST",
-      "source": "The Record",
-      "category": "incident",
-      "title_ja": "FTC bans data broker Kochava from selling sensitive location info",
-      "summary_ja": "The FTC has said that Kochava sold precise geolocation data showing consumers visiting houses of worship and health care clinics without their consent or awareness, an alleged violation of a law barring companies from engaging in unfair and deceptive practices."
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -453,6 +453,16 @@
       "summary_ja": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au"
     },
     {
+      "title": "Unplug your way to better code",
+      "url": "https://blog.talosintelligence.com/unplug-your-way-to-better-code/",
+      "summary_en": "Cybersecurity concepts — logs, packets, DNS exfiltration, and more — are usually intangible, and its practitioners are prone to mental fatigue, Amy takes a second to yell at you to go touch grass.",
+      "published": "2026-05-08 03:00 JST",
+      "source": "Talos Intelligence",
+      "category": "research",
+      "title_ja": "Unplug your way to better code",
+      "summary_ja": "Cybersecurity concepts — logs, packets, DNS exfiltration, and more — are usually intangible, and its practitioners are prone to mental fatigue, Amy takes a second to yell at you to go touch grass."
+    },
+    {
       "title": "Insights into the clustering and reuse of phone numbers in scam emails",
       "url": "https://blog.talosintelligence.com/insights-into-the-clustering-and-reuse-of-phone-numbers-in-scam-emails/",
       "summary_en": "Talos has recently started to collect and gather intelligence around phone numbers within emails as an additional indicator of compromise (IOC). In this blog, we discuss new insights into in-the-wild phone number reuse in scam emails.",
@@ -521,16 +531,6 @@
       "category": "research",
       "title_ja": "It pays to be a forever student",
       "summary_ja": "In this newsletter, Joe discusses why understanding other disciplines can often flow back into the macro and micro of cybersecurity, especially in a world of AI."
-    },
-    {
-      "title": "UAT-4356's Targeting of Cisco Firepower Devices",
-      "url": "https://blog.talosintelligence.com/uat-4356-firestarter/",
-      "summary_en": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices.",
-      "published": "2026-04-24 00:10 JST",
-      "source": "Talos Intelligence",
-      "category": "research",
-      "title_ja": "UAT-4356's Targeting of Cisco Firepower Devices",
-      "summary_ja": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices."
     },
     {
       "title": "Exploits and vulnerabilities in Q1 2026",
@@ -614,6 +614,26 @@
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-6973 Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability \n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog",
+      "published": "2026-05-07 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-6973 Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability \n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog"
+    },
+    {
+      "title": "MAXHUB Pivot Client Application",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-127-01",
+      "summary_en": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability may enable an attacker to access tenant email addresses and associated information in cleartext or cause a denial-of-service condition.\nThe following versions of MAXHUB Pivot client application are affected:\n\nMAXHUB Pivot client application\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nMAXHUB\nMAXHUB Pivot client application\nUse of a Broken or Risky Cryptographic Algorithm\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Info",
+      "published": "2026-05-07 21:00 JST",
+      "source": "CISA Alerts",
+      "category": "cve",
+      "title_ja": "MAXHUB Pivot Client Application",
+      "summary_ja": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability may enable an attacker to access tenant email addresses and associated information in cleartext or cause a denial-of-service condition.\nThe following versions of MAXHUB Pivot client application are affected:\n\nMAXHUB Pivot client application\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.3\nMAXHUB\nMAXHUB Pivot client application\nUse of a Broken or Risky Cryptographic Algorithm\n\n\n\n\nBackground\n\nCritical Infrastructure Sectors: Info"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. \n\nCVE-2026-0300 Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list ",
       "published": "2026-05-06 21:00 JST",
@@ -631,16 +651,6 @@
       "category": "cve",
       "title_ja": "ABB B&R Automation Runtime",
       "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. An attacker who successfully exploited this vulnerability could cause the product to stop.\nThe following versions of ABB B&R Automation Runtime are affected:\n\nAutomation Runtime <6.5, >=6.5, =R4.93 (CVE-2025-11044, CVE-2025-11044)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 6.8\nABB\nABB B&R Automation Runtime\nAllocation of Reso"
-    },
-    {
-      "title": "ABB B&R Automation Studio",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
-      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe",
-      "published": "2026-05-05 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "ABB B&R Automation Studio",
-      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe"
     },
     {
       "title": "Hitachi Energy PCM600",
@@ -673,24 +683,14 @@
       "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnerability. An attacker who successfully exploited this vulnerability could read sensitive information in the logging data of the PVI client application. Logging is deactivated by default in all PVI client versions.\nThe following versions of ABB B&R PVI are affected:\n\nPVI <6.5.0, 6.5.0 (CVE-2026-0936)\n\n\n\n\n\nCVSS\nVendor\nEqui"
     },
     {
-      "title": "Careful Adoption of Agentic AI Services",
-      "url": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
-      "summary_en": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on adopting agentic artificial intelligence (AI) systems.\nThis guide outlines key security challenges and risks associated with agentic AI, and provides actionable steps for designing, deploying, and operating these systems safely. It helps organizations align AI risk management with existing cybersecurity fr",
-      "published": "2026-05-01 21:00 JST",
+      "title": "ABB B&R Automation Studio",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-04",
+      "summary_en": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe",
+      "published": "2026-05-05 21:00 JST",
       "source": "CISA Alerts",
       "category": "cve",
-      "title_ja": "Careful Adoption of Agentic AI Services",
-      "summary_ja": "CISA, in collaboration with the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and other international and U.S. partners, released guidance for organizations on adopting agentic artificial intelligence (AI) systems.\nThis guide outlines key security challenges and risks associated with agentic AI, and provides actionable steps for designing, deploying, and operating these systems safely. It helps organizations align AI risk management with existing cybersecurity fr"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary_en": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l",
-      "published": "2026-05-01 21:00 JST",
-      "source": "CISA Alerts",
-      "category": "cve",
-      "title_ja": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary_ja": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2026-31431 Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a l"
+      "title_ja": "ABB B&R Automation Studio",
+      "summary_ja": "View CSAF\nSummary\nABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that resolves a vulnerability. Successful exploitation of this vulnerability may enable an attacker to masquerade as a trusted party when B&R Automation Studio establishes a connection with a server via the ANSL over TLS or OPC-UA protocol.\nThe following versions of ABB B&R Automation Studio are affected:\n\nAutomation Studio <6.5, 6.5 (CVE-2025-11043)\n\n\n\n\n\nCVSS\nVe"
     }
   ]
 }

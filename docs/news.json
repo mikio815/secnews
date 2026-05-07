@@ -1,7 +1,47 @@
 {
-  "updated": "2026-05-07 08:49 JST",
+  "updated": "2026-05-07 21:28 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
+      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+      "summary_en": "Bad week.\nTurns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord channels like it’s normal. Some of these attack chains don’t even feel sophisticated anymore. More like some tired guy with a Telegram account and too much free time. The worst part is how often this stuff",
+      "published": "2026-05-07 20:33 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
+      "summary_ja": "Bad week.\nTurns out the easiest way to get hacked in 2026 is still the same old garbage: shady packages, fake apps, forgotten DNS junk, scam ads, and stolen logins getting dumped into Discord channels like it’s normal. Some of these attack chains don’t even feel sophisticated anymore. More like some tired guy with a Telegram account and too much free time. The worst part is how often this stuff"
+    },
+    {
+      "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
+      "url": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
+      "summary_en": "Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operational readiness determines whether that team can do meaningful work the moment they do. \nThat distinction matters far more than many organizations realize. In the first hours of a security incident",
+      "published": "2026-05-07 19:54 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
+      "summary_ja": "Having an incident response retainer, or even a pre-approved external incident response firm, is not the same as being ready for an incident. A retainer means someone will answer the phone. Operational readiness determines whether that team can do meaningful work the moment they do. \nThat distinction matters far more than many organizations realize. In the first hours of a security incident"
+    },
+    {
+      "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
+      "url": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
+      "summary_en": "Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called ZiChatBot on Windows and Linux systems.\n\"While these wheel packages do implement the features described on their PyPI web pages, their true purpose is to covertly deliver malicious files,\" Kaspersky",
+      "published": "2026-05-07 18:20 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
+      "summary_ja": "Cybersecurity researchers have discovered three packages on the Python Package Index (PyPI) repository that are designed to stealthily deliver a previously unknown malware family called ZiChatBot on Windows and Linux systems.\n\"While these wheel packages do implement the features described on their PyPI web pages, their true purpose is to covertly deliver malicious files,\" Kaspersky"
+    },
+    {
+      "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
+      "url": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
+      "summary_en": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible systems.\nvm2 is an open-source library used to run untrusted JavaScript code inside a secure sandbox by intercepting and proxying JavaScript objects to prevent sandboxed code from accessing the host",
+      "published": "2026-05-07 13:15 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
+      "summary_ja": "A dozen critical security vulnerabilities have been disclosed in the vm2 Node.js library that could be exploited by bad actors to break out of the sandbox and execute arbitrary code on susceptible systems.\nvm2 is an open-source library used to run untrusted JavaScript code inside a secure sandbox by intercepting and proxying JavaScript objects to prevent sandboxed code from accessing the host"
+    },
     {
       "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
       "url": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
@@ -43,44 +83,44 @@
       "summary_ja": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for"
     },
     {
-      "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
-      "url": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
-      "summary_en": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks.\n\"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said.\nThe initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021",
-      "published": "2026-05-06 18:13 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
-      "summary_ja": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks.\n\"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said.\nThe initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021"
+      "title": "Crypto gang member gets 6.5 years for role in $230 million heist",
+      "url": "https://www.bleepingcomputer.com/news/security/crypto-gang-member-gets-65-years-for-role-in-230-million-heist/",
+      "summary_en": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]",
+      "published": "2026-05-07 21:11 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Crypto gang member gets 6.5 years for role in $230 million heist",
+      "summary_ja": "A 20-year-old California man was sentenced to 78 months in prison for serving as a home invader and money launderer in a criminal ring that stole over $250 million in cryptocurrency. [...]"
     },
     {
-      "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
-      "url": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
-      "summary_en": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft.\n\"According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs),\"",
-      "published": "2026-05-06 17:34 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
-      "summary_ja": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft.\n\"According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs),\""
+      "title": "Webinar: Why modern attacks require both security and recovery",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-modern-attacks-require-both-security-and-recovery/",
+      "summary_en": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]",
+      "published": "2026-05-07 21:00 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Webinar: Why modern attacks require both security and recovery",
+      "summary_ja": "Modern attacks don't stop at initial compromise. This webinar explores why security and recovery must work together to reduce downtime and improve resilience. [...]"
     },
     {
-      "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
-      "url": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
-      "summary_en": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3 if the User-ID Authentication Portal is configured to enable access from the internet or any",
-      "published": "2026-05-06 15:14 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
-      "summary_ja": "Palo Alto Networks has released an advisory warning that a critical buffer overflow vulnerability in its PAN-OS software has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-0300, has been described as a case of unauthenticated remote code execution. It carries a CVSS score of 9.3 if the User-ID Authentication Portal is configured to enable access from the internet or any"
+      "title": "Palo Alto Networks firewall zero-day exploited for nearly a month",
+      "url": "https://www.bleepingcomputer.com/news/security/pan-os-firewall-rce-zero-day-exploited-in-attacks-since-april-9/",
+      "summary_en": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]",
+      "published": "2026-05-07 19:57 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Palo Alto Networks firewall zero-day exploited for nearly a month",
+      "summary_ja": "Palo Alto Networks warned customers that suspected state-sponsored hackers have been exploiting a critical-severity PAN-OS firewall zero-day vulnerability for nearly a month. [...]"
     },
     {
-      "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
-      "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
-      "summary_en": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE).\nThe vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue",
-      "published": "2026-05-06 01:19 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
-      "summary_ja": "The Apache Software Foundation (ASF) has released security updates to address several security vulnerabilities in the HTTP Server, including a severe vulnerability that could potentially lead to remote code execution (RCE).\nThe vulnerability, tracked as CVE-2026-23918 (CVSS score: 8.8), has been described as a case of \"double free and possible RCE\" in the HTTP/2 protocol handling. This issue"
+      "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
+      "summary_en": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]",
+      "published": "2026-05-07 19:02 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Fake Claude AI website delivers new 'Beagle' Windows malware",
+      "summary_ja": "A fake version for the Claude AI website offers a malicious Claude-Pro Relay download that pushes a previously undocumented backdoor for Windows named Beagle. [...]"
     },
     {
       "title": "Hackers abuse Google ads for GoDaddy ManageWP login phishing",
@@ -121,46 +161,6 @@
       "category": "incident",
       "title_ja": "DAEMON Tools devs confirm breach, release malware-free version",
       "summary_ja": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]"
-    },
-    {
-      "title": "Why ransomware attacks succeed even when backups exist",
-      "url": "https://www.bleepingcomputer.com/news/security/why-ransomware-attacks-succeed-even-when-backups-exist/",
-      "summary_en": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]",
-      "published": "2026-05-06 23:04 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Why ransomware attacks succeed even when backups exist",
-      "summary_ja": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]"
-    },
-    {
-      "title": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/muddywater-hackers-use-chaos-ransomware-as-a-decoy-in-attacks/",
-      "summary_en": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on  Microsoft Teams social engineering to gain access and establish persistence. [...]",
-      "published": "2026-05-06 22:02 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "MuddyWater hackers use Chaos ransomware as a decoy in attacks",
-      "summary_ja": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on  Microsoft Teams social engineering to gain access and establish persistence. [...]"
-    },
-    {
-      "title": "Webinar: Why network incidents escalate and how to fix response gaps",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-escalate-and-how-to-fix-response-gaps/",
-      "summary_en": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]",
-      "published": "2026-05-06 21:56 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Webinar: Why network incidents escalate and how to fix response gaps",
-      "summary_ja": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]"
-    },
-    {
-      "title": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-actively-exploited-firewall-zero-day/",
-      "summary_en": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]",
-      "published": "2026-05-06 18:18 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Palo Alto Networks warns of firewall RCE zero-day exploited in attacks",
-      "summary_ja": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]"
     },
     {
       "title": "North Korean hackers targeted ethnic Koreans in China with Android ‘BirdCall’ malware",
@@ -293,6 +293,26 @@
       "summary_ja": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters says the company is currently experiencing a building emergency."
     },
     {
+      "title": "ISC Stormcast For Thursday, May 7th, 2026 https://isc.sans.edu/podcastdetail/9922, (Thu, May 7th)",
+      "url": "https://isc.sans.edu/diary/rss/32964",
+      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "published": "2026-05-07 11:00 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "ISC Stormcast For Thursday, May 7th, 2026 https://isc.sans.edu/podcastdetail/9922, (Thu, May 7th)",
+      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
+    },
+    {
+      "title": "An Adaptive Cyber Analytics UI for Web Honeypot Logs [Guest Diary], (Wed, May 6th)",
+      "url": "https://isc.sans.edu/diary/rss/32962",
+      "summary_en": "[This is a Guest Diary by Eric Roldan, an ISC intern as part of the SANS.edu BACS program]",
+      "published": "2026-05-07 10:08 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "An Adaptive Cyber Analytics UI for Web Honeypot Logs [Guest Diary], (Wed, May 6th)",
+      "summary_ja": "[This is a Guest Diary by Eric Roldan, an ISC intern as part of the SANS.edu BACS program]"
+    },
+    {
       "title": "ISC Stormcast For Wednesday, May 6th, 2026 https://isc.sans.edu/podcastdetail/9920, (Wed, May 6th)",
       "url": "https://isc.sans.edu/diary/rss/32960",
       "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -351,26 +371,6 @@
       "category": "technical",
       "title_ja": "DShield Honeypot Update, (Mon, May 4th)",
       "summary_ja": "This week, I will release a few updates to our DShield honeypot. The update should happen automatically if you have \"automatic updates\" enabled on your system. There will be two major changes:"
-    },
-    {
-      "title": "ISC Stormcast For Monday, May 4th, 2026 https://isc.sans.edu/podcastdetail/9916, (Mon, May 4th)",
-      "url": "https://isc.sans.edu/diary/rss/32946",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-05-04 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Monday, May 4th, 2026 https://isc.sans.edu/podcastdetail/9916, (Mon, May 4th)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
-    },
-    {
-      "title": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
-      "url": "https://isc.sans.edu/diary/rss/32944",
-      "summary_en": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs.",
-      "published": "2026-05-04 01:49 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
-      "summary_ja": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs."
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -533,6 +533,16 @@
       "summary_ja": "Cisco Talos is aware of UAT-4356's continued active targeting of Cisco Firepower devices’ Firepower eXtensible Operating System (FXOS). UAT-4356 exploited n-day vulnerabilities (CVE-2025-20333 and CVE-2025-20362) to gain unauthorized access to vulnerable devices."
     },
     {
+      "title": "Exploits and vulnerabilities in Q1 2026",
+      "url": "https://securelist.com/vulnerabilities-and-exploits-in-q1-2026/119733/",
+      "summary_en": "This report provides statistical data on published vulnerabilities and exploits we researched during Q1 2026. It also includes summary data on the use of C2 frameworks in APT attacks.",
+      "published": "2026-05-07 19:00 JST",
+      "source": "Securelist",
+      "category": "research",
+      "title_ja": "Exploits and vulnerabilities in Q1 2026",
+      "summary_ja": "This report provides statistical data on published vulnerabilities and exploits we researched during Q1 2026. It also includes summary data on the use of C2 frameworks in APT attacks."
+    },
+    {
       "title": "OceanLotus suspected of using PyPI to deliver ZiChatBot malware",
       "url": "https://securelist.com/oceanlotus-suspected-pypi-zichatbot-campaign/119603/",
       "summary_en": "Kaspersky researchers uncovered malicious wheel packages in PyPI that targeted both Windows and Linux and contained a dropper delivering malware dubbed ZiChatBot. We attribute this activity to OceanLotus APT.",
@@ -601,16 +611,6 @@
       "category": "research",
       "title_ja": "Threat landscape for industrial automation systems in Q4 2025",
       "summary_ja": "The report contains industrial threat statistics for Q4 2025. It covers various infection vectors and malware types, as well as regional statistics and statistics by industry."
-    },
-    {
-      "title": "JanelaRAT: a financial threat targeting users in Latin America",
-      "url": "https://securelist.com/janelarat-financial-threat-in-latin-america/119332/",
-      "summary_en": "Kaspersky GReAT experts describe the latest JanelaRAT campaign detailing infection chain and malware functionality updates.",
-      "published": "2026-04-13 18:00 JST",
-      "source": "Securelist",
-      "category": "research",
-      "title_ja": "JanelaRAT: a financial threat targeting users in Latin America",
-      "summary_ja": "Kaspersky GReAT experts describe the latest JanelaRAT campaign detailing infection chain and malware functionality updates."
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",

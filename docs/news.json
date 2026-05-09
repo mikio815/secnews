@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 20:45 JST",
+  "updated": "2026-05-10 08:46 JST",
   "count": 69,
   "articles": [
     {
@@ -83,6 +83,26 @@
       "summary_ja": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel.\nDubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers"
     },
     {
+      "title": "JDownloader site hacked to replace installers with Python RAT malware",
+      "url": "https://www.bleepingcomputer.com/news/security/jdownloader-site-hacked-to-replace-installers-with-python-rat-malware/",
+      "summary_en": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]",
+      "published": "2026-05-10 04:27 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "JDownloader site hacked to replace installers with Python RAT malware",
+      "summary_ja": "The website for the popular JDownloader download manager was compromised earlier this week to distribute malicious Windows and Linux installers, with the Windows payload found deploying a Python-based remote access trojan. [...]"
+    },
+    {
+      "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+      "summary_en": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]",
+      "published": "2026-05-09 23:26 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+      "summary_ja": "A malicious Hugging Face repository that reached the platform's trending list impersonated OpenAI's \"Privacy Filter\" project to deliver information-stealing malware to Windows users. [...]"
+    },
+    {
       "title": "NVIDIA confirms GeForce NOW data breach affecting Armenian users",
       "url": "https://www.bleepingcomputer.com/news/security/nvidia-confirms-geforce-now-data-breach-affecting-armenian-users/",
       "summary_en": "NVIDIA has confirmed in a statement for BleepingComputer that GeForce NOW user information has been exposed in a data breach. [...]",
@@ -141,26 +161,6 @@
       "category": "incident",
       "title_ja": "Former govt contractor convicted for wiping dozens of federal databases",
       "summary_ja": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]"
-    },
-    {
-      "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
-      "url": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
-      "summary_en": "A new Linux zero-day exploit, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]",
-      "published": "2026-05-08 16:45 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
-      "summary_ja": "A new Linux zero-day exploit, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]"
-    },
-    {
-      "title": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
-      "url": "https://www.bleepingcomputer.com/news/security/canvas-login-portals-hacked-in-mass-shinyhunters-extortion-campaign/",
-      "summary_en": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]",
-      "published": "2026-05-08 07:36 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Canvas login portals hacked in mass ShinyHunters extortion campaign",
-      "summary_ja": "The ShinyHunters extortion gang has breached education technology giant Instructure again, this time exploiting another vulnerability to deface Canvas login portals for hundreds of colleges and universities. [...]"
     },
     {
       "title": "GM to pay over $12 million in California privacy settlement involving driver data",

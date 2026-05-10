@@ -1,7 +1,17 @@
 {
-  "updated": "2026-05-10 20:46 JST",
+  "updated": "2026-05-11 08:51 JST",
   "count": 69,
   "articles": [
+    {
+      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+      "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+      "summary_en": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.\nThe out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed Bleeding Llama by Cyera.\nOllama is a",
+      "published": "2026-05-10 21:41 JST",
+      "source": "The Hacker News",
+      "category": "general",
+      "title_ja": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+      "summary_ja": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.\nThe out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed Bleeding Llama by Cyera.\nOllama is a"
+    },
     {
       "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
       "url": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
@@ -73,14 +83,24 @@
       "summary_ja": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\"\nThe backdoor is designed as a Pluggable Authentication Module (PAM)-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination."
     },
     {
-      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-      "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "summary_en": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel.\nDubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers",
-      "published": "2026-05-08 14:12 JST",
-      "source": "The Hacker News",
-      "category": "general",
-      "title_ja": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-      "summary_ja": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel.\nDubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers"
+      "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+      "summary_en": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac. [...]",
+      "published": "2026-05-11 02:52 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+      "summary_ja": "Attackers are abusing Google Ads and legitimate Claude.ai shared chats in an active malvertising campaign. Users searching for \"Claude mac download\" may come across sponsored search results that list claude.ai as the target website, but lead to instructions that install malware on their Mac. [...]"
+    },
+    {
+      "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
+      "url": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
+      "summary_en": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]",
+      "published": "2026-05-10 23:16 JST",
+      "source": "Bleeping Computer",
+      "category": "incident",
+      "title_ja": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
+      "summary_ja": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]"
     },
     {
       "title": "JDownloader site hacked to replace installers with Python RAT malware",
@@ -141,26 +161,6 @@
       "category": "incident",
       "title_ja": "CISA gives feds four days to patch Ivanti flaw exploited as zero-day",
       "summary_ja": "CISA has given U.S. federal agencies four days to secure their networks against a high-severity vulnerability in Ivanti Endpoint Manager Mobile (EPMM) exploited in zero-day attacks. [...]"
-    },
-    {
-      "title": "Zara data breach exposed personal information of 197,000 people",
-      "url": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
-      "summary_en": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. [...]",
-      "published": "2026-05-08 19:42 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Zara data breach exposed personal information of 197,000 people",
-      "summary_ja": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. [...]"
-    },
-    {
-      "title": "Former govt contractor convicted for wiping dozens of federal databases",
-      "url": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "summary_en": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]",
-      "published": "2026-05-08 17:45 JST",
-      "source": "Bleeping Computer",
-      "category": "incident",
-      "title_ja": "Former govt contractor convicted for wiping dozens of federal databases",
-      "summary_ja": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]"
     },
     {
       "title": "GM to pay over $12 million in California privacy settlement involving driver data",
@@ -293,6 +293,16 @@
       "summary_ja": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and web cameras. The feds say the four botnets -- named Aisuru, Kimwolf, JackSkid and Mossad -- are responsible for a series of recent record-smashing distributed denial-of-service (DDoS) attacks capable of knocking nearly any target offline."
     },
     {
+      "title": "YARA-X 1.16.0 Release, (Sun, May 10th)",
+      "url": "https://isc.sans.edu/diary/rss/32970",
+      "summary_en": "YARA-X&#;x26;#;39;s 1.16.0 release brings 4 improvements and 4 bugfixes.",
+      "published": "2026-05-11 07:37 JST",
+      "source": "SANS Internet Storm Center",
+      "category": "technical",
+      "title_ja": "YARA-X 1.16.0 Release, (Sun, May 10th)",
+      "summary_ja": "YARA-X&#;x26;#;39;s 1.16.0 release brings 4 improvements and 4 bugfixes."
+    },
+    {
       "title": "Another Universal Linux Local Privilege Escalation (LPE) Vulnerability: Dirty Frag, (Fri, May 8th)",
       "url": "https://isc.sans.edu/diary/rss/32968",
       "summary_en": "Less than two weeks after the public disclosure of the Copy Fail vulnerability (CVE-2026-31431), another local privilege escalation (LPE) vulnerability in the Linux kernel has been revealed. Referred to as \"Dirty Frag,\" this vulnerability was discovered and reported by Hyunwoo Kim (@v4bel) [1]. In this diary, I will provide a brief background on Dirty Frag, and discuss its relationship to Copy Fail. I will then discuss how to mitigate Dirty Frag and outline recommended next steps for system owne",
@@ -361,16 +371,6 @@
       "category": "technical",
       "title_ja": "SSL.com rotates their root certificate today, (Tue, May 5th)",
       "summary_ja": "I just got an email from SSL.com last night, they are rotating &#;x26;#;xc2;&#;x26;#;xa0;out their root certificate today (May 5,2026). &#;x26;#;xc2;&#;x26;#;xa0;This is normal, business as usual stuff for a CA, but certificates get used for all kinds of things, and sometimes they aren&#;x26;#;39;t used like they should be, so sometimes hiccups happen."
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, May 5th, 2026 https://isc.sans.edu/podcastdetail/9918, (Tue, May 5th)",
-      "url": "https://isc.sans.edu/diary/rss/32952",
-      "summary_en": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "published": "2026-05-05 11:00 JST",
-      "source": "SANS Internet Storm Center",
-      "category": "technical",
-      "title_ja": "ISC Stormcast For Tuesday, May 5th, 2026 https://isc.sans.edu/podcastdetail/9918, (Tue, May 5th)",
-      "summary_ja": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License."
     },
     {
       "title": "On the Effectiveness of Mutational Grammar Fuzzing",
